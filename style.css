@@ -697,3 +697,24 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     transform: scale(1.2);
 }
 
+
+/* Extraits et snippets de recherche (accueil + page auteur) */
+.poem-excerpt {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-top: 0.25rem;
+}
+
+.poem-snippet {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-style: italic;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-left: 3px solid var(--accent-color);
+    background: rgba(0,0,0,0.02);
+    border-radius: 0 4px 4px 0;
+    line-height: 1.5;
+    text-align: left;
+}

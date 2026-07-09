@@ -9,6 +9,24 @@ from build_data import build
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8085
 
+# Mot de passe protégeant les endpoints d'écriture (/api/*).
+# Stocké dans admin_password.txt (gitignoré) ; généré au premier lancement.
+PASSWORD_FILE = 'admin_password.txt'
+
+def load_admin_password():
+    if os.path.exists(PASSWORD_FILE):
+        with open(PASSWORD_FILE, 'r', encoding='utf-8') as f:
+            pw = f.read().strip()
+        if pw:
+            return pw
+    import secrets
+    pw = secrets.token_urlsafe(9)
+    with open(PASSWORD_FILE, 'w', encoding='utf-8') as f:
+        f.write(pw + '\n')
+    return pw
+
+ADMIN_PASSWORD = load_admin_password()
+
 def slugify(text):
     text = text.lower()
     text = re.sub(r'[^\w\s-]', '', text)
@@ -85,12 +103,25 @@ def update_poem_metadata(filepath, themes, audio):
 
 class CustomHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
-        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
-        self.send_header('Pragma', 'no-cache')
-        self.send_header('Expires', '0')
+        # Les médias (images, PDF, MP3) changent rarement : on laisse le
+        # navigateur les garder un jour. Le reste (HTML/JS/JSON) reste
+        # non-cachable pour que les publications soient visibles aussitôt.
+        if self.path.startswith('/assets/'):
+            self.send_header('Cache-Control', 'public, max-age=86400')
+        else:
+            self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
+            self.send_header('Pragma', 'no-cache')
+            self.send_header('Expires', '0')
         super().end_headers()
 
     def do_POST(self):
+        if self.headers.get('X-Admin-Token', '') != ADMIN_PASSWORD:
+            self.send_response(401)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps({"status": "error", "message": "Mot de passe admin invalide."}).encode('utf-8'))
+            return
+
         if self.path == '/api/save':
             content_length = int(self.headers['Content-Length'])
             post_data = self.rfile.read(content_length)
@@ -217,4 +248,5 @@ with ThreadingHTTPServer(("127.0.0.1", PORT), CustomHandler) as httpd:
     print(f"Serveur actif sur le port {PORT}.")
     print(f"Accédez au site : http://localhost:{PORT}/")
     print(f"Accédez au dashboard : http://localhost:{PORT}/admin.html")
+    print(f"Mot de passe admin (fichier {PASSWORD_FILE}) : {ADMIN_PASSWORD}")
     httpd.serve_forever()

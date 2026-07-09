@@ -268,8 +268,8 @@ const app = {
                     <div style="display: flex; flex-direction: column; gap: 0.25rem; text-align: left; width: 100%;">
                         <span class="poem-title" style="font-size: 1.3rem;">${poem.title}</span>
                         <span class="poem-author" style="font-size: 0.9rem; color: var(--accent-color); font-weight: 500;">par ${poem.authorName}</span>
-                        ${poem.excerpt ? `<span class="poem-excerpt" style="font-size: 0.95rem; color: var(--text-color); opacity: 0.8; margin-top: 0.25rem;">${poem.excerpt}</span>` : ''}
-                        ${snippet ? `<div class="poem-snippet" style="font-size: 0.9rem; color: var(--text-color); font-style: italic; margin-top: 0.5rem; padding: 0.5rem; border-left: 3px solid var(--accent-color); background: rgba(0,0,0,0.02); border-radius: 0 4px 4px 0; line-height: 1.5;">${snippet}</div>` : ''}
+                        ${poem.excerpt ? `<span class="poem-excerpt">${poem.excerpt}</span>` : ''}
+                        ${snippet ? `<div class="poem-snippet">${snippet}</div>` : ''}
                     </div>
                     <span class="poem-meta" style="white-space: nowrap; margin-left: 1rem;">Lire &rarr;</span>
                 </div>
@@ -346,8 +346,8 @@ const app = {
                     <span class="poem-title" style="font-size: 1.3rem;">${poem.title}</span>
                     <span class="poem-meta" style="white-space: nowrap; margin-left: 1rem;">Lire &rarr;</span>
                 </div>
-                ${poem.excerpt ? `<span class="poem-excerpt" style="font-size: 0.95rem; color: var(--text-color); opacity: 0.8; margin-top: 0.25rem;">${poem.excerpt}</span>` : ''}
-                ${snippet ? `<div class="poem-snippet" style="font-size: 0.9rem; color: var(--text-color); font-style: italic; margin-top: 0.5rem; padding: 0.5rem; border-left: 3px solid var(--accent-color); background: rgba(0,0,0,0.02); border-radius: 0 4px 4px 0; line-height: 1.5; width: 100%; text-align: left;">${snippet}</div>` : ''}
+                ${poem.excerpt ? `<span class="poem-excerpt">${poem.excerpt}</span>` : ''}
+                ${snippet ? `<div class="poem-snippet" style="width: 100%;">${snippet}</div>` : ''}
             </div>
             `;
         }).join('');

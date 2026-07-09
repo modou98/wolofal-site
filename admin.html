@@ -186,6 +186,35 @@
 
     <script src="content.js?v=12"></script>
     <script>
+        // Jeton admin : demandé une fois, mémorisé, renvoyé avec chaque écriture.
+        // Le serveur l'affiche au démarrage (fichier admin_password.txt).
+        function getAdminToken(forceAsk = false) {
+            let token = forceAsk ? null : localStorage.getItem('adminToken');
+            if (!token) {
+                token = prompt("Mot de passe admin (affiché dans la console du serveur) :");
+                if (token) localStorage.setItem('adminToken', token.trim());
+            }
+            return token ? token.trim() : '';
+        }
+
+        // fetch avec jeton ; si le serveur répond 401, redemande le mot de passe une fois
+        async function adminFetch(url, payload) {
+            let response = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'X-Admin-Token': getAdminToken() },
+                body: JSON.stringify(payload)
+            });
+            if (response.status === 401) {
+                localStorage.removeItem('adminToken');
+                response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'X-Admin-Token': getAdminToken(true) },
+                    body: JSON.stringify(payload)
+                });
+            }
+            return response;
+        }
+
         // Charger les auteurs et les thèmes et afficher la table
         window.addEventListener('DOMContentLoaded', () => {
             const selectAuthor = document.getElementById('authorId');
@@ -233,12 +262,7 @@
             };
 
             try {
-                const response = await fetch('/api/save', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-                
+                const response = await adminFetch('/api/save', payload);
                 const result = await response.json();
                 if (response.ok && result.status === 'success') {
                     status.textContent = `Succès ! Le fichier ${result.file} a été créé et le site est mis à jour.`;
@@ -362,12 +386,7 @@
             };
             
             try {
-                const response = await fetch('/api/update_metadata', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-                
+                const response = await adminFetch('/api/update_metadata', payload);
                 const result = await response.json();
                 if (response.ok && result.status === 'success') {
                     btn.textContent = "Enregistré !";
