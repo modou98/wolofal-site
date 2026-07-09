@@ -1,7 +1,8 @@
-Title: Ma ñaanal ki xëy jébbal ma mboleem samay mbébét . 808 Ma tagg Bàmba
-Excerpt: Ak wax i Bàmba - Ak jëf i Bàmba
+Title: Ma tagg Bàmba
+Excerpt: Ma tagg Bàmba - Ak wax i Bàmba
 StanzaSize: 4
 ---
+Ma tagg Bàmba
 Ak wax i Bàmba
 Ak jëf i Bàmba
 Ak gaay i Bàmba

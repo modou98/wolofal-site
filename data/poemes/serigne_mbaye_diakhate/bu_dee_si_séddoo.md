@@ -1,7 +1,8 @@
-Title: Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am 620 Bu dee si séddoo
-Excerpt: Yàl naa la séddoo - Yaw ku la séddoo,
+Title: Bu dee si séddoo
+Excerpt: Bu dee si séddoo - Yàl naa la séddoo
 StanzaSize: 4
 ---
+Bu dee si séddoo
 Yàl naa la séddoo
 Yaw ku la séddoo,
 Gañe’y moroomam

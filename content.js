@@ -202,8 +202,7 @@ window.authorsData = [
             {
                 "id": "and_ak_lu_bon_gën_a_bon",
                 "title": "And ak lu bon gën a bon",
-                "excerpt": "And ak lu bon gën a bon ànd ak ku bon gën a bon - Day lakk nit di ko teg gàcceeku ay aku tiis",
-                "stanzaSize": 4
+                "excerpt": "And ak lu bon gën a bon ànd ak ku bon gën a bon - Day lakk nit di ko teg gàcceeku ay aku tiis"
             },
             {
                 "id": "asan",
@@ -236,7 +235,7 @@ window.authorsData = [
                 "id": "baaxal_ta_bul_gis_mukk_nit_kuy_bon_di_bon",
                 "title": "Baaxal ta bul gis mukk nit kuy bon di bon",
                 "excerpt": "Baaxal ta bul gis mukk nit kuy bon di bon - Bay tax nga naa waajii ma gis amtil ngëram",
-                "stanzaSize": 4
+                "stanzaSize": 3
             },
             {
                 "id": "bakan_bi_jàpp_ko_yar_ngir_sas_ngonee_su_jubul",
@@ -376,6 +375,12 @@ window.authorsData = [
                 }
             },
             {
+                "id": "bu_dee_si_séddoo",
+                "title": "Bu dee si séddoo",
+                "excerpt": "Bu dee si séddoo - Yàl naa la séddoo",
+                "stanzaSize": 4
+            },
+            {
                 "id": "bu_gaayi_dee_war_i_fas_tay_kaalawooka_tëbal",
                 "title": "Bu gaayi dee war i fas tay kaalawooka tëbal",
                 "excerpt": "Bu gaayi dee war i fas tay kaalawooka tëbal - Yaw Bàmba ngay jàng téereb Yàlla beeka wasal",
@@ -435,7 +440,7 @@ window.authorsData = [
                 "id": "ca_guddi_nga_woo_mbër_yépp_daane_nu_xëy_du_miim",
                 "title": "Ca guddi nga woo mbër yépp daane nu xëy du miim",
                 "excerpt": "Ca guddi nga woo mbër yépp daane nu xëy du miim - Nga woote ca bëccëg daane ñépp faf ne xiim",
-                "stanzaSize": 4
+                "stanzaSize": 3
             },
             {
                 "id": "ci_bunt_bi_laa_xalseet_a_nekk_ba_dee_fi_man",
@@ -490,7 +495,7 @@ window.authorsData = [
                 "id": "diggante_tuubaaki_njaareem_ak_nja_yàl_na_fi_taw",
                 "title": "Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw",
                 "excerpt": "Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw - Taw buy waral ñépp fëx ñëw sax fi dëkk aku yiw",
-                "stanzaSize": 4
+                "stanzaSize": 3
             },
             {
                 "id": "diirub_li_ñuy_dundu_tuub_ak_rëccu_daal_a_nu_war",
@@ -532,6 +537,12 @@ window.authorsData = [
                 "title": "Dàq nga lor mu sori nu",
                 "excerpt": "Dàq nga lor mu sori nu - Ñoddi njariñ mu jege nu",
                 "stanzaSize": 4
+            },
+            {
+                "id": "déggal_muhammadu_maamun_ak_yiwam_wu_bari",
+                "title": "Déggal Muhammadu Maamun ak yiwam wu bari",
+                "excerpt": "Déggal Muhammadu Maamun ak yiwam wu bari - Day may ganam aajo ak jàmm ak njariñ yu bari",
+                "stanzaSize": 3
             },
             {
                 "id": "dëkkal_ci_xol_yi",
@@ -581,6 +592,12 @@ window.authorsData = [
                 "id": "fegal_nu_yaw_ki_mën_dara_sawara_ak_waa_sawara",
                 "title": "Fegal nu yaw ki mën dara sawara ak waa sawara",
                 "excerpt": "Fegal nu yaw ki mën dara sawara ak waa sawara - Fàww te may nu sutura su dale fii ba Aljànna",
+                "stanzaSize": 3
+            },
+            {
+                "id": "firdawsi_dëkk_bu_sedd_ub_xol_la_yàl_na_ko_mbër",
+                "title": "Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër",
+                "excerpt": "Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër - Fab ak ngëram may nu fàww ak luy jubal suñu mbir",
                 "stanzaSize": 3
             },
             {
@@ -647,6 +664,11 @@ window.authorsData = [
                 "stanzaSize": 3
             },
             {
+                "id": "gis_naa_fi_ndaw_su_ma_nob",
+                "title": "Gis naa fi ndaw su ma nob",
+                "excerpt": "Gis naa fi ndaw su ma nob, gis naa fi ndaw su ma saf - Gis naa fi ndaw su rafet, Yàlla naa ko jël bu rafet"
+            },
+            {
                 "id": "gis_naa_lu_rëy_la_nga_def",
                 "title": "Gis naa lu rëy la nga def",
                 "excerpt": "Gis naa lu rëy la nga def, gis naa lu saf la nga def - Gis naa lu jub la nga def, Yàl naa gëram nga gëram",
@@ -661,9 +683,10 @@ window.authorsData = [
                 ]
             },
             {
-                "id": "gëram_naala_yaa_xutbal_waraa_mbàkke_ndaxte_man_784_xarit_def",
-                "title": "Gëram naala yaa xutbal waraa Mbàkke, ndaxte man .. 784 Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat . 785 Gis naa fi ndaw su ma nob",
-                "excerpt": "Gis naa fi ndaw su ma nob, gis naa fi ndaw su ma saf - Gis naa fi ndaw su rafet, Yàlla naa ko jël bu rafet"
+                "id": "gëram_naala_yaa_xutbal_waraa_mbàkke_ndaxte_man",
+                "title": "Gëram naala yaa xutbal waraa Mbàkke, ndaxte man",
+                "excerpt": "Gëram naala yaa xutbal waraa Mbàkke, ndaxte man - Bawoo maa’ki doktoor ak kolee’ki nu kenn xamul",
+                "stanzaSize": 3
             },
             {
                 "id": "jaajef",
@@ -755,7 +778,7 @@ window.authorsData = [
                 "id": "ka_saytu_lépp_ta_bëggul_lëf_ku_topp_ci_moom",
                 "title": "Ka saytu lépp, ta bëggul lëf, ku topp ci moom",
                 "excerpt": "Ka saytu lépp, ta bëggul lëf, ku topp ci moom - Lo mën di bëgg aka wut, jombul nga am ko ci moom",
-                "stanzaSize": 4
+                "stanzaSize": 3
             },
             {
                 "id": "ka_soxna_ak_njël_di_jaaxal_kooka_bokku_nu_man",
@@ -838,6 +861,12 @@ window.authorsData = [
                 "id": "képp_ku_séq_ub_jéego_bis",
                 "title": "Képp ku séq ub jéego bis",
                 "excerpt": "Képp ku séq ub jéego bis"
+            },
+            {
+                "id": "laajal_ma_mbooleem_ña_am_xam_xam_ba_xam_lu_ñu_wax",
+                "title": "Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax",
+                "excerpt": "Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax - Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?",
+                "stanzaSize": 4
             },
             {
                 "id": "lar_ub_yàlla_bii_yaw_mii_na_ngay_ñàkke_lenn_lëf",
@@ -957,9 +986,9 @@ window.authorsData = [
                 "stanzaSize": 3
             },
             {
-                "id": "man_mii_fasoowoon_a_dox_yaw_mii_nga_teg_ma_ca_kaw_645_firdaw",
-                "title": "Man mii fasoowoon a dox yaw mii nga teg ma ca kaw 645 Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër",
-                "excerpt": "Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër - Fab ak ngëram may nu fàww ak luy jubal suñu mbir",
+                "id": "man_mii_fasoowoon_a_dox_yaw_mii_nga_teg_ma_ca_kaw",
+                "title": "Man mii fasoowoon a dox yaw mii nga teg ma ca kaw",
+                "excerpt": "Man mii fasoowoon a dox yaw mii nga teg ma ca kaw - Sëriñ Yàl na nu fab nun népp teg nu ca kaw",
                 "stanzaSize": 3
             },
             {
@@ -1086,6 +1115,18 @@ window.authorsData = [
                 "stanzaSize": 4
             },
             {
+                "id": "ma_sant_bàmba_ki_xëy_teggil_ma_dég_yi_ma_jam",
+                "title": "Ma sant Bàmba ki xëy teggil ma dég yi ma jam",
+                "excerpt": "Ma sant Bàmba ki xëy teggil ma dég yi ma jam - Teggil ma lor yi ma dal fab saa mbébét ni ma am",
+                "stanzaSize": 3
+            },
+            {
+                "id": "ma_tagg_bàmba",
+                "title": "Ma tagg Bàmba",
+                "excerpt": "Ma tagg Bàmba - Ak wax i Bàmba",
+                "stanzaSize": 4
+            },
+            {
                 "id": "ma_tagg_sangu_sang_yi",
                 "title": "Ma tagg sangu sang yi",
                 "excerpt": "Ma tagg sangu sang yi - Te tagg jant ub jant yi",
@@ -1113,16 +1154,16 @@ window.authorsData = [
                 "stanzaSize": 3
             },
             {
-                "id": "ma_way_ka_ñu_daa_yuuxook_a_naa_bu_mu_raw_mu_far_510_saañal_s",
-                "title": "Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far . 510 Saañal sa nopp yi tay noppeeka gëmm di wéy",
-                "excerpt": "Saañal sa nopp yi tay noppeeka gëmm di wéy - Bul déglu, bul wax ta bul xooleeti ngir maa ngi",
+                "id": "ma_way_ka_ñu_daa_yuuxook_a_naa_bu_mu_raw_mu_far",
+                "title": "Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far",
+                "excerpt": "Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far - Taxaw ba ñu ñëw nag wër ko kàpp mu dàq leen",
                 "stanzaSize": 3
             },
             {
-                "id": "ma_ñaanal_ki_xëy_jébbal_ma_mboleem_samay_mbébét_808_ma_tagg",
-                "title": "Ma ñaanal ki xëy jébbal ma mboleem samay mbébét . 808 Ma tagg Bàmba",
-                "excerpt": "Ak wax i Bàmba - Ak jëf i Bàmba",
-                "stanzaSize": 4
+                "id": "ma_ñaanal_ki_xëy_jébbal_ma_mboleem_samay_mbébét",
+                "title": "Ma ñaanal ki xëy jébbal ma mboleem samay mbébét",
+                "excerpt": "Ma ñaanal ki xëy jébbal ma mboleem samay mbébét - Te defloo wuma’s lëf ,Yàlla na am lumu daa mbébét",
+                "stanzaSize": 3
             },
             {
                 "id": "mbooleem_ku_nekk_ci_kaw_suuf_sii_ta_yéene_ma_lëf",
@@ -1130,9 +1171,9 @@ window.authorsData = [
                 "excerpt": "Mbooleem ku nekk ci kaw suuf sii ta yéene ma lëf - Loolee mu yéene ci man mi lépp Yàlla na ko dal"
             },
             {
-                "id": "mbooleem_ku_ŋëb_ci_sëriñ_bii_mbaa_mu_ŋëb_ci_kokam_603_ma_san",
-                "title": "Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam . 603 Ma sant Bàmba ki xëy teggil ma dég yi ma jam",
-                "excerpt": "Ma sant Bàmba ki xëy teggil ma dég yi ma jam - Teggil ma lor yi ma dal fab saa mbébét ni ma am",
+                "id": "mbooleem_ku_ŋëb_ci_sëriñ_bii_mbaa_mu_ŋëb_ci_kokam",
+                "title": "Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam",
+                "excerpt": "Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam - Yàl na’b xolam sedd mbooleem ay mbiram jag a jag",
                 "stanzaSize": 3
             },
             {
@@ -1140,6 +1181,12 @@ window.authorsData = [
                 "title": "Mbooloo mi ab yeetee ngi nii, waa juy nelaw",
                 "excerpt": "Mbooloo mi ab yeetee ngi nii, waa juy nelaw - Na ko daaldi xam tay ndaxte yewwoo gën nelaw",
                 "stanzaSize": 8
+            },
+            {
+                "id": "mboolo_mi_tay_jii_la_kori",
+                "title": "Mboolo mi tay jii la kori",
+                "excerpt": "Mbooloo mi tay jii la kori - Nan sant Yàlla lu bari",
+                "stanzaSize": 4
             },
             {
                 "id": "meloy_bàmba",
@@ -1154,15 +1201,15 @@ window.authorsData = [
                 }
             },
             {
-                "id": "moo_waarekat_bile_yaw_miy_waare_waaru_nga_ndax_234_mboolo_mi",
-                "title": "Moo waarekat bile yaw miy waare waaru nga ndax ?.. 234 Mboolo mi tay jii la kori",
-                "excerpt": "Mbooloo mi tay jii la kori - Nan sant Yàlla lu bari",
-                "stanzaSize": 4
+                "id": "moo_waarekat_bile_yaw_miy_waare_waaru_nga_ndax",
+                "title": "Moo waarekat bile yaw miy waare waaru nga ndax ?",
+                "excerpt": "Moo waarekat bile yaw miy waare waaru nga ndax ? - Waaral sa bopp ba waaroo waaru jóg waare",
+                "stanzaSize": 3
             },
             {
-                "id": "moyul_lu_bon_kem_sa_kàttan_dab_ngëram_la_nga_mën_764_xamal_n",
-                "title": "Moyul lu bon kem sa kàttan, dab ngëram la nga mën . 764 Xamal ni Yàlla bu tijjee bunt ken du ko tëj",
-                "excerpt": "Xamal ni Yàlla bu tijjee bunt ken du ko tëj - Ta moo la tijjil asal buntub ngëram gëramal",
+                "id": "moyul_lu_bon_kem_sa_kàttan_dab_ngëram_la_nga_mën",
+                "title": "Moyul lu bon kem sa kàttan, dab ngëram la nga mën",
+                "excerpt": "Moyul lu bon kem sa kàttan, dab ngëram la nga mën - Lu Yàlla def nag nga gis, doo gis ludul la mu def",
                 "stanzaSize": 3
             },
             {
@@ -1476,6 +1523,12 @@ window.authorsData = [
                 "stanzaSize": 3
             },
             {
+                "id": "saañal_sa_nopp_yi_tay_noppeeka_gëmm_di_wéy",
+                "title": "Saañal sa nopp yi tay noppeeka gëmm di wéy",
+                "excerpt": "Saañal sa nopp yi tay noppeeka gëmm di wéy - Bul déglu, bul wax ta bul xooleeti ngir maa ngi",
+                "stanzaSize": 3
+            },
+            {
                 "id": "sab_sang_yaw_buko_muñ_saa",
                 "title": "Sab sang yaw buko muñ saa",
                 "excerpt": "Sab sang yaw buko muñ saa donte muñ na la yit - Muñ muñ lu sab sàngga bon day wañi sas ndoole"
@@ -1768,9 +1821,9 @@ window.authorsData = [
                 "stanzaSize": 3
             },
             {
-                "id": "sëriñ_bi_tay_amoo_moroom_fi_nit_ñi_ak_fa_sa_boroom_477_laaja",
-                "title": "Sëriñ bi tay amoo moroom, fi nit ñi ak fa sa Boroom, .. 477 Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax",
-                "excerpt": "Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax - Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?",
+                "id": "sëriñ_bi_tay_amoo_moroom_fi_nit_ñi_ak_fa_sa_boroom",
+                "title": "Sëriñ bi tay amoo moroom, fi nit ñi ak fa sa Boroom",
+                "excerpt": "Sëriñ bi tay amoo moroom, - Fi nit ñi ak fa sa Boroom,",
                 "stanzaSize": 4
             },
             {
@@ -1945,10 +1998,10 @@ window.authorsData = [
                 "stanzaSize": 4
             },
             {
-                "id": "wërsëg_njariñ_bàrke_mbooloo_gàmmu_daal_a_ko_am_620_bu_dee_si",
-                "title": "Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am 620 Bu dee si séddoo",
-                "excerpt": "Yàl naa la séddoo - Yaw ku la séddoo,",
-                "stanzaSize": 4
+                "id": "wërsëg_njariñ_bàrke_mbooloo_gàmmu_daal_a_ko_am",
+                "title": "Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am",
+                "excerpt": "Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am - Màggal ko yaw, def ci loo man lépp, gan la gu baax",
+                "stanzaSize": 3
             },
             {
                 "id": "xalaase_ñoo_ngoogu_tay_yéeneeka_lott_ci_jëf",
@@ -1960,6 +2013,12 @@ window.authorsData = [
                 "id": "xamal_ni_taalibe_diineemay_gëm_ub_sëriñam",
                 "title": "Xamal ni taalibe diineemay gëm ub sëriñam",
                 "excerpt": "Xamal ni taalibe diineemay gëm ub sëriñam - Jox ko’g juram ak mbiram doyloo ko aw ndigalam",
+                "stanzaSize": 3
+            },
+            {
+                "id": "xamal_ni_yàlla_bu_tijjee_bunt_ken_du_ko_tëj",
+                "title": "Xamal ni Yàlla bu tijjee bunt ken du ko tëj",
+                "excerpt": "Xamal ni Yàlla bu tijjee bunt ken du ko tëj - Ta moo la tijjil asal buntub ngëram gëramal",
                 "stanzaSize": 3
             },
             {
@@ -1986,6 +2045,12 @@ window.authorsData = [
                 "id": "xarit_bul_tàmmal_yaw_sa_bopp_uw_lëjal",
                 "title": "Xarit bul tàmmal yaw sa bopp uw lëjal",
                 "excerpt": "Xarit bul tàmmal yaw sa bopp uw lëjal"
+            },
+            {
+                "id": "xarit_defal_bàyyig_tawat_ak_sa_bakkan_muy_sag_tawat",
+                "title": "Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat",
+                "excerpt": "Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat - Bàyyi’g tawat doyna’g tawat doyloo ko wëllis di tawat",
+                "stanzaSize": 3
             },
             {
                 "id": "xarit_dëgg",
@@ -2148,8 +2213,7 @@ window.authorsData = [
             {
                 "id": "yaw_mii_fasoo_jot_ci_buur",
                 "title": "Yaw mii fasoo jot ci Buur",
-                "excerpt": "Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit",
-                "stanzaSize": 4
+                "excerpt": "Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit"
             },
             {
                 "id": "yaw_miy_ligéeyal_ku_bëggul_lëf_sa_xel_bumu_dal",
@@ -2270,9 +2334,9 @@ window.authorsData = [
                 "stanzaSize": 3
             },
             {
-                "id": "yàl_na_nu_waxtuy_juróom_daaldi_waxal_suñu_borooom_633_déggal",
-                "title": "Yàl na nu waxtuy juróom daaldi waxal suñu Borooom . 633 Déggal Muhammadu Maamun ak yiwam wu bari",
-                "excerpt": "Déggal Muhammadu Maamun ak yiwam wu bari - Day may ganam aajo ak jàmm ak njariñ yu bari",
+                "id": "yàl_na_nu_waxtuy_juróom_daaldi_waxal_suñu_borooom",
+                "title": "Yàl na nu waxtuy juróom daaldi waxal suñu Borooom",
+                "excerpt": "Yàl na nu waxtuy juróom daaldi waxal suñu Borooom - Mu may nu ci’g baaxam juróom yoo xamne sedd nanu xol",
                 "stanzaSize": 3
             },
             {

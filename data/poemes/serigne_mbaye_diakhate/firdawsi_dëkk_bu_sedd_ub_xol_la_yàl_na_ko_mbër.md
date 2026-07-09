@@ -1,4 +1,4 @@
-Title: Man mii fasoowoon a dox yaw mii nga teg ma ca kaw 645 Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër
+Title: Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër
 Excerpt: Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër - Fab ak ngëram may nu fàww ak luy jubal suñu mbir
 StanzaSize: 3
 ---

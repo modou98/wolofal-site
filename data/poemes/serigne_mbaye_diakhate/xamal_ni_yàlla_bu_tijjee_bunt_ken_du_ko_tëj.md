@@ -1,4 +1,4 @@
-Title: Moyul lu bon kem sa kàttan, dab ngëram la nga mën . 764 Xamal ni Yàlla bu tijjee bunt ken du ko tëj
+Title: Xamal ni Yàlla bu tijjee bunt ken du ko tëj
 Excerpt: Xamal ni Yàlla bu tijjee bunt ken du ko tëj - Ta moo la tijjil asal buntub ngëram gëramal
 StanzaSize: 3
 ---

@@ -1,4 +1,4 @@
-Title: Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam . 603 Ma sant Bàmba ki xëy teggil ma dég yi ma jam
+Title: Ma sant Bàmba ki xëy teggil ma dég yi ma jam
 Excerpt: Ma sant Bàmba ki xëy teggil ma dég yi ma jam - Teggil ma lor yi ma dal fab saa mbébét ni ma am
 StanzaSize: 3
 ---

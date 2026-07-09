@@ -1,4 +1,4 @@
-Title: Gëram naala yaa xutbal waraa Mbàkke, ndaxte man .. 784 Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat . 785 Gis naa fi ndaw su ma nob
+Title: Gis naa fi ndaw su ma nob
 Excerpt: Gis naa fi ndaw su ma nob, gis naa fi ndaw su ma saf - Gis naa fi ndaw su rafet, Yàlla naa ko jël bu rafet
 ---
 Gis naa fi ndaw su ma nob, gis naa fi ndaw su ma saf

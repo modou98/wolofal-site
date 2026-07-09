@@ -1,4 +1,4 @@
-Title: Yàl na nu waxtuy juróom daaldi waxal suñu Borooom . 633 Déggal Muhammadu Maamun ak yiwam wu bari
+Title: Déggal Muhammadu Maamun ak yiwam wu bari
 Excerpt: Déggal Muhammadu Maamun ak yiwam wu bari - Day may ganam aajo ak jàmm ak njariñ yu bari
 StanzaSize: 3
 ---

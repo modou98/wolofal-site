@@ -1,4 +1,4 @@
-Title: Sëriñ bi tay amoo moroom, fi nit ñi ak fa sa Boroom, .. 477 Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax
+Title: Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax
 Excerpt: Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax - Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?
 StanzaSize: 4
 ---

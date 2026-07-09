@@ -1,4 +1,4 @@
-Title: Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far . 510 Saañal sa nopp yi tay noppeeka gëmm di wéy
+Title: Saañal sa nopp yi tay noppeeka gëmm di wéy
 Excerpt: Saañal sa nopp yi tay noppeeka gëmm di wéy - Bul déglu, bul wax ta bul xooleeti ngir maa ngi
 StanzaSize: 3
 ---

@@ -1,4 +1,4 @@
-Title: Moo waarekat bile yaw miy waare waaru nga ndax ?.. 234 Mboolo mi tay jii la kori
+Title: Mboolo mi tay jii la kori
 Excerpt: Mbooloo mi tay jii la kori - Nan sant Yàlla lu bari
 StanzaSize: 4
 ---
