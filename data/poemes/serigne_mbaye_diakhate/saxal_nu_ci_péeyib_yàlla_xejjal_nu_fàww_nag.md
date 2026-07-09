@@ -1,6 +1,5 @@
 Title: Saxal nu ci péeyib Yàlla xejjal nu fàww nag
 Excerpt: Saxal nu ci péeyib Yàlla xejjal nu fàww nag - Te fàggul nu fàww sañ-sañ’ak fan wu guddu lool
-StanzaSize: 4
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Saxal nu ci péeyib Yàlla xejjal nu fàww nag
@@ -29,6 +28,7 @@ Ndam ak sutura’kub xam-xam ak raw ñu raw ña lool
 
 Sarax nu ci bàrkeb bépp sang ak ña koy dawal
 Ngëram lu ñu dootul far te di ko yokk lool
+
 Sarax nu ci bàrkeb képp kuy gëm akay jubal
 Rafet njort fàww ak jëf ju rëy ju ñu nangu lool
 

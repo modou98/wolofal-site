@@ -1,6 +1,5 @@
 Title: Sëriñ bi yee ma ta may ma ag farlu waxtu wu jot
 Excerpt: Sëriñ bi yee ma ta may ma’g farlu waxtu wu jot - Musal ma ci’y nelaw ak càggan kobas ma ma wéy
-StanzaSize: 4
 Theme: Bakkan (Éducation de l'âme)
 ---
 Sëriñ bi yee ma ta may ma’g farlu waxtu wu jot
@@ -29,6 +28,7 @@ Ba képp kuy ne ca biiram am njariñ raw u ay
 
 Mbooleem suñuy kër na fees ak nit ñu baax ak i yëf
 Yu am njariñ suñu diggantéy bëréx ta du fay
+
 Na jant i cant ne tell ak jàmm fenk bu wér
 Ci suñu digg ak Yaw ba mbooleem nit ñi waaru ne céy !
 

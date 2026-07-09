@@ -1,6 +1,6 @@
 Title: Yal na nu far tawat gu am
 Excerpt: Yal na nu far tawat gu am - Te feg tawat gu nar am
-StanzaSize: 8
+StanzaSize: 4
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ThemeReview: Longue supplication (dua) pour la guérison et diverses bénédictions ; pas de rituel explicite.
 ---
@@ -58,6 +58,7 @@ Yal nay ngëram taw ba wale
 Yal nay dëram taw ba wale
 Ndam xetti fépp wowale
 Foo toll ñuy foog ak a ñal
+
 Yal na nu man jaamu gu të
 Ak wépp yiw wu am ko të
 Raw jépp lor ju raw ko të
@@ -87,6 +88,7 @@ Mboleem ñu nuy may sutura
 Yal nanu taqoo sutura
 Fàww te teggi sawara
 Ak gàcca ak sépp saxar
+
 Samay murit wàcc nañu
 Ngir ken du wax siisu nañu
 Te kenn du wax gàntu nañu
@@ -116,6 +118,7 @@ Yal na ne téf soxub ngëram
 Gu tax ma bég sant gëram
 Moom it mu bég sant gëram
 Mbég ne wesar ñépp di for
+
 Yal nanu may waamey njariñ
 Yu nuy musal ak a jariñ
 Tey dàkku lépp lunu bañ

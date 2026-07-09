@@ -1,6 +1,5 @@
 Title: Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax
 Excerpt: Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax - Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?
-StanzaSize: 4
 Theme: Séytaane (Les ruses de Satan)
 ---
 Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax
@@ -29,6 +28,7 @@ Ag yegg a jar lépp ñàkkug yegg lëf jaru ko.
 
 Lu lay mayug pal defal ab dag ndegam faluwoo
 Lu bon lu jóg dal ko dal bokkam ya lii moyu ko.
+
 Luy tee sa sang bi ànd ak yaw ba dem fa kanam
 Yónnen ba ak Yàlla jox la'g pal nga délsi ba ko.
 

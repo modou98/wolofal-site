@@ -1,6 +1,6 @@
 Title: Sëriñ bi yaw nanga nu may, Ngir Yàlla
 Excerpt: Sëriñ bi yaw na nga nu may - Ngir Yàlla ak Yonnen ba tay
-StanzaSize: 8
+StanzaSize: 4
 Theme: Yar (Éducation)
 ---
 Sëriñ bi yaw na nga nu may
@@ -57,6 +57,7 @@ Topp ndigal moo di’g saxaar
 Ku dugg nag gile saxaar
 Te génniwul ci gii saxaar
 Àjjana lay wàcc asal
+
 Yàlla na nu dugg gii saxaar
 ta bañ a génn gii saxaar
 Muy daw a daw ak nun ba teer

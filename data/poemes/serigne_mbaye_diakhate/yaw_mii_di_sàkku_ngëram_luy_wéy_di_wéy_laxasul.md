@@ -1,6 +1,5 @@
 Title: Yaw mii di sàkku ngëram luy wéy di wéy laxasul
 Excerpt: Yaw mii di sàkku ngëram luy wéy di wéy laxasul - Ta sànni àdduna mii daa sànk waaju xamul
-StanzaSize: 4
 Theme: Àddina (La dunya et ses illusions)
 ---
 Yaw mii di sàkku ngëram luy wéy di wéy laxasul
@@ -29,6 +28,7 @@ Kon bis budee dee malaakay agsi naa ko begal
 
 Lu tolni Al-jannah dreful jëf ba jëf luko jar
 Ta moone deeful moy it bay moy lu jar tegu xal
+
 Moy Yàlla moo mata daw ab topp moo mata wut
 Lee moo di yoonu mbugal lii moo di yoonu musal
 
@@ -58,6 +58,7 @@ Ku xam lu jar dagu dag goo xamni deefu la fal
 
 Xamal ni Yàllaa ngi lay gis foo fii jëm jagalal
 Bul melni kuy def lu bon tay fas ne Yàlla gisul
+
 Jaamul ta farlu bangay ndaw moo la saytu ba tay
 Di wërsagal aka faj say aajo ak di teral
 
@@ -87,5 +88,6 @@ Tay diw ganaawam ta buy daan it ñu dem ko bësël
 
 Nañ jekki gaayi ta saytul mbër sërëm yile nun
 Yàlla bu ñuy sob a sob bay jug ba mbër di nu fél
+
 Way naa fi way wile ngir sàkkuy ngëram ak itam
 Fàgguy ngëneel aki pay Yaalnañ ko Yàlla fàggul

@@ -1,6 +1,6 @@
 Title: Yaw ki nu bind ciy nelaw
 Excerpt: Yaw ki nu bind ciy nelaw - Ba manuñoo ñàkk a nelaw
-StanzaSize: 8
+StanzaSize: 4
 Theme: Bakkan (Éducation de l'âme)
 ---
 Yaw ki nu bind ciy nelaw
@@ -57,6 +57,7 @@ Nun ñépp walloo nu njariñ
 Lu rëy lu suqali njariñ
 Ci sag tëy ak ci bàrkeb sëriñ
 Tuubaa ki aw fa mat a aw
+
 Naatal nu nun ñépp bu wóor
 Fegal nu bekkoor it bu wóor
 Saxal nu cig topp gu wóor

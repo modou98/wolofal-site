@@ -1,6 +1,5 @@
 Title: Nun gaayi ley dundu nañ jug léegi sàkku yóbbal
 Excerpt: Nun gaayi ley dundu nañ jug léegi sàkku yóbbal - Suñ mbokk yaa ngi fi sëg yii naa ku ñuy saraxal
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Nun gaayi ley dundu nañ jug léegi sàkku yóbbal
@@ -29,6 +28,7 @@ Day tax suñuy ndono naa yii gaay a bëgg alal
 
 Ay naar i góor ak i soxnaa’ki alal mayewul
 Ngëram fa Yàlla nde kon kay am ngëram di Morel
+
 Ab xol bu sell bu set lii moodi lay maye ndam
 Bisub layoo ba ta duy soxnaa’ki taax aki mol
 

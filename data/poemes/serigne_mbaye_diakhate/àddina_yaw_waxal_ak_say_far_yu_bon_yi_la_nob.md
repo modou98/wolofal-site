@@ -1,6 +1,5 @@
 Title: Àddina yaw waxal ak say far yu bon yi la nob
 Excerpt: Àddina yaw waxal ak say far yu bon yi la nob - Yëgal ne man mile firdawsee di ndaw si ma nob
-StanzaSize: 4
 Theme: Àddina (La dunya et ses illusions)
 ---
 Àddina yaw waxal ak say far yu bon yi la nob
@@ -29,6 +28,7 @@ Teral bonal woyofal diisal, sa ndab li du ndab
 
 Ku def ci yaw ay yëfam, moo sànk dëggi yëfam
 Ngir ndab nga luy senn akay tuuroo’ka dëng aka jub
+
 Koo xamne kii mës nga koo far, yaa ko génne falaŋ
 Giiñ naa ci Yàlla ne yaw mii am la taxtila « hab »
 
@@ -58,6 +58,7 @@ Ab lar bu dëddoo mbébét yaa koy dabee’ka xalab
 
 Ab surga, waxtu wu dëddoo añ ta jublu mbayam
 Day geesu fekk ñu taajal kob añam fi barab
+
 Ku dëddu mbay nag ta jublu añ di laaj aka wut
 Day tax añam ba bu sottee it ñu far ko fa ub
 

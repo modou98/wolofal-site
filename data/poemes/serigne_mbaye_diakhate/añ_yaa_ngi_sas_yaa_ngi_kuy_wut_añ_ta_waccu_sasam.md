@@ -1,6 +1,5 @@
 Title: Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam
 Excerpt: Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam - Du tax mu am ko, ku bëgg ub añ na song sasam
-StanzaSize: 4
 Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam
@@ -29,6 +28,7 @@ Du faj ludul yeexalub añ rek lee mat a xam
 
 Kuy togg sab añ nga far kay son tay sañaxal
 Ba tax mu fàtte la muy def gépp ndof fi la yam
+
 Sëriñ bi Yaalna ñu may kàttan ci def la ko saf
 Ta sax ci nag suñu diirug dundu sax ci’g mbegam
 

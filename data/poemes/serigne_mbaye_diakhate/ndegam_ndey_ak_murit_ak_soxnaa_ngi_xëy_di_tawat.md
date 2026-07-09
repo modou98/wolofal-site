@@ -1,6 +1,5 @@
 Title: Ndegam ndey ak murit ak soxnaa ngi xëy di tawat
 Excerpt: Ndegam ndey ak murit ak soxnaa ngi xëy di tawat - Ta Bàmba mii di gëram, seen ub tawat du ma saf
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ndegam ndey ak murit ak soxnaa ngi xëy di tawat
@@ -29,6 +28,7 @@ Waa kër gi, mooma gënal, ngir boole gee gën a saf
 
 Bakkan bi xëy na, di wakkàjooka jooy aka xul
 Ngir jur gi may fab di jox saa sang bi di ko ba
+
 Bakkan du nit, dof la buy say, kenn xamul lu ko jot
 Koo gis mu topp ko, waatal ne moo mat a ba
 

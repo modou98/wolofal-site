@@ -1,6 +1,6 @@
 Title: Bis boo xëyee lekk ba suur
 Excerpt: Bis boo xëyee lekk ba suur - Ba noppi sàng nag sa biir
-StanzaSize: 8
+StanzaSize: 4
 Theme: Àddina (La dunya et ses illusions)
 ---
 Bis boo xëyee lekk ba suur
@@ -57,6 +57,7 @@ Waratulaa ligéeye lëf
 Lu moy di sant ak a def
 Lu sab Sëriñ ne dee ko def
 Tay moyu luy waral i toor
+
 Sa may yi rëy na ta bari
 Santal a sant lu bari
 Tane nga kat gaa yu bari

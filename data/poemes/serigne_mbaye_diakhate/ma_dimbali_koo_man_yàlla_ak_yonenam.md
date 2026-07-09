@@ -1,6 +1,5 @@
 Title: Ma dimbali koo man Yàlla ak Yonenam
 Excerpt: Ma dimbali koo man Yàlla ak Yonenam ba tay - Ba sant Sëriñ Tuubaa ta ñaanal ko wépp yiw
-StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Ma dimbali koo man Yàlla ak Yonenam ba tay
@@ -20,6 +19,7 @@ Ta teeyal barab yépp ak suñuy xol xelaw xelaw
 
 Fobal Yàlla jàmm ak yërmande’ku yiw ak njariñ
 Joxal nu Sëriñ Tuubaa ki tax ñépp xam la yaw
+
 Fobal ngëram ak Jaarama jo xamne dootu dañ
 Joxal nu Sëriñ Tuubaa ki yee ñépp ci’y nelaw
 
@@ -58,6 +58,7 @@ Ta ñoddil nga nu’y cant ak njariñ yaa ka sedd xol
 
 Sarax nu sarax mbooloo mi gudd fan ak wér ug
 Yaram ak lu ñuy jaamoo’ka sant di aw ndigal
+
 Notal nu mbër ak xiiboon notal nu suñuy bakan
 Notal nu ndaw ak mag yaw notekat notal
 

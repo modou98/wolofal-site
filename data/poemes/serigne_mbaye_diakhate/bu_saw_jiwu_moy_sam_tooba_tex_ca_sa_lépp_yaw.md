@@ -1,6 +1,5 @@
 Title: Bu saw jiwu moy sam tooba tex ca sa lépp yaw
 Excerpt: Bu saw jiwu moy sam tooba tex ca sa lépp yaw - Ku saw jiwu moy sam tooba cant ga teggi la
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Bu saw jiwu moy sam tooba tex ca sa lépp yaw
@@ -29,6 +28,7 @@ Lafañ bu ko jox say mbir mu toggu la yóbbu la !
 
 Mi ngeekiy wotaam ak saxaaram, ku bëgg dem
 Mu teg la ci lëf yóbbul la yóbbu la toggu la !
+
 Du nax nit du jommal nit te ken mënukoo nax it !
 Ma ngay nax ñi koy nax ñépp cëy Yàlla cëy jala !
 

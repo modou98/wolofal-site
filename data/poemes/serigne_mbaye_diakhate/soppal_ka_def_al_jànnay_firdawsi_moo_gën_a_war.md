@@ -1,6 +1,5 @@
 Title: Soppal ka def Al Jànnay firdawsi moo gën a war
 Excerpt: Soppal ka def Al Jànnay firdawsi moo gën a war - Ka sàkk añ moo gënub añ sopp koo gën a war
-StanzaSize: 4
 Theme: Tawhiid
 ---
 Soppal ka def Al Jànnay firdawsi moo gën a war
@@ -29,6 +28,7 @@ Ci nit sa kër-kër na jëm ci’w sas ta yam ca bu wér
 
 Waxtaane aw sas a gën waxtaane añ fa ña xam
 Waxtaane’b añ du maye’b jëm kaw fa ñoom ak u tur
+
 Mag muy defarlu’b ligéeyam jox ku nekk sasam
 Ka wacc sas ya di waxtaane’b añay la ko lor
 

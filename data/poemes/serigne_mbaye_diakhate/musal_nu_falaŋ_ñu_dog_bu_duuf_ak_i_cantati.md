@@ -1,6 +1,5 @@
 Title: Musal nu falaŋ ñu dog bu duuf ak i cantati
 Excerpt: Musal nu falaŋ nu dog bu duuf ak i cantati - Ci bii jant fàww ak bépp jant bu fenkati
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Musal nu falaŋ nu dog bu duuf ak i cantati
@@ -29,6 +28,7 @@ Suñuy kër ni dell ak wërsëg ak nit ñu dul jote
 
 Samab xol na lay gis ak sa may gët ci sépp saa
 Fu may xefe mbaa may xippi Yàlla naa la karfati
+
 Dexug mbég nga Yaw yaa dàq suukar ta dàq lem
 Labal ma ci Yaw may sant daal aka korfati
 

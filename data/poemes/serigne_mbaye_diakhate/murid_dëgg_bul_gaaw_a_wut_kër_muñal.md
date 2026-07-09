@@ -1,6 +1,5 @@
 Title: Murid dëgg bul gaaw a wut kër muñal
 Excerpt: Murid dëgg bul gaaw a wut kër muñal - Ta wut itte ngir kër da fay kar Murid
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murid dëgg bul gaaw a wut kër muñal
@@ -29,6 +28,7 @@ Këram doo ko gis mujje ag jag murid
 
 Ta koo gis mu sàggan ci ab sangam it
 Lu jag jag dafay xëy ni jànjañ murid
+
 Ku néegam ya jag jug ta sangam bégul
 Dafay mujj daanoo’ki néegam murid
 
@@ -58,6 +58,7 @@ Da koo sañ It kon far ko baa gën murid
 
 Awal fii ñu daa aw ta yam fii ñu yam
 Ta bul sar di wéy, fàggul ub yar murid
+
 La ab sang sañ bokkul ak la’b laram
 Di sañ, sang a sañ lépp mën koo murid
 

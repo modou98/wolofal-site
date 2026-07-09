@@ -1,6 +1,6 @@
 Title: Sëriñ bi yaw mii
 Excerpt: Sëriñ bi yaw mii - Sarax ma man mii
-StanzaSize: 8
+StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi yaw mii
@@ -57,6 +57,7 @@ Ngir jëmmi Yàlla
 May nu nu am la
 Ta lu nu soxla
 Fajal nu yaw mii
+
 Lu deefi soxla
 Nañ làq loola
 Ba noppi xam la
@@ -86,6 +87,7 @@ Fu nu fu neeti
 Ak foo fu neeti
 Ak noo gu neeti
 Bégal nu yaw mii
+
 Gëram nu yaw mii
 Dolli nu yaw mii
 Bégal nu yaw mii
@@ -115,6 +117,7 @@ Xawma ludul yaw
 Awma ludul yaw
 Ba naa ludul yaw
 Jàpp la yaw mii
+
 Ba naa samay baay
 Bàyyi samay yaay
 Def la ndey ak baay
@@ -144,6 +147,7 @@ Ngir man damaa jaay
 Maam ak ndey ak baay
 Fab seen i kër jaay
 Jënde la yaw mii
+
 Yàlla naa la làq
 Kon du ma jàq
 Ta du ma yàq
@@ -173,6 +177,7 @@ Fegal ma ag ndog
 Fegal ma kuy dog
 Fegal ma luy dog
 Musal ma yaw mii
+
 Fegal ma yab nit
 Fegal ma lor nit
 Fegal ma xas nit
@@ -202,6 +207,7 @@ Saytu ma yaw mii
 Sàmm ma yaw mii
 Wattu ma yaw mii
 Wommat ma yaw mii
+
 Bu ma bàyyeeti
 May sànku jeeti
 Fu ma fi neeti
@@ -231,6 +237,7 @@ Ta ku ma jox lëf
 Na nga ko jox lëf
 Ku ma joxul lëf
 Nga jox ma yaw mii
+
 Ta ku ma may xel
 Na nga ko may xel
 Ku ma mayul xel
@@ -260,6 +267,7 @@ Ta naa la sant
 Na nga ma sant
 Ta ku ma sant
 Sant ko yaw mii
+
 Ta ku ma gotti
 Yaw bu ma gotti
 Sag ñàkk a gotti
@@ -289,6 +297,7 @@ Ta ku ma gàntu
 Yaw bu ma gàntu
 Sag ñàkk a gàntu
 Doy nama yaw mii
+
 Maa ngoogu rekk
 Yaa ngoogu rekk
 Wax naala rekk
@@ -318,6 +327,7 @@ Ba far di yaw mii
 Nga far di man mii
 Ba nga di man mii
 Ba ma di yaw mii
+
 Ma far di lenn
 Ta far di kenn
 Suñu mbir di lenn
@@ -347,6 +357,7 @@ Fegal ma aw tiis
 Fegal ma ag xiis
 Fegal ma ag siis
 Ak bodde yaw mii
+
 Fegal ma ag rëy
 Fegal ma ag jay
 Fegal ma ag say
@@ -376,6 +387,7 @@ Yaa jege Yàlla
 Yaa ne fa Yàlla
 Waxal nu Yàlla
 Mu xétti yaw mii
+
 Xétti gu ànd ak
 Yërmànde ànd ak
 Sutura ànd ak
@@ -405,6 +417,7 @@ Dikke nu xéewal
 Xéewal gi jeexul
 Xéewal gi xaajul
 Fa Yàlla yaw mii
+
 Tay boo nu nee am
 Nu dollikoy gëm
 Boo nu newul am
@@ -434,6 +447,7 @@ Gisuma ngay moy
 Ta gis kulay moy
 Nga dolli ko’g may
 Jéggal ko yaw mii
+
 Amula ag kem
 Ta doo amug kem
 Yëgal ni sab kem
@@ -463,6 +477,7 @@ Yàlla na ni jàq
 Yiw wumu sàq
 Ta ni la jàq
 May la ko yaw mii
+
 Ta Yàlla na lay may
 Mbàkke akay fay
 Ba nga ni lii kay
@@ -492,6 +507,7 @@ Li tax samam xel
 Di daj am ug pal
 Ngir yaw da ngaa fal
 Koo seeru yaw mii
+
 Ngir yaa di aw yiw
 Yaa bari aw yiw
 Sànni nga aw yiw
@@ -521,6 +537,7 @@ Ragal nga Yàlla
 Teral nga Yàlla
 Ta jox nga Yàlla
 Àqam ji yaw mii
+
 Sompu la Yàlla
 Moyu la Yàlla
 Fabu la Yàlla
@@ -550,6 +567,7 @@ Yonen ba fab la
 Yóbbu fa Yàlla
 Yàlla gëram la
 Fa fal la yaw mii
+
 Malaaka seere
 Yonnen ya seere
 Ku nekk seere
@@ -579,6 +597,7 @@ Nun ñoo ngi sant
 Tay dog I ngànt
 Nangul nu ngànt
 Yaaram nga yaw mii
+
 Amu nu lëf nun
 Wutu nu lëf nun
 Loo nu defal nun

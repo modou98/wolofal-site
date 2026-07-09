@@ -1,6 +1,5 @@
 Title: Yàlla nii cas yermandeem ak xewalam ni ma am
 Excerpt: Yàllaa ni cas yërmandeem ak xéewalam ni ma am - Yàl naani cas mbégam ak cantam gu rëy ni ko am !
-StanzaSize: 4
 Theme: Sëriñ bi
 ThemeReview: Description des qualités spirituelles élevées d'une personne (probablement le Sëriñ) bénie par la miséricorde divine.
 ---
@@ -30,6 +29,7 @@ Ni tegg benne ca dëkk ub cant baa ki gëram
 
 Moo tee nu dox, moo nu paasal moo nu tee gis i ndog
 Moo tax nu dëkk aki ndimbal, sax ci neex u yaram
+
 Moo jàpp lépp luñuy lor fàww, nëbb nu nun
 Ngir bañ nu teg ca suñii gët, bañ mu teg nu bëtam
 

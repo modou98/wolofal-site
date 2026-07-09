@@ -1,6 +1,5 @@
 Title: Bakan bi jàpp ko yar ngir sas ngonee su jubul
 Excerpt: Bakan bi jàpp ko yar ngir sas ngonee su jubul - Kuy saytu sas ngone boo jàppul ta yar du jubal
-StanzaSize: 4
 Theme: Bakkan (Éducation de l'âme)
 ---
 Bakan bi jàpp ko yar ngir sas ngonee su jubul
@@ -29,6 +28,7 @@ Loo soxla kat mooko yor, buy mokk, deefi la fal
 
 Bakkan bu koy baati yaw muy daw di màmma ak a wéy
 Féqal ma laabam ji, boo féqul mu lor la asal
+
 Day màmm akay daw di wéy, jëm nag barab ba nga sib
 Lu bëgg-bëggati aw xél nee ko : “Mag du dawal”
 

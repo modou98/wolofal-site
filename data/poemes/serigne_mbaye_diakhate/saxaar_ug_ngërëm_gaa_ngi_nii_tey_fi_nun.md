@@ -1,6 +1,5 @@
 Title: Saxaar ug ngërëm gaa ngi nii tey fi nun
 Excerpt: Saxaar ug ngërëm gaa ngi nii tey fi nun - Ku bëggul lu dul dem na jóg ñaani paas
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Saxaar ug ngërëm gaa ngi nii tey fi nun
@@ -29,6 +28,7 @@ Jox ub sang waatal ni doo ñàkk paas
 
 Cofeel ak rafet-njort ak ug wóolu yit
 Ku fab yett yii jox ko am ngën ji paas
+
 Ma far wax la nag luy saxaarug ngërëm
 Ba dootoo ko réeree ti doo réere paas
 

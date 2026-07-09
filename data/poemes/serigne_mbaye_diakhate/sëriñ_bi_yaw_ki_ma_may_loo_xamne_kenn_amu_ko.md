@@ -1,6 +1,5 @@
 Title: Sëriñ bi yaw ki ma may loo xamne kenn amu ko
 Excerpt: Sëriñ bi yaw ki ma may loo xamne kenn amu ko - Saw tag war na ma war goo xamne kenn xamu ko
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Sëriñ bi yaw ki ma may loo xamne kenn amu ko
@@ -29,6 +28,7 @@ Kuy def karaama gudul gii foo ko gis moyu ko
 
 Nañ top suñu waaji moo fii def karaama yu mat
 Du moy du moy lu ta suñu waaji ku xam jige ko
+
 Day topp Yàlla ta kum gis top loo la ko nag
 Ku fiy gëlam aka laajum ngir na jug wuti ko
 
@@ -58,6 +58,7 @@ Séytaane fóore la woon ndax tee na koo alaku
 
 Ta donte xam-xam dafay tax kenn a gën da na gën
 Ngir Yàlla jiital na koy at topp rëbb na ko
+
 Malaaka moo mën a gis day jàq ngir la ko dal
 Ta’b xejj dëgg la woon bii sang lëf safu ko
 

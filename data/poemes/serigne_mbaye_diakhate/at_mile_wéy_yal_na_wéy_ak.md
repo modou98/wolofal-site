@@ -1,6 +1,6 @@
 Title: At mile wéy yal na wéy ak
 Excerpt: At mile wéy yal na wéy ak - Suñuy tawat tay ak ëllëg
-StanzaSize: 8
+StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 At mile wéy yal na wéy ak
@@ -57,6 +57,7 @@ Luy wàññi gëm na teggi wéy
 Luy rékki gëm na teggi wéy
 Luy yàq xel na teggi wéy
 Dàkkul nu yii jëkkug ñëwam
+
 Musal nu nun jëkk ug loru
 May nub yar it jëkk ug beru
 Defar nu jëkk ug asaru
@@ -86,6 +87,7 @@ Boo fi newul woon naka mbir
 Boo fi newul woon jépp lor
 Dal nu te kon lëf du ko jar
 Dàkkul nga nuy lor may nu gëm
+
 Ag cant yaa ko mat a jox
 Àddiya yaa ko mat a jox
 Ku wax lu dul li ma la wax

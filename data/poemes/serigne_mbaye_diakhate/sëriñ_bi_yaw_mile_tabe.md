@@ -1,6 +1,6 @@
 Title: Sëriñ bi yaw mile tabe
 Excerpt: Sëriñ bi yaw mile tabe - Ba jiitu mbooleem ku tabe
-StanzaSize: 8
+StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Sëriñ bi yaw mile tabe
@@ -57,6 +57,7 @@ Nga dikk Mbàkke jéggi leen
 Ku nekk naa «Ay séenu léen ! »
 Ngay wéy di wéy ba weesu leen
 Nga samp nag sa jàngu bi
+
 Di xëy di gont ak a bayi
 Di sol ta doo xama bàyyi
 Sa mbay rafet ta doo tàyyi
@@ -86,6 +87,7 @@ Sottil nu xéewal gu nu doy
 Guy lew a lew tay rëy a rëy
 Ba ñuy dundal baay ak i ndey
 Ta menn xel du daj lebi
+
 Ta may nu tool it yu nangu
 Ak i murid yu bàyyi ku
 Yudul yàkkamtee yewwiku
@@ -115,6 +117,7 @@ Kuy bari’y mën-mën ak a léej
 Ba joxu la fetalam lée wéej
 Ku weddi lii nama ko laaj
 Man Baabakar sa ndongo bii
+
 Jox naa la man samag fetal
 Dóotu ma fab samag fetal
 Yaw rek a mat di jox fetal
@@ -144,6 +147,7 @@ Da ñoo tilim ta bëgg a set
 Ta boo yaboo ñu daaldi set
 Ndax Yaw setal nga képpu nit
 Setal ñu yaa di bootu bi
+
 Setal nu set gu nu jubu
 Bu àndul ak jug di fabu
 Di dox di daw aka nëbbu
@@ -173,6 +177,7 @@ Yokkal nu gëm gi nu la gëm
 Yokkal nu xam gi nu la xam
 Yokkal nu am gi nu la am
 Yokkal nu yit sa yakk bii
+
 Yakkal nu tay yakk bu réy
 Bu kenn xamul naka mu doy
 Boo xamni bi da na nu doy

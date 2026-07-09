@@ -1,6 +1,6 @@
 Title: Yàlla li muy def sotti na
 Excerpt: Yalla li muy def sotti na - Te lu mu dul def sotti na
-StanzaSize: 8
+StanzaSize: 4
 Theme: Tawhiid
 ---
 Yalla li muy def sotti na
@@ -57,6 +57,7 @@ Ku xam u yiw te defu ko
 Xam ga du tax mu làq ko
 Ku xam u ay te bawu ko
 Xam ga du tax mu mucc ci
+
 Ku seeru luy jaay ak bëtam
 Te joxe wul nag ug njëgam
 Seeru ga fajti ko ndaxam

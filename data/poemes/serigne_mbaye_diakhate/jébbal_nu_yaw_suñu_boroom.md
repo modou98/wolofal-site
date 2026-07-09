@@ -1,6 +1,6 @@
 Title: Jébbal nu yaw suñu Boroom
 Excerpt: Jébbal nu yaw suñu Boroom - Woroom i koom ak seen i koom
-StanzaSize: 8
+StanzaSize: 4
 Theme: Tawhiid
 ---
 Jébbal nu yaw suñu Boroom
@@ -57,6 +57,7 @@ Yal na nu for ci yaw dogub
 Dugub gu réy loolee dogub
 Gerte gu réy lool ak u sëb
 Te mucc cim dog ak u fóom
+
 Yal nanu for cér bu rafet
 Ci yaw ak ag mujj gu rafet
 Te dund dund gu rafet

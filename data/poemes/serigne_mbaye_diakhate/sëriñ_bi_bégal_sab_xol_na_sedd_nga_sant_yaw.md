@@ -1,6 +1,5 @@
 Title: Sëriñ bi bégal sab xol na sedd nga sant yaw
 Excerpt: Sëriñ bi bégal sab xol na sedd nga sant yaw - Ku Yàlla bégal day bég te Yàlla bégal na la
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Sëriñ bi bégal sab xol na sedd nga sant yaw
@@ -29,6 +28,7 @@ Ta feeñal ca bennub junni, ñuy fas ne benn la
 
 Budul kon ak ngëmeel ak càggan ak nelaw ak xaraɳ
 Sëriñ sépp booloo ñëw ne bir yaa ngi, lew na la !
+
 Ku not gaynde not seg gak mbëfër dàq ñay mu daw
 Du soowoo’ki boy, noppil ta wéy, Yàlla gis na la
 

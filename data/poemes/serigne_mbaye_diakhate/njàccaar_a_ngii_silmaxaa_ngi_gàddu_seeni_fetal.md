@@ -1,6 +1,5 @@
 Title: Njàccaar a ngii silmaxaa ngi gàddu seeni fetal
 Excerpt: Njàccaar a ngii, silmaxaa ngii, gàddu seen i fetal - Di téq akay moy akay jam, jàpp rek a ware
-StanzaSize: 4
 Theme: Muñ (Patience face aux épreuves)
 ---
 Njàccaar a ngii, silmaxaa ngii, gàddu seen i fetal
@@ -29,6 +28,7 @@ Nit ñépp, faf gën a woomal ñépp baax i fere
 
 Nun ñépp Yàl na nu am xam-xam bu am ba njariñ
 Ak jëf ju am ja njariñ jay tee lorooka lore
+
 Suñub mujj ak suñu digg ak Yàlla Yàl na rafét
 Ñu far musal nu ci Ibliis’ak lu deesi tere
 

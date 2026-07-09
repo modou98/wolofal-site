@@ -1,6 +1,5 @@
 Title: Yaw xaali xàllal sa digg ak Yàlla xàll wu set
 Excerpt: Yaw xaali xàllal sa digg ak Yàlla xàll wu set - Wu jub ta yaa, aw ca nag ngir Yàlla aw gu rafet
-StanzaSize: 4
 Theme: Bakkan (Éducation de l'âme)
 ---
 Yaw xaali xàllal sa digg ak Yàlla xàll wu set
@@ -23,6 +22,7 @@ Ku am la ngay wut sa waamey coono yépp séwét
 
 Lu Yàlla dindi mu dañ, loo xamni far na ko yit
 Mu daal di far, bu faree ag coono, coonoo ba set
+
 Fàggul ngëram fàggu ab yar fàggu jëf ju rafet
 Yii rek ñoo mat di fàggookay dagaan aka wut
 

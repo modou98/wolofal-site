@@ -1,6 +1,5 @@
 Title: Ma fàtteleeti waa àddinaati Àjjana
 Excerpt: Ma fàtteleeti waa àddinaati - Àjjana jee ti ndax xol yi dundu
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Ma fàtteleeti waa àddinaati
@@ -29,6 +28,7 @@ Nit ña du woppu, suuf sa du pënd
 
 Fas ya rafet na, kër ya rafet na
 Yëf ya rafet na, garab ya sedd
+
 Ñam ya du tàng, du sedd dëgg
 Noo gën a bëgg lay mel, ni gadd
 
@@ -58,6 +58,7 @@ Lëf du la metti, rab du la sadd
 
 Ngay ku ñu tànn am ña nga tànn
 Am ña la tànn, loo wax nu wadd
+
 Ta xam ni doo dee, doo seeru kuy dee
 Doo dégg kuy dee, doo xëy di wérd
 

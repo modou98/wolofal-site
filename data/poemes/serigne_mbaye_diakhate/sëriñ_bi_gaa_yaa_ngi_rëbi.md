@@ -1,6 +1,6 @@
 Title: Sëriñ bi gaa yaa ngi rëbi
 Excerpt: Sëriñ bi gaa yaa ngi rëbi - Jigéen a kay dox di rëbi
-StanzaSize: 8
+StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi gaa yaa ngi rëbi
@@ -57,6 +57,7 @@ Te rikk saa béppub jataay
 Na gën ci nit béppub jataay
 Fegal ci saa béppub jataay
 Séytaane ak moy ak sobe
+
 Fegal nu lor ak sababam
 Te may nu yiw ak sababam
 Ak sa ngëram ak sababam

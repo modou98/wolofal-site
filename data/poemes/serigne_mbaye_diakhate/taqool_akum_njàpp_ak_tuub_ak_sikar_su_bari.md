@@ -1,6 +1,5 @@
 Title: Taqool akum njàpp ak tuub ak sikar su bari
 Excerpt: Taqool akum njàpp ak tuub ak sikar su bari - Tay damm sab seet akay daw gaayi tay lu bari
-StanzaSize: 4
 Theme: Bakkan (Éducation de l'âme)
 ---
 Taqool akum njàpp ak tuub ak sikar su bari
@@ -29,6 +28,7 @@ Nooyal ba far saf u dër, bul jàgg ni’m fofare
 
 Warlul ta bul warle lëf, nangul ta bul tege lëf
 Yombal ta bul jafe it, nekkal di kuy defare
+
 Bul sikk nit, bu ko bañ bul yàq ab deram it
 Jàppal sa xol, jàpp say cër, bul woroo’ka wore
 

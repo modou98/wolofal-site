@@ -1,6 +1,5 @@
 Title: Waajal nga gaayi ta waajoo yaa ka doy keemaan
 Excerpt: Waajal nga gaayi ta waajoo yaa ka doy keemaan - Fooral nga gaayi ta fooroo yaa ka doy keemaan
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Waajal nga gaayi ta waajoo yaa ka doy keemaan
@@ -29,6 +28,7 @@ Bégal nga Yàllaa’ki jaamam yaa ka doy keemaan
 
 Dekkal nga gaayi fi deewoon yaa ka doy keemaan
 Reggal nga gaayi fi xiifoon yaa ka doy kééman
+
 Nooyal nga gaayi fi jàngoon yaa ka doy keemaan
 Xamal nga gaayi fi reeron yaa ka doy keemaan
 
@@ -58,6 +58,7 @@ Ta yëngu woo, geesu woo nun yaa nu doy keemaan !!
 
 Defkat yi def na ba wéy kuy xoole, xoole ba wéy
 Kuy waaru, waaru ba wéy Yaw yaa nu doy keemaan !
+
 Jommal nga naaféq ak yefer akub julit it
 Kop déglu dégg mu naan kii mo ñu doy keemaan
 
@@ -87,6 +88,7 @@ Tàllal nu sab loxo bañ doyloo la yaw Mbaaxaan
 
 Yëg nañu may nga nu'b may gog doyna jaam a xalam
 Yaw Bàmba, waande da nuy mandee’ka mar ak a naan
+
 Doo jeexle doo xaajal it doo doyle bay nasal it
 Wutal nu ag dex ba suñ xel dootul daj rootaan
 

@@ -1,6 +1,5 @@
 Title: Gis naa lu rëy la nga def
 Excerpt: Gis naa lu rëy la nga def, gis naa lu saf la nga def - Gis naa lu jub la nga def, Yàl naa gëram nga gëram
-StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Gis naa lu rëy la nga def, gis naa lu saf la nga def
@@ -14,6 +13,7 @@ Njort ak jëf ak xol akum xel, boole ñépp yëram
 
 Yaw jël nga ndam, maye ndam, amnga’b yar it bu rafet
 May ñépp yar bu rafet, koo seeru far nga meram
+
 Setal nga sab der setal koo gis ba noppi setal
 Deram ba, képp ku am ab lor faj nga jépp loram
 

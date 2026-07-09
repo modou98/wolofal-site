@@ -1,6 +1,5 @@
 Title: Jàppal ñi dee defi nawlee ki xarit aki kem
 Excerpt: Jàppal ñi dee defi nawleeki xarit aki kem - Ta boole ñiy dundu def niy want rekk ta jëf
-StanzaSize: 4
 Theme: Àddina (La dunya et ses illusions)
 ---
 Jàppal ñi dee defi nawleeki xarit aki kem
@@ -29,6 +28,7 @@ Ag doylu yit du la tee def nit ku bon ku woyof
 
 Ta donte yaw saytu woo ab tànk bootu la nit
 Ta doylu it ñépp gis ngay mbër mu rëy bari laf
+
 Ag doylu rek a jafee def waande jaamu gudul
 Ag doylu gis nañu mboleem kuy julit di ko def
 

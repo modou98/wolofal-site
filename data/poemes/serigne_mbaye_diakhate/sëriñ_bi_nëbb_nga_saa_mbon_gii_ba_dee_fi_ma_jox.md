@@ -1,6 +1,5 @@
 Title: Sëriñ bi nëbb nga saa mbon gii ba dee fi ma jox
 Excerpt: Sëriñ bi nëbb nga saa bon gii ba dee fi ma jox - Nëbbal bon ug nit ku may jox lëf ba dee fi ko jox
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Sëriñ bi nëbb nga saa bon gii ba dee fi ma jox
@@ -29,6 +28,7 @@ Sa bàrke, yaa sotti sottal, ken gisul lu la sox
 
 Leeral nga xol yi, te leeral gox yi benn desul
 Gox yaa ngi lay joobe, taaxum diine yaa ko tabax
+
 Yaa fab wolof soppiko’b yaaram bu tedd ba kenn
 Dootul sibeeti wolof, tay wax ni moo mat a rax
 

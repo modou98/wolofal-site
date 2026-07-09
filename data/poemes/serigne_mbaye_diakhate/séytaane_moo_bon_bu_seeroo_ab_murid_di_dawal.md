@@ -1,6 +1,5 @@
 Title: Séytaane moo bon, bu seeroo ab murid di dawal
 Excerpt: Séytaane moo bon, bu seeroo ab murid di dawal - Sangam ba, bay bëgg a am jaajëf mu yàqaliko
-StanzaSize: 4
 Theme: Séytaane (Les ruses de Satan)
 ---
 Séytaane moo bon, bu seeroo ab murid di dawal
@@ -29,6 +28,7 @@ Du cib murid ! Bàmba, lii tax rek, kenn safuko !
 
 Ngir, gis ku nangoo defub jaamam ta melni ku dee
 Mu def la muy def ba sottal ciy mbiram « të » na ko !
+
 Ku nekk day wax akay waxlooka soññi batax,
 Muy dox di wax aka def loo xamne lii ñoru ko !
 
@@ -58,6 +58,7 @@ Séytaane mbër ma da koo mën waaye jubluwuko
 
 Ndax Bàmba far nu jariñ, ndax Bàmba far nu musal
 Ndax Bàmba far nu yërëm, baaxal nu sange nu ko
+
 Bon gii ñu bon bum tax ñuy naagu yërmande nag
 Ab lar bu mànkee ta sangam mat nu mottali ko
 
@@ -87,6 +88,7 @@ Ci sépp saa, te suñiy gëm far di feddaliku
 
 Moodi’b Sëriñ dëgg, moodi’b sang, kenn gisagul
 Kemam ci suuf sile ñuy dox, Yàlla sompalu ko !
+
 Yaw kii wut ub sang ! Jàppal Kii, mu sang la yaw !
 Nga daaldi set fàww taggoo’kub bon, sori ko
 

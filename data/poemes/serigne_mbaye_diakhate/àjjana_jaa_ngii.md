@@ -1,6 +1,6 @@
 Title: Àjjana jaa ngii
 Excerpt: Àjjana jaa ngii - Fu tedd faa ngii
-StanzaSize: 8
+StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Àjjana jaa ngii
@@ -57,6 +57,7 @@ Kër ya wurus la
 Lal ya wurus la
 Lu fa ne mbég la
 Tedd nga jaa ngii
+
 Way yi ñu fay way
 Suuxal na yii way
 Ta dàq yii way
@@ -86,6 +87,7 @@ Ken du tuxóoti
 Ken du lorooti
 Ken du xulóoti
 Ngir soppe yaa ngii
+
 Dee wëy na fàww
 Lor wëy na fàww
 Bor wëy na fàww
@@ -115,6 +117,7 @@ Lii ñor na xomb
 Ku ci ne yemb
 War ci ne yomb
 Ngir Yàlla jaa ngii
+
 Ka bind lii rëy
 Kay maye lii rëy
 Lumuy maye rëy
@@ -144,6 +147,7 @@ Yaram wa day xees
 Pecc, nga far fees
 Dell, woyof, fees
 Lu jafe laa ngii
+
 Sang ba set nag
 Wicc rafet jag
 Sol yu rafet nag
@@ -173,6 +177,7 @@ Gantu ko wëy na
 Nangu ko jot na
 Gëram ko jot na
 Ta mer ko wëy na
+
 Ku mere YÀLLA
 Réere na YÀLLA
 Ta réere YÀLLA

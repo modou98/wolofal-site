@@ -1,6 +1,5 @@
 Title: Sa benn kaasub kafe daa dàkk ab komiseer
 Excerpt: Sa benn kaasub kafe daa dàq ab komiseer - Ak ub komàndaŋ akay follee’ka sànk aka tëj
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Sa benn kaasub kafe daa dàq ab komiseer
@@ -29,6 +28,7 @@ Mu waar i góoree’ka not buur ak dagam ya ko taj
 
 Lu jub lu rëy li nga def tay jii, la ngay xala def
 Bis pénc a koy ëpp gën koo yéemu yaa kawe puj
+
 Yaa boole nopp ak i gët yaa def lu jub lu rafet
 Lu buur i nopp ak i gët, yaa tee ñu fay ni kamaj !
 

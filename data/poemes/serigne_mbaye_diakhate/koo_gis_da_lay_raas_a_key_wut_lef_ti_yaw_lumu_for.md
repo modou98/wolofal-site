@@ -1,6 +1,5 @@
 Title: Koo gis da lay raas a key wut lef ti yaw lumu for
 Excerpt: Koo gis da lay raas akay wut lëf, ci yaw lumu for - Bu ken raasati bay for lëf ci yaw mii ti
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Koo gis da lay raas akay wut lëf, ci yaw lumu for
@@ -29,6 +28,7 @@ Xam Yàlla mat nako, xam nit ñépp mat koo ti
 
 Nëbbul! ku xam nëbbu. Seetal dëgg ak sa bakkan,
 Ni Yàlla nëbboo ki mbootam, te nga waaroti !
+
 Nëbbël ta nëbbu ta bul fes, donte mën nga ko sax
 Ngay nëb fàww sa bopp ak koo fi seeroti
 

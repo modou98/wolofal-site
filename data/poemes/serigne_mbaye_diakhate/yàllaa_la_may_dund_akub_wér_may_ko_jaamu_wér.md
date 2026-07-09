@@ -1,6 +1,5 @@
 Title: Yàllaa la may dund akub wér may ko jaamu wér
 Excerpt: Yàllaa la may dund akub wér may ko jaamu wér - Mbaa sax nga fay ko boram, boo dul may it war a fay
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ThemeReview: Insiste sur le rôle guide du "sa Sëriñ" qui donne provision avant le départ, mais mêle plusieurs thèmes.
 ---
@@ -30,6 +29,7 @@ Jëf jëf ju wér céng biir ak biti noonu la doy
 
 Ta xam nga xéll ni dee day ñëw ta àdduna jii
 Day wéy, ta Al-Aahira ngay teg bët bu wér ci sa pay
+
 Dalal di jëf lépp loo sopp ug payam ku ne gis
 Ta daal di daw lépp loo bañ ag payam wéy a wéy
 
@@ -59,6 +59,7 @@ Du tax bu ñii fay ngay naw pay ga luy pexe ay !
 
 Ngay dundu loo xamne nii nag xaaju koo jege sax
 Ta sànk cii at yu takkoo takku, Yàlla na nga yay
+
 Yaw Yàlla boo far layoo sax, Yàlla, Yàlla na la faf
 Yërëm, yërëm ñu ta may ñug doylu wëllis u lay
 

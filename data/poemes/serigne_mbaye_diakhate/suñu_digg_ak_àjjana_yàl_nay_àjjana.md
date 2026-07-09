@@ -1,6 +1,5 @@
 Title: Suñu digg ak Àjjana Yàl nay Àjjana
 Excerpt: Suñu digg ak Àjjana Yàl nay Àjjana - Àjjana Yàlla nañ ca duggak Àjjana
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Suñu digg ak Àjjana Yàl nay Àjjana
@@ -59,6 +58,7 @@ Ci darajay mboleem ñi ñuy naw aka ñee
 
 Yàlla na nu Yàlla musal it ci seen i lor
 Yépp musal gu am njariñ gu ñàkk lor
+
 Yàl na ñu delloo seen i lor yépp ci ñoom
 Ba jenn lor dootu fi jëm bawoo ci ñoom
 

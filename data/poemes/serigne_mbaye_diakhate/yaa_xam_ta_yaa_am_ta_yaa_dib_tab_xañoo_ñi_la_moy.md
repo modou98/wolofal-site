@@ -1,6 +1,5 @@
 Title: Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy
 Excerpt: Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy - Xañoo ñi lay topp, waccoo kenn, ñépp nga may
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy
@@ -29,6 +28,7 @@ May mbir mu jub ñile, may ñii xol bu sedd ak u lay
 
 May ug doy ak doylu, ñii may ñii ndam ak jërëjëf
 May ug rafet ñii, may ug saf ñii, notal ñile mbay
+
 May gudd fan ñii, may ug wér ñii, may us colo ñii
 May buntu ñii, ubbi buntub ñii, ñu sant di wéy
 

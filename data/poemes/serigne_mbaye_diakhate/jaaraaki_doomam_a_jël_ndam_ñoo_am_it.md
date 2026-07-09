@@ -1,6 +1,5 @@
 Title: Jaaraaki doomam a jël ndam ñoo am it
 Excerpt: it - Jaaraaki doomam a jël ndam ñoo am it jërëjëf
-StanzaSize: 4
 Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 it
@@ -30,6 +29,7 @@ Daawoo ko def Buso jaajëf man danaala nuyu
 
 Tay maa ngi lay nuyu nag yaw mbaate jàmm nga am
 Do am ludul jàmm yaa fab jàmm leble fayu
+
 Yaa jàpp jàmm ak u yiw ak cant tex ko mu sax
 Nga bayko nag ba mu ñor daagul ca àjjana yi
 

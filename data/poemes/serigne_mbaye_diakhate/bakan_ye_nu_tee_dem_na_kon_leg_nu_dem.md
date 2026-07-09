@@ -1,6 +1,5 @@
 Title: Bakan ye nu tee dem na kon leg nu dem
 Excerpt: Bakan yee nu tee dem nde kon leeg nu dem - Dogontee ki bakan ba tay ñépp dem
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Bakan yee nu tee dem nde kon leeg nu dem
@@ -29,6 +28,7 @@ Boroomam ba lay jàpp def wéttalam
 
 Sëriñ baa ngi wootee ka waaruw nitam
 Akay digle ag tuub ak ub jëm kanam
+
 Jubal nay biram not na ab noonam it
 Mi ngi nag di sàkkoo jubal gaa yi gëm
 

@@ -1,6 +1,5 @@
 Title: Xalaase ñoo ngoogu tay yéeneeka lott ci jëf
 Excerpt: Xalaase ñoo ngoogu tay yéeneeka lott ci jëf - Li ngay teere ngi, li ngay diglee ngi, dimbali nu
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ThemeReview: S'adresse directement à 'Yaw Bàmba', demande d'accroissement/soutien ; sujet peu clair.
 ---
@@ -18,6 +17,7 @@ Jombul nga may nu lu ñuy jaamooti yëkkati nu
 
 Jombul nu xëy fas u yiw, jombul nu xëy def u yiw
 Jombul nu xëy ne fi yaw, jombul nga xëy jege nu
+
 Jombul nu nekk ci yaw, jombul nga nekk ci nun
 Jombul nu am sa ngëram loo xamni jomb na nu
 

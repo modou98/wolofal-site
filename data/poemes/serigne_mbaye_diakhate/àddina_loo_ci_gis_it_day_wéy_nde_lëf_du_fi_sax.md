@@ -1,6 +1,5 @@
 Title: Àddina loo ci gis it day wéy nde lëf du fi sax
 Excerpt: Àddina loo ci gis it day wéy nde lëf du fi sax - Mootax lu neex ak lu neexul lépp sàmm ca ngor
-StanzaSize: 4
 Theme: Àddina (La dunya et ses illusions)
 ---
 Àddina loo ci gis it day wéy nde lëf du fi sax
@@ -29,6 +28,7 @@ Na mel ni dencula sax ab tànk waa jile far
 
 Koo xam ni kii saa su ñàkkee mbaa mu am dara bis
 Nit ñépp dégg ko kookee yar ba des na bu wér
+
 Koo xam ni kii lu mu làmboo ñépp xam ko du nit
 Nit day muñug ñàkk muñ xeewal ni gumm ni mbër
 
@@ -58,6 +58,7 @@ Nuural ci saw sas ta def as gor ni cell, di sol !
 
 As gor dafay fàtte ab añ tay fexee yëwénal
 Sasam wa rek, ta doyloo Yàlla muñ luko dal
+
 Lo xamne li fàww day ñëw, moo lu jar di ca wax !
 Ludul ñëw’it, lu ca jar ay wax, murid bi waxal !
 

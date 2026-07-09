@@ -1,6 +1,5 @@
 Title: Yàllante tay jile may suukar, nga def ma kafe
 Excerpt: Yàllante tay jile may suukar, nga def ma kafe - Mbaa sax ma nekk di sag ruu fàww tay sa yaram
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Yàllante tay jile may suukar, nga def ma kafe
@@ -29,6 +28,7 @@ Ta gumba buy rëbb, buy jub rab wa fekk mu dem
 
 Yeewal nu rab wii ta jat koo jat ba dootu fi jug
 Ta may nu ab dundam ak waajaayam ak mbébétam
+
 Ta bum nu nemmiku buñ koy nemmikooti nun it
 Nañ sant muy sant itam, nuy bég ta muy bég itam
 

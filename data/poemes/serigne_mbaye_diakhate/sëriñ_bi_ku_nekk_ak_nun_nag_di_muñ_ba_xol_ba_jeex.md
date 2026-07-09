@@ -1,6 +1,5 @@
 Title: Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex
 Excerpt: Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex - Mu xëy yewwi boppam, dem, musal ko ci jépp lor
-StanzaSize: 4
 Theme: Muñ (Patience face aux épreuves)
 ---
 Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex
@@ -29,6 +28,7 @@ Musal ma ci lott ak luu akub luuma’kub njabar
 
 Doxal suñu digg ak lépp luy lore ak lu bon
 Ta dox suñu digg ak képp kuy jomblee’ka wor
+
 Doxal suñu digg ak mbokk muy fexe lor ci nun
 Ta dox suñu digg ak bépp jàmbur bu ñàkk ngor
 

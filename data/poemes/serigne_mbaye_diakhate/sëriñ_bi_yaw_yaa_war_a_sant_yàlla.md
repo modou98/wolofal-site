@@ -1,6 +1,5 @@
 Title: Sëriñ bi yaw yaa war a sant Yàlla
 Excerpt: Sëriñ bi yaw yaa war a sant Yàlla - Ta yaw li tax nga war a sant Yàlla
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Sëriñ bi yaw yaa war a sant Yàlla
@@ -59,6 +58,7 @@ Li mu ñuy war war, li mu lay war a ko raw
 
 War na nu laa sant bu wér yaw Bàmba !
 Nga war a sant nag Yàlla ak Yonent ba (SAW)
+
 Sant nga kat cant gu kenn santul
 Waaye yëgal ni yit sa may gi tuutul !
 
@@ -88,6 +88,7 @@ Ci sa ligéeyu cant gii, ku dikk bég
 
 Woo naa samay mbokk yu goor ak yu jigéen
 Jëme ci yaw mi jubal goor ak jigéen !
+
 Ku dikk boppam, ku dikkul boppam !
 Man dikk naa, ta maa ngi lay sopp aka gëm
 
@@ -117,6 +118,7 @@ Lu rëy a rëy, ma di sa mbeg di sa ngëram
 
 Lu ma gëram naŋ ko gëram, ta loo gëram
 Naa ko gëram, ku ma gëram naŋ ko gëram
+
 Na ñuy dajee dajee dajee dajee daje
 Ci loo gëram, ta bu nu noppeete daje
 
@@ -146,6 +148,7 @@ Lu yagg yagg doo ko gis faj it dara
 
 Maa sant dëgg dëgg dëgg Yàlla
 Ta yaa waral Mbàkke ma sant Yàlla
+
 Boo ma bawoon ak Yàlla kon amti ma lëf !
 Ngir sama mbon gu rëy gi ak dof gii ma dof
 

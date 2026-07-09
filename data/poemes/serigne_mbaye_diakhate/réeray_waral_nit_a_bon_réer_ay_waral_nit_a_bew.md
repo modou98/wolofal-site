@@ -1,6 +1,5 @@
 Title: Réeray waral nit a bon réer ay waral nit a bew
 Excerpt: Réeray waral nit a bon réer ay waral nit a bew - Ku saw yaram maxe say gët suulu doo tala mer
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Réeray waral nit a bon réer ay waral nit a bew
@@ -17,6 +16,7 @@ Lu gën, gënal ñu gënal nit ñép may gu nu bir
 
 Loo xam ni lii bu fi nekkoon fàww def ko ci nun
 Yaw Yàlla def ko ci nun ñii def gu sell gu wér
+
 Dem gi mu dem def ko muy ndolleen lu màgg ci nun
 Dig yokk fàww ci nun tay sàllu ndam wu ñu for
 

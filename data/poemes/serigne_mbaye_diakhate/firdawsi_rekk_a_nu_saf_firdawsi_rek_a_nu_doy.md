@@ -1,6 +1,5 @@
 Title: Firdawsi rekk a nu saf, firdawsi rek a nu doy
 Excerpt: Firdawsi rekk a nu saf, firdawsi rek a nu doy - Firdawsi rekk ay alal, Firdawsi rekk a nu suur
-StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Firdawsi rekk a nu saf, firdawsi rek a nu doy
@@ -29,6 +28,7 @@ Nga tëdd ci’b lal bu sedd ub xol bu yaatu bu foor
 
 Doo dégg u ay doo ko gis, loo bëgg teg ca sa bët
 Faf teg ca sab loxo teg cib cant jàpp ko ɳoor
+
 Doo wopp doo wonku doo bon doo dajee’ku naqar
 Doo muslu, doo moslu, lii jar lépp, déggale góor !
 

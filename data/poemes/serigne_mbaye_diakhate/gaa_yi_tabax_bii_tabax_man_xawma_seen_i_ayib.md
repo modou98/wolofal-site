@@ -1,6 +1,5 @@
 Title: Gaa yi tabax bii tabax man xawma seen i ayib
 Excerpt: Gaa yi tabax bii tabax man xawma seen i ayib - Ku xëy defal sab Sëriñ lii sax mu far sa ayib
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Gaa yi tabax bii tabax man xawma seen i ayib
@@ -29,6 +28,7 @@ Ku nekk wéy na ba lab ci’b cant, kenn du xarab
 
 Yàllaa ko jox lu ko doy, Moom it mu jox nu lu doy
 Ku nekk faj na sa lor, jot laa’ki cant ak i ndab
+
 Tabax bi Yàl na nu ciy tàbbee’ka génn ak a bég
 Ba Yàlla àtte mu ràpp ak jàmm, lëf bañ a jib
 

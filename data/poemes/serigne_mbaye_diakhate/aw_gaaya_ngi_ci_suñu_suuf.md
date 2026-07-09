@@ -1,6 +1,6 @@
 Title: Aw gaaya ngi ci suñu suuf
 Excerpt: Aw gaaya ngi ci suñu suuf - Nun ñoongi nii ci sa suuf
-StanzaSize: 8
+StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Aw gaaya ngi ci suñu suuf
@@ -57,6 +57,7 @@ Ludul sa mbég bu nu ko mën
 Bu nu ko def sàmm nu nun
 Jëméeli mbég saxal nu nun
 Saxal nu nun ci yëkkatiku
+
 Def ma ku saf ku la safoo
 Te def ma fàww koo safoo
 Ku sax ci yaw di la safoo

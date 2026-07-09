@@ -1,6 +1,5 @@
 Title: Diirub li ñuy dundu, tuub ak rëccu daal a nu war
 Excerpt: Diirub li ñuy dundu, tuub ak rëccu daal a nu war - Ngir ñàkk a bëgg daraa war ab murid ta të na
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Diirub li ñuy dundu, tuub ak rëccu daal a nu war
@@ -29,6 +28,7 @@ Na ñëw ci lef mi, fa lef mii jëm asal sori na
 
 Amaana ngay gis ku jug bis sóobu lef mi di daw
 Ba ñépp tagg ko, doo wooloo lu neefi « ba na ! »
+
 Amaana ngay gis ku raw tay jii ta gis ku ñu raw
 Bu ëllagee ka ñu daa raw, neefi tay « rawe na !»
 

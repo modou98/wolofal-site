@@ -1,6 +1,5 @@
 Title: Nit ñi nga gis jaru ñoo waxal jaru ñoo defal
 Excerpt: Nit ñii nga gis, jaru ñoo waxal, jaru ñoo defal - Loo man di def, yaw dee ko def ngir Yàlla daal
-StanzaSize: 4
 Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Nit ñii nga gis, jaru ñoo waxal, jaru ñoo defal
@@ -29,6 +28,7 @@ Ma nga lay fexee teggeeka foñ, tay meccu daal
 
 Li nag ndegam moo am la gën, na nga yewu yaw
 Faf wacc ñépp ak seeni mbir tay waaxu daal
+
 Nëbbul ta wëy noppil ta wëy, jàppul ta wëy
 Farlul ta wëy, santal ta daw tay muslu daal
 
@@ -58,5 +58,6 @@ Luma deeti wax, saa bopp a tax, xam naa ni daal
 
 Luma dee ti wax, lu ma deeti def saa bopp a tax
 Nit ñii ma gis, jaruñooti coow ak coono daal
+
 Kuy bon, na bon, kuy jub na jub lu ci mën di am
 Man may ligéeyal Bàmba, tay gëm Yàlla daal !

@@ -1,6 +1,5 @@
 Title: Ma jug defal saa xarit bii nag lu ñépp di gis
 Excerpt: Ma jug defal saa xarit bii nag lu ñépp di gis - Ngir ab xarit ku ko am war koo defal lu ñu gis
-StanzaSize: 4
 Theme: Yar (Éducation)
 ---
 Ma jug defal saa xarit bii nag lu ñépp di gis
@@ -29,6 +28,7 @@ Ab lar bu dee tubaal ub sangam di sant du rus
 
 Ta’b lar bu nekk ma ngaa ki moy ma ngaa ki may it
 Ta may ya santa ca des moy yépp tuub a ca des
+
 Nekkal di sant aka muñ tay rëccu lépp lu bon
 Ndax Yàlla ngay waaju doyle’y may ta set ni weles
 

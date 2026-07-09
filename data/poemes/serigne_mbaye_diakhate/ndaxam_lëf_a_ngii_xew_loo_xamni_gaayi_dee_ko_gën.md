@@ -1,6 +1,5 @@
 Title: Ndaxam lëf a ngii xew loo xamni gaayi dee ko gën
 Excerpt: Ndaxam lëf a ngii xew loo xamni gaayi dee ko gën ! - Ta Yàlla na ñu loolee moy ta moy bépp taalibe
-StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ndaxam lëf a ngii xew loo xamni gaayi dee ko gën !
@@ -29,6 +28,7 @@ Ku muñ am ndamal dunyaa’ki Laaxira far xëbe
 
 Sëriñ bi da ñoo woo toggi añ bëgg ñoo teral
 Ba añ bii fexee ñëw jépp daw dugg jëmbu bi
+
 Du tee kat ñu mos lëf ndax ngënélam yii ëppuwul
 Du yëngu, du jeex it mukku ngir moo di jant bi
 

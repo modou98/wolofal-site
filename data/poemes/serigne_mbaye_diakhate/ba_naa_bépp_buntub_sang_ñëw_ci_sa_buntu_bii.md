@@ -1,6 +1,5 @@
 Title: Ba naa bépp buntub sang ñëw ci sa buntu bii
 Excerpt: Ba naa bépp buntub sang ñëw ci sa buntu bii - Da naa am li may wut mbaa ma dee ci sa buntu bi
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Ba naa bépp buntub sang ñëw ci sa buntu bii
@@ -29,6 +28,7 @@ Ku jug nee fi « ndax kee buur la am moo di xejj bi ? »
 
 Da ngaa fekk yaw nit ñi ak mbir yi bokk lëj
 Nga lijjanti lëj-lëj yépp, yaa jiitu yaa xobe
+
 Sa dund gi moo am njariñ, Yàlla na la Yàlla may
 Lingay wut ci beppub lar ta yàggal sa dund gi
 

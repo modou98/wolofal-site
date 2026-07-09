@@ -1,6 +1,6 @@
 Title: Mo jaa lu deefi defati
 Excerpt: Moo jaa lu deefi defati ? - Moo jaa lu deefi waxati ?
-StanzaSize: 8
+StanzaSize: 4
 Theme: Tawhiid
 ---
 Moo jaa lu deefi defati ?
@@ -57,6 +57,7 @@ Rekk di xalxalee ka fo
 Sëriñ bi yal na bég ci nun
 Yonnen ba yal na bég ci nun
 Ak Yàlla miy aaye ku fo
+
 Sëriñ bi wax na bind na
 Def na nu gis te digle na
 Yii moo ko war kat wàcci na
@@ -86,6 +87,7 @@ Bàmba wurus wu sell la
 Waayam dërëm bu sotti la
 Te ku ame’b rax yaru la
 Ab rax a bon day tax a fo
+
 Xànjar lu dar-dar ci wurus
 Asal bu kob tëgg di gis
 Xam ne dafay niru wurus

@@ -1,6 +1,5 @@
 Title: Tay marsàndis um ngëram maa ngii di wékke ni xus
 Excerpt: Tay marsàndis um ngëram maa ngii di wékké ni xus - Ku bëgg a jënd na indi’g njëg gu rëy gu rafet
-StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Tay marsàndis um ngëram maa ngii di wékké ni xus
@@ -29,6 +28,7 @@ Ta donte dof dana yëg lëf it, yeete dootuko mat
 
 Sëriñ ba àgg na nun ñoo des, da ñoo war a jug
 Ta jox ko mbir yi le njëkkub dee, ta ñoo ngi màggat
+
 Ka pert moo di ka bokk ak Bàmba mii jamono
 Di dégg akay gis ba xëy dee nag ta jébbalu wut
 
@@ -58,6 +58,7 @@ Moo tax ba koo gis mu am xam-xam gu rëy ta jàngut
 
 Moo dàq moy Yàlla indi’g topp ñépp di gis
 Man kii ma gën moo ma sut, moo sut ku sut kama sut
+
 Lii tax ma toppu ko ngir nit fum fi gis ku ko gën
 Na jug ta toppu ko, daw ab àtte day tax a xat
 
@@ -87,6 +88,7 @@ Musal ñu fàww ta yor ñoo yor ba dootu ñu rot
 
 Yàllaa la wóolu mbindéefam yépp wóolu la it
 Ku Yàlla wóolu ku koy wóolóodi kooti yëgut
+
 Def nañ ab sàmm dee ñuy yeew akay wëtali
 Akay jëfal ta kudul yaw bumu ñu sàmmati kat
 

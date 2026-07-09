@@ -1,6 +1,5 @@
 Title: Xarit Yàlla yombul te moo am njariñ
 Excerpt: Xarit Yàlla yombul te moo am njariñ - Wutil Yàlla yaw mii ba dee baa nga am
-StanzaSize: 4
 Theme: Tawhiid
 ---
 Xarit Yàlla yombul te moo am njariñ
@@ -29,6 +28,7 @@ Wutil Yàlla moo gën di wut ay mayam
 
 Te foo gis ku saytuy yëfëm kat na lay,
 Gënal ay yëfam ngir ku nee gën yëfam.
+
 Karaama'aki xarbaax a kiy xam-xam ak
 Alal dog na ñu’w nit ñu fonkoon a dem
 
@@ -58,6 +58,7 @@ Dafay genne dunyaa bu wér cib xolam
 
 Ku dunyaa mu bon mii ne dell ub xolam
 Ameegul barab kay bu aw yiw di dem
+
 Te kuy woo Boroom ug aras war nga koo
 Xaroo xol bu laab it bu dootul tilim
 

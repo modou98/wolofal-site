@@ -1,6 +1,5 @@
 Title: Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko
 Excerpt: Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko - Mboolem lu jëm si ci nun ciw ay na wëlbatiku
-StanzaSize: 4
 Theme: Sëriñ bi
 ---
 Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko
@@ -29,6 +28,7 @@ Da ngay duyal ñépp, koo gis fab ndabam duyi ko
 
 Danaa la wax fukki yëf yoo xamni yaa ko jagoo !
 Amoo ca bokkaale, doo gis kenn fable la ko
+
 Way ak ngor ak tabe ak muñ ak lewet aku fit
 Akug ragal Yàlla ak Xam Yàlla ak bàyyiku
 

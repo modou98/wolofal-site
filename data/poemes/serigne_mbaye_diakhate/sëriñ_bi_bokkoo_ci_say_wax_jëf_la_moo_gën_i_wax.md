@@ -1,6 +1,5 @@
 Title: Sëriñ bi bokkoo ci say wax jëf la moo gën i wax
 Excerpt: Sëriñ bi bokkoo ci say wax jëf la moo gën i wax - Ta jépp wax joo waxul ay wax la maa lako wax
-StanzaSize: 4
 Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Sëriñ bi bokkoo ci say wax jëf la moo gën i wax
@@ -29,6 +28,7 @@ Péeyam ba yaw la ko wan, ndéeyam ba yaw la ko wax
 
 Lu man di am ñoo ngi lay yàkkaar akay bége nun
 Yërëm nu, làq nu yaa gën jëf yu baax ak i wax
+
 Yaa ëpp julli gu baax ak wird, ëpp tasab
 Gën fopp koor ak aj ak dem jàkka, lii mat a wax
 

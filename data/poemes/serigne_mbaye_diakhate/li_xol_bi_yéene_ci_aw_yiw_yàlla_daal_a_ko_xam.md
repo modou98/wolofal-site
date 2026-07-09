@@ -1,6 +1,5 @@
 Title: Li xol bi yéene ci aw yiw Yàlla daal a ko xam
 Excerpt: Li xol bi yéene ci aw yiw Yàlla daal a ko xam - Moo man ni cas benne lii may bëgg yit nima am
-StanzaSize: 4
 Theme: Tawhiid
 ---
 Li xol bi yéene ci aw yiw Yàlla daal a ko xam
@@ -29,6 +28,7 @@ Xam Yàlla, jee mu xaloo dem nag ku nekk a ko xam
 
 Tee gaa yi Yàl na nu am nun yaari Àjjana yi
 Ku boolee al janna jii ak jee du ñàkk xorom
+
 Ak topp Yàlla ni gaalug jéeri rekk la mel
 Dafay daw ak yaw di wéy jëm Àjjanaaki ngëram
 
@@ -58,6 +58,7 @@ Yegsiinu jàmm wu lor dul bor xalooki ndawam
 
 Alaaxira ngaaki lor moom it yu ñépp ragal
 Lor yooya Yàl na nu moy, moy waaju gëm sëriñam
+
 Ma ngaa ki xéewal ma ngaa ki ndam te Yàl na nu am
 Mboleem la fay xéewal ak ndam ak mbébét mu fa am
 

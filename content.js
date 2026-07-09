@@ -237,7 +237,7 @@ window.authorsData = [
                 "id": "at_mile_wéy_yal_na_wéy_ak",
                 "title": "At mile wéy yal na wéy ak",
                 "excerpt": "At mile wéy yal na wéy ak - Suñuy tawat tay ak ëllëg",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ]
@@ -246,7 +246,7 @@ window.authorsData = [
                 "id": "aw_gaaya_ngi_ci_suñu_suuf",
                 "title": "Aw gaaya ngi ci suñu suuf",
                 "excerpt": "Aw gaaya ngi ci suñu suuf - Nun ñoongi nii ci sa suuf",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -255,7 +255,6 @@ window.authorsData = [
                 "id": "añ_yaa_ngi_sas_yaa_ngi_kuy_wut_añ_ta_waccu_sasam",
                 "title": "Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam",
                 "excerpt": "Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam - Du tax mu am ko, ku bëgg ub añ na song sasam",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante jëf ak wax (Les actes et les paroles)"
                 ]
@@ -273,7 +272,6 @@ window.authorsData = [
                 "id": "bakan_bi_jàpp_ko_yar_ngir_sas_ngonee_su_jubul",
                 "title": "Bakan bi jàpp ko yar ngir sas ngonee su jubul",
                 "excerpt": "Bakan bi jàpp ko yar ngir sas ngonee su jubul - Kuy saytu sas ngone boo jàppul ta yar du jubal",
-                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -290,7 +288,6 @@ window.authorsData = [
                 "id": "bakan_ye_nu_tee_dem_na_kon_leg_nu_dem",
                 "title": "Bakan ye nu tee dem na kon leg nu dem",
                 "excerpt": "Bakan yee nu tee dem nde kon leeg nu dem - Dogontee ki bakan ba tay ñépp dem",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -336,7 +333,6 @@ window.authorsData = [
                 "id": "ba_naa_bépp_buntub_sang_ñëw_ci_sa_buntu_bii",
                 "title": "Ba naa bépp buntub sang ñëw ci sa buntu bii",
                 "excerpt": "Ba naa bépp buntub sang ñëw ci sa buntu bii - Da naa am li may wut mbaa ma dee ci sa buntu bi",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -353,7 +349,7 @@ window.authorsData = [
                 "id": "bis_boo_xëyee_lekk_ba_suur",
                 "title": "Bis boo xëyee lekk ba suur",
                 "excerpt": "Bis boo xëyee lekk ba suur - Ba noppi sàng nag sa biir",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
                 ]
@@ -389,7 +385,6 @@ window.authorsData = [
                 "id": "budul_kon_ag_ñàkk_yóbbal_kon_ma_nemmiku_tay",
                 "title": "Budul kon ag ñàkk yóbbal kon ma nemmiku tay",
                 "excerpt": "Budul kon ag ñàkk yóbbal kon ma nemmiku tay - Sëriñ ba ndax bëgg naa koo gis ba santati ko",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -451,7 +446,6 @@ window.authorsData = [
                 "id": "bu_ay_jugee_jëm_ci_nun_yaw_bàmba_wëlbati_ko",
                 "title": "Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko",
                 "excerpt": "Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko - Mboolem lu jëm si ci nun ciw ay na wëlbatiku",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -499,7 +493,6 @@ window.authorsData = [
                 "id": "bu_saw_jiwu_moy_sam_tooba_tex_ca_sa_lépp_yaw",
                 "title": "Bu saw jiwu moy sam tooba tex ca sa lépp yaw",
                 "excerpt": "Bu saw jiwu moy sam tooba tex ca sa lépp yaw - Ku saw jiwu moy sam tooba cant ga teggi la",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -599,7 +592,6 @@ window.authorsData = [
                 "id": "dawal_ba_raw_ñi_gilay_yuuxooka_sow_aka_naw",
                 "title": "Dawal ba raw ñi gilay yuuxooka sow aka naw",
                 "excerpt": "Dawal ba raw ñi gilay yuuxooka sow aka naw - Te’w rab, bukoy xaj di baw, nay yokku xël, rawagul",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -652,7 +644,6 @@ window.authorsData = [
                 "id": "diirub_li_ñuy_dundu_tuub_ak_rëccu_daal_a_nu_war",
                 "title": "Diirub li ñuy dundu, tuub ak rëccu daal a nu war",
                 "excerpt": "Diirub li ñuy dundu, tuub ak rëccu daal a nu war - Ngir ñàkk a bëgg daraa war ab murid ta të na",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -661,7 +652,6 @@ window.authorsData = [
                 "id": "di_bay_di_bay_ba_sa_mbay_ñor_xomb_nag_nga_ne_cas",
                 "title": "Di bay di bay ba sa mbay ñor xomb nag nga ne cas",
                 "excerpt": "Di bay di bay ba sa mbay ñor xomb nag nga ne cas - Mbay mepp sànk ci àllub neen a bon bu ko def!",
-                "stanzaSize": 4,
                 "themes": [
                     "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)"
                 ]
@@ -803,7 +793,6 @@ window.authorsData = [
                 "id": "firdawsi_rekk_a_nu_saf_firdawsi_rek_a_nu_doy",
                 "title": "Firdawsi rekk a nu saf, firdawsi rek a nu doy",
                 "excerpt": "Firdawsi rekk a nu saf, firdawsi rek a nu doy - Firdawsi rekk ay alal, Firdawsi rekk a nu suur",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -847,7 +836,6 @@ window.authorsData = [
                 "id": "gaa_yi_tabax_bii_tabax_man_xawma_seen_i_ayib",
                 "title": "Gaa yi tabax bii tabax man xawma seen i ayib",
                 "excerpt": "Gaa yi tabax bii tabax man xawma seen i ayib - Ku xëy defal sab Sëriñ lii sax mu far sa ayib",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -898,7 +886,6 @@ window.authorsData = [
                 "id": "gis_naa_lu_rëy_la_nga_def",
                 "title": "Gis naa lu rëy la nga def",
                 "excerpt": "Gis naa lu rëy la nga def, gis naa lu saf la nga def - Gis naa lu jub la nga def, Yàl naa gëram nga gëram",
-                "stanzaSize": 4,
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ]
@@ -933,7 +920,6 @@ window.authorsData = [
                 "id": "jaaraaki_doomam_a_jël_ndam_ñoo_am_it",
                 "title": "Jaaraaki doomam a jël ndam ñoo am it",
                 "excerpt": "it - Jaaraaki doomam a jël ndam ñoo am it jërëjëf",
-                "stanzaSize": 4,
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
@@ -1037,7 +1023,6 @@ window.authorsData = [
                 "id": "jàppal_ñi_dee_defi_nawlee_ki_xarit_aki_kem",
                 "title": "Jàppal ñi dee defi nawlee ki xarit aki kem",
                 "excerpt": "Jàppal ñi dee defi nawleeki xarit aki kem - Ta boole ñiy dundu def niy want rekk ta jëf",
-                "stanzaSize": 4,
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
                 ]
@@ -1046,7 +1031,7 @@ window.authorsData = [
                 "id": "jébbal_nu_yaw_suñu_boroom",
                 "title": "Jébbal nu yaw suñu Boroom",
                 "excerpt": "Jébbal nu yaw suñu Boroom - Woroom i koom ak seen i koom",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -1082,7 +1067,6 @@ window.authorsData = [
                 "id": "koo_gis_da_lay_raas_a_key_wut_lef_ti_yaw_lumu_for",
                 "title": "Koo gis da lay raas a key wut lef ti yaw lumu for",
                 "excerpt": "Koo gis da lay raas akay wut lëf, ci yaw lumu for - Bu ken raasati bay for lëf ci yaw mii ti",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -1185,7 +1169,6 @@ window.authorsData = [
                 "id": "laajal_ma_mbooleem_ña_am_xam_xam_ba_xam_lu_ñu_wax",
                 "title": "Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax",
                 "excerpt": "Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax - Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?",
-                "stanzaSize": 4,
                 "themes": [
                     "Séytaane (Les ruses de Satan)"
                 ]
@@ -1194,7 +1177,6 @@ window.authorsData = [
                 "id": "lar_ub_yàlla_bii_yaw_mii_na_ngay_ñàkke_lenn_lëf",
                 "title": "Lar ub Yàlla bii yaw mii na ngay ñàkke lenn lëf",
                 "excerpt": "Lar ub Yàlla bii yaw mii na ngay ñàkke lenn lëf - Ta sab sang gën mbooleem ñi gën ñépp, ñaani ko",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -1263,7 +1245,6 @@ window.authorsData = [
                 "id": "li_xol_bi_yéene_ci_aw_yiw_yàlla_daal_a_ko_xam",
                 "title": "Li xol bi yéene ci aw yiw Yàlla daal a ko xam",
                 "excerpt": "Li xol bi yéene ci aw yiw Yàlla daal a ko xam - Moo man ni cas benne lii may bëgg yit nima am",
-                "stanzaSize": 4,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -1307,7 +1288,6 @@ window.authorsData = [
                 "id": "lu_yàgg_yàgg_lu_baaxay_am_lu_sedd_xolay",
                 "title": "Lu yàgg yàgg lu baaxay am lu sedd xolay",
                 "excerpt": "Lu yàgg yàgg lu baaxay am lu sedd xolay - Am dëgg dëgg ak lu gën loo gis gënal nu lune",
-                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -1428,7 +1408,6 @@ window.authorsData = [
                 "id": "ma_dimbali_koo_man_yàlla_ak_yonenam",
                 "title": "Ma dimbali koo man Yàlla ak Yonenam",
                 "excerpt": "Ma dimbali koo man Yàlla ak Yonenam ba tay - Ba sant Sëriñ Tuubaa ta ñaanal ko wépp yiw",
-                "stanzaSize": 4,
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ]
@@ -1454,7 +1433,6 @@ window.authorsData = [
                 "id": "ma_fàtteleeti_waa_àddinaati_àjjana",
                 "title": "Ma fàtteleeti waa àddinaati Àjjana",
                 "excerpt": "Ma fàtteleeti waa àddinaati - Àjjana jee ti ndax xol yi dundu",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -1471,7 +1449,6 @@ window.authorsData = [
                 "id": "ma_jug_defal_saa_xarit_bii_nag_lu_ñépp_di_gis",
                 "title": "Ma jug defal saa xarit bii nag lu ñépp di gis",
                 "excerpt": "Ma jug defal saa xarit bii nag lu ñépp di gis - Ngir ab xarit ku ko am war koo defal lu ñu gis",
-                "stanzaSize": 4,
                 "themes": [
                     "Yar (Éducation)"
                 ]
@@ -1548,7 +1525,6 @@ window.authorsData = [
                 "id": "ma_jóg_yafal_sama_fas_wi_genn_sax_jotagul",
                 "title": "Ma jóg yafal sama fas wi genn sax jotagul",
                 "excerpt": "Ma jóg yafal sama fas wi genn sax jotagul - Te bis ba may genne saa fas wi asal jotagul",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -1697,7 +1673,7 @@ window.authorsData = [
                 "id": "mo_jaa_lu_deefi_defati",
                 "title": "Mo jaa lu deefi defati",
                 "excerpt": "Moo jaa lu deefi defati ? - Moo jaa lu deefi waxati ?",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -1757,7 +1733,6 @@ window.authorsData = [
                 "id": "murid_dëgg_bul_gaaw_a_wut_kër_muñal",
                 "title": "Murid dëgg bul gaaw a wut kër muñal",
                 "excerpt": "Murid dëgg bul gaaw a wut kër muñal - Ta wut itte ngir kër da fay kar Murid",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -1821,7 +1796,6 @@ window.authorsData = [
                 "id": "musal_nga_nu_biir_ak_biti_fal_nga_nu_door_a_dem",
                 "title": "Musal nga nu biir ak biti, fal nga nu door a dem",
                 "excerpt": "Musal nga nu biir ak biti, fal nga nu door a dem - Sa dem gii du lor, Jaajëf ! Ku wàcci añee ci des",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -1830,7 +1804,6 @@ window.authorsData = [
                 "id": "musal_nu_falaŋ_ñu_dog_bu_duuf_ak_i_cantati",
                 "title": "Musal nu falaŋ ñu dog bu duuf ak i cantati",
                 "excerpt": "Musal nu falaŋ nu dog bu duuf ak i cantati - Ci bii jant fàww ak bépp jant bu fenkati",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -1985,7 +1958,6 @@ window.authorsData = [
                 "id": "ndaxam_lëf_a_ngii_xew_loo_xamni_gaayi_dee_ko_gën",
                 "title": "Ndaxam lëf a ngii xew loo xamni gaayi dee ko gën",
                 "excerpt": "Ndaxam lëf a ngii xew loo xamni gaayi dee ko gën ! - Ta Yàlla na ñu loolee moy ta moy bépp taalibe",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -2020,7 +1992,6 @@ window.authorsData = [
                 "id": "ndegam_ndey_ak_murit_ak_soxnaa_ngi_xëy_di_tawat",
                 "title": "Ndegam ndey ak murit ak soxnaa ngi xëy di tawat",
                 "excerpt": "Ndegam ndey ak murit ak soxnaa ngi xëy di tawat - Ta Bàmba mii di gëram, seen ub tawat du ma saf",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -2056,7 +2027,6 @@ window.authorsData = [
                 "id": "nit_ñi_nga_gis_jaru_ñoo_waxal_jaru_ñoo_defal",
                 "title": "Nit ñi nga gis jaru ñoo waxal jaru ñoo defal",
                 "excerpt": "Nit ñii nga gis, jaru ñoo waxal, jaru ñoo defal - Loo man di def, yaw dee ko def ngir Yàlla daal",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante jëf ak wax (Les actes et les paroles)"
                 ]
@@ -2091,7 +2061,6 @@ window.authorsData = [
                 "id": "njàccaar_a_ngii_silmaxaa_ngi_gàddu_seeni_fetal",
                 "title": "Njàccaar a ngii silmaxaa ngi gàddu seeni fetal",
                 "excerpt": "Njàccaar a ngii, silmaxaa ngii, gàddu seen i fetal - Di téq akay moy akay jam, jàpp rek a ware",
-                "stanzaSize": 4,
                 "themes": [
                     "Muñ (Patience face aux épreuves)"
                 ]
@@ -2100,7 +2069,6 @@ window.authorsData = [
                 "id": "nun_gaayi_ley_dundu_nañ_jug_léegi_sàkku_yóbbal",
                 "title": "Nun gaayi ley dundu nañ jug léegi sàkku yóbbal",
                 "excerpt": "Nun gaayi ley dundu nañ jug léegi sàkku yóbbal - Suñ mbokk yaa ngi fi sëg yii naa ku ñuy saraxal",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -2127,7 +2095,6 @@ window.authorsData = [
                 "id": "réeray_waral_nit_a_bon_réer_ay_waral_nit_a_bew",
                 "title": "Réeray waral nit a bon réer ay waral nit a bew",
                 "excerpt": "Réeray waral nit a bon réer ay waral nit a bew - Ku saw yaram maxe say gët suulu doo tala mer",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -2206,7 +2173,6 @@ window.authorsData = [
                 "id": "saxaar_ug_ngërëm_gaa_ngi_nii_tey_fi_nun",
                 "title": "Saxaar ug ngërëm gaa ngi nii tey fi nun",
                 "excerpt": "Saxaar ug ngërëm gaa ngi nii tey fi nun - Ku bëggul lu dul dem na jóg ñaani paas",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2215,7 +2181,6 @@ window.authorsData = [
                 "id": "saxal_nu_ci_péeyib_yàlla_xejjal_nu_fàww_nag",
                 "title": "Saxal nu ci péeyib Yàlla xejjal nu fàww nag",
                 "excerpt": "Saxal nu ci péeyib Yàlla xejjal nu fàww nag - Te fàggul nu fàww sañ-sañ’ak fan wu guddu lool",
-                "stanzaSize": 4,
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -2224,7 +2189,6 @@ window.authorsData = [
                 "id": "sa_benn_kaasub_kafe_daa_dàkk_ab_komiseer",
                 "title": "Sa benn kaasub kafe daa dàkk ab komiseer",
                 "excerpt": "Sa benn kaasub kafe daa dàq ab komiseer - Ak ub komàndaŋ akay follee’ka sànk aka tëj",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2288,7 +2252,6 @@ window.authorsData = [
                 "id": "soppal_ka_def_al_jànnay_firdawsi_moo_gën_a_war",
                 "title": "Soppal ka def Al Jànnay firdawsi moo gën a war",
                 "excerpt": "Soppal ka def Al Jànnay firdawsi moo gën a war - Ka sàkk añ moo gënub añ sopp koo gën a war",
-                "stanzaSize": 4,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -2297,7 +2260,6 @@ window.authorsData = [
                 "id": "suñu_digg_ak_àjjana_yàl_nay_àjjana",
                 "title": "Suñu digg ak Àjjana Yàl nay Àjjana",
                 "excerpt": "Suñu digg ak Àjjana Yàl nay Àjjana - Àjjana Yàlla nañ ca duggak Àjjana",
-                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -2315,7 +2277,6 @@ window.authorsData = [
                 "id": "séytaane_moo_bon_bu_seeroo_ab_murid_di_dawal",
                 "title": "Séytaane moo bon, bu seeroo ab murid di dawal",
                 "excerpt": "Séytaane moo bon, bu seeroo ab murid di dawal - Sangam ba, bay bëgg a am jaajëf mu yàqaliko",
-                "stanzaSize": 4,
                 "themes": [
                     "Séytaane (Les ruses de Satan)"
                 ]
@@ -2412,7 +2373,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_bokkoo_ci_say_wax_jëf_la_moo_gën_i_wax",
                 "title": "Sëriñ bi bokkoo ci say wax jëf la moo gën i wax",
                 "excerpt": "Sëriñ bi bokkoo ci say wax jëf la moo gën i wax - Ta jépp wax joo waxul ay wax la maa lako wax",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante jëf ak wax (Les actes et les paroles)"
                 ]
@@ -2421,7 +2381,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_bégal_sab_xol_na_sedd_nga_sant_yaw",
                 "title": "Sëriñ bi bégal sab xol na sedd nga sant yaw",
                 "excerpt": "Sëriñ bi bégal sab xol na sedd nga sant yaw - Ku Yàlla bégal day bég te Yàlla bégal na la",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2456,7 +2415,7 @@ window.authorsData = [
                 "id": "sëriñ_bi_gaa_yaa_ngi_rëbi",
                 "title": "Sëriñ bi gaa yaa ngi rëbi",
                 "excerpt": "Sëriñ bi gaa yaa ngi rëbi - Jigéen a kay dox di rëbi",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -2474,7 +2433,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_ku_nekk_ak_nun_nag_di_muñ_ba_xol_ba_jeex",
                 "title": "Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex",
                 "excerpt": "Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex - Mu xëy yewwi boppam, dem, musal ko ci jépp lor",
-                "stanzaSize": 4,
                 "themes": [
                     "Muñ (Patience face aux épreuves)"
                 ]
@@ -2555,7 +2513,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_nëbb_nga_saa_mbon_gii_ba_dee_fi_ma_jox",
                 "title": "Sëriñ bi nëbb nga saa mbon gii ba dee fi ma jox",
                 "excerpt": "Sëriñ bi nëbb nga saa bon gii ba dee fi ma jox - Nëbbal bon ug nit ku may jox lëf ba dee fi ko jox",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2652,7 +2609,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_yaw_ki_ma_may_loo_xamne_kenn_amu_ko",
                 "title": "Sëriñ bi yaw ki ma may loo xamne kenn amu ko",
                 "excerpt": "Sëriñ bi yaw ki ma may loo xamne kenn amu ko - Saw tag war na ma war goo xamne kenn xamu ko",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2661,7 +2617,7 @@ window.authorsData = [
                 "id": "sëriñ_bi_yaw_mii",
                 "title": "Sëriñ bi yaw mii",
                 "excerpt": "Sëriñ bi yaw mii - Sarax ma man mii",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -2670,7 +2626,7 @@ window.authorsData = [
                 "id": "sëriñ_bi_yaw_mile_tabe",
                 "title": "Sëriñ bi yaw mile tabe",
                 "excerpt": "Sëriñ bi yaw mile tabe - Ba jiitu mbooleem ku tabe",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2679,7 +2635,7 @@ window.authorsData = [
                 "id": "sëriñ_bi_yaw_nanga_nu_may_ngir_yàlla",
                 "title": "Sëriñ bi yaw nanga nu may, Ngir Yàlla",
                 "excerpt": "Sëriñ bi yaw na nga nu may - Ngir Yàlla ak Yonnen ba tay",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Yar (Éducation)"
                 ]
@@ -2688,7 +2644,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_yaw_yaa_war_a_sant_yàlla",
                 "title": "Sëriñ bi yaw yaa war a sant Yàlla",
                 "excerpt": "Sëriñ bi yaw yaa war a sant Yàlla - Ta yaw li tax nga war a sant Yàlla",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2697,7 +2652,6 @@ window.authorsData = [
                 "id": "sëriñ_bi_yee_ma_ta_may_ma_ag_farlu_waxtu_wu_jot",
                 "title": "Sëriñ bi yee ma ta may ma ag farlu waxtu wu jot",
                 "excerpt": "Sëriñ bi yee ma ta may ma’g farlu waxtu wu jot - Musal ma ci’y nelaw ak càggan kobas ma ma wéy",
-                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -2755,7 +2709,6 @@ window.authorsData = [
                 "id": "taqool_akum_njàpp_ak_tuub_ak_sikar_su_bari",
                 "title": "Taqool akum njàpp ak tuub ak sikar su bari",
                 "excerpt": "Taqool akum njàpp ak tuub ak sikar su bari - Tay damm sab seet akay daw gaayi tay lu bari",
-                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -2782,7 +2735,6 @@ window.authorsData = [
                 "id": "tay_marsàndis_um_ngëram_maa_ngii_di_wékke_ni_xus",
                 "title": "Tay marsàndis um ngëram maa ngii di wékke ni xus",
                 "excerpt": "Tay marsàndis um ngëram maa ngii di wékké ni xus - Ku bëgg a jënd na indi’g njëg gu rëy gu rafet",
-                "stanzaSize": 4,
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ]
@@ -2809,7 +2761,6 @@ window.authorsData = [
                 "id": "waajal_nga_gaayi_ta_waajoo_yaa_ka_doy_keemaan",
                 "title": "Waajal nga gaayi ta waajoo yaa ka doy keemaan",
                 "excerpt": "Waajal nga gaayi ta waajoo yaa ka doy keemaan - Fooral nga gaayi ta fooroo yaa ka doy keemaan",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2839,7 +2790,6 @@ window.authorsData = [
                 "id": "wut_leen_a_wut_bàrke_tay_muñ_wépp_tiis_ak_u_naaj",
                 "title": "Wut leen a wut bàrke tay muñ wépp tiis ak u naaj",
                 "excerpt": "Wut leen a wut bàrke tay muñ wépp tiis ak u naaj - Ab xol bu seddee boroomam fàtte tiis ak u naaj",
-                "stanzaSize": 4,
                 "themes": [
                     "Muñ (Patience face aux épreuves)"
                 ]
@@ -2857,7 +2807,6 @@ window.authorsData = [
                 "id": "xalaase_ñoo_ngoogu_tay_yéeneeka_lott_ci_jëf",
                 "title": "Xalaase ñoo ngoogu tay yéeneeka lott ci jëf",
                 "excerpt": "Xalaase ñoo ngoogu tay yéeneeka lott ci jëf - Li ngay teere ngi, li ngay diglee ngi, dimbali nu",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ],
@@ -2995,7 +2944,6 @@ window.authorsData = [
                 "id": "xarit_yàlla_yombul_te_moo_am_njariñ",
                 "title": "Xarit Yàlla yombul te moo am njariñ",
                 "excerpt": "Xarit Yàlla yombul te moo am njariñ - Wutil Yàlla yaw mii ba dee baa nga am",
-                "stanzaSize": 4,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -3089,7 +3037,6 @@ window.authorsData = [
                 "id": "yaa_xam_ta_yaa_am_ta_yaa_dib_tab_xañoo_ñi_la_moy",
                 "title": "Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy",
                 "excerpt": "Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy - Xañoo ñi lay topp, waccoo kenn, ñépp nga may",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -3098,7 +3045,7 @@ window.authorsData = [
                 "id": "yal_na_nu_far_tawat_gu_am",
                 "title": "Yal na nu far tawat gu am",
                 "excerpt": "Yal na nu far tawat gu am - Te feg tawat gu nar am",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ],
@@ -3108,7 +3055,6 @@ window.authorsData = [
                 "id": "yaw_abdu_xaadr_laxasul",
                 "title": "Yaw Abdu Xaadr laxasul",
                 "excerpt": "Yaw Abdu Xaadir laxasul te aw a aw yoonu ndigal - Tey wattu pakk bu la fél ngir pakk yee gën a bari",
-                "stanzaSize": 4,
                 "themes": [
                     "Séytaane (Les ruses de Satan)"
                 ]
@@ -3152,7 +3098,7 @@ window.authorsData = [
                 "id": "yaw_ki_nu_bind_ciy_nelaw",
                 "title": "Yaw ki nu bind ciy nelaw",
                 "excerpt": "Yaw ki nu bind ciy nelaw - Ba manuñoo ñàkk a nelaw",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -3161,7 +3107,6 @@ window.authorsData = [
                 "id": "yaw_mii_di_sàkku_ngëram_luy_wéy_di_wéy_laxasul",
                 "title": "Yaw mii di sàkku ngëram luy wéy di wéy laxasul",
                 "excerpt": "Yaw mii di sàkku ngëram luy wéy di wéy laxasul - Ta sànni àdduna mii daa sànk waaju xamul",
-                "stanzaSize": 4,
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
                 ]
@@ -3238,7 +3183,6 @@ window.authorsData = [
                 "id": "yaw_xaali_xàllal_sa_digg_ak_yàlla_xàll_wu_set",
                 "title": "Yaw xaali xàllal sa digg ak Yàlla xàll wu set",
                 "excerpt": "Yaw xaali xàllal sa digg ak Yàlla xàll wu set - Wu jub ta yaa, aw ca nag ngir Yàlla aw gu rafet",
-                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -3247,7 +3191,6 @@ window.authorsData = [
                 "id": "yaw_yeete_kat_bile_yewwul_yaa_ngi_yeete_ba_far",
                 "title": "Yaw yeete kat bile, yewwul yaa ngi yeete ba far",
                 "excerpt": "Yaw yeete kat bile, yewwul yaa ngi yeete ba far - Dolliy nelaw ngir da ngaa nar kenn dootu nelaw",
-                "stanzaSize": 4,
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -3256,7 +3199,6 @@ window.authorsData = [
                 "id": "yaw_ŋoy_ci_yàlla_ak_ub_yonnentam_a_la_jig",
                 "title": "Yaw ŋoy ci Yàlla ak ub Yonnentam a la jig",
                 "excerpt": "Yaw ŋoy ci Yàlla ak ub Yonnentam a la jig - Nun ŋoy ci Yaw dong ak doyloo la rek a ñu jig",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ],
@@ -3274,7 +3216,6 @@ window.authorsData = [
                 "id": "yàllaa_la_may_dund_akub_wér_may_ko_jaamu_wér",
                 "title": "Yàllaa la may dund akub wér may ko jaamu wér",
                 "excerpt": "Yàllaa la may dund akub wér may ko jaamu wér - Mbaa sax nga fay ko boram, boo dul may it war a fay",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ],
@@ -3303,7 +3244,6 @@ window.authorsData = [
                 "id": "yàllante_tay_jile_may_suukar_nga_def_ma_kafe",
                 "title": "Yàllante tay jile may suukar, nga def ma kafe",
                 "excerpt": "Yàllante tay jile may suukar, nga def ma kafe - Mbaa sax ma nekk di sag ruu fàww tay sa yaram",
-                "stanzaSize": 4,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -3312,7 +3252,7 @@ window.authorsData = [
                 "id": "yàlla_li_muy_def_sotti_na",
                 "title": "Yàlla li muy def sotti na",
                 "excerpt": "Yalla li muy def sotti na - Te lu mu dul def sotti na",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -3330,7 +3270,6 @@ window.authorsData = [
                 "id": "yàlla_nii_cas_yermandeem_ak_xewalam_ni_ma_am",
                 "title": "Yàlla nii cas yermandeem ak xewalam ni ma am",
                 "excerpt": "Yàllaa ni cas yërmandeem ak xéewalam ni ma am - Yàl naani cas mbégam ak cantam gu rëy ni ko am !",
-                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ],
@@ -3389,7 +3328,6 @@ window.authorsData = [
                 "id": "àddina_loo_ci_gis_it_day_wéy_nde_lëf_du_fi_sax",
                 "title": "Àddina loo ci gis it day wéy nde lëf du fi sax",
                 "excerpt": "Àddina loo ci gis it day wéy nde lëf du fi sax - Mootax lu neex ak lu neexul lépp sàmm ca ngor",
-                "stanzaSize": 4,
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
                 ]
@@ -3418,7 +3356,6 @@ window.authorsData = [
                 "id": "àddina_yaw_waxal_ak_say_far_yu_bon_yi_la_nob",
                 "title": "Àddina yaw waxal ak say far yu bon yi la nob",
                 "excerpt": "Àddina yaw waxal ak say far yu bon yi la nob - Yëgal ne man mile firdawsee di ndaw si ma nob",
-                "stanzaSize": 4,
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
                 ]
@@ -3427,7 +3364,7 @@ window.authorsData = [
                 "id": "àjjana_jaa_ngii",
                 "title": "Àjjana jaa ngii",
                 "excerpt": "Àjjana jaa ngii - Fu tedd faa ngii",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -3436,7 +3373,7 @@ window.authorsData = [
                 "id": "ñaanal_sëriñ_mbay",
                 "title": "Ñaanal Sëriñ Mbay",
                 "excerpt": "Yal na nu fab mbay - Fàww ak ndamal mbay",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ],
@@ -3446,7 +3383,6 @@ window.authorsData = [
                 "id": "ña_jebbaloon_yàlla_ak_yonent_ba_seeni_bakkan",
                 "title": "Ña jebbaloon Yàlla ak Yonent ba seeni bakkan",
                 "excerpt": "Ña jébbaloon Yalla ak Yonent ba seen i bakkan - Ak seeni jur raw nan ug ñakk ak lu dee si ragal",
-                "stanzaSize": 8,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ],
