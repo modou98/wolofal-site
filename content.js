@@ -17,8 +17,7 @@ window.authorsData = [
                     "url": "https://youtu.be/kRyRqcFx4iY"
                 },
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa",
-                    "S. Abdu lahad…)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -27,8 +26,7 @@ window.authorsData = [
                 "title": "Bàkk wi- Sëriñ Fàllu",
                 "excerpt": "Dégluleen tay ma bàkkati mbër",
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa",
-                    "S. Abdu lahad…)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -54,8 +52,7 @@ window.authorsData = [
                     "url": "https://youtu.be/ga6EeDOn-Ds?si=QCjK6gH_rxJUBZjH"
                 },
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa",
-                    "S. Abdu lahad…)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -91,8 +88,7 @@ window.authorsData = [
                     "url": "https://youtu.be/PnFTm0iLPoc"
                 },
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa",
-                    "S. Abdu lahad…)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -105,8 +101,7 @@ window.authorsData = [
                     "url": "https://youtu.be/2vk7RJNAzq0"
                 },
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa",
-                    "S. Abdu lahad…)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -132,8 +127,7 @@ window.authorsData = [
                     "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1wvifYZhBBCL3KgZZiKs51n"
                 },
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa",
-                    "S. Abdu lahad…)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -146,10 +140,7 @@ window.authorsData = [
                     "url": "https://youtu.be/tGJa23FzFYI"
                 },
                 "themes": [
-                    "Jëflante ak nit ñi (Comportement envers les autres : amis",
-                    "famille",
-                    "voisins)",
-                    "Yar (Éducation)"
+                    "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins), Yar (Éducation)"
                 ]
             },
             {
@@ -158,8 +149,7 @@ window.authorsData = [
                 "title": "Njuuj Njaaj",
                 "excerpt": "Wolofal Sëriñ Tuuba",
                 "themes": [
-                    "Murit",
-                    "Sëriñ bi"
+                    "Murit, Sëriñ bi"
                 ]
             },
             {

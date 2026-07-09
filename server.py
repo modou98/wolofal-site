@@ -14,6 +14,28 @@ def slugify(text):
     text = re.sub(r'[^\w\s-]', '', text)
     return re.sub(r'[-\s]+', '_', text).strip('_')
 
+POEMES_ROOT = os.path.abspath(os.path.join("data", "poemes"))
+
+def resolve_poem_path(author_folder, poem_id):
+    """Résout un chemin de fichier .md à partir d'un dossier auteur et d'un id de poème,
+    en rejetant toute tentative de sortir de data/poemes (path traversal)."""
+    if not re.fullmatch(r'[\w-]+', author_folder or ''):
+        raise Exception("Dossier auteur invalide.")
+    if not re.fullmatch(r'[\w-]+', poem_id or ''):
+        raise Exception("ID de poème invalide.")
+
+    with open('data/auteurs.json', 'r', encoding='utf-8') as f:
+        authors = json.load(f)
+    known_folders = {a.get('folder') for a in authors}
+    if author_folder not in known_folders:
+        raise Exception("Dossier auteur inconnu.")
+
+    filepath = os.path.join("data", "poemes", author_folder, f"{poem_id}.md")
+    abs_filepath = os.path.abspath(filepath)
+    if os.path.commonpath([abs_filepath, POEMES_ROOT]) != POEMES_ROOT:
+        raise Exception("Chemin de fichier invalide.")
+    return filepath
+
 def update_poem_metadata(filepath, themes, audio):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -31,7 +53,7 @@ def update_poem_metadata(filepath, themes, audio):
     theme_updated = False
     audio_updated = False
     
-    themes_str = ", ".join(themes) if themes else ""
+    themes_str = " | ".join(themes) if themes else ""
     
     for line in header_lines:
         if ':' in line:
@@ -85,7 +107,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                     single_theme = data.get('theme', '')
                     if single_theme:
                         themes = [single_theme]
-                themes_str = ", ".join(themes) if themes else ""
+                themes_str = " | ".join(themes) if themes else ""
                 
                 stanza_size = data.get('stanzaSize', '2')
                 audio = data.get('audio', '')
@@ -163,10 +185,10 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 
                 if not author_folder or not poem_id:
                     raise Exception("Auteur ou ID de poème manquant.")
-                
-                filepath = os.path.join("data", "poemes", author_folder, f"{poem_id}.md")
+
+                filepath = resolve_poem_path(author_folder, poem_id)
                 if not os.path.exists(filepath):
-                    raise Exception(f"Fichier {filepath} introuvable.")
+                    raise Exception("Poème introuvable.")
                 
                 update_poem_metadata(filepath, themes, audio)
                 
@@ -191,7 +213,7 @@ class ThreadingHTTPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
     daemon_threads = True
     allow_reuse_address = True
 
-with ThreadingHTTPServer(("", PORT), CustomHandler) as httpd:
+with ThreadingHTTPServer(("127.0.0.1", PORT), CustomHandler) as httpd:
     print(f"Serveur actif sur le port {PORT}.")
     print(f"Accédez au site : http://localhost:{PORT}/")
     print(f"Accédez au dashboard : http://localhost:{PORT}/admin.html")

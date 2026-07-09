@@ -26,7 +26,32 @@ const app = {
             }
         });
 
-        app.navigate('home');
+        // Route via l'URL (hash) pour permettre les liens directs et le bouton retour
+        window.addEventListener('hashchange', () => {
+            const { view, param } = app.parseHash();
+            app.render(view, param);
+        });
+
+        const { view, param } = app.parseHash();
+        app.render(view, param);
+    },
+
+    routeToHash: (view, param) => {
+        if (view === 'author') return `#/auteur/${param}`;
+        if (view === 'reader') return `#/poeme/${encodeURIComponent(param)}`;
+        return '#/';
+    },
+
+    parseHash: () => {
+        const hash = window.location.hash.replace(/^#\/?/, '');
+        const parts = hash.split('/').filter(Boolean);
+        if (parts[0] === 'auteur' && parts[1]) {
+            return { view: 'author', param: parseInt(parts[1], 10) };
+        }
+        if (parts[0] === 'poeme' && parts[1]) {
+            return { view: 'reader', param: decodeURIComponent(parts[1]) };
+        }
+        return { view: 'home', param: null };
     },
 
     toggleTheme: (forceDark = false) => {
@@ -151,10 +176,19 @@ const app = {
     },
 
     navigate: (view, param = null) => {
+        const newHash = app.routeToHash(view, param);
+        if (window.location.hash === newHash) {
+            app.render(view, param);
+        } else {
+            window.location.hash = newHash;
+        }
+    },
+
+    render: (view, param = null) => {
         app.state.currentView = view;
         const container = document.getElementById('app');
         window.scrollTo(0, 0);
-        
+
         // Reset Zen mode on navigation
         if (app.state.isZen) app.toggleZen();
 
@@ -239,7 +273,7 @@ const app = {
         } else {
             const authorsHtml = authorsData.map(author => `
                 <div class="author-card" onclick="app.navigate('author', ${author.id})">
-                    <div class="card-image" style="${author.image ? `background-image: url('${author.image}'); background-size: cover; background-position: top;` : ''}">
+                    <div class="card-image" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${author.image}'); background-size: cover; background-position: top;` : ''}">
                         ${!author.image ? `<span>${app.getInitials(author.name)}</span>` : ''}
                     </div>
                     <div class="card-content">
@@ -297,7 +331,7 @@ const app = {
                     &larr; Retour à la galerie
                 </button>
                 <div class="author-header">
-                    <div class="author-portrait" style="${author.image ? `background-image: url('${author.image}'); background-size: cover; background-position: top;` : ''}"></div>
+                    <div class="author-portrait" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${author.image}'); background-size: cover; background-position: top;` : ''}"></div>
                     <div class="author-info">
                         <h1>${author.name}</h1>
                         <div class="author-bio">${author.fullBio.replace(/\n/g, '<br>')}</div>

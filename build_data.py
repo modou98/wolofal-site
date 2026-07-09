@@ -100,7 +100,7 @@ def build():
                         elif key == 'manuscript':
                             poem_data['manuscript'] = val.strip().replace('//', '/')
                         elif key == 'theme' or key == 'themes':
-                            poem_data['themes'] = [t.strip() for t in val.split(',') if t.strip()]
+                            poem_data['themes'] = [t.strip() for t in val.split('|') if t.strip()]
                         elif key == 'stanzasize':
                             try:
                                 poem_data['stanzaSize'] = int(val)
