@@ -1,8 +1,7 @@
 Title: Lu YÀLLA bind, amoo ci ndend
 Excerpt: Lu YÀLLA bind, - Amoo ci ndend
 StanzaSize: 4
-Theme: Tawhiid
-ThemeReview: Conclut que Dieu seul est le vrai parent/soutien (« Yàllaa di saw xeet »), confiance exclusive en Lui.
+Theme: Sëriñ bi
 ---
 Lu YÀLLA bind,
 Amoo ci ndend

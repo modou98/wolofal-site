@@ -2,7 +2,6 @@ Title: Ka soxna ak njël di jaaxal kooka bokku nu man
 Excerpt: Ka soxna ak njël di jaaxal kooka bokku nu man - Man Baabakar la ma jaaxal kay du soxna du njël
 StanzaSize: 3
 Theme: Bakkan (Éducation de l'âme)
-ThemeReview: L'auteur dit que c'est lui-même (son bakkan) qui le distrait, pas la femme ni la jeunesse ; discipline de soi.
 ---
 Ka soxna ak njël di jaaxal kooka bokku nu man
 Man Baabakar la ma jaaxal kay du soxna du njël

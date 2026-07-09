@@ -2,7 +2,6 @@ Title: Ma jóg te fàggul jullit ñi yóbbal
 Excerpt: Ma jóg te fàggul - Jullit ñi yóbbal
 StanzaSize: 4
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Refrain « Sëriñ bi jàppal » (s'accrocher au Sëriñ) ; poème long (108 vers), vue partielle seulement.
 ---
 Ma jóg te fàggul
 Jullit ñi yóbbal

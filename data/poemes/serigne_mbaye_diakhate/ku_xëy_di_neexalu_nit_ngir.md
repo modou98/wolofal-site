@@ -2,7 +2,6 @@ Title: Ku xëy di neexalu nit ngir
 Excerpt: Ku xëy di neexalu nit ngir bëgg seeni ngëram - Xëyal di neexal Sëriñ Tuubaa te mokk ko yaw
 StanzaSize: 3
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Poème incomplet (7 vers)  - plaire à Sëriñ Tuubaa plutôt qu'aux gens.
 ---
 Ku xëy di neexalu nit ngir bëgg seeni ngëram
 Xëyal di neexal Sëriñ Tuubaa te mokk ko yaw

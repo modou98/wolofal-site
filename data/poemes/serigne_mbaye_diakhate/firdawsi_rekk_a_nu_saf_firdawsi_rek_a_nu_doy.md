@@ -2,7 +2,6 @@ Title: Firdawsi rekk a nu saf, firdawsi rek a nu doy
 Excerpt: Firdawsi rekk a nu saf, firdawsi rek a nu doy - Firdawsi rekk ay alal, Firdawsi rekk a nu suur
 StanzaSize: 4
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
-ThemeReview: Description détaillée du Paradis comme destination finale/récompense.
 ---
 Firdawsi rekk a nu saf, firdawsi rek a nu doy
 Firdawsi rekk ay alal, Firdawsi rekk a nu suur

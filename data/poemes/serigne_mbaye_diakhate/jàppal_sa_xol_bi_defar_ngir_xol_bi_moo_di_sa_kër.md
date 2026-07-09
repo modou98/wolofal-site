@@ -1,9 +1,7 @@
 Title: Jàppal sa xol bi defar ngir xol bi moo di sa kër
 Excerpt: Jàppal sa xol bi defar ngir xol bi moo di sa kër
 Theme: Bakkan (Éducation de l'âme)
-ThemeReview: Purification du cœur plutôt que de la maison matérielle, discipline intérieure (mais proche d'addina).
 ---
-
 Jàppal sa xol bi defar ngir xol bi moo di sa kër
 Defar sa kër bàyyi sab xol moo lu muy xala faj ?
 Sa kër lu jag jag te sab xol taq ripp lu bon

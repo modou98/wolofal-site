@@ -2,7 +2,6 @@ Title: Li xol bi yéene ci aw yiw Yàlla daal a ko xam
 Excerpt: Li xol bi yéene ci aw yiw Yàlla daal a ko xam - Moo man ni cas benne lii may bëgg yit nima am
 StanzaSize: 4
 Theme: Tawhiid
-ThemeReview: Volonté d'être uniquement avec Dieu partout ; se mêle à l'éloge de l'obéissance de Bàmba.
 ---
 Li xol bi yéene ci aw yiw Yàlla daal a ko xam
 Moo man ni cas benne lii may bëgg yit nima am

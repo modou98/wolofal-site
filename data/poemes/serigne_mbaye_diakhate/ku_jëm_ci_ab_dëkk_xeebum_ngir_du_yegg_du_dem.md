@@ -2,7 +2,6 @@ Title: Ku jëm ci ab dëkk xeebum ngir du yegg du dem
 Excerpt: Ku jëm ci ab dëkk xeebum ngir du yegg du dem - Yàllaa di dëkk ba sangay ngir ma, sóobuko dem
 StanzaSize: 3
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Chaîne Yàlla-Yonnen-Sëriñ, appelle à se réfugier en son « sang » (patron/guide).
 ---
 Ku jëm ci ab dëkk xeebum ngir du yegg du dem
 Yàllaa di dëkk ba sangay ngir ma, sóobuko dem

@@ -2,7 +2,6 @@ Title: Làmboo nga lépp njariñ, làmboo nga lépp ngëram
 Excerpt: Làmboo nga lépp njariñ, làmboo nga lépp ngëram - Làmboo nga lépp lu baax it, loo saful safuma
 StanzaSize: 3
 Theme: Sëriñ bi
-ThemeReview: Éloge d'un « yaw » aux karaamaa (miracles) et à qui tout bien est attribué, probablement Bàmba.
 ---
 Làmboo nga lépp njariñ, làmboo nga lépp ngëram
 Làmboo nga lépp lu baax it, loo saful safuma

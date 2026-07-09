@@ -2,7 +2,6 @@ Title: Rëy ug bon du tee man ma jug jëm ci yaw
 Excerpt: Rëy ug bon du tee man ma jug jëm ci yaw - Nde yaw dongu laa am ci ab jublukaay
 StanzaSize: 3
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Dévotion/dépendance exclusive envers « Yaw » (probablement le Sëriñ), sens précis incertain.
 ---
 Rëy ug bon du tee man ma jug jëm ci yaw
 Nde yaw dongu laa am ci ab jublukaay

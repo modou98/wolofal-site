@@ -2,7 +2,6 @@ Title: Sëriñ bi ak bàrkeb "Dibéer" (dimanche)
 Excerpt: Sëriñ bi ak bàrkeb "Dibéer" (dimanche), - Na suñu àdduna ji leer,
 StanzaSize: 4
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
-ThemeReview: Invocation de bénédictions pour chaque jour de la semaine, proche d'un wird dévotionnel.
 ---
 Sëriñ bi ak bàrkeb "Dibéer" (dimanche),
 Na suñu àdduna ji leer,

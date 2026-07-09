@@ -2,7 +2,6 @@ Title: Ndegam gaa ya bay daal a xal seeta añ
 Excerpt: añ, - Ndegam gaa ya bay daal a xal seeta añ,
 StanzaSize: 8
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Poème adressé directement à Bàmba comme protecteur/pourvoyeur ; sens précis incertain.
 ---
 añ,
 Ndegam gaa ya bay daal a xal seeta añ,

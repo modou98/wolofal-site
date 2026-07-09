@@ -2,9 +2,7 @@ Title: Rikk Asan lu man a xew
 Excerpt: Ce poème met en avant l'importance primordiale de l'éducation spirituelle, du respect et de la discipline morale (ab yar) par rapport aux richesses matérielles.
 Audio: https://youtu.be/edVHaa7bLDo
 Theme: Yar (Éducation)
-ThemeReview: Conseil à Asan de suivre le ndigal et se yaru pour tout obtenir/savoir ; chevauche diggante_serign_ak_taalibeem.
 ---
-
 Rikk Asan lu mana xew
 Awal ndigal te yaru yaw
 Kon dinga làq wépp yiiw

@@ -2,7 +2,6 @@ Title: Fegal nu yaw ki mën dara sawara ak waa sawara
 Excerpt: Fegal nu yaw ki mën dara sawara ak waa sawara - Fàww te may nu sutura su dale fii ba Aljànna
 StanzaSize: 3
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
-ThemeReview: Prière/dua demandant protection et le Paradis (Aljànna).
 ---
 Fegal nu yaw ki mën dara sawara ak waa sawara
 Fàww te may nu sutura su dale fii ba Aljànna

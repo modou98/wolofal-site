@@ -1,9 +1,9 @@
 Title: Sëriñ bi nun bëccëg bu jot
 Excerpt: Bàccal ñu yaw ngërëm mu rot - Bàccal ñu yit bàrke mu rot
 StanzaSize: 4
-Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
-ThemeReview: Prière de demande de pardon et de bénédiction nocturne, proche d'un wird.
+Theme: Sëriñ bi
 ---
+Sëriñ bi nun bëccëg bu jot
 Bàccal ñu yaw ngërëm mu rot
 Bàccal ñu yit bàrke mu rot
 Ñuy sant akay farlu di for

@@ -1,7 +1,6 @@
 Title: Gis naa fi ndaw su ma nob
 Excerpt: Gis naa fi ndaw su ma nob, gis naa fi ndaw su ma saf - Gis naa fi ndaw su rafet, Yàlla naa ko jël bu rafet
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Dédicace similaire d'un enfant à la lignée des Prophètes/saints via le Kilifa/Sëriñ.
 ---
 Gis naa fi ndaw su ma nob, gis naa fi ndaw su ma saf
 Gis naa fi ndaw su rafet, Yàlla naa ko jël bu rafet

@@ -2,7 +2,6 @@ Title: Bu ñépp dee daw di jëm ciy teen ak ay wuti ndox
 Excerpt: Bu ñépp dee daw di jëm ciy teen ak ay wuti ndox - Fëxal te wuti baag ak goj bu wèr sooga dem
 StanzaSize: 3
 Theme: Àddina (La dunya et ses illusions)
-ThemeReview: Contraste entre quête des biens/plaisirs du monde et quête de Dieu seul.
 ---
 Bu ñépp dee daw di jëm ciy teen ak ay wuti ndox
 Fëxal te wuti baag ak goj bu wèr sooga dem

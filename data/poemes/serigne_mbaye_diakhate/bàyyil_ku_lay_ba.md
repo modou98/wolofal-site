@@ -2,7 +2,6 @@ Title: Bàyyil ku lay ba
 Excerpt: Bàyyil ku lay ba - Bàyyi lu lay ba
 StanzaSize: 5
 Theme: Tawhiid
-ThemeReview: Seul Dieu ne limite pas ; confiance exclusive en Lui, avec mention finale d'acceptation de Bàmba.
 ---
 Bàyyil ku lay ba
 Bàyyi lu lay ba

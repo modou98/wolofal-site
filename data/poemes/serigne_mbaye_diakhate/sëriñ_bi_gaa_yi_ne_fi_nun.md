@@ -2,7 +2,6 @@ Title: Sëriñ bi gaa yi ne fi nun
 Excerpt: Sëriñ bi gaa yi ne fi nun - Ngir fas ne lëf ne na fi nun
 StanzaSize: 4
 Theme: Sëriñ bi
-ThemeReview: Confiance en la réputation/pouvoir du Sëriñ, thème ambigu et court extrait.
 ---
 Sëriñ bi gaa yi ne fi nun
 Ngir fas ne lëf ne na fi nun

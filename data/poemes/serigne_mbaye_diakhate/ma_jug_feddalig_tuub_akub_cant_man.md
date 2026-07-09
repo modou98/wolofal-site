@@ -1,7 +1,6 @@
 Title: Ma jug feddali’g tuub akub cant man
 Excerpt: Ma jug feddali’g tuub akub cant man - Ku for dog bu say kem forul sant kay
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Offrandes (habits, monture, nourriture) données au sang/Sëriñ en signe de dévotion et de louange.
 ---
 Ma jug feddali’g tuub akub cant man
 Ku for dog bu say kem forul sant kay

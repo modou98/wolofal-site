@@ -2,7 +2,6 @@ Title: Ma fab fi ay xalimaaki daa ta santati la
 Excerpt: la - Ma fab fi ay xalimaaki daa ta santati la
 StanzaSize: 3
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
-ThemeReview: L'auteur reprend sa plume pour remercier de nouveau Sëriñ bi de ses dons.
 ---
 la
 Ma fab fi ay xalimaaki daa ta santati la

@@ -2,7 +2,6 @@ Title: Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far
 Excerpt: Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far - Taxaw ba ñu ñëw nag wër ko kàpp mu dàq leen
 StanzaSize: 3
 Theme: Bakkan (Éducation de l'âme)
-ThemeReview: Allégorie de chasse/combat difficile à interpréter, semble viser la maîtrise de soi/du bakkan.
 ---
 Ma way ka ñu daa yuuxoo'k a naa bu mu raw, mu far
 Taxaw ba ñu ñëw nag wër ko kàpp mu dàq leen

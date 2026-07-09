@@ -2,7 +2,6 @@ Title: Koo gis da lay raas a key wut lef ti yaw lumu for
 Excerpt: Koo gis da lay raas akay wut lëf, ci yaw lumu for - Bu ken raasati bay for lëf ci yaw mii ti
 StanzaSize: 4
 Theme: Sëriñ bi
-ThemeReview: Éloge d'un « yaw » qui comble tous les besoins (image de l'arbre), probablement Sëriñ Bàmba mais non nommé explicitement.
 ---
 Koo gis da lay raas akay wut lëf, ci yaw lumu for
 Bu ken raasati bay for lëf ci yaw mii ti

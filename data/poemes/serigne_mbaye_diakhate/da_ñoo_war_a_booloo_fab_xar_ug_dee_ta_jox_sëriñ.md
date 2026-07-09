@@ -2,7 +2,6 @@ Title: Da ñoo war a booloo fab xar ug dee ta jox Sëriñ
 Excerpt: Da ñoo war a booloo fab xar ug dee ta jox Sëriñ - bu mag bi li nuy taaxee’ka jëndé’y wataa’ki fas
 StanzaSize: 3
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Parle d'offrir (sarax/xar) au Sëriñ comme provision pour l'au-delà ; pourrait aussi être yar ou dee_ak_bisu_penc.
 ---
 Da ñoo war a booloo fab xar ug dee ta jox Sëriñ
 bu mag bi li nuy taaxee’ka jëndé’y wataa’ki fas

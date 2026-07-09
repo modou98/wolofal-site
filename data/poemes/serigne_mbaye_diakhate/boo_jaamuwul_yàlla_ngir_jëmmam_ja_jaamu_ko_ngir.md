@@ -1,8 +1,7 @@
 Title: Boo jaamuwul Yàlla ngir jëmmam ja jaamu ko ngir
 Excerpt: Boo jaamuwul Yàlla ngir jëmmam ja jaamu ko ngir - Firdawsii mii fees akii taaxi ak wurus aki leer
 StanzaSize: 3
-Theme: Dee ak bisu pénc (La mort et l'au-delà)
-ThemeReview: Longue description du paradis (Firdaws) comme récompense après la mort.
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Boo jaamuwul Yàlla ngir jëmmam ja jaamu ko ngir
 Firdawsii mii fees akii taaxi ak wurus aki leer

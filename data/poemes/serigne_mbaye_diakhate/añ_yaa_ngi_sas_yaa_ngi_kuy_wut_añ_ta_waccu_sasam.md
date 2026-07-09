@@ -2,7 +2,6 @@ Title: Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam
 Excerpt: Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam - Du tax mu am ko, ku bëgg ub añ na song sasam
 StanzaSize: 4
 Theme: Diggante jëf ak wax (Les actes et les paroles)
-ThemeReview: Métaphore de la portion (sas) et de la nourriture (añ)  - persévérer dans sa tâche pour obtenir sa récompense.
 ---
 Añ yaa ngi sas yaa ngi kuy wut añ ta waccu sasam
 Du tax mu am ko, ku bëgg ub añ na song sasam

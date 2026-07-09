@@ -2,7 +2,6 @@ Title: Ma jóg wuti ndëndum cant ak galen ub ngëram
 Excerpt: Ma jóg wuti ndëndum cant ak galenub ngëram - Ba tëggal Boroom Tuubaa ki xëy jox ma ab galan
 StanzaSize: 3
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
-ThemeReview: Remerciement pour un don (galan) reçu de Boroom Tuubaa, cherche à exprimer sa gratitude.
 ---
 Ma jóg wuti ndëndum cant ak galenub ngëram
 Ba tëggal Boroom Tuubaa ki xëy jox ma ab galan

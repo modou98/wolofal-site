@@ -1,8 +1,7 @@
 Title: Gaa yi tabax bii tabax man xawma seen i ayib
 Excerpt: Gaa yi tabax bii tabax man xawma seen i ayib - Ku xëy defal sab Sëriñ lii sax mu far sa ayib
 StanzaSize: 4
-Theme: Taarix
-ThemeReview: Évoque la construction d'un édifice (jumaa) par des murid, mais sans dates précises.
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Gaa yi tabax bii tabax man xawma seen i ayib
 Ku xëy defal sab Sëriñ lii sax mu far sa ayib

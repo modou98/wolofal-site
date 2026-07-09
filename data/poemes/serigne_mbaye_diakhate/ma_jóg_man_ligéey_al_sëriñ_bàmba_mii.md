@@ -1,7 +1,6 @@
 Title: Ma jóg man ligéey al Sëriñ Bàmba mii
 Excerpt: Ma jóg man ligéey al Sëriñ Bàmba mii - Ligéey al Boroomam ba am lii mu am
-Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
-ThemeReview: Oppose les activités mondaines des autres à l'adoration de Dieu et la purification des actes de l'auteur.
+Theme: Sëriñ bi
 ---
 Ma jóg man ligéey al Sëriñ Bàmba mii
 Ligéey al Boroomam ba am lii mu am

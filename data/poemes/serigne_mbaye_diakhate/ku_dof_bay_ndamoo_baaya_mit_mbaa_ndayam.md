@@ -2,7 +2,6 @@ Title: Ku dof bay ndamoo baaya mit mbaa ndayam
 Excerpt: Ku dof bay ndamoo baaya mit mbaa ndayam - Dofal bay ndamoo yaw sa Sëriñ beka gëm
 StanzaSize: 8
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Refrain « Dofal bay ndamoo sa Sëriñ »  - appelle à se dévouer follement à son Sëriñ.
 ---
 Ku dof bay ndamoo baaya mit mbaa ndayam
 Dofal bay ndamoo yaw sa Sëriñ beka gëm

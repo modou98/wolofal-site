@@ -2,7 +2,6 @@ Title: Bu dee si séddoo
 Excerpt: Bu dee si séddoo - Yàl naa la séddoo
 StanzaSize: 4
 Theme: Sëriñ bi
-ThemeReview: Refrain de souhaits/bénédictions de qualités pour « yaw », probablement Bàmba, extrait très allusif.
 ---
 Bu dee si séddoo
 Yàl naa la séddoo

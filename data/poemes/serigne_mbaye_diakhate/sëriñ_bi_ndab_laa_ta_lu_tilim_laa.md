@@ -2,7 +2,6 @@ Title: Sëriñ bi ndab laa ta lu tilim laa
 Excerpt: Sëriñ bi ndab laa - ta lu tilim laa
 StanzaSize: 4
 Theme: Sëriñ bi
-ThemeReview: Supplication de purification adressée au Sëriñ, métaphore du vase sale ; pourrait aussi être bakkan.
 ---
 Sëriñ bi ndab laa
 ta lu tilim laa

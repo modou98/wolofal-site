@@ -1,7 +1,6 @@
 Title: Da noo dàq mbooloo akub jur ba jot
 Excerpt: Da noo dàq mbooloo akub jur ba jot - Te ag baax a ngii bëgg a raw, céy jala !
 Theme: Àddina (La dunya et ses illusions)
-ThemeReview: Renoncement à la foule/au monde au profit du seul goût de Dieu.
 ---
 Da noo dàq mbooloo akub jur ba jot
 Te ag baax a ngii bëgg a raw, céy jala !

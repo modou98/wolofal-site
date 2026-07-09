@@ -1,7 +1,6 @@
 Title: Kulay jiiñati’b sang akay naw sa mbir
 Excerpt: Kulay jiiñati’b sang akay naw sa mbir - Xamal yaw ne ab dof la doo kenn kat
 Theme: Bakkan (Éducation de l'âme)
-ThemeReview: Discussion sur l'orgueil et le bakkan (nature/âme) comparés aux parents.
 ---
 Kulay jiiñati’b sang akay naw sa mbir
 Xamal yaw ne ab dof la doo kenn kat

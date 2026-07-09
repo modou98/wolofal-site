@@ -1,7 +1,6 @@
 Title: Ma jug man ta déeyaale ak sang bi
 Excerpt: Ma jug man ta déeyaale ak sang bi - Ba dag yépp booloo ne xëndëŋ nelaw
-Theme: Àddina (La dunya et ses illusions)
-ThemeReview: Renonce à femme, cheval, maisons, terres au profit de Bàmba seul ; renoncement au monde.
+Theme: Sëriñ bi
 ---
 Ma jug man ta déeyaale ak sang bi
 Ba dag yépp booloo ne xëndëŋ nelaw

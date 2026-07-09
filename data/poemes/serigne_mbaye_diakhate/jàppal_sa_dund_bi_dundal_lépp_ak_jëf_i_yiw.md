@@ -2,7 +2,6 @@ Title: Jàppal sa dund bi dundal lépp ak jëf i yiw
 Excerpt: Jàppal sa dund bi dundal lépp ak jëf i yiw - Ta waxtu woo deful uw yiw, ray nga waxtu wa yaw
 StanzaSize: 3
 Theme: Diggante jëf ak wax (Les actes et les paroles)
-ThemeReview: Appel à ne pas différer les bonnes actions, utiliser le temps pour bien agir sans procrastination.
 ---
 Jàppal sa dund bi dundal lépp ak jëf i yiw
 Ta waxtu woo deful uw yiw, ray nga waxtu wa yaw

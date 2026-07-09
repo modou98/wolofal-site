@@ -2,7 +2,6 @@ Title: Dëkkal ci xol yi
 Excerpt: Dëkkal ci xol yi, - Dëkkal dëram yi
 StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
-ThemeReview: Longue liste de demandes/bénédictions se terminant par 'Jaajëfe Mbàkke' (remerciement à Bàmba).
 ---
 Dëkkal ci xol yi,
 Dëkkal dëram yi
