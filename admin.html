@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration - Wolofal Heritage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lateef&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=11">
+    <style>
+        .admin-container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        .form-control {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: inherit;
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+        textarea.form-control {
+            min-height: 300px;
+            resize: vertical;
+        }
+        .btn-submit {
+            background: var(--accent-color);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            font-size: 1.1rem;
+            transition: opacity 0.3s ease;
+        }
+        .btn-submit:hover {
+            opacity: 0.9;
+        }
+        .status {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 8px;
+            display: none;
+        }
+        .status.success {
+            display: block;
+            background: rgba(46, 204, 113, 0.1);
+            color: #2ecc71;
+            border: 1px solid #2ecc71;
+        }
+        .status.error {
+            display: block;
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+            border: 1px solid #e74c3c;
+        }
+        .admin-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .admin-header h1 {
+            color: var(--accent-color);
+            font-family: 'Cinzel', serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html" style="color:inherit; text-decoration:none;">WOLOFAL</a></div>
+        <div class="nav-links font-family-inherit">
+            <a href="index.html">Retour au site</a>
+            <a href="https://www.youtube.com/@serignembayediakhate1075" target="_blank" style="display: inline-flex; align-items: center; gap: 0.25rem;">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="color: #ff0000; transition: transform 0.3s;"><path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                Chaîne YouTube
+            </a>
+        </div>
+    </nav>
+
+    <div class="admin-container">
+        <div class="admin-header">
+            <h1>Ajouter un Poème</h1>
+            <p>Remplissez les informations ci-dessous. Le poème sera automatiquement formaté et publié.</p>
+        </div>
+
+        <form id="poemForm">
+            <div class="form-group">
+                <label for="authorId">Auteur</label>
+                <select id="authorId" class="form-control" required>
+                    <option value="">Chargement des auteurs...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Thèmes (Optionnel)</label>
+                <div id="themesContainer" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem;">
+                    <span style="opacity: 0.6; font-size: 0.9rem;">Chargement des thèmes...</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="stanzaSize">Taille des Strophes (Nombre de vers)</label>
+                <select id="stanzaSize" class="form-control" required>
+                    <option value="2" selected>2 vers (Couplet - standard)</option>
+                    <option value="4">4 vers (Quatrain)</option>
+                    <option value="1">1 vers (Ligne par ligne)</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="title">Titre du Poème</label>
+                <input type="text" id="title" class="form-control" required placeholder="Ex: Matlabul Fawzayni">
+            </div>
+
+            <div class="form-group">
+                <label for="audio">Lien Audio (Optionnel)</label>
+                <input type="text" id="audio" class="form-control" placeholder="Lien YouTube ou URL mp3">
+            </div>
+
+            <div class="form-group">
+                <label for="manuscript">Lien du Manuscrit PDF/Image (Optionnel)</label>
+                <input type="text" id="manuscript" class="form-control" placeholder="Ex: assets/manuscrits/nom_poeme.pdf ou URL">
+            </div>
+
+            <div class="form-group">
+                <label for="content">Contenu du Poème</label>
+                <textarea id="content" class="form-control" required placeholder="Collez le texte généré par l'IA ici... (n'incluez pas Title: ou AuthorId:, juste le texte du poème)"></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit" id="submitBtn">Enregistrer et Publier</button>
+            <div id="statusMessage" class="status"></div>
+        </form>
+    </div>
+
+    <div class="admin-container" style="max-width: 950px; margin-top: 2rem; margin-bottom: 4rem;">
+        <div class="admin-header">
+            <h1>Gérer les Poèmes Existants</h1>
+            <p>Recherchez et associez rapidement des thèmes ou des liens audio à vos poèmes.</p>
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="filterInput" class="form-control" placeholder="Rechercher par titre de poème ou par auteur..." oninput="filterPoemsTable()">
+        </div>
+
+        <div style="overflow-x: auto; margin-top: 1.5rem;">
+            <table style="width: 100%; border-collapse: collapse; text-align: left; background: var(--bg-color); border-radius: 8px; border: 1px solid var(--border-color);">
+                <thead>
+                    <tr style="border-bottom: 2px solid var(--border-color); background: rgba(0, 0, 0, 0.02); color: var(--text-color);">
+                        <th style="padding: 1rem; font-weight: 600;">Titre</th>
+                        <th style="padding: 1rem; font-weight: 600;">Auteur</th>
+                        <th style="padding: 1rem; font-weight: 600; width: 220px;">Thème</th>
+                        <th style="padding: 1rem; font-weight: 600;">Lien Audio</th>
+                        <th style="padding: 1rem; font-weight: 600; text-align: center; width: 120px;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="poemsTableBody">
+                    <tr>
+                        <td colspan="5" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Chargement des poèmes...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="content.js?v=11"></script>
+    <script>
+        // Charger les auteurs et les thèmes et afficher la table
+        window.addEventListener('DOMContentLoaded', () => {
+            const selectAuthor = document.getElementById('authorId');
+            if (window.authorsData) {
+                selectAuthor.innerHTML = '<option value="">Sélectionnez un auteur</option>';
+                window.authorsData.forEach(author => {
+                    selectAuthor.innerHTML += `<option value="${author.id}">${author.name}</option>`;
+                });
+            }
+
+            const themesContainer = document.getElementById('themesContainer');
+            if (window.themesData && themesContainer) {
+                themesContainer.innerHTML = '';
+                window.themesData.forEach(theme => {
+                    themesContainer.innerHTML += `
+                        <label class="theme-pill-label" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.8rem; border-radius: 20px; background: rgba(0,0,0,0.03); border: 1px solid var(--border-color); cursor: pointer; user-select: none; font-size: 0.9rem; color: var(--text-color); transition: all 0.2s;">
+                            <input type="checkbox" name="themes" value="${theme.name}" style="display: none;" onchange="toggleThemePillStyle(this)">
+                            ${theme.name}
+                        </label>
+                    `;
+                });
+            }
+
+            renderPoemsTable();
+        });
+
+        // Gérer la soumission
+        document.getElementById('poemForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            const status = document.getElementById('statusMessage');
+            
+            btn.textContent = "Publication en cours...";
+            btn.disabled = true;
+            status.className = 'status';
+
+            const payload = {
+                authorId: document.getElementById('authorId').value,
+                title: document.getElementById('title').value,
+                themes: Array.from(document.querySelectorAll('input[name="themes"]:checked')).map(el => el.value),
+                stanzaSize: document.getElementById('stanzaSize').value,
+                audio: document.getElementById('audio').value,
+                manuscript: document.getElementById('manuscript').value,
+                content: document.getElementById('content').value
+            };
+
+            try {
+                const response = await fetch('/api/save', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                
+                const result = await response.json();
+                if (response.ok && result.status === 'success') {
+                    status.textContent = `Succès ! Le fichier ${result.file} a été créé et le site est mis à jour.`;
+                    status.className = 'status success';
+                    document.getElementById('poemForm').reset();
+                } else {
+                    throw new Error(result.message || "Erreur inconnue");
+                }
+            } catch (err) {
+                status.textContent = `Erreur : ${err.message}`;
+                status.className = 'status error';
+            } finally {
+                btn.textContent = "Enregistrer et Publier";
+                btn.disabled = false;
+            }
+        });
+
+        // Générer le tableau des poèmes existants
+        function renderPoemsTable() {
+            const tbody = document.getElementById('poemsTableBody');
+            if (!window.authorsData || !tbody) return;
+            
+            tbody.innerHTML = '';
+            let count = 0;
+            
+            window.authorsData.forEach(author => {
+                author.poems.forEach(poem => {
+                    count++;
+                    const tr = document.createElement('tr');
+                    tr.style.borderBottom = '1px solid var(--border-color)';
+                    tr.className = 'poem-row';
+                    tr.dataset.title = poem.title.toLowerCase();
+                    tr.dataset.author = author.name.toLowerCase();
+                    
+                    // Options de thèmes (mini pills)
+                    let themeCheckboxes = '';
+                    if (window.themesData) {
+                        window.themesData.forEach(theme => {
+                            const isChecked = poem.themes && poem.themes.includes(theme.name) ? 'checked' : '';
+                            const bg = isChecked ? 'var(--accent-color)' : 'rgba(0,0,0,0.03)';
+                            const color = isChecked ? '#fff' : 'var(--text-color)';
+                            const borderColor = isChecked ? 'var(--accent-color)' : 'var(--border-color)';
+                            
+                            themeCheckboxes += `
+                                <label style="display: inline-flex; align-items: center; padding: 0.25rem 0.5rem; border-radius: 12px; background: ${bg}; color: ${color}; border: 1px solid ${borderColor}; cursor: pointer; font-size: 0.75rem; transition: all 0.2s; user-select: none; margin-bottom: 0.2rem;">
+                                    <input type="checkbox" class="row-theme-checkbox" value="${theme.name}" ${isChecked} style="display: none;" onchange="toggleThemePillStyle(this)">
+                                    ${theme.name}
+                                </label>
+                            `;
+                        });
+                    }
+                    
+                    // Lien audio
+                    let audioUrl = '';
+                    if (poem.audio) {
+                        if (typeof poem.audio === 'string') {
+                            audioUrl = poem.audio;
+                        } else if (poem.audio.url) {
+                            audioUrl = poem.audio.url;
+                        } else if (Array.isArray(poem.audio) && poem.audio.length > 0) {
+                            audioUrl = poem.audio[0].url || '';
+                        }
+                    }
+                    
+                    tr.innerHTML = `
+                        <td style="padding: 1rem; font-weight: 500; color: var(--text-color);">${poem.title}</td>
+                        <td style="padding: 1rem; font-size: 0.9rem; color: var(--text-color); opacity: 0.8;">${author.name}</td>
+                        <td style="padding: 0.5rem 1rem;">
+                            <div class="row-themes-container" style="display: flex; flex-wrap: wrap; gap: 0.3rem; max-width: 250px;">
+                                ${themeCheckboxes}
+                            </div>
+                        </td>
+                        <td style="padding: 0.5rem 1rem;">
+                            <input type="text" class="form-control poem-audio-input" style="padding: 0.5rem; font-size: 0.9rem; border-radius: 6px;" value="${audioUrl}" placeholder="Lien YouTube ou MP3">
+                        </td>
+                        <td style="padding: 1rem; text-align: center;">
+                            <button type="button" class="ctrl-btn save-row-btn" style="padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; min-width: 90px; border-radius: 6px; cursor: pointer;" onclick="savePoemRow(this, '${author.folder}', '${poem.id}')">Enregistrer</button>
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            });
+            
+            if (count === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Aucun poème trouvé dans le système.</td></tr>`;
+            }
+        }
+
+        // Filtrer localement les poèmes
+        function filterPoemsTable() {
+            const query = document.getElementById('filterInput').value.toLowerCase().trim();
+            const rows = document.querySelectorAll('.poem-row');
+            
+            rows.forEach(row => {
+                const title = row.dataset.title;
+                const author = row.dataset.author;
+                if (title.includes(query) || author.includes(query)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
+        // Enregistrer la ligne modifiée
+        async function savePoemRow(btn, authorFolder, poemId) {
+            const tr = btn.closest('tr');
+            const checkedRowThemes = Array.from(tr.querySelectorAll('.row-theme-checkbox:checked')).map(el => el.value);
+            const audioInput = tr.querySelector('.poem-audio-input');
+            
+            const originalText = btn.textContent;
+            btn.textContent = "Sauvegarde...";
+            btn.disabled = true;
+            btn.style.opacity = '0.7';
+            
+            const payload = {
+                authorFolder: authorFolder,
+                poemId: poemId,
+                themes: checkedRowThemes,
+                audio: audioInput.value
+            };
+            
+            try {
+                const response = await fetch('/api/update_metadata', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                
+                const result = await response.json();
+                if (response.ok && result.status === 'success') {
+                    btn.textContent = "Enregistré !";
+                    btn.style.background = '#2ecc71';
+                    btn.style.borderColor = '#2ecc71';
+                    btn.style.color = '#fff';
+                    btn.style.opacity = '1';
+                    
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.style.background = '';
+                        btn.style.borderColor = '';
+                        btn.style.color = '';
+                        btn.disabled = false;
+                    }, 1500);
+                } else {
+                    throw new Error(result.message || "Erreur inconnue");
+                }
+            } catch (err) {
+                alert(`Erreur de sauvegarde : ${err.message}`);
+                btn.textContent = "Erreur";
+                btn.style.background = '#e74c3c';
+                btn.style.borderColor = '#e74c3c';
+                btn.style.color = '#fff';
+                btn.style.opacity = '1';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.borderColor = '';
+                    btn.style.color = '';
+                    btn.disabled = false;
+                }, 2000);
+            }
+        }
+
+        // Mettre à jour l'apparence des pills
+        function toggleThemePillStyle(checkbox) {
+            const label = checkbox.closest('label');
+            if (checkbox.checked) {
+                label.style.background = 'var(--accent-color)';
+                label.style.color = '#fff';
+                label.style.borderColor = 'var(--accent-color)';
+            } else {
+                label.style.background = 'rgba(0,0,0,0.03)';
+                label.style.color = 'var(--text-color)';
+                label.style.borderColor = 'var(--border-color)';
+            }
+        }
+    </script>
+</body>
+</html>

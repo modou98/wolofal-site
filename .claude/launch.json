@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wolofal-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["server.py", "8085"],
+      "port": 8085
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Sëriñ Muusaa Ka",
+        "image": "assets/moussa_ka.png",
+        "shortBio": "Grand poète et historien du mouridisme, connu pour son style unique en Wolofal .",
+        "fullBio": "Serigne Moussa Ka, fils de Serigne Ousmane Ka et de Sokhna Absatou Seck, est né à Ndilki, près de Mbacké Baol, vers 1890. Il entretenait des liens de parenté étroits avec son guide et maître, Cheikh Ahmadou Bamba (Khadimou Rassoul), tous deux étant descendants de Mame Maharam Mbacké, aïeul de la lignée des Mbacké.\n\nHomme d’une vaste érudition et d’une remarquable ouverture d’esprit, Serigne Moussa Ka a marqué son époque par l’abondance et la profondeur de ses écrits, majoritairement dédiés à Serigne Touba. Malgré sa proximité familiale avec le fondateur du mouridisme, il se présentait toujours dans ses œuvres comme le serviteur du Serviteur du Prophète (Khadimoul Khadim), en signe de modestie et de dévotion.\n\nIl s’est également illustré par sa parfaite maîtrise de l’hagiographie islamique, de l’histoire du mouridisme et du Sénégal, ce qui transparaît dans ses nombreux poèmes. Il détenait une connaissance approfondie de la généalogie des grandes familles du pays, ce qui attirait à lui les chercheurs de son temps, tout comme aujourd’hui les universitaires restent fascinés par la richesse de son œuvre.\n\nSerigne Moussa reçut l’essentiel de sa formation auprès de son père, Serigne Ousmane Ka – connu sous le nom de Modou Ngagne Awa – éminent enseignant de figures telles que El Hadji Malick Sy, El Hadji Abdou Cissé de Diamal, El Hadji Dramé de Ndramé, et Serigne Momar Yacine Dème.\n\nA la disparition de son père qui fut plus tard disciple du Cheikh, l’homme rejoignit son guide en résidence surveillée à Thiéyène et fit son allégeance. Depuis lors, il était toujours sous le sillage de son guide, qui lui inculqua une éducation spirituelle parfaite. Pour ceux qui le connaissait, Serigne Moussa Ka était un homme généreux, qui donnait tout, même sa nourriture du jour. Il était aussi un chercheur ouvert, remarquable par son abandon du bas monde. Serigne Moussa était pieux, très véridique et unificateur.\n\nSa contribution à la littérature mouride est immense. Serigne Moussa Ka a joué un rôle majeur dans la diffusion de la biographie du Prophète Muhammad (PSL) et de son serviteur Cheikh Ahmadou Bamba, grâce à une plume d’une grande fluidité, véritable don de Dieu.",
+        "folder": "serigne_moussa_ka"
+    },
+    {
+        "id": 2,
+        "name": "Sëriñ Mbay Jaxate",
+        "image": "assets/mbaye_diakhate_v3.png",
+        "shortBio": "Poète soufi renommé pour sa sagesse et la profondeur de ses écrits.",
+        "fullBio": "",
+        "folder": "serigne_mbaye_diakhate"
+    },
+    {
+        "id": 3,
+        "name": "Sëriñ Moor Kayre",
+        "image": "assets/mor_kayre_v3.png",
+        "shortBio": "Pionnier majeur de la poésie Wolofal et disciple fidèle de Cheikh Ahmadou Bamba.",
+        "fullBio": "Serigne Mor Kayré est l'une des figures fondatrices et des piliers de la littérature Wolofal (poésie religieuse wolof écrite en caractères ajami). Disciple dévoué de Cheikh Ahmadou Bamba, il a consacré son génie littéraire à la glorification du fondateur du mouridisme et à la diffusion de ses enseignements spirituels.\n\nContemporain et compagnon fidèle du Cheikh, il a notamment partagé des moments marquants à ses côtés lors de son exil en Mauritanie (1903-1907). Son œuvre poétique a profondément influencé les générations suivantes. Serigne Moussa Ka lui-même vouait une grande admiration à Serigne Mor Kayré, affirmant s'être abreuvé à sa source poétique.\n\nSes écrits restent aujourd'hui célébrés pour leur rigueur théologique, leur profondeur mystique et leur style métrique d'une grande beauté.",
+        "folder": "serigne_mor_kayre"
+    },
+    {
+        "id": 4,
+        "name": "Soxna Maymuuna Mbàkke Al Kubra",
+        "image": "",
+        "shortBio": "Fille de Cheikh Ahmadou Bamba, érudite et poétesse éminente du mouridisme.",
+        "fullBio": "Sokhna Maïmounatou Mbacké Al Koubra (1908–1999), également connue sous le nom de Sokhna Maï Kabîr, est la fille aînée de Cheikh Ahmadou Bamba et de Sokhna Aminata Kanny Bousso. Née à Thiéyène Djolof pendant l'exil de son père, elle a reçu une éducation spirituelle et théologique de premier plan, mémorisant le Saint Coran auprès de Serigne Dame Abdou Rahmane Lô à Ndame.\n\nÉrudite et poétesse de haut niveau, elle a composé d'admirables poèmes de dévotion en arabe ainsi qu'en langue wolof (Wolofal). Elle est reconnue au sein de la communauté pour sa rigueur intellectuelle, sa piété exemplaire et son attachement indéfectible au Livre Saint et aux enseignements du fondateur du mouridisme.",
+        "folder": "kubra"
+    },
+    {
+        "id": 5,
+        "name": "Seex",
+        "image": "",
+        "shortBio": "Pionnier du Wolofal et disciple fidèle surnommé Sâhibul Abyât par Serigne Touba.",
+        "fullBio": "Cheikh Samba Diarra Mbaye (v. 1868–1917), de son vrai nom Mouhamadou Abdoul Karim, est l'un des pionniers les plus célèbres de la poésie Wolofal. Né à Koki, il a mémorisé le Coran à un jeune âge avant de parfaire ses études en sciences religieuses et en grammaire arabe à Saint-Louis.\n\nDisciple de la première heure de Cheikh Ahmadou Bamba, son talent d'expression poétique lui a valu d'être surnommé par le Maître \"Sâhibul Abyât\" (l'auteur des vers). Il a mis toute son érudition au service de la vulgarisation des enseignements mourides en langue wolof, permettant ainsi d'éclairer les fidèles et de préserver l'identité spirituelle et linguistique locale à travers des pièces poétiques majeures comme Jazboul Majzoob.",
+        "folder": "cheikh_samba_diarra_mbaye"
+    }
+]
