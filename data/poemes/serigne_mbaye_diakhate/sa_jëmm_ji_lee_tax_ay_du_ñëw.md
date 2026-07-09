@@ -33,5 +33,3 @@ Te Yaw la ci àndal, Yaw la ciy xool akay waxal
 
 Waxal nu fa as lëf ndax mu ubbil nu wunti mbég
 Te tëj wunti lor ak wunti moy dàq aw maral
-
-Sa jëf ju baaxul bu muy tax *

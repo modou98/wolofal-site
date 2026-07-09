@@ -46,5 +46,3 @@ Te yal na nu am nag nun ci barkeb Sëriñ bi ak
 Ci barkeb ñoñam aw fan wu guddaki koomi koom
 Te yal nu am Bàmbaaki gaayam ñu am nu nag
 Te far bég ci nun fàww it nu far sant bég ci ño
-
-La ñu defoon ca soppe ya

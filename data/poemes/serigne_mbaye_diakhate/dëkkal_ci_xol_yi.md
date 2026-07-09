@@ -96,6 +96,3 @@ Far nga suñug mbon
 Fegal nga ñug bon
 Yaa tax ba ñuy gën
 Jaajëfe Mbàkke
-
-Ni xam-xam jafee kug jur ku xëy
-boole yépp am

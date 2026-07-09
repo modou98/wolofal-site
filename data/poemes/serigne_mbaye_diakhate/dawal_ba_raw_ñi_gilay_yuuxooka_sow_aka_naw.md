@@ -36,6 +36,3 @@ Te dollinu’y itte may nu’b way ci topp ndigal
 
 Te Yàl na fab jépp lor jox ko faw gaa yi nu moy
 Te jox nu fàww ngënéel ak mbég mu kenn amagul
-
-Ndegam gaa ya bay daal a xal seeta
-añ,

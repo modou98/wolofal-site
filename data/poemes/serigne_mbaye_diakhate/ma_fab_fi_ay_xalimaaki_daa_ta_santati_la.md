@@ -38,6 +38,3 @@ Ba fay ga sotti mu may la’g may gu rëy, gëne la
 
 Nun gaayi Bàmba yi noo ngi wëy ba àgg bu wér
 Ta lépp luñ nara tee yegg it nu jug fase la
-
-Masàmba Xumma fabul jëm kaw li
-kaw ta fexee

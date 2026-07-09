@@ -52,6 +52,3 @@ Ta moo di jug ci lu bon tay sax ci lang nu digal
 
 Digal nga way-gëm yi yaw kiy Yàlla bañ julli aat
 Ci ngën jii koo bind jullil book ci moom ta musal
-
-Naa jug fexee sant cant ug xol gu rëy
-gu rafet

@@ -61,5 +61,3 @@ Ta yëkkatil nu përé bi
 Metar bi it wàññil nu ko
 Ta may nu junniy bërigo
 Yu nu la jox, nga sant ko
-
-Ligéeyal nga Yàlla, ligéeyal Jabeel

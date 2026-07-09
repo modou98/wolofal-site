@@ -112,6 +112,3 @@ Njariñ lu nekk ne ci xol yi sax ci
 
 Nun ñépp Yàlla na nu rafet fas lu rafet
 Wax ko ta jëf ko sax ci, am ko bu rafet
-
-Diggante Tuubaaki Njaareem ak Nja
-Yàl na fi taw

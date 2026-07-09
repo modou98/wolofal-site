@@ -114,4 +114,3 @@ Moo tax ma naa la yal na am
 Li miy mbébét ci nun nu am
 Li niy mbébét ci moom itam
 kon lépp jag te ken du fo
-Sëriñ bi yaa gën alal

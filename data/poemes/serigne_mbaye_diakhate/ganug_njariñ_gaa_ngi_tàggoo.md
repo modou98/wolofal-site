@@ -36,5 +36,3 @@ Ba ñépp naa bu demee yit yërmëndeem a ngi fi.
 
 Yaw gann gi léemu nu léemul bii barab door a dem,
 Ba senn Séytaane dootul dox ba fekk nu fi.
-
-Yaw ngën ji képp kuy ligéey !

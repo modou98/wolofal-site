@@ -24,6 +24,3 @@ Ku man lii namuy jóg di weesooti boppam?
 
 Fabal yaw sa mbir jox ko ngën jiy Sëriñ
 Mu wommat la yët Yàlla man foofu laa yam!
-
-Ngirum Sëriñ bile jàpp ug njàmburay
-la ci war

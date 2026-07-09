@@ -41,5 +41,3 @@ Fay nga fayal nga
 Faj nga fajal nga
 Jam nga jamal nu
 Jamal nu Mbàkke
-
-Man Bàmba doy nama

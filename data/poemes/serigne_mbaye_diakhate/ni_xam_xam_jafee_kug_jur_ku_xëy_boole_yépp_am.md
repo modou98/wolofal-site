@@ -61,5 +61,3 @@ Lilee waral ug cantam jafe ndaxte day lu réy
 
 La xol biy jafee jot lépp yal na nu dund nun
 Ba jot caa ki cantam boole cay ndollenam yu réy
-
-Xamal say ayib te far say ayib

@@ -43,6 +43,3 @@ Nun it Yàlla na nuy bokk gën lar bune
 
 Fajal ñoo fajal ràggi xol ak yaram
 Nu wér céng far ëpp ag wér kune
-
-Tee ngeen a far muñ Sëriñ baa ngii
-ñëw ak lu rafet

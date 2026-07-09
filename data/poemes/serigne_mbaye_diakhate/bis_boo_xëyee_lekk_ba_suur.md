@@ -70,5 +70,3 @@ Ku la ni wax ma nag sa nguur
 Gi ñu la jox dëgg bu wóor
 Nga ni ko ab doyloo di nguur
 Ta doylu naa wëlis i buur
-
-Ma jug man ta déeyaale ak sang bi

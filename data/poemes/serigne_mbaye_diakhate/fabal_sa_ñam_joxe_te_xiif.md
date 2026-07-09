@@ -86,5 +86,3 @@ Yàlla na nu may tay ak ëllëg
 Tawféex ak jàmm aki mbég
 Te may nu fàww ak jiitu nag
 Wa saayir ak gaayi tasawuf!
-
-Demba kebe ma dénk la

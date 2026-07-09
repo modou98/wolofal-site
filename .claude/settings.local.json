@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf jaxate_out)",
+      "Bash(python extract_jaxate.py)",
+      "Bash(python fix_fragments.py)",
+      "Bash(python dedup_internal.py)",
+      "Bash(rm \"jaxate_out/sëriñ_bi_yaa_nu_fayal_taal_ub_tawat_ba_mu_fay_2.md\")",
+      "Bash(python -)",
+      "Bash(python build_data.py)"
+    ]
+  }
+}

@@ -36,5 +36,3 @@ Yaa dàq ngan mbooleem ku nee faa mën na gan
 
 Fàggul nu ngan goo xamne moo gën gépp ngan
 Tay ak ëllëg, yaa gën suñuy waayjur ci nun
-
-Jugal fa ñépp di buxbuxloo

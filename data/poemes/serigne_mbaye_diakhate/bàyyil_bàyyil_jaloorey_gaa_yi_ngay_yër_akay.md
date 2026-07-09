@@ -37,6 +37,3 @@ Ca nag ya, rëcc boroomam, Yàl na moy lumu diir
 
 Yàl na’w ayam yam ci boppam képp ak ci ñoñam
 Ta jàmm dal nu ci bopp ak bàrke, dal gu nu wóor
-
-Ka xas ŋàbb caabi’b Yàlla Yàl na nu
-far jubóo

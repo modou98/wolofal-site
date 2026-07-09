@@ -36,6 +36,3 @@ Kas ñam su des laala ñan ak as cagar wuyu nu
 
 Man laajuma’k pay nde man mii leblewul mayewul
 Sarax si daal a waral nuy déglu dimbali nu
-
-Yàl na nu am gëm gu wér ak jëf ju
-rafet

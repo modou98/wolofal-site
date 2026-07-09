@@ -37,6 +37,3 @@ xam xam bu wér kaare nun ñoo am lu gën ame ndar
 
 Ñoo làmb daj Bàmba daj Yonent ba làmbati daj
 Buurub Aras bënn géej ug bàrke feesal i xur
-
-Ca guddi nga woo mbër yépp daane
-nu xëy du miim

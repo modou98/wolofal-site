@@ -34,6 +34,3 @@ Dagam bu bépp ub dagam ñee muy gëram di yëram
 
 Nun ñépp Yàl na nu raw ay wu’b laram mës a raw
 Ta am ci baaxam gi nag yiw wu’b laram mës a am
-
-Jugal ta dem, ku nar a dem danala
-jot

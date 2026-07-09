@@ -37,5 +37,3 @@ Bokkoo ci yaw mile ñaanal leen u yiw ta tëri
 
 Mbër yépp Yàl na ñu ub, jël ndam ta bokk bégal
 Xaj sii di séenu ci ñoom ag ndes ñu naa ko kuri
-
-Ma jug feddali’g tuub akub cant man

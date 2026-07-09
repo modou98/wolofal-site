@@ -37,6 +37,3 @@ Waa sowwu jox  ko mu jël ak may gu dees i xalam
 
 Yàl na’w fanam ak suñiy fan gudd nag, nu jubóo
 Te bokk sax ci lu koy béglo di sant aka dem
-
-Bàmbaa nu jox li fi dee faa dox di
-bëgg aka wut

@@ -49,6 +49,3 @@ Bu lenn luy ruur akay lor jëm ci nun ni la doy
 
 Ñagal nu wallis lu ñuy muslooka bañ ta jagul
 Suñuy kër ak suñu waakër ñépp ak suñu mbay
-
-Xamal ni taalibe diineemay gëm ub
-sëriñam

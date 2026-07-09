@@ -49,5 +49,3 @@ Ta wuutal ma jëmmam ja may sol daraam
 
 Ta Yàllante (3) man
 Ma di’w karbatam mbaa ma di’b taalibéem
-
-Mbooloo mi ag yeetee ngi nii

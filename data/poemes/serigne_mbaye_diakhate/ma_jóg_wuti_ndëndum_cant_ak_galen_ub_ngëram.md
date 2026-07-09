@@ -37,5 +37,3 @@ Bu bis peñc baa wax jii ñu xam ne ju wér la woon
 
 Xamal léegi wax jii Yaw te sóobu ci am ngiram
 Ne yëkkat sa mbir jébbal ko am ndam amub galan
-
-Nangul a féete ñépp suuf

@@ -30,5 +30,3 @@ Kuy tuubi ñuy fari moyam
 
 Te ku ñu dolli ak mayam
 Fari moyam mu sori ay
-
-Sab sang yaw buko muñ saa

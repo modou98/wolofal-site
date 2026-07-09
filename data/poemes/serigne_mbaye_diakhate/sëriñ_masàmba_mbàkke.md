@@ -36,5 +36,3 @@ Ku nekk Yàl na ko ñee muy waay ju ñépp di ñee
 
 Xolam na sedd, suñuy xol sedd sedd gu bir
 Nu bokk gën gaa ña nee faa seeni kem jafe na
-
-Ndaxam Bàmba yaa jar di sonnal

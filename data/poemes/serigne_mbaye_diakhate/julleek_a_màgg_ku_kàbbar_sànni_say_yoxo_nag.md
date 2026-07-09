@@ -37,5 +37,3 @@ Ag moy la boo sëlmalee yaw jéggalul sa BOROOM
 
 Moo ëpp a moy te manoo koo topp topp gu wér
 Saxal ci jéggulu biir ak bitti yaw ki mu móom
-
-Sëriñ baa ngi nii tay di tàllal loxoom

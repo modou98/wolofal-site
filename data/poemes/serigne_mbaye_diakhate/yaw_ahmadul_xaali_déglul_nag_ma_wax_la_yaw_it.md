@@ -37,6 +37,3 @@ Ta daal di wéy fàww muuroo way ta bul muriku
 
 Koo xamne dëddu na boppam dëddu ñépp ta wéy
 Ñu fal ko sant ko may ko’w tagg, yëkkatiko
-
-Yaw xaali xàllal sa digg ak Yàlla xàll
-wu set

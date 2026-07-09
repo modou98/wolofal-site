@@ -61,5 +61,3 @@ Boole nu te ci gaali mbég
 Yu jompatul aki mbég
 Ñuy bég akay nekk ci mbég
 Ba tàbbi Àjjanay ngënéel
-
-Ma jóg te fàggul jullit ñi yóbbal

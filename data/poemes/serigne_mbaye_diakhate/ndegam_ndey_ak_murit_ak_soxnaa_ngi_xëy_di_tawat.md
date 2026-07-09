@@ -48,5 +48,3 @@ Kudul murid dub Sëriñ, kuy yewwu daal diko ba
 
 Sëriñ dafay jox Murid ba aw yiw mu nangu ko yor
 Ku nanguwul, joxewul yiw nangu ay musiba
-
-Àjjana jaa ngii

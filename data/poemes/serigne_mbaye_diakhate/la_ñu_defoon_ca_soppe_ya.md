@@ -24,5 +24,3 @@ Ba ñu amub yar te sawar
 
 Te du ñu yàq tey defar
 Def ko ci nun te sàntu nu
-
-Sëriñ bu nekk Yàl na bég

@@ -39,5 +39,3 @@ Bul bëgg Àddina, bul wax wax ju génn ndigal
 
 Bu kenn dégg ci saw làmmiñ ludul wax i yiw
 Bul jug sa kër ngir wuti’w nit rek mbaate alal !
-
-Da noo dàq mbooloo akub jur ba jot

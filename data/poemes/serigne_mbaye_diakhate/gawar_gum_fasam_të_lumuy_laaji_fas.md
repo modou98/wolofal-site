@@ -54,6 +54,3 @@ Ta wér, lii waral, ku baaxul du am
 
 Sëriñ baa ngi, kuy set, mu daal di lay duyal
 Ta daal di lay yabal, nga ànd ak ngëram
-
-Yàllaa la may dund akub wér may ko
-jaamu wér

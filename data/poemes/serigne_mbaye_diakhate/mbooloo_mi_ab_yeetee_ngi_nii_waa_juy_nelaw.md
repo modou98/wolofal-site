@@ -33,6 +33,3 @@ Gis naala ngay dàq ab yaafus ta séenulako
 Kon yaw na ngay def ba jot njaxlaf ta dàqulako
 Ku yittewoo àddinaakay sàkku am ko të ko
 … Ci laaxira bañ koo sàkku, am ko të ko
-
-Sa xol bi génné ci soxnaaki murid aki
-kër

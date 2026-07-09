@@ -36,5 +36,3 @@ Bu kenn yewwu fi say bir foofi tollooti !
 
 Muural sa mbir faawu yaw mii, bul mureeti sa mbir
 Ku ub ndabam, am fàww us ndoxam sumuy foote
-
-Yaa gën luñuy bëgg

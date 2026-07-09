@@ -36,6 +36,3 @@ Na sedd sa xol bii guy ñuy gaa yu am xorom
 
 Na itte yi yépp ak xol yi ak jur gi jëm ci Yaw
 Ba lépp ne tàkkat jeex ku nekk des ak aw turam
-
-Di bay di bay ba sa mbay ñor xomb
-nag nga ne cas

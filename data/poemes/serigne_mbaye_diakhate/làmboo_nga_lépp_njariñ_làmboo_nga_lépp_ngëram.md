@@ -43,6 +43,3 @@ Ak ndollen ak xéewal ak gànjar gu ñàkk moroom
 
 Yebbil nu yéere yu sedd ub xol yu dal suñu xel
 Ta may nu lépp lu nit móom ak lu nit mës a móom
-
-Yaw Bàmba dàqul nu’b murid boo
-xamne day

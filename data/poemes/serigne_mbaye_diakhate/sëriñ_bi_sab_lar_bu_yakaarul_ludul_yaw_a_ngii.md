@@ -58,6 +58,3 @@ Kamaj ba dootu nu gis sax mukk nun saxaram
 
 Ren gii na gépp jullit bég mbég mu jàq raxul
 Nañ am adiya te am ak wér te am sa ngëram
-
-Alhamdullillaahi yaw yaa gën alal
-gën u nit

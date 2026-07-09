@@ -118,5 +118,3 @@ Yal nanu may waamey njariñ
 Yu nuy musal ak a jariñ
 Tey dàkku lépp lunu bañ
 Di naatali xol ak i cër
-
-At mile wéy yal na wéy ak

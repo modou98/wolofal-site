@@ -52,5 +52,3 @@ Saxal nu bu wér yaw loo saxal loola sax bu wér
 Ku bëggul nu sax nay suufe fàww aka boqtu !!
 Te Yàlla na nu gudd uw fan suñuy soppe guddu fan
 Ci bàrke Sëriñ Tuubaa ku tee nun nu meccitu
-
-Ma tagg sangu sang yi

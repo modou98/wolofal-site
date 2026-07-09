@@ -36,6 +36,3 @@ Bu may jëm ci senn as jëf ludul jëf ju ràññiku
 
 Terànga na ñuy wër kàpp ak mucc fàww nag
 Toroxte na ñuy teggee’ka dànd nu dànd ko
-
-Yaa baaxi benne ta sax cay wéy di
-wéy aka wéy

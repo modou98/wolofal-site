@@ -40,6 +40,3 @@ Goj bi xaloo dugge matna’y yokk akay wéralaat
 
 Tey yokk say itte fàww ak say hidaaya bu wér
 Ak sab siyaara, ku def nii sab Sëriñ du la faat
-
-Sëriñ bi sa’b lar bu yakaarul ludul
-yaw a ngii

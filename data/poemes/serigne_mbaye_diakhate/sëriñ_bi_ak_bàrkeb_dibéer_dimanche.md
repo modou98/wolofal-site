@@ -36,5 +36,3 @@ May nu ci bàrkeb "Gaawu" nag (Samedi),
 Jaglu gudul dañati ak,
 Ngëram lu mer dul topp ak,
 Buntu ci yaw bu yaa ta leer
-
-Nëbbal tawat yi ne fi yaw

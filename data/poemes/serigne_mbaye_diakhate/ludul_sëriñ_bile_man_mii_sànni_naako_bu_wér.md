@@ -25,6 +25,3 @@ Foo jëm ma topp la ndax loo rotle Mbàkke ma for
 
 Ta tayle naala samag ruu, ruu gi nag da na wel
 Fi yaw nde man du ko jot, ngir jot ci ruu gi du ngor
-
-Nañ yeesal ug tuub ak ub njébbal ak
-ug bàyyiku

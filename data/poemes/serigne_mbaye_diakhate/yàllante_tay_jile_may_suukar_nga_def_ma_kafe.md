@@ -39,6 +39,3 @@ Yàlla bunuy gis saxaar ub jéeri déeti gëlam
 
 Gaayaa ngi sànku ji tay wut mbir ma fum jegewul
 Ta mbir yaa ko fi yor, moo tee nga far nu yëram
-
-Ku fiy asar sama digg ak moom akay
-tilimal

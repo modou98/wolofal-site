@@ -37,5 +37,3 @@ Mu leeral digganteem ak Boroomam ñu far ko tin
 
 Ki lée mata jébbal mbir mu yor, waane waa ngi nii
 Te ŋoy naa ko, jébbal naa ko lépp a ti fàwwu man
-
-Dolli nu doo jeele dara

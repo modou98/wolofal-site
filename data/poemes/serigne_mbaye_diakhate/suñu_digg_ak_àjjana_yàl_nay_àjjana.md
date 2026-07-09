@@ -66,6 +66,3 @@ Yéwén yéwén gub yàq dul am aka jëm
 
 Àjjana Yàl na jëm ci nun nu jëm ci moom
 Faw ta Yàl na sax ci nun nu sax ci moom
-
-Dawal ba raw ñi gilay yuuxooka sow
-aka naw

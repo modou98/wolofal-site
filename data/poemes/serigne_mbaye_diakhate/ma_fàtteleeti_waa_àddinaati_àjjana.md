@@ -65,6 +65,3 @@ Nga falu def buur fàww bu tedd
 
 Lii mat a sàkku, lii mat a fàggu
 Na nga ko fàggu yaw mii di dundu
-
-Fegal nu yaw ki mën dara sawara ak
-waa sawara

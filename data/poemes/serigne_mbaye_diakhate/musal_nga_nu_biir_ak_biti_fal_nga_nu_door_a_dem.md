@@ -39,5 +39,3 @@ Bu kenn gis ci nun ñii wenn ay, bu ko wenn gis
 
 Ubal suñu digg ak ñépp fàww ba kenn du ñëw
 Ta ubbi sa digg ak Nun, duyal nu ba kenn du des
-
-Ma fàtteleeti waa àddinaati Allaaxira

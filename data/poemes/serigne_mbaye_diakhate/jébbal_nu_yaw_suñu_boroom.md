@@ -65,5 +65,3 @@ Yal na nga fab lu gën i doom
 Fàpp te fab lu gën i koom
 Jox ñook I doom ak koom i koom
 Nangul nu yaw suñu Boroom
-
-Yaw ki nu bind ciy nelaw

@@ -46,5 +46,3 @@ Nun ñii ci àddina dugg ak nun ca Àjjana far
 
 Nu dëgg dàgga ju dootul fëgg mukkati bis
 Maa baale fépp mudul jeex ak terànga ju bir
-
-Sëriñ bi tay maa ngi nile

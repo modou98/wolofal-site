@@ -37,5 +37,3 @@ Te loola xam nga du juddóo’kiy moy ak jëfi ndaw
 
 Nañ bokku farlu di muslu’k moy ndigal aka daw
 Lu bon ba raw jotu yiw ndax nun nu muccu te raw!
-
-Jaaraama gaa yi Bàmba yi

@@ -41,6 +41,3 @@ Ka may ña am gépp ub noteel
 Yàl na nu may géppub noteel
 May nu ndam ak wallu gu teel
 Gu gaawe ni'g melax
-
-Mbooleem ku nekk ci kaw suuf sii ta
-yéene ma lëf

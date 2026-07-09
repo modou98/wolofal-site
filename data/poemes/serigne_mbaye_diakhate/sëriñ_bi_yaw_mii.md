@@ -602,5 +602,3 @@ Nuy diglé yaw mii
 Tay def nag uw yiw
 Tay wax nag uw yiw
 Ba am la yaw mi
-Da ñoo war a booloo fab xar ug dee
-ta jox Sëriñ

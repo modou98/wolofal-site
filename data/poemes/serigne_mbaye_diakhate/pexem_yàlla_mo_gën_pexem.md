@@ -26,6 +26,3 @@ Kërug doylu moo lay fegal naaju lor
 Seral sab xol ak saw yaram, yendu fa
 Te bul jàq bul rët ngirub yàqkat
 Fa mbir may bawoo, yàqkat yeggu fa
-
-Bu saw jiwu moy sam tooba tex ca sa
-lépp yaw

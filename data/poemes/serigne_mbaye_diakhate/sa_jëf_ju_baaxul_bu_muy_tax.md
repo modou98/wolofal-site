@@ -26,4 +26,3 @@ Séytaane day wax ku bon yaw tuubi fajtila lëf
 Ba noppi nag naa ku baax it kaare yaw na nga mel
 
 *Incomplet
-Yaa denc yaw ndaw sa

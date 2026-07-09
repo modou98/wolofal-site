@@ -26,6 +26,3 @@ Ngir jallagul jalleegul it
 Muccagul musleegul it
 Xamul lakoy xala dal it
 Yaw bu ko ñee far ko yërëm
-
-Ndaxam gaayi may siis akay dox di
-bañ

@@ -36,6 +36,3 @@ Ku am lafit bu ca dee lor daal di ñàqati laf
 
 Tuubal te sant ñu far say moy te dolli sa ngëm
 Dàkkul la mbooleem lu bon fàwwak ka koy nara def
-
-Ma dimbali koo man Yàlla ak
-Yonenam

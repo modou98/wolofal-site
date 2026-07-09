@@ -31,6 +31,3 @@ Fu nuy neeti faf dig léemu nag gu fa Yàlla suy
 
 Suñuy jëmm Yàl nay jëmmi jàmm tay ak ëllag
 Di mucc ak njariñ di’g léemu dëgg gu rëy gu doy
-
-Yaw miy ligéeyal ku bëggul lëf sa xel
-bumu dal

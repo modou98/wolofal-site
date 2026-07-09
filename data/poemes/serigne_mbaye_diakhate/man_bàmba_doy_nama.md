@@ -36,6 +36,3 @@ Rab wii ne jànjaŋ te ken neewul ki ray lu waral?
 
 Sëriñ bi nun fabu ñuy téerée’ki ndomba di sol
 Fegal nu lor may nu aw yiw nun sa gëm la nu sol
-
-Yaw Ibra xujja wutal ab yar ta not sa
-bakkan

@@ -73,6 +73,3 @@ Xiraati jébbal nu fàww ak sàlli cant yu suur
 
 Yàggal nu àddina lool ak jëf ju yiw ju la saf
 Ju nuy saxal ci yaw ak loo sant cant gu wóor
-
-Bàyyil bàyyil jaloorey gaa yi ngay yër
-akay

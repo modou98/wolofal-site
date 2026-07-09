@@ -43,6 +43,3 @@ Nit wërsëgam du ko raw wërsëg ak ub dig a yam
 
 Lu ca’g ñëwam jotagul loo ñoddi ñoddi du ñëw
 Loo xamne xas na ci ñëw loo dàq dàq du dem
-
-Am leen a am gëm dollikooti’g wóolu
-it

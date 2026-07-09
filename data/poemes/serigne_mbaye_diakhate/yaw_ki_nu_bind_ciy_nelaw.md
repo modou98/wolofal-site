@@ -60,6 +60,3 @@ Naatal nu nun ñépp bu wóor
 Fegal nu bekkoor it bu wóor
 Saxal nu cig topp gu wóor
 Goo nangu yaw ki dul nelaw
-
-Saxaar ug ngërëm gaa ngi nii tey fi
-nun

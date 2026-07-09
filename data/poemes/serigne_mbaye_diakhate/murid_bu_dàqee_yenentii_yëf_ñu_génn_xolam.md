@@ -37,6 +37,3 @@ Lu bon lu ciy duggu, boo dàqul mu def ko këram
 
 Bépp ub murid bu fasoo jël ndam na génne xolam
 Mbooleem lu cay yar yareekay daw ludul Sëriñam
-
-Da ngay maye rekk uw yiw ku ñuy
-dégg yaa ko may

@@ -39,6 +39,3 @@ Jàmm ak saxub jàmm ngay gis foofa ay dufa goor
 
 Am Yàlla ak ngëramam ak àjjaanam a nu suur
 Nun ngalla Yàlla na nu am yii yépp am gu nu suur
-
-Sëriñ bi bégal sab xol na sedd nga
-sant yaw

@@ -60,6 +60,3 @@ Ba xam Yàlla am Yàlla kon ngay Kariim
 
 Ndabal dëgg laa ngii nii muut ak ngëram
 Ku bëgg ii ngëram na tibb ak loxoom
-
-Xam naa ci Yaw lu ma saf, am naa ci
-Yaw lu ma saf

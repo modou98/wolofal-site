@@ -18,5 +18,3 @@ Bàyyi lu bon def u yiw, lii war ci lar bune nag
 Ku lay xamal bile xam-xam, kooku sab xarit a
 Ku yor sa njëg ta gisoo loo jënd doo tane nit
 Ku ñàkk njëg ta gis um njaay it mu far ko fa të
-Gaa yi tabax bii tabax man xawma
-seen i ayib

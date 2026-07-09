@@ -37,6 +37,3 @@ La deefi wut nekkatul Màkkaaki Faas aki Xaay
 
 Fu as njariñ mës a nekk ak bàrke, jug na fa tay
 Ay xott a des fépp, yaw mii dong yaa di ngañaay
-
-Jàppal sa dund bi dundal lépp ak jëf i
-yiw

@@ -1,6 +1,6 @@
 Title: Gis naa fi man senn ndaw soo xam ne fuq na bët
 Excerpt: Gis naa fi man senn ndaw soo xam ne fuq na bët - Ku bëgg saa mbég na may ñaanal ma yeggale ko
-StanzaSize: 4
+StanzaSize: 3
 ---
 Gis naa fi man senn ndaw soo xam ne fuq na bët
 Ku bëgg saa mbég na may ñaanal ma yeggale ko
@@ -61,5 +61,3 @@ Yonnen ya ak YÀLLA ak loo xam ne bëgg na ko
 
 Sëriñ bi yal na nu may boppam te yal na nu may
 Ag can gu réy gu nu jox ndaw sii ba yeggale ko
-Man xejju Yàlla yi daa naa sàkku
-bokk ci ñoom

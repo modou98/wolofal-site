@@ -66,6 +66,3 @@ Kuñuy fexee def lu gënul
 Yàlla nako wan lumu ragal
 Fàww te dàl nu koy fegal
 Te ji nu mbég mu nu bégal
-
-Xarit feddalil gëm feddali’g
-laxasaayati

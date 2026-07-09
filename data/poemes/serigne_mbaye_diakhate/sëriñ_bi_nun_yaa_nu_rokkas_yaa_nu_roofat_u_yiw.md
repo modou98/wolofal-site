@@ -37,6 +37,3 @@ Musal ma, saytuma, may ma’g yokk fàww bu baax
 
 Rokkas nu, dàbbat nu, roofat ñoo ku yiw wu nu saf
 Nu jekk jekki ni kekk ak lépp lépp lu baax
-
-Ey yaw murid bile bul sol dàll ak
-mbaxana

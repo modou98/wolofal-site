@@ -72,8 +72,3 @@ Nañ sóobu dex gile ngir dex du jeex ta du nëx
 
 Suñuy mbir ak mbiri mbooleem gaayi talibe yi
 Jàppal nu jàppal nu, mbir yaa ngi noonu ñoo la ko jox
-
-Ndegam ndey ak murit ak soxnaa ngi
-xëy di tawat
-Ndegam ndey ak murit ak soxnaa ngi xëy di tawat
-Ta Bàmba mii di gëram, seen ub tawat du ma saf

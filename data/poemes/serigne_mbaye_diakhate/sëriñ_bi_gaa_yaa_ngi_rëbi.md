@@ -60,5 +60,3 @@ Fegal nu lor ak sababam
 Te may nu yiw ak sababam
 Ak sa ngëram ak sababam
 Wuyu nu yaw la nuy rëbbi
-
-Yal na nu far tawat gu am

@@ -75,6 +75,3 @@ Te xam jëfee gën a jafe
 Lu deefi wax ni moo jafe
 Àddina fab ci xam jëfe
 Te lu ko moy nga ba ko fa
-
-Jàppal ñi dee defi nawlee ki xarit aki
-kem

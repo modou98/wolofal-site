@@ -57,5 +57,3 @@ Ka bind ndaw sile ak ndaw sii ni nàññ ak i xét
 
 Yàllaa di sab goro, Firdawsee di ndaw sa nga nob
 Yàlla naa ni cas goro bii ak ndaw si jël bu rafet
-
-Kulay jiiñati’b sang akay naw sa mbir

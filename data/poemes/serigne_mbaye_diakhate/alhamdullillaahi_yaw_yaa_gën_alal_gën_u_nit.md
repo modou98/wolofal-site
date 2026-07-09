@@ -37,5 +37,3 @@ Ku Yàlla jublu ku koy dëddooti rek a gëlëm
 
 Tàggoo gënul nañ bàyyi tàggoo murid du ko def
 Murid bu gis Sëriñam moo jaa ku xam fu mu jëm
-
-Sëriñ bi yaa baax

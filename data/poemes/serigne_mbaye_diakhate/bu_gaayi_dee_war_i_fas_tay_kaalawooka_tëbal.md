@@ -46,6 +46,3 @@ Ba dikk ànd ak suñuy ndab, rikk far nu duyal
 
 Buñ dellu suñu kër di rootaaneeka xiif aka mar
 Feesal nga, feesal nu, bu nu delluy raweeka nasal
-
-Danaa la taggati kat yaw Mbàkke-
-Mbàkke bile

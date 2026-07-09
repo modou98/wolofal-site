@@ -43,6 +43,3 @@ Fobal yépp fóotal nu baaxal nu nun.
 
 Lu dul loonu tànnal fegal fàww yaw,
 Fegal noo fegal it lor ak gépp bon.
-
-Ma jug way fi man Baabakar way wu
-jub

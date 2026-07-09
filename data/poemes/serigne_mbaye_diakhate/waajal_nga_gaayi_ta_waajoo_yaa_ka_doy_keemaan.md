@@ -106,5 +106,3 @@ Ak lép ngir yaa nu fii jallee’ka dem Diwaan
 
 Sarax nu geesu nu bis, geesug ngëram ba nu bég
 Ndegam da ñoo bon itam noo ngi fi Yaw di wayaan
-
-Sëriñ bi yaw mile tabe

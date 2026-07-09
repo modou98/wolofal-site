@@ -61,6 +61,3 @@ Farlul ci waxtuy juróom
 Tay jàpp boo mënul nga tiim
 Ta jublu nag ci sa boroom
 Fàww ta jéem a gën kune
-
-Yaw rekk a am solo, aa cam jox ma
-sab loxo man

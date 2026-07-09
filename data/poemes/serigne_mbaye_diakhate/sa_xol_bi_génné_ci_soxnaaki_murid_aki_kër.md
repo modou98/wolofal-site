@@ -37,6 +37,3 @@ Ku deewul it gis lu dee gën, jébbalul, bàyyikul
 
 Defantu baaxul bàyyil yaw mbaa nga def lu nu xam
 Nekkal di laab aka laabal waaye bul tilimal
-
-Sëriñ bi doy ngama doyloo naala it ci
-lune

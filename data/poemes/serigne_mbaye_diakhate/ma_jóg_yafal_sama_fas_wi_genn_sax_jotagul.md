@@ -39,5 +39,3 @@ Day wax ni dem jotagul yóbbal bi wal ko jotul
 
 Ba ndaw la Yàlla yabal xëy rek woo si ko bis
 Muy waaru naa defewoon naa woote sax jotagul
-
-Yàl na nu wuute fàww layoo ba

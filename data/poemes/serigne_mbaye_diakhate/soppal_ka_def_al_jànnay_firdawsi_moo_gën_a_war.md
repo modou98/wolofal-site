@@ -48,6 +48,3 @@ Fab teg ca wàll gu nekk ub sàkku rekka ko war (céy !)
 
 Di sopp Yàllaa ka yewwu ciy nelaw aka yee
 Nit ñee’ka xuppe’ka beglee’kay dagaan a ñu war
-
-Sëriñ bi ku nekk ak nun nag di muñ
-ba xol ba jeex

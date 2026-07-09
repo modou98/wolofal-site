@@ -36,6 +36,3 @@ Nit ñépp am xel ta gën cee yaatu, farlu ta xér
 
 Yaw boo xaloo rawe, tee ngaa bole naaj aki ker
 Ta yor ku baax ak ku bon, lii moo rafet ci sa mbir
-
-La mat mbég, du am soxna ak fas wu
-suur,

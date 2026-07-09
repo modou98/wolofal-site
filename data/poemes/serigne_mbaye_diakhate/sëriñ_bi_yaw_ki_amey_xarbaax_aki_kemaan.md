@@ -37,6 +37,3 @@ Ba ñépp naa bii diggantee mat ndaxam keemaan
 
 Yëram nu wallu nu, yaw sag wall daal a rafet
 Day bett, noppale, neex it nag ba doy keemaan
-
-Yàl naa gëram Yàlla ak Yonnen ba
-sant Sëriñ

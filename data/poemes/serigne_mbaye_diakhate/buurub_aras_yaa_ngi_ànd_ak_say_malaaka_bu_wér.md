@@ -46,6 +46,3 @@ Yewwoo ca firdawsi daal ak mbég faseeki nelaw
 
 Jullil nu ca’g julli guy naawal nun ak suñu ñoñ
 Ba jóo nu Firdawsi jéll ak nun fu nit mës a aw
-
-Fan yaa ngi nii li ci des nag Yàlla na
-gën li ci wéy

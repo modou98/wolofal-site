@@ -24,6 +24,3 @@ Ak suufe ak wax ca suuf ak doylu ak baña xér,
 Ak itte woo ndigal ak farloo ka feddili ku
 Ak wacc lépp lu bon, ak wax ci lépp lu jub,
 Dalal di def mbaa nga fab say mbir te jébble ko
-
-Àddina loo ci gis it day wéy nde lëf du
-fi sax

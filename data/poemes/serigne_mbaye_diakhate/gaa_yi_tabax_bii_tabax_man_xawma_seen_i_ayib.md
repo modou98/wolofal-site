@@ -54,6 +54,3 @@ Luñuy mos ak lu ñu cay tàbbal ta kenn du lebi
 
 Lu deesi am ci jumaa jii, jar na xëy ne rajax
 Sa bopp toj boole sag yuur ak simoŋ di tabax
-
-Wut leen a wut bàrke tay muñ wépp
-tiis ak u naaj

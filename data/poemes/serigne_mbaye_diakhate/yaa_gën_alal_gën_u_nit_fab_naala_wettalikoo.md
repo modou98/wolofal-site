@@ -31,6 +31,3 @@ Yaa tax ña jëm kaw a jëm kaw, may nu ag kawe ren
 
 Ta may nu yëkkatikug mbég ak ngënéel aki ndam
 Teg ca’g wér ak guddu fan ak muccu, def nu nu gën
-
-Yaw yeete kat bile, yewwul yaa ngi
-yeete ba far

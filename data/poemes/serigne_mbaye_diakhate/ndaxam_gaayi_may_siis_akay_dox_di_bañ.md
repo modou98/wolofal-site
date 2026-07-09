@@ -46,6 +46,3 @@ Du sikkal samay mbir asal dëgg la
 
 Ku bëggul lu dul aw ngerum Bàmba mii
 Di wut Yàlla kookee samab soppe la
-
-Ku dof bay ndamoo baaya mit mbaa
-ndayam …

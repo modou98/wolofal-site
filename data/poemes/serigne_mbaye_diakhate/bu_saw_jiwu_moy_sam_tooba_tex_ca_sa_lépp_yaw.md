@@ -36,5 +36,3 @@ Te loo ca texul textil bis penc umpula !
 
 Fobal li nga bëgg ak lépp loo yóbbu tex ca yaw !
 Mu sax jàmm gay dóomal di sant ñu sant la
-
-Tawat ja deñ na

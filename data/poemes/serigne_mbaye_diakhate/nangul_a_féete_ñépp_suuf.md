@@ -21,5 +21,3 @@ Yaatal nu yit ci sépp suuf
 Notal nu mbooleem gaa yi soof
 Ñu nekk nag ci suñu suuf
 Nu ne ca kaw di la wane
-
-Sëriñ bi man yaa ma gën

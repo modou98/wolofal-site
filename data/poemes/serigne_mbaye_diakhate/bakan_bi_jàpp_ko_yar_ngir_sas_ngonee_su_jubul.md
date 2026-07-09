@@ -36,6 +36,3 @@ Gogam ba sanqu ji, bul jaabal waral ta doxal
 
 Tay sas ngonee ngoogu, boo saytoo ta yar ko mu jub
 Te boo ko baa rekk ag boppam, du jub, du jubal
-
-Taqool akum njàpp ak tuub ak sikar
-su bari

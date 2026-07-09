@@ -36,6 +36,3 @@ Akuw ñam, layam jeex na kat, lagg léen
 
 Ku xam ngir xam ug dëkk yor yóbbalam
 Na daw nag ba jot ay kemam, jiitu léen
-
-Buurub Aras yaa ngi ànd ak say
-malaaka bu wér

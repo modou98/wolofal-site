@@ -40,5 +40,3 @@ Ta koo gis ci ñoom as cagar doy na ko
 
 Lu dul doy du doy nag te luy doy di doy
 Murid mbubb daal ak tubëy doy na ko!
-
-Salamun hãlaykum Mbàkke

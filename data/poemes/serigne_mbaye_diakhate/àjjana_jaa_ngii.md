@@ -196,6 +196,3 @@ Yaaram dafay ree
 Lu dikk muy ree
 Lu dellu muy ree
 Ngoram ga wér na
-
-Sëriñ bee di saa koor ak samag julli
-fàwwu man

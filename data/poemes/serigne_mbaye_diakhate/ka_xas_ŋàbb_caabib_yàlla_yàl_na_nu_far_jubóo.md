@@ -40,6 +40,3 @@ Ta maa ngi di daw mbooleem la ko neex a neex
 
 Ta Yàlla na raw it mboleem ludul la ko neex a neex
 Ta jot lépp lëf loo xamne lii moo ko neex a neex
-
-Sëriñ bi sa digg ak Yàlla raw nam xel
-ak xalam

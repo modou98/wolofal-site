@@ -30,6 +30,3 @@ Te bàrke dal nu, dal ci kaw bopp ak lu dal suñu xel
 
 Ku ànd akub dex lumuy ñaaneeti ndox aka wut ?
 Bub jant fenkee lu ñiy niit ak lu dee si ragal ?
-
-Séytaane moo bon, bu seeroo ab
-murid di dawal

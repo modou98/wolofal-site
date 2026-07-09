@@ -74,5 +74,3 @@ Kon, loo ci mos muy njariñ daal ak ngëram aki pal
 
 Bul fàtteleeti sa mbir ngir ken du fate sa ñoñ
 Ku bañ ñu fàttela waccal lepp, jàpp ndigal
-
-Lu YÀLLA bind, amoo ci ndend

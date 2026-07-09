@@ -109,6 +109,3 @@ Ta daaldi fay ay wu tax koo gis di tiit aka wax
 
 Ngir jëmmi Yàlla ji, nangul way wi nangu gu wér
 Fabal nu it suñu bon gii ñuy xalaat aka wax
-
-Ma jug sant Bàmbaati ngir mooma
-may

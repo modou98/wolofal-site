@@ -36,5 +36,3 @@ Ku jog teggilay wéy ta lii xam ko kat
 
 Bakkan joñ la jittal nga far di’b laram
 Ñu naa yaa di ab sang, doo benn kat
-
-Sëriñ bee ne fii, moo nekk fépp

@@ -36,6 +36,3 @@ Ak fan wu guddu ak ub wér teg ca nag di nu wis
 
 Muhammadoo dénk baa ngi jàpp rek a ci des
 Yàl nay suñuw yiw di saw yiw tay texeg ku ko gis
-
-Ma wax fi Ahmadu Sekk ub dénk tay
-jile nag

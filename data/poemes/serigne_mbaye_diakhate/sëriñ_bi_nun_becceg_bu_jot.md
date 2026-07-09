@@ -40,6 +40,3 @@ Garab nga guy tàbbal ngërëm
 Ak dugub ak ndox ak xorom
 Ku la forul ñàkk xorom
 Ñàkk dugub, tàbbil ñu for
-
-Yaa xam ta yaa am, ta yaa di’b tab,
-xañoo ñi la moy

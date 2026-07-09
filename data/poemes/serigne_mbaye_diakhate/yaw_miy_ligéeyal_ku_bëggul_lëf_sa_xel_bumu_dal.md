@@ -46,6 +46,3 @@ Mën ngeen a ànd di wéy bokkii waxiin aki jëf
 
 Koo xamni nag bokku léen ub teeru boo ko gisee
 Muy génn akay wàcc, tàggoo leen i wax aki jëf
-
-Murid bu dàqee yenentii yëf ñu génn
-xolam

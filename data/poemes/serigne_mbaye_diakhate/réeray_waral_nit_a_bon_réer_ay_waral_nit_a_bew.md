@@ -42,6 +42,3 @@ Ta dëk fàww fi nun ñuy mucc fàww ci lor
 
 Ngay bég fi nun fàww, ñuy bég fàww fàww ci Yaw
 Ngay sant ñuy sant dooto mer ta dootu nu mer
-
-Musal nu falaŋ ñu dog bu duuf ak i
-cantati

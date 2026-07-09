@@ -61,6 +61,3 @@ Lu Yàlla def Yàl na nu neex
 Lumu ba it Yàl na nu neex
 Ta Yàl na ñii def lu ko neex
 Ta sax ca sax gumu gëram
-
-Waa jii rusal gaa yi xëy jëm àll ngir
-sa ndigal

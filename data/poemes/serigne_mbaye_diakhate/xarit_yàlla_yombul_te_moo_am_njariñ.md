@@ -62,6 +62,3 @@ Xaroo xol bu laab it bu dootul tilim
 
 Bu sab xol di set Yàlla daal cay dalak
 Yiwam wépp ngay waa ju xam lépp, am
-
-Sëriñ bi yaw ki ma may loo xamne
-kenn amu ko

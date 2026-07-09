@@ -16,5 +16,3 @@ Baaxal nu fii baaxal nu fee ba ñépp naa kii gañe na
 
 Jël nga ndamal sëriñ bu ne may nu ndamal murid bu ne
 Ak itte ak ngëram lu ne ak way gu nee fi jafe na
-
-Xarit Yàlla yombul te moo am njariñ

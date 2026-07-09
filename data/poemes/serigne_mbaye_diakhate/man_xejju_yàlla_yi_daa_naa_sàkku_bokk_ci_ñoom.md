@@ -24,6 +24,3 @@ Daa naa fexee def moroom ak nawle sang ya tay
 May jéem a def ku ci nekk ub sang, def ko boroom
 
 […]
-
-Yàllante may xaj su ànd ak xejji Yàlla
-ya ndax

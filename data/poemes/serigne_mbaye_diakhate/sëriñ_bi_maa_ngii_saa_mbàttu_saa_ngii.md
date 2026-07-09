@@ -76,5 +76,3 @@ Na nga nu sarax yaw
 Itte yu jëm kaw
 Tay jëm a jëm kaw
 Ta faf nu yéege
-
-Sëriñ bi ndab laa ta lu tilim laa

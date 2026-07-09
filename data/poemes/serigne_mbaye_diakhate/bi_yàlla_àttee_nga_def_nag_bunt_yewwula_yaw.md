@@ -37,6 +37,3 @@ Ta saytu nga'w nit aki yëf, farlu warna la kat
 
 Lu dikk am nga ca lëf, koo saytu am na ca lëf
 Séddul ta sédd sa ñoñ, lii daal a jub ta rafet
-
-Lii tee mu taw ñoo ko def ngir ñoo
-deful la nu war

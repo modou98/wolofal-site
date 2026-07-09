@@ -36,6 +36,3 @@ Raw, muccu jël ndam la, gudduw fan ta sedd xolam
 
 Ta Yaalna may gépp waayam may gu sedd xolam
 Ta jox ku nekk lu muy mos nag ba song sasam
-
-Soppal ka def Al Jànnay firdawsi moo
-gën a war

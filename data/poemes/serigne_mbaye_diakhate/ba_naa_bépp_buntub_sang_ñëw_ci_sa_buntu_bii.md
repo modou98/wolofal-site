@@ -33,5 +33,3 @@ Lingay wut ci beppub lar ta yàggal sa dund gi
 
 Sa dund gi moo am bopp am fulla am njariñ
 Rëyal nga lu sew, baaxal lu bon, yaa di sang bii
-
-Jegeb dex xarit am na lor am njariñ

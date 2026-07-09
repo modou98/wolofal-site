@@ -1,6 +1,6 @@
 Title: Ma wax fi Ahmadu Sekk ub dénk tay jile nag
 Excerpt: Ma wax fi Ahmadu Sekk ub dénk tay jile nag - Ndax Yàlla boole ñu jox aw yiw fegal ñu mbugal
-StanzaSize: 4
+StanzaSize: 3
 ---
 Ma wax fi Ahmadu Sekk ub dénk tay jile nag
 Ndax Yàlla boole ñu jox aw yiw fegal ñu mbugal
@@ -16,5 +16,3 @@ Ta nit bu boppam baa weexe kat mu yell a ragal
 
 Jàppal juróomi bëyit yi fàww maa la ko jox
 Ta Hamsatoo lako sàkkul ngir yëram la fabal
-Fàttee ka bon fàtte dee rekk ay
-waral nit a bew

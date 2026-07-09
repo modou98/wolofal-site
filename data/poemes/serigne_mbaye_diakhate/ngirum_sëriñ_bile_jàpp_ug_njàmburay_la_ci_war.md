@@ -37,6 +37,3 @@ Bul may ndigal ku la naa “Man saytu woo sama mbir”
 
 Kuy bañ nga di’b sëriñam, muslul nga di’b sëriñam
 Tollul fu nit tollu kon doo lor ta kenn dula lor
-
-Ma wax fi lëf lul dafay leeral
-diggante murid

@@ -24,6 +24,3 @@ Jañal nga nu'g tawat it muy wéy ba mujju nu foñ
 
 Naatal nga kër yépp ak nit ñépp waame nga yaw
 Wudul séwét may nga nuy mbooloo’ki pàkk aki pañ
-
-Waajal nga gaayi ta waajoo yaa ka
-doy keemaan

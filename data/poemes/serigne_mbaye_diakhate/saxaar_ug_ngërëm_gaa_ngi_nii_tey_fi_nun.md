@@ -36,6 +36,3 @@ Ni cas nag sa mbir jox ko looloo di paas
 
 Te Bàmbaa ngi nii nag di yeb aw nitam
 Ngegam bëgg ngaa raw jógal jox ko paas
-
-Ba naa bépp buntub sang ñëw ci sa
-buntu bii

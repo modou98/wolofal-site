@@ -45,5 +45,3 @@ Nga dégg soxna ya jooyo na ku ñuy xala jël
 
 Mbooleem njabootam naa moo nun fuñuy xala jëm
 Wollare wuy wëy di wëy Yàlla ko mat di fasal
-
-Sëriñ bi nun bëccëg bu jot

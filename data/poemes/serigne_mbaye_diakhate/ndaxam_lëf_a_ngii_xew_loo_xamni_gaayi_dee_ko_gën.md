@@ -36,6 +36,3 @@ Ku daw yàq sab der nàkk sag ndam def ku ñuy sëbe
 
 Ku xas tàbbi tee moo muñ ba buntam ne péll far
 Mu génn ak ndamam ñuy wax ne céy boobu taalibe
-
-Gaayaa ngi taax ak a jël soxnaa’ka
-jëndi wota

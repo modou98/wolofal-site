@@ -39,5 +39,3 @@ Ta sax fàwwu, ñuy sant akay dox di duy
 
 Sëriñ moo di ag dex, na ngay degge xel
 Gileg dex ku dul degge xel doo ci duy
-
-Gawar gum fasam të lumuy laaji fas

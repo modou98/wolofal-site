@@ -102,6 +102,3 @@ Ku nammatee genn ndigal,
 Nun bunu génn ndigal
 
 Amiin
-
-Ndaxam gaayi koo xam ne bàmmeel
-a koy

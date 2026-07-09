@@ -49,6 +49,3 @@ Ndegam bëgg ngaa yegg foo yeggagul
 
 Sa wax jépp nay jem ci sab sang yaw
 Sa jëf jëm ci moom ak sa mboolem alal
-
-Murit saxaar a ngi ni seetal mbiram
-ta xalam

@@ -1,6 +1,5 @@
 Title: Xarit nit ñi
 Excerpt: Xarit nit ñi ken mën la tax ñii gëram - Té ken man la tée ñii goreedeeka jëw
-StanzaSize: 3
 ---
 Xarit nit ñi ken mën la tax ñii gëram
 Té ken man la tée ñii goreedeeka jëw
@@ -37,7 +36,3 @@ Da ngay muñ nii suuf sii nga gis ñépp aw
 
 Muñal yaw ta sellal sa jëf kon nga am
 Payub Yàlla far gën ña lay dox di jëw
-
-Xarit dëgg
-Xarit dëgg bul gaddul ub tànk (1fr) nit
-Ku gaddul nit ub taŋk gadduy loram

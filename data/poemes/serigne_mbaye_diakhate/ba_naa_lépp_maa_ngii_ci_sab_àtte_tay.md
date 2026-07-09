@@ -144,6 +144,3 @@ Ta naa lay fajal fàww soxlaaka wut
 
 Yoral xol bi, yor cër yi, yor lépp nag
 Yëlëb naa ludul yaw ci man mii mu rot
-
-Ku jëm ci ab dëkk xeebum ngir du
-yegg du dem

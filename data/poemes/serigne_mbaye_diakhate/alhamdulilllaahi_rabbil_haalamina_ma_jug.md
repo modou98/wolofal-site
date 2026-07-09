@@ -40,6 +40,3 @@ Bu koy fas it du ko naa ay waaji mbaa duma rot
 
 Rayal sa bopp ta bul dekkeeti konte nga jot
 Ngëram lu màgg la ta raw lor nag ba dootul a jot
-
-Saa bon gu rëy gi ma xam ak saa
-ayib gi ma yëg

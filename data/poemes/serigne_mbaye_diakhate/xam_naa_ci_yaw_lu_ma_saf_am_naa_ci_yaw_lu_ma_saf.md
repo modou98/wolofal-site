@@ -16,6 +16,3 @@ Yaw yaa di kenn ku gën ay junni maa la ko wax
 Te dàq séytaane ak yéefar ya, not xare ba
 Tooyal nga xol yi, te tooyal kër yi lëf wowatul
 Kulay bàyyeeti du man, mootax yaw it bu ma ba
-
-Ma wax fi lëf lul dafay leeral
-diggante murid

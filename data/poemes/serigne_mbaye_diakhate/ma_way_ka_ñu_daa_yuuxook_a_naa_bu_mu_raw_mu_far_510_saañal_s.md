@@ -37,6 +37,3 @@ Ba noppi dila xool i gëtam, gëtam yaa ngi
 
 Ku rus gëtam yile, foo jëm ñépp bokk la rus
 Ta fab la teg ca kaw nag, nañ sóobu, ngir maa ngii
-
-Alhamdulilllaahi rabbil haalamina ma
-jug

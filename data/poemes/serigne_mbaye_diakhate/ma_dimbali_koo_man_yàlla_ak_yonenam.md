@@ -71,5 +71,3 @@ Lu soppu na ñuy dal fàww tay dal ñi ñuy jëfal
 
 Ludul mbég bu nee ñokket na tegg i suñuy barab
 Te moy nu ta moy mbooleem ñi lay sopp akay teral
-
-Bàyyil ku lay ba *

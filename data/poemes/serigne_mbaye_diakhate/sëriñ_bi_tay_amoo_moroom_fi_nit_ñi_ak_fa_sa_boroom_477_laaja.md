@@ -33,5 +33,3 @@ Yónnen ba ak Yàlla jox la'g pal nga délsi ba ko.
 
 Yàllaa ngi woote bàyyil Dunyaa te wuyji ko yaw
 Ku wuyji bëgg te Dunyaa rekk tax mu të ko.
-
-Sëriñ bi yaw mii

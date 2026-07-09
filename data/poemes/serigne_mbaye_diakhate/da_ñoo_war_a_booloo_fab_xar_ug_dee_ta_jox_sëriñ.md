@@ -40,6 +40,3 @@ Na lépp ni gàññ ak jàmm nuy seppalee’ka fas
 
 Aréen ak dugub ak sëb na nangu ta jàmm am
 Ku nekk jubóo’kub sangam ak waa këram di mos
-
-Murid la ko war, tuub ub moyam,
-sant ag mayam

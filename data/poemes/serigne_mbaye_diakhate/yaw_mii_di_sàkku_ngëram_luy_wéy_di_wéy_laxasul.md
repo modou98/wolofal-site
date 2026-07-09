@@ -88,6 +88,3 @@ Nañ jekki gaayi ta saytul mbër sërëm yile nun
 Yàlla bu ñuy sob a sob bay jug ba mbër di nu fél
 Way naa fi way wile ngir sàkkuy ngëram ak itam
 Fàgguy ngëneel aki pay Yaalnañ ko Yàlla fàggul
-
-Jiley wax it def na wax joj xam ko
-war na kune

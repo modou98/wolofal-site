@@ -37,5 +37,3 @@ Yobbal don la, na koy jaamoo ka sante di daw
 
 Kër gii deful kër gu ñuy tëddee ka tedd di wéy
 Ku man di fàttee ka bew bul fàtte mukk ak a bew
-
-Ma jox fi Aaminatu’b dénkam

@@ -62,6 +62,3 @@ Day tax añam ba bu sottee it ñu far ko fa ub
 
 Sëriñ bi may nu nu dëddu’g moy ta jublu ndigal
 Ba làq say ngëram ak firdawsi ndaw si nu nob
-
-Murid bu nekkul fa sangam bay
-ligéey aka daw

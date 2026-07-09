@@ -27,6 +27,3 @@ Say sàq jompta doo réccoo ka dox di faru
 
 Ku sollu wul xotti sàqam xiifa kay xala rey
 Bul dof ba doylooti yaw ay jëmm wëllis i ruu
-
-Bàyyil ayib yile ngay yër yaw ta yër
-sa ayib

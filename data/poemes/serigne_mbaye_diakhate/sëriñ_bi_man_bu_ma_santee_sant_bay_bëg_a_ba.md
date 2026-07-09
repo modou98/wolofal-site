@@ -40,6 +40,3 @@ Koo jàppul it Yàlla ak Yonen ba daaldi ko ba
 
 Yal naŋ nu jàpp te yaw mii Yàlla boo nu ba yit
 Te yal naŋ ngay yora yor suñ mbir te doo xama ba
-
-Bu gaayi dee war i fas tay
-kaalawooka tëbal

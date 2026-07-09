@@ -99,6 +99,3 @@ Yu jàpp xol yépp leeral, fóoti moy feg i tér
 
 Sëriñ bi may ma ma mat gaa yii ma tudd Sëriñ (Céy)
 Ta jox ma nag seen i kem ngir Yàlla sangema far
-
-Tawat naa samag bon ci yaw miy
-fajal

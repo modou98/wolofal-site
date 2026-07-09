@@ -18,6 +18,3 @@ Fegal nanu ñub ràgg ak jabar, lépp faf na jag
 
 Bu Séytaane nee ne ñokket nu fél ko mu moy nu nun
 Bu yërmànde nee ñokket nu jañ ci suñuy wanag
-
-Dugal naa saw nit ñépp ak sama
-jëmm jii

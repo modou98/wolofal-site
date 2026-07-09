@@ -36,5 +36,3 @@ Yàl na nu jàpp lépp ak yëgoo ba
 
 Yàl na nu fekke fàww nuyóo ba
 Te bañ a fekke mukk layoo ba
-
-Àddina moo di kër ug séytaane

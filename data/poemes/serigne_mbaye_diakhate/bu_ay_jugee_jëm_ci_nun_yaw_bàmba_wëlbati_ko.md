@@ -36,6 +36,3 @@ Say fukk a ngii Mbàkke jàppal ken sàccu la ko
 
 Alhamdulillaahi tay noo ngi dagaan ak a wut
 Waameey ngëneel aki mbég xiinal ta dotti nu ko
-
-Sa wax ji suuxal na mbooleem wax ju
-nit mësa wax

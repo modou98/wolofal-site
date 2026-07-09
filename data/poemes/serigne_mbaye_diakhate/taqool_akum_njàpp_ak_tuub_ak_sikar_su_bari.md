@@ -36,5 +36,3 @@ Say mbokk ak say xarit, ngir bëgg laa soxore
 
 Nekkal bu wér yaw di jaamub Yàlla waxtu wu jot !
 Ta nekk nag di ligéeyal sab Sëriñ lu bari
-
-Jébbal nu yaw suñu Boroom

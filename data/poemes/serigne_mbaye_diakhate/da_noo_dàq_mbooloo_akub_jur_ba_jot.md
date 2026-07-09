@@ -54,5 +54,3 @@ Ndegam bëgg nga buur ak ñoñam sopp la
 
 Defal lépp luy tax ñu naa yaa fi gën
 Ta daw lépp luy tax ñu naa baaxula !
-
-Muñal kem li ngay muñ

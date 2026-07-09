@@ -66,6 +66,3 @@ Wasal na jox nu
 Nangu na jox nu
 Rëbbi na yët nu
 Ndolen la ñëw na
-
-Sarax nu mbalaanum cant ak
-suturaaku yiw

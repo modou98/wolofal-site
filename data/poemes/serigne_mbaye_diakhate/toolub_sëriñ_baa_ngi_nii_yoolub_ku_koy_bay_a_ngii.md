@@ -58,6 +58,3 @@ Ak lépp lëf lumu sib ak luy ësaale meram
 
 Yàl nañ may it may gu yéemoo yéemu guy rëy a rëy
 Tay ànda ànd aki mbég ak wépp xeetu ngëram
-
-Ludul Sëriñ bile man mii sànni naako
-bu wér

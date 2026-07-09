@@ -16,6 +16,3 @@ Kuy dox di riisoo’ku njàmbal leegi leegi mu yor
 
 Ku jàppul ug njàmburam bay tuddu nag sa ayib
 Gëram ko fab na ngëneelam jox la yóbbu sa lor
-
-Boo kër këreetee ba am ay jëmm
-sàkkal i ruu

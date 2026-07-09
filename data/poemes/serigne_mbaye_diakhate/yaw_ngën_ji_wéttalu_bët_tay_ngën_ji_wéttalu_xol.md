@@ -37,6 +37,3 @@ Yeeteg ngëram ndax nu far gëmlaati, yaa nu soxal
 
 Gëm yépp nay dollikookay jëm kanam bu rafet
 Ta itte yiy yokk nit ñiy sante jëf aki xol
-
-Ci bunt bi laa xalseet a nekk ba dee fi
-man

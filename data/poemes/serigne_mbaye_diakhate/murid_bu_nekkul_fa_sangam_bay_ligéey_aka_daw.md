@@ -15,6 +15,3 @@ Xàllam wi kenn awatul, xàllam wi Yàlla na ñu miin
 
 Xàllam wi Yàlla na ñu dundal, dundal it suñu xol
 Ñu dund, dundal ko biir ak biti faj lu ñu buun
-
-Yaw ŋoy ci Yàlla ak ub Yonnentam a
-la jig

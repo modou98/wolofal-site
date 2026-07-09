@@ -19,6 +19,3 @@ Ku dof rekk daal koy def ku wax it nga jàjji ko
 
 Ku def na nga gis ku bëgg a def, na nga nég ba xam
 Ku wax na nga xam fàww it, ku noppi nga déglu ko
-
-Yàllante tay jile may suukar, nga def
-ma kafe

@@ -42,6 +42,3 @@ Tëjal sa lépp ci Nun, dàqal ñu luy tax a toj
 
 Dëëral ñu, def ñu sa ndab loo xamni lëf du ko toj
 Ta ku’m xelam neeti yar as lëf ci toj ko nga tëj
-
-Tay marsàndis um ngëram maa ngii
-di wékke ni xus

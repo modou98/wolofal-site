@@ -61,6 +61,3 @@ Ku làqu laa ci ginaawag mbër amaana ma raw
 
 Yàlla naa raw ak ñi ma àndal ñépp raw gu rafet
 Yàl naa ni nuus aku yiw mbooleem njariñ lu ma raw
-
-Ba naala ag mbir yi tay maa ngi ci
-say yoxo man

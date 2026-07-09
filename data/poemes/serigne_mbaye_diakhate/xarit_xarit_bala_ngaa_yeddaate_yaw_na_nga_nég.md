@@ -18,5 +18,3 @@ Ta far moyug ñi nu dëkkal far moyug ku nu xam
 Ta far moyug ku am as gëm boole ñépp defar
 Ta far ñu boole musal baaxal nu, nangu suñuy
 Jëf yépp saytu nu ci’g baaxam ta boole nu yor
-Musal nga nu biir ak biti, fal nga nu
-door a dem

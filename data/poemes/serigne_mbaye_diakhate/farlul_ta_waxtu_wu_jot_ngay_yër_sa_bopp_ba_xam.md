@@ -37,5 +37,3 @@ Ab bëy lu daw daw ta ñàkk ub sàmm, sànk u xélam
 
 Toppal ca sang ba not ay noonam ak bakkanam
 Mu dox sa dig aki bon-bon ngay ku mucc ku xam
-
-Sëriñ bi gaa yi ne fi nun

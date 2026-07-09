@@ -25,6 +25,3 @@ Moo jaa ku koy rammu ëllëg fa Yàlla ?
 
 Ku toppatul Yàlla, na toppi waayam
 Mbaa lu ko dal bumuko xul fa laa yam
-
-Yaw ngën ji wéttalu bët tay ngën ji
-wéttalu xol

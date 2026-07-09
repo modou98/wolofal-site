@@ -1,6 +1,5 @@
 Title: Ndaxam Bàmba yaa jar di sonnal
 Excerpt: Ndaxam Bàmba yaa jar di sonnal ba dee - Ludul jóg ligéeyal la xaw nay araam
-StanzaSize: 3
 ---
 Ndaxam Bàmba yaa jar di sonnal ba dee
 Ludul jóg ligéeyal la xaw nay araam
@@ -58,4 +57,3 @@ Gi deeful bàyyeey mbiram ag sagoom
 
 Boromam dakoy fomp akay diw di yër
 Akay teg ca kaw def ma nii Yaa Kariim
-Ku xëy di neexalu nit ngir *

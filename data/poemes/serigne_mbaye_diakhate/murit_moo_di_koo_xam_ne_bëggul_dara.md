@@ -48,6 +48,3 @@ Ki am ndab ak uw yiw te bëggoo dara
 
 Kudul yaw amul ndab amul wenn ñam
 Faroo soxla yaw lëf ta ñàkkoo dara
-
-Murit boo bëggee raw lu bon jot
-ngëram

@@ -16,5 +16,3 @@ Manoon nga maa def ku ñuy suufeel akay woyofal
 
 Jaraama yaw jërejëf, yaw yaa manoon a dogal
 Ci man Lu kenn amul ub reenam,faroo ko dogal
-
-Doo kenn yaw, ken du yaw*

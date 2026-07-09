@@ -72,6 +72,3 @@ Kalay defal lile matnay dox di fàttaliku
 
 Gëram ko sant ko cantam sax deful luñu mën
 Toppal ndigal yaw sa diirug dundu sante koko
-
-Ka soxna ak njël di jaaxal kooka
-bokku nu man

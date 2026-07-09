@@ -48,6 +48,3 @@ Di mbubbam di jëmmam, sëriñ fab ko naan
 
 Sëriñ nag ku seeyul ba jee tàkk far
 Ci biiram, xelam kat du daj fab la naan
-
-Lar ub Yàlla bii yaw mii na ngay
-ñàkke lenn lëf

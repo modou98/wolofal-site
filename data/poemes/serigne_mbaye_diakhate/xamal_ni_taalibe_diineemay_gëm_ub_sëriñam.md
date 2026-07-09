@@ -43,6 +43,3 @@ Sab sang dénkooko lenn it, lee nga ñàkk xorom
 
 Sëriñ balaa sax ci sab xol yaw nga sax ci xolam
 Ta set ci lépp ludul bànneexam ak ndigalam
-
-Boo jaamuwul Yàlla ngir jëmmam ja
-jaamu ko ngir

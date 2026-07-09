@@ -39,6 +39,3 @@ Ta dëkk ci man mii fàww yaw ki ma yëkkati
 
 Sarax nu cofeel ak wóolu ak gëm gu wér ci Yaw
 Ta dikke nu mbég bub jant soo mbaa mu fenkati
-
-Àddina yaw waxal ak say far yu bon
-yi la nob

@@ -16,6 +16,3 @@ Sëriñ bi Yàlla na nu jéggal fàww moy gu nu moy
 Ta jox nu may gu nu doy wëllis di sàcc aka nar
 Ta Yàlla na may gaa yi koy yàkkaar akay jox i yëf
 Jàmm ak mbég ak suturaa’kub mucc ak lu nu war
-
-Xarit xarit bala ngaa yeddaate yaw
-na nga nég

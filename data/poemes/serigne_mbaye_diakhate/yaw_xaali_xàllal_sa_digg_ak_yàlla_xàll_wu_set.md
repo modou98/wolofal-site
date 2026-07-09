@@ -36,6 +36,3 @@ Tay wax ci ñépp lu jub, tey sopp bépp jullit
 
 Na ngay yëram ndaw, teral mag, sa kem, na nga def
 Sa bopp kon yaw sa digg ak ñépp jag ta rafet
-
-Bu gaayi dee war i fas tay
-kaalawooka tëbal

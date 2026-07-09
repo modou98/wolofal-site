@@ -43,6 +43,3 @@ Ta lew nu gën wépp wërsëg, teg ca ëpp ko fuuf
 
 Jébbal nu wërsëg wu suuxal wépp wërsëgu nit
 Ak gëm gu wat gëm gu nekk ak fan wu sut wune fuuf
-
-Farlul ta waxtu wu jot ngay yër sa
-bopp ba xam

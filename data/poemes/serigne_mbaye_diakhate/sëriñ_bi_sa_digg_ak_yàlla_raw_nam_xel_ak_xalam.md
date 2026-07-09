@@ -40,6 +40,3 @@ Sa may gi su feeñul woon ñu jis ko ci yaw bu wér
 
 Dañoo sédd mboolem sang yépp ñu dem nga ñëw
 Ñu jébbal la ñépp ak seeni cër, doy nga noo xalam !
-
-Bul moslu sab sang ag jur, dee ko
-moslu ngëram

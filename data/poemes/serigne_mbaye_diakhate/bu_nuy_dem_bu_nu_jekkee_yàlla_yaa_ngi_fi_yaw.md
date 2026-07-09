@@ -40,6 +40,3 @@ Ta may nu nag ci ngënéelam ag way ak rafetal
 
 Ta def nu boppam ta def nu’w làmmiñam wu rafet
 Mbooleem lumuy aajo lépp it naa ko cay taxawal
-
-Sëriñ baa ngi ànd ak nun di xool aka
-sàmm daal

@@ -37,5 +37,3 @@ Du neex a fab wann, wannal mer ta muñ ku la xas
 
 Wéyaale tiis ak tawat ak nëbb jëf ju rafet
 Di mucc akay musle moo gën jug di wéy ba ni mes
-
-Sëriñ bi may nga nu ñu baax

@@ -46,6 +46,3 @@ Sa dund gii Yàlla na yàgg ak jàmm gudd ta yaa
 
 Aamina aamina, nun ñii ñépp Yàlla na nu am
 Cantub ki dul bàyyi aajo’y jëm ëllëg di forox
-
-Man jàpp naa sama xol bii teg fa
-Yàlla bu wér

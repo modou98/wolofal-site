@@ -16,6 +16,3 @@ Gaa yii ngi naa sori na, gaa yii ngi naa jege na
 
 Sëriñ ba ak këram ak mbootaayam ak lumu am
 Fonkal ta màggal, ku daa def lii ma wax kawe na
-
-Bi Yàlla àttee nga def nag bunt
-yewwula yaw

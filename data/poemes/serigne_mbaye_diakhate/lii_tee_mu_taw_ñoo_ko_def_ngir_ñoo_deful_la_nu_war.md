@@ -37,6 +37,3 @@ Ku tinkiwul bu waree it, jommi, wàcc ne cuub
 
 Tinkil ta war, bala ngaa wax aajo tubal i moy
 Lu wax wax it duñu yëg say wax ta njëkkul a tuub
-
-Budul kon ak la ma déggoon jëkk tay
-ci lu jub

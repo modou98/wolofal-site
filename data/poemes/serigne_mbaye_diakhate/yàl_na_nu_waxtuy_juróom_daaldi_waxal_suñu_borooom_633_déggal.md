@@ -37,6 +37,3 @@ Ab dog bu duuf aka gën maasam gu jub gu bari
 
 Yaaram bi fukki bëyit ak yaar a ngii yu la lew
 Ngir yaa nu may aajo ak jàmm ak njariñ yu bari
-
-Sëriñ bi ngir Yàlla ak Yonnen ba tay
-gantandul

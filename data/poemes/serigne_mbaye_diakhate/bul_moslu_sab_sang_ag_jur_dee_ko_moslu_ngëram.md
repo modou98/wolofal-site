@@ -43,6 +43,3 @@ Ta fàtteloo suñu xol loo xamni lii du mbégam
 
 Yàl na nu fegal suñu diir ub dund mépp meram
 Yàl na nu may it Mbàkke tay jii ak ëllëg ngëramam
-
-Gis naa fi man senn ndaw soo xam ne
-fuq na bët

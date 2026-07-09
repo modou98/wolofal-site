@@ -1,6 +1,6 @@
 Title: Yaa gën luñuy bëgg
 Excerpt: Yaa gën luñuy bëgg aka wut - Yaa gën luñuy dox di mbébét
-StanzaSize: 5
+StanzaSize: 4
 ---
 Yaa gën luñuy bëgg aka wut
 Yaa gën luñuy dox di mbébét
@@ -56,4 +56,3 @@ Na nga nu def jibay ngëram
 Guy fees a fees aki ngëram
 Tay fees aki fees aki dëram
 Fàww ta def nu waayi buur
-Bakan bi neena ma bis

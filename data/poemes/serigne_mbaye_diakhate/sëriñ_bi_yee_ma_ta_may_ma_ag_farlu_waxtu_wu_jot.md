@@ -33,6 +33,3 @@ Ci suñu digg ak Yaw ba mbooleem nit ñi waaru ne céy !
 
 Nun war na ñoo boole tuub ak cant ndaxte nu raw
 Lu bon ta jot ngëram ak ndollen di jaab ak a wéy
-
-Ndaxam lëf a ngii xew loo xamni
-gaayi dee ko gën !

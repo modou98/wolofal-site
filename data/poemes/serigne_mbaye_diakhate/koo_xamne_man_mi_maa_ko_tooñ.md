@@ -56,5 +56,3 @@ Bàmba jañal nañu’b tawat
 Ak lépp luy jur ub tawat
 Tay ak ëllëg jañ gu rafet
 Ñoddil nu cant gu rafet
-
-Sànnil sa sang bi’g

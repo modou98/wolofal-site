@@ -42,6 +42,3 @@ Ku juk weesu sab kek asal daldi gak
 Ku weesub kengam yit janoo kub kengam
 Ku xam Yàlla xamnaa ni xam lii ma wax
 Ku jis boo yaboo wedi nag mbaa nga gëm
-
-Ma jóg wuti ndëndum cant ak galen
-ub ngëram

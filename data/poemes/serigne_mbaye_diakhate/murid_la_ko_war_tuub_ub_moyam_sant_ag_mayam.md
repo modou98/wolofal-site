@@ -34,6 +34,3 @@ Tuxalna ñu Yàlla ak ub Sëriñ ci xol ub murid !
 
 Ta Yàl na Sëriñ bi sanc fàww ci xol yi nag
 Ta dëkkee suñi xol, ñuy murid yuy jëfe’g murid
-
-Nañ jéem a sant gërëm buur ub aras
-ki nu jox

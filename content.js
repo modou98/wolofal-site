@@ -202,7 +202,8 @@ window.authorsData = [
             {
                 "id": "and_ak_lu_bon_gën_a_bon",
                 "title": "And ak lu bon gën a bon",
-                "excerpt": "And ak lu bon gën a bon ànd ak ku bon gën a bon - Day lakk nit di ko teg gàcceeku ay aku tiis"
+                "excerpt": "And ak lu bon gën a bon ànd ak ku bon gën a bon - Day lakk nit di ko teg gàcceeku ay aku tiis",
+                "stanzaSize": 4
             },
             {
                 "id": "asan",
@@ -235,7 +236,7 @@ window.authorsData = [
                 "id": "baaxal_ta_bul_gis_mukk_nit_kuy_bon_di_bon",
                 "title": "Baaxal ta bul gis mukk nit kuy bon di bon",
                 "excerpt": "Baaxal ta bul gis mukk nit kuy bon di bon - Bay tax nga naa waajii ma gis amtil ngëram",
-                "stanzaSize": 3
+                "stanzaSize": 4
             },
             {
                 "id": "bakan_bi_jàpp_ko_yar_ngir_sas_ngonee_su_jubul",
@@ -434,7 +435,7 @@ window.authorsData = [
                 "id": "ca_guddi_nga_woo_mbër_yépp_daane_nu_xëy_du_miim",
                 "title": "Ca guddi nga woo mbër yépp daane nu xëy du miim",
                 "excerpt": "Ca guddi nga woo mbër yépp daane nu xëy du miim - Nga woote ca bëccëg daane ñépp faf ne xiim",
-                "stanzaSize": 3
+                "stanzaSize": 4
             },
             {
                 "id": "ci_bunt_bi_laa_xalseet_a_nekk_ba_dee_fi_man",
@@ -489,7 +490,7 @@ window.authorsData = [
                 "id": "diggante_tuubaaki_njaareem_ak_nja_yàl_na_fi_taw",
                 "title": "Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw",
                 "excerpt": "Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw - Taw buy waral ñépp fëx ñëw sax fi dëkk aku yiw",
-                "stanzaSize": 3
+                "stanzaSize": 4
             },
             {
                 "id": "diirub_li_ñuy_dundu_tuub_ak_rëccu_daal_a_nu_war",
@@ -643,7 +644,7 @@ window.authorsData = [
                 "id": "gis_naa_fi_man_senn_ndaw_soo_xam_ne_fuq_na_bët",
                 "title": "Gis naa fi man senn ndaw soo xam ne fuq na bët",
                 "excerpt": "Gis naa fi man senn ndaw soo xam ne fuq na bët - Ku bëgg saa mbég na may ñaanal ma yeggale ko",
-                "stanzaSize": 4
+                "stanzaSize": 3
             },
             {
                 "id": "gis_naa_lu_rëy_la_nga_def",
@@ -741,7 +742,7 @@ window.authorsData = [
             {
                 "id": "jàppal_ñi_dee_defi_nawlee_ki_xarit_aki_kem",
                 "title": "Jàppal ñi dee defi nawlee ki xarit aki kem",
-                "excerpt": "Ta boole ñiy dundu def niy want rekk ta jëf - Defal àllaaxira yit muy dëgg dëgg i sa kër",
+                "excerpt": "Jàppal ñi dee defi nawleeki xarit aki kem - Ta boole ñiy dundu def niy want rekk ta jëf",
                 "stanzaSize": 4
             },
             {
@@ -754,7 +755,7 @@ window.authorsData = [
                 "id": "ka_saytu_lépp_ta_bëggul_lëf_ku_topp_ci_moom",
                 "title": "Ka saytu lépp, ta bëggul lëf, ku topp ci moom",
                 "excerpt": "Ka saytu lépp, ta bëggul lëf, ku topp ci moom - Lo mën di bëgg aka wut, jombul nga am ko ci moom",
-                "stanzaSize": 3
+                "stanzaSize": 4
             },
             {
                 "id": "ka_soxna_ak_njël_di_jaaxal_kooka_bokku_nu_man",
@@ -1088,7 +1089,7 @@ window.authorsData = [
                 "id": "ma_tagg_sangu_sang_yi",
                 "title": "Ma tagg sangu sang yi",
                 "excerpt": "Ma tagg sangu sang yi - Te tagg jant ub jant yi",
-                "stanzaSize": 5
+                "stanzaSize": 4
             },
             {
                 "id": "ma_wax_fi_ahmadu_kumbay_wax_ju_koy_tax_a_raw",
@@ -1103,7 +1104,7 @@ window.authorsData = [
                 "id": "ma_wax_fi_ahmadu_sekk_ub_dénk_tay_jile_nag",
                 "title": "Ma wax fi Ahmadu Sekk ub dénk tay jile nag",
                 "excerpt": "Ma wax fi Ahmadu Sekk ub dénk tay jile nag - Ndax Yàlla boole ñu jox aw yiw fegal ñu mbugal",
-                "stanzaSize": 4
+                "stanzaSize": 3
             },
             {
                 "id": "ma_wax_fi_lëf_lul_dafay_leeral_diggante_murid",
@@ -1348,8 +1349,7 @@ window.authorsData = [
             {
                 "id": "ndaxam_bàmba_yaa_jar_di_sonnal",
                 "title": "Ndaxam Bàmba yaa jar di sonnal",
-                "excerpt": "Ndaxam Bàmba yaa jar di sonnal ba dee - Ludul jóg ligéeyal la xaw nay araam",
-                "stanzaSize": 3
+                "excerpt": "Ndaxam Bàmba yaa jar di sonnal ba dee - Ludul jóg ligéeyal la xaw nay araam"
             },
             {
                 "id": "ndaxam_gaayi_koo_xam_ne_bàmmeel_a_koy",
@@ -2015,8 +2015,7 @@ window.authorsData = [
             {
                 "id": "xarit_nit_ñi",
                 "title": "Xarit nit ñi",
-                "excerpt": "Xarit nit ñi ken mën la tax ñii gëram - Té ken man la tée ñii goreedeeka jëw",
-                "stanzaSize": 3
+                "excerpt": "Xarit nit ñi ken mën la tax ñii gëram - Té ken man la tée ñii goreedeeka jëw"
             },
             {
                 "id": "xarit_sëriñ_jëkër",
@@ -2091,7 +2090,7 @@ window.authorsData = [
                 "id": "yaa_gën_luñuy_bëgg",
                 "title": "Yaa gën luñuy bëgg",
                 "excerpt": "Yaa gën luñuy bëgg aka wut - Yaa gën luñuy dox di mbébét",
-                "stanzaSize": 5
+                "stanzaSize": 4
             },
             {
                 "id": "yaa_xam_ta_yaa_am_ta_yaa_dib_tab_xañoo_ñi_la_moy",
@@ -2149,7 +2148,8 @@ window.authorsData = [
             {
                 "id": "yaw_mii_fasoo_jot_ci_buur",
                 "title": "Yaw mii fasoo jot ci Buur",
-                "excerpt": "Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit"
+                "excerpt": "Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit",
+                "stanzaSize": 4
             },
             {
                 "id": "yaw_miy_ligéeyal_ku_bëggul_lëf_sa_xel_bumu_dal",

@@ -75,5 +75,3 @@ Jàmm ak ngëram ak u yiw, lii doyna ag yaatu
 
 Defnaala ab sang def mbooleem ñi topp ci yaw
 Xarit aki àndandoo dolleetinu’g yaatu
-
-Fabal sa ñam joxe te xiif

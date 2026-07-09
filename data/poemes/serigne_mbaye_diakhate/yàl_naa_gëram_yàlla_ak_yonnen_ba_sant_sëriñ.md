@@ -37,6 +37,3 @@ Kuy moslu fàww mu xul, kuy mosle fàww mu xul
 
 Nun ñépp Yàl na nu doyloo Yàlla am lu nu doy
 Ni dàkk ci’g cant doyloo fàww lii nu nu may
-
-Buurub Aras def moroomam rekk a
-jomb

@@ -40,5 +40,3 @@ Nga fob xeexe yaw mii ba not gépp waay !
 
 Lilee tax ma far dëddu ndaw dëddu mag
 Ta jëm nag ci Yaw, def la ab jublukaay
-
-Xastee fi xew aki fen

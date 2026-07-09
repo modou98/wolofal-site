@@ -21,5 +21,3 @@ Mbaa waa jukoy sex itam day daaldi yabbeeti !
 
 Feexal, sëqqël, nëtëxël, yaatul te bul ami dej
 Garab gu melnii ma wax doo gis kukoy baa ti
-
-Yàllaa ñu jox ki fi sut*

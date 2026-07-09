@@ -36,5 +36,3 @@ Mucc ak mbeg ak suturaak ag cant yal na ñu ñëw
 
 Ku nee ngi taatan akay yaakaar i waame yu ñor
 Ne xépp fees ak lu gën loo gis gënal nu lune
-
-Sëriñ bi gaa yaa ngi rëbi

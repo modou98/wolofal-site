@@ -42,6 +42,3 @@ Ta ndaw sii ma gis ag canam dootu sew
 
 La muy bëgg yombul la muy wut sewul
 Ka koy jël du sàggan du siiwee’y nelaw
-
-Lu yàgg yàgg lu baaxay am lu sedd
-xolay

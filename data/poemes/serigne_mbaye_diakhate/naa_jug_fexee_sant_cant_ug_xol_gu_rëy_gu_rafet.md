@@ -37,6 +37,3 @@ Am fukki yëf yu ko gën yaa sakk wunti tawat
 
 Yaa ubbi wunti njariñ yaa jox ku nekk njariñ
 Far boole ñépp musal yaa def lu rëy lu rafet
-
-Ka saytu lépp, ta bëggul lëf, ku topp
-ci moom

@@ -43,6 +43,3 @@ Ci Bàmba mii gën ku daa xëy julli ak kurusam
 
 Ngir amna Yàlla ta am Yonnen ba am gu rafet
 Ma am ko am gu rafet maa kóolu man mi ko am
-
-Ma fab fi ay xalimaaki daa ta santati
-la

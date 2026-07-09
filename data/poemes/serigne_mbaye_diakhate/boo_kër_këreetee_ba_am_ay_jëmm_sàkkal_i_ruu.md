@@ -52,5 +52,3 @@ Tàbbal ñu gaali ngëram bañ jiitu, yaw soxaroo
 
 Yokkal nu leer aki mboot ak bàrke ak sa ngëram
 Ta daaldi ñuy bëmëxal luy tax ñu tee asaru
-
-Koo xamni neenab murid laa

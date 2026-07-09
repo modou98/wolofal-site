@@ -43,6 +43,3 @@ Ta sax ci way ak wéy waa ja lëf du ko wëlbati
 
 Na ngay laxasookay feddalig laxasaay akay
 Rafet njort bul geesooka bañ kula ñormati
-
-Bu ñépp dee daw di jëm ciy teen ak
-ay wuti ndox

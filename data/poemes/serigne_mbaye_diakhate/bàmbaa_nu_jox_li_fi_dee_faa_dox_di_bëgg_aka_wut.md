@@ -34,6 +34,3 @@ Di sàkku Yàllaaka daw loo xamni loola du na
 
 Nañuy baril cant wunti cant tijjiku na
 Wunti tawat yu deefon tëjlu it tëju na
-
-Sëriñ bi ak bàrkeb "Dibéer"
-(dimanche),

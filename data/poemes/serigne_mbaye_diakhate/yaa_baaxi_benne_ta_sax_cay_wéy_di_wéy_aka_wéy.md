@@ -79,6 +79,3 @@ Buy dem ba ñoo ku yiwam yóbbul nu ay wu ne ray
 
 Terànga Yàlla na ni ràpp ak nun ne ràpp ci Nun
 Ñu raw nu raape nu biir ak biti fàww mu doy
-
-Ku bëgg a am gàncaxub ndollen bu
-jub bu rafet

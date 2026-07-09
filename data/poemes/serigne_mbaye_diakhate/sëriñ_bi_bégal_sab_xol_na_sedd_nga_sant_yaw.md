@@ -36,6 +36,3 @@ Lewet gee waral ñuy dendadoo, waaye noonu la
 
 Sarax nus ngëram suy yokk fàww te dootu dañ
 Te dal nuy bégal ngir Mbàkke YÀLLA bégal na la!
-
-Saxal nu ci péeyib Yàlla xejjal nu
-fàww nag

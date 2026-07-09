@@ -36,5 +36,3 @@ Bu duun ak njariñ loo xamne saf na ko sàpp lool
 
 Te jox ku ñu sopp ub jank boo xamne faj na lor
 Te faj aajo faj gépp up tawat faj gu waare lool
-
-Sëriñ baa ngi yonne ndaw ci nun

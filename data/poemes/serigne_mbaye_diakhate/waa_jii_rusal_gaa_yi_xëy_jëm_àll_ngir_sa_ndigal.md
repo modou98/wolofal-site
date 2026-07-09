@@ -22,5 +22,3 @@ Lay musle foofale sell ab xol te néew i nelaw
 
 Ligéey alal ka la may kuy xëy di aw sa ndigal
 Moo gën nga xëy yaw di fëgg ub lal di waaj a nelaw
-
-Ma jug feddali’g tuub akub cant man

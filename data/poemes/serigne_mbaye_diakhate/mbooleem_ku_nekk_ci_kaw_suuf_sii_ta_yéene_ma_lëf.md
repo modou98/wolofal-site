@@ -36,6 +36,3 @@ Duggal ci ñag bi ba dootoo xam na biti bi mel
 
 Man dugg naa ta dugal mbooleem ñi may may i mbég
 Nun ñépp Yàlla na ñu jàmmoo, Yàlla buñ dara dal
-
-Firdawsi rekk a nu saf, firdawsi rek a
-nu doy

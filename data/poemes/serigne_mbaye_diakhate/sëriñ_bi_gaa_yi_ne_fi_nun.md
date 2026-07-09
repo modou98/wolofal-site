@@ -66,6 +66,3 @@ Yaw ki li ñiy njort ci yaw
 Tay ak ëllag nekk ci yaw
 Ak luñu njortuwul ci yaw
 Defal mbébét mune ci nun
-
-Sëriñ bi nun yaa nu rokkas yaa nu
-roofat u yiw

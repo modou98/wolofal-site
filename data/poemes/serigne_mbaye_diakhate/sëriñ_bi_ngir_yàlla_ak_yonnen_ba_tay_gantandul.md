@@ -40,6 +40,3 @@ Te’g dex nga laabal nu kon ni’g dex di laabale jën
 
 Samay wax ak waxi mbooleem waa judul man a ngii
 Sarax nu ngën ji kàttan ngir am nga ngën ji kàttan
-
-Jubal nga nit ñi ta kenn xeexul waxul
-fitalul

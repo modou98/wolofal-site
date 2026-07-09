@@ -48,6 +48,3 @@ Ku njëkk a mel nile am loo xamne am ko të na
 
 Sëriñ bi Yàlla na ñu may tuub ak gëm ak melo wii
 Ta may ñu ngir Yàlla mbir mii neefi « am ko të na »
-
-Sëriñ bi bokkoo ci say wax jëf la moo
-gën i wax

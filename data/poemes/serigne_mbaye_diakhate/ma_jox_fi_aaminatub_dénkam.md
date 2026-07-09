@@ -42,6 +42,3 @@ Mboleem ku def la ci biiram am lu sedd xolam
 
 Sëriñ bi Yàl na nu may ag cant may nu ngëram
 Ta may Sëriñ Abdu Rahmaan it lu sedd xolam
-
-Budul kon ag ñàkk yóbbal kon ma
-nemmiku tay

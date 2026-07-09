@@ -51,6 +51,3 @@ Di wéy nag ba jot bépp teerub ngëram
 
 Te man dénk na kat ginaaw ak kanam
 Sëriñ bii bu wer doy na nag maa ngi dem
-
-Jaaraaki doomam a jël ndam ñoo am
-it

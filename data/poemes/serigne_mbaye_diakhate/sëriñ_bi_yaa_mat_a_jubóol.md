@@ -61,5 +61,3 @@ Na nga nu may lu ñépp yéem
 Ak guddu fan bu ñépp yéem
 Def nu ku ñépp bokk yéem
 Nu far di sab wotomobiil
-
-Dàq nga lor mu sori nu

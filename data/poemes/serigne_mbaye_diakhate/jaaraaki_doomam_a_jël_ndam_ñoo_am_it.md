@@ -37,6 +37,3 @@ Loo bëgg Yàl na nga am, dàkkul nu yiy lore it
 
 Sarax nu nag ci sa bàrkeb sët yi ak ci yaw it
 Mucc ak wér ak guddu fan lool ak way ak tubayu
-
-Sëriñ bile ak mbooleem ñi njëkkoon a
-ŋëb ci moom

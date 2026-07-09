@@ -43,6 +43,3 @@ Ba am lépp a gën dem di xoolee’ka yéem
 
 Ta koo gis mu dem di xoolee’ka yéem
 Du wooloo lu(dul) leb, lab, ni meŋ ak pexeem
-
-Murid dëgg bul gaaw a wut kër
-muñal

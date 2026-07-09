@@ -37,5 +37,3 @@ Ak yëf yi nekk ci biiram àjjanaa gën a seer
 
 Ta tàbbi àjjana gis Yàllaa ko dàqati nag
 Gis Yàlla, màgg na, rëy, Yàl nañ ko seeru bu leer
-
-Li tax man ma jaaxal samay kem

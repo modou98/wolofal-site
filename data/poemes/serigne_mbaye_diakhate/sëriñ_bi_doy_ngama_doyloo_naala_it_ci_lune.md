@@ -37,6 +37,3 @@ Muy wéet akay wéetal ub sangam ci lépp lune
 
 Doo ñàkk a wéetati ngir xeetoowulaaki murid
 Xeetoowulaaki Sëriñ, yaw kenn newul fa nga ne
-
-Toolub Sëriñ baa ngi nii yoolub ku
-koy bay a ngii

@@ -18,6 +18,3 @@ Yaa mat di tag aka way, gis naa sa yërmande ja
 
 Yaa ñàkk dëgg lu bon yaa jàpp it ci lu wér
 Yaa nekk cig dëgg it yaa jëm ca àjjana ja
-
-Mbooloo mi ab yeetee ngi nii, waa juy
-nelaw

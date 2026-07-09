@@ -64,6 +64,3 @@ Alhaaji yaa ngile tay tay fab seen i jur di aje
 
 Ajjil nu, jullil nu, may ñuy ndam, layal nu ëllag
 Ta rikk buñ gis ludul mbég bis ba ñuy daje ji
-
-Yaa gën ci aajo kudul yaw ken melul
-ni nga mel

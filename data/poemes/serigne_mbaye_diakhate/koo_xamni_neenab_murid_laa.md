@@ -36,6 +36,3 @@ Ne Yàlla bindu ko ngir bokkam ya ak bakanam !
 
 Modaaralantee’ki baay ak ndey ta jaamu ji yaw
 Ka bind baay aki bokk ak ndey ba làq ngëram
-
-Ma jug defal saa xarit bii nag lu ñépp
-di gis

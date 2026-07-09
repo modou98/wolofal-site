@@ -1,6 +1,6 @@
 Title: Ma tagg sangu sang yi
 Excerpt: Ma tagg sangu sang yi - Te tagg jant ub jant yi
-StanzaSize: 5
+StanzaSize: 4
 ---
 Ma tagg sangu sang yi
 Te tagg jant ub jant yi
@@ -56,4 +56,3 @@ Yaatal nu yit ci sepp suuf
 Notal nu mbooleem gaa yi soof
 Ñu nekk nag ci suñu suuf
 Nu ne ca kaw di la wane
-Aw gaaya ngi ci suñu suuf

@@ -103,5 +103,3 @@ Ba xamne ken du ñu xàmmeetee’ka xàjjale yit
 
 Feesal ñu ak sa ngëram ak lépp loo ñu tànnal
 Yaw loo gëram rek a gën, loo tànn rek a rafet
-
-Li ngay defal Yàlla du doy

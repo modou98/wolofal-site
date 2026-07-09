@@ -37,5 +37,3 @@ Da ñoo bawoon seen i mbir ak Yàlla ñoo gën a ñaw
 
 Ta topp nag seen i sang ak Yàlla melni ku dee
 Di sant akay aw ndigal, yewwul ta roy ñile yaw
-
-Murit dëgg seeyal ci sab sang yaw

@@ -58,6 +58,3 @@ ba dootu yàqu ta may nu’g doylu fàww aku yiw
 
 Na ngay rañaan aka xëy yaw mii di gont di wéy
 Ba tàbbi firdawsi biir ak biti door a taxaw
-
-Làmboo nga lépp njariñ, làmboo nga
-lépp ngëram

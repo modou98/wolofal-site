@@ -46,6 +46,3 @@ Te Yàlla mii bu ko sooboon yépp bokk ma dal
 
 Man gumbawul làggiwul woppul te nàkku ma lëf
 Ludul lu bon gaayi man mii lag tawat waratul
-
-Xëy naa la gaawu di sàkku’b wallu
-gaawe ma yaw

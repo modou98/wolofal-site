@@ -37,6 +37,3 @@ Ta nangu çli ñuy ñaan ak li ñuy jox ñi ñuy gétën
 
 Musal ma ma ci gépp ug nattu, dàqul ma ay wu jug
 Mu teggi ma gépp ug teggi, teggi ñi sës fi man
-
-Bu nuy dem, bu nu jekkee, Yàlla yaa
-ngi fi yaw

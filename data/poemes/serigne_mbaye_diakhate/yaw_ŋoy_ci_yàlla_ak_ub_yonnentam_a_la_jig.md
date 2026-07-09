@@ -36,6 +36,3 @@ Yokkal ñu yépp ci sag baax ak karaama yu mag
 
 Yaw yaa di mag yaa di jaam ub Mag ta jaamu nga Mag
 Moo xamne jig nala gépp ub jig nga boole nu jig
-
-Bu ay jugee jëm ci nun, yaw Bàmba
-wëlbati ko

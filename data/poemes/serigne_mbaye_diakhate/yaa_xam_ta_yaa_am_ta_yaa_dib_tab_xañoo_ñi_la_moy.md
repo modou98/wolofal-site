@@ -36,6 +36,3 @@ Teg ñee ca firdawsi, yaa woomal ta aayula may
 
 May goo mësoon a may ug lar may ñu googale may
 Fegal ñu nattu bu nekkoon it ca boobale may
-
-Diirub li ñuy dundu, tuub ak rëccu
-daal a nu war

@@ -99,6 +99,3 @@ Na nga ma def sab lar bu jee
 Tàkk ci yaw ni nga jee
 Ci Mustafaa ak ni nga jee
 Ci Yàlla mii ba am ngëram
-
-Nun gaayi ley dundu nañ jug léegi
-sàkku yóbbal

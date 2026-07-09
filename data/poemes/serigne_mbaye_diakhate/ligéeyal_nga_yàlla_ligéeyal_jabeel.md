@@ -42,5 +42,3 @@ Fabal lépp jël, man du yaw may deseel
 
 Soril ma’y lor ak  moy mosal ma’y ngëram
 Fegal ma’w naqar yaw, fegal ma’g tàyyeel
-
-Gis naa lu rëy la nga def

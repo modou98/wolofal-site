@@ -136,5 +136,3 @@ Mbaate nga def ko
 Ni ndox te def ko
 Niw ñam te def ko
 Ni sër ya ngay sol
-
-Sëriñ bi yaa mat a jubóol

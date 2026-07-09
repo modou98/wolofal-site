@@ -30,5 +30,3 @@ Ma xamni mën nga maa jox it nga xam ko
 
 Te maa ngi nii dila dagaan ak a wayaan
 Sarax ma lii malay dagaan ak a wayaan
-
-And ak lu bon gën a bon

@@ -40,6 +40,3 @@ Sëriñ bi Ak Yàlla ak Yonnen ba Yàl na nu ñuy
 
 Ñii ñatt Yàl na nu am nun seen i cant ta am
 Cant ug ku am nag ci ñoom ug cant fàww aki pal
-
-Añ yaa ngi sas yaa ngi kuy wut añ ta
-waccu sasam

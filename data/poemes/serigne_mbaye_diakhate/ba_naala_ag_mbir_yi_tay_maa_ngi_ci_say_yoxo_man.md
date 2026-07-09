@@ -37,5 +37,3 @@ Malaaka yépp fajal saa aajo yaw kima gën
 
 Litax ma jug weesu mbooloo mépp dikk fi yaw
 Dañoo yam ak man i mbir ngir kenn mënul ta du mën
-
-Nañ nég ba dem àjjanay maareeka

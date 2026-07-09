@@ -36,5 +36,3 @@ Ta am darajaa’kuw tur wu siiw ak ndam ak ndawal
 
 Sa jëf na rafet lool ak sa njort nga fas lu rëy
 Di séenu ndam ak loo bëgg sab sang mànkiwul
-
-Bari’y wax ak bari’y nelaw tageefuko

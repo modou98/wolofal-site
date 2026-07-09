@@ -37,6 +37,3 @@ Moo gën ci yaw fopp ak jur gën ci yaw ñi la jur
 
 Nun ñépp Yàl na nu ànd ak ndimbal ak jërëjëf
 Ak cant goo xamne dootul dog ba Àjjana far
-
-Sëriñ bi maa ngii, Saa mbàttu saa
-ngii

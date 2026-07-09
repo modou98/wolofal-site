@@ -320,6 +320,3 @@ Fobal sa jëmm
 Ta fob sa jàmm
 Ne ñu ko yomm
 Ngir Yàlla Bàmba
-
-Nit ñaa ngi wer àddina'kay jaab a
-kay wuti yëf

@@ -36,5 +36,3 @@ Ta raw ëllëg gaa ya fay bar yépp, raw ña fa waaj
 
 Mag Yàl na fab wépp yiw jébbal nu fàww ta ful
 Mbooleem ñi dox sama digg ak wépp tiis aku naaj
-
-Bis boo xëyee lekk ba suur

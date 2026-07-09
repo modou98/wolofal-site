@@ -60,5 +60,3 @@ Buurub Aras ba far ak bër yépp yal na la far !
 
 Yaw yal na ngay wéy’akay jëm kaw di dolliku ndam
 Ba jiitu waa kaw te nangoo suufe kuy amu tur
-
-Ma jóg man ligéey al Sëriñ Bàmba mii

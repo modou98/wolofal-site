@@ -37,6 +37,3 @@ Te xam ne moo tee ba tay nuy dox di booy ak a gooy
 
 Teewul ña xëy ne melas diy mbër yu magg yu rëy
 Da ñoo jotul nag ki dem yóbboo te xol bu ne tooy
-
-Li xol bi yéene ci aw yiw Yàlla daal a
-ko xam

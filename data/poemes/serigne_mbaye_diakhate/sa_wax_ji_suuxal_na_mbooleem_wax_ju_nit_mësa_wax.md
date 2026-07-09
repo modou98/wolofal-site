@@ -13,6 +13,3 @@ Ken mësla jëf li nga jëf, ken dootu jëf li nga jëf
 
 Tabaarakal-laahu rabbul haalamina mahan
 Fii kum wa fiinaa mahan yaa Shayxanaa jërëjëf
-
-Sëriñ bi sab soppe may koy mbegte
-fàww aki peñ

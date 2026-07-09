@@ -76,5 +76,3 @@ Boole nu nun ci ñi la am
 Boole nu it ci ñi nga am
 Boole nu it ci ñi la gëm
 Ta gudd fan bari xorom
-
-Njaaréem a di dig dex

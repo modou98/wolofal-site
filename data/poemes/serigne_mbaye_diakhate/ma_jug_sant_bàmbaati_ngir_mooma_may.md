@@ -67,5 +67,3 @@ Ta def kenn tay nag ku weccii kurél
 
 Gëram naa ko, gëm naa ko it sant naa
 Ko ngir mooma jox man lu saa xel dajul
-
-Ba naa lépp maa ngii ci sab àtte tay

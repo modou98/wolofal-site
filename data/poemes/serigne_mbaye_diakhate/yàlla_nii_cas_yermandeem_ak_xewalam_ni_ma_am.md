@@ -51,5 +51,3 @@ Di ab dagam fàww akub soppeem akub xaritam
 
 Ta saa su jot Yàl na fab ndolleen lu wér, ni nu am
 Nu daal di nangu ni cas cantam lu wér, ni ko am
-
-Sëriñ bi yaw yaa war a sant Yàlla

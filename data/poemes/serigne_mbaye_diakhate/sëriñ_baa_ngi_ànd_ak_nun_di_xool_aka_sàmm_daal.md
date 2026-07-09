@@ -37,6 +37,3 @@ Ti kuy sas ak uw sas xanaa ñàkk fulla daal
 
 Lu ñuy jaamu biir ak biti, Yàl na ko Yàlla fab
 Ta boole nu fàww ak ndaw si gën ndaw su nekk daal
-
-Sarax nga ña daa yalwaani ñépp ba
-koo ci gis

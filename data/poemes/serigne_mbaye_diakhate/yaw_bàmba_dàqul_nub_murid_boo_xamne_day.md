@@ -37,5 +37,3 @@ Suñu itte rëy, ñuy gaa yu am itteeki laf
 
 Suñu xol yi Yàl nay jëm ci Yàllaa kay xalam
 Nu walli baax aka def lu baax aka tuubi kaf
-
-Yaw mii fasoo jot ci Buur

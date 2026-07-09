@@ -62,5 +62,3 @@ Dell te feesal
 Ruq i Sëriñ Mbay !
 
 Amiin !
-
-Ndaxam ab Murid …

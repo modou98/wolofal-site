@@ -51,5 +51,3 @@ Ku nekk yal nay kilifa
 Gu rëy gu boot i kilifa
 Fumu ne ñépp daje fa
 Muy sant a kay fekke kori.
-
-Ganug njariñ gaa ngi tàggoo,

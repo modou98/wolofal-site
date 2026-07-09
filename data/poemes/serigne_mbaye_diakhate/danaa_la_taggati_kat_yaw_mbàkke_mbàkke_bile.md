@@ -58,6 +58,3 @@ Foo toll yaa ngi ligéeyal kii di jaamu KËLE
 
 Nangul ma saa tagg wii, ak cant gii ma la jox
 Te may nu say ngëram it, yaw Mbàkke-Mbàkke bile
-
-Julleek a màgg ku kàbbar sànni say
-yoxo nag

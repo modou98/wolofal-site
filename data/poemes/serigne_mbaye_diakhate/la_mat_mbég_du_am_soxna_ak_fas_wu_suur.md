@@ -37,6 +37,3 @@ La mat ndam, bu deesee layoo kay mbugal
 
 La mat ndam, ta mat mbég ëlëg mat ko tay
 Bu wér, Yàlla nan boole yii am bu wóor !
-
-Ña jebbaloon Yàlla ak Yonent ba
-seeni bakkan

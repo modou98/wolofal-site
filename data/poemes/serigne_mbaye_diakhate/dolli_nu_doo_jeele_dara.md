@@ -26,6 +26,3 @@ Te may nu naataange ju sax
 Ju ánd ak-ug cant gu sax
 Bunu tawat jegeeti sax
 Tay ak ëllëg ci menn mbir
-
-Bakan bi jàpp ko yar ngir sas ngonee
-su jubul

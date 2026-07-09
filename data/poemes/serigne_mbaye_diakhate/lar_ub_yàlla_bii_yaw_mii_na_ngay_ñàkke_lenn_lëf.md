@@ -36,6 +36,3 @@ Samay kem bu wér, siiwal sama’w tur, wesaare ko
 
 Demal ni ko may ma’g mucc ak musle fàww man
 Mu jébbal la mucc ak musle lii rëy, dagaani ko
-
-Yaa gën alal gën u nit, fab naala
-wettalikoo

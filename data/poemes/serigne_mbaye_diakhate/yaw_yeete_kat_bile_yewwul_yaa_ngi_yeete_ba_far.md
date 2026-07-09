@@ -63,6 +63,3 @@ Ak saa kër ak sama waakër ak murid bu nelaw
 
 Ta Yàl na may ndimbal it koo xamni may na nu nun
 Ndimbal ta boolee nu yee fàww it ci jépp nelaw
-
-Sëriñ bi yaw ki ame’y xarbaax aki
-kemaan

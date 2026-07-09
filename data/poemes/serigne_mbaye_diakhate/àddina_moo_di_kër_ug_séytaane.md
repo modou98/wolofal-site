@@ -33,5 +33,3 @@ Ak dëgg gaa ngii saafaraa ngii mos ko ndax werula !
 
 Gennal ci say pexe ak say mbir te jébbale far
 Sa yépp tey aw ndigal lii yit ba tay pexe la
-
-Yàlla li muy def sotti na

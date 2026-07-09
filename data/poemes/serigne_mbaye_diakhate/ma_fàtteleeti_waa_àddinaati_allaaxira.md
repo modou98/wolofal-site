@@ -48,5 +48,3 @@ Jàppe ko ab noon, ta di ko fuglu
 
 Képp ku daa moy ta tuubul ug moy
 Lii la ñu koy fay, tuubal ta farlu
-
-Ma fàtteleeti waa àddinaati Àjjana

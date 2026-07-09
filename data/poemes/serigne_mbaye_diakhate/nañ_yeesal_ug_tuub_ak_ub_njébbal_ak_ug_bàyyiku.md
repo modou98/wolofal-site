@@ -68,6 +68,3 @@ Ngir loo ko jox yaw ludul sag ruu asal doyu ko
 
 Fabal sa xol fab sa waakër dellu fab sa alal
 Jébbal ko melni ku dee lii moo di ag bàyyiku
-
-Xalaase ñoo ngoogu tay yéeneeka
-lott ci jëf

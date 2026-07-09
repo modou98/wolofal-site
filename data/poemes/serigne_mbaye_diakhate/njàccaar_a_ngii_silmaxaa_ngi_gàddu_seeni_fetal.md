@@ -33,5 +33,3 @@ Suñub mujj ak suñu digg ak Yàlla Yàl na rafét
 
 Te Yàl na ñuy doy akay doylooka am lu nu doy
 Di jëm ci Yàllaa ka dëdd ug moy di def lu nu war
-
-Suñu digg ak Àjjana Yàl nay Àjjana

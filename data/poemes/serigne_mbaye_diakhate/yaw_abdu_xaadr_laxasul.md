@@ -36,5 +36,3 @@ Ludul lu lay jëme ginnaaw te loola ay la wu bari
 
 Abdu fabal sa dénk bii te dénk naa la dénk bii
 Te rikk Abdu dénk bii dee ko xalam ak a tari!
-
-Gisuma man lu jar taxaw

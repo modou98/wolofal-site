@@ -116,5 +116,3 @@ Yàlla na nga tàbbi suñu kër
 Tàbbi gu wér gu jenn lor
 Newul ta am njariñ lu bir
 Ñépp ne sant war nama
-
-Ndegam awma ndam boppam

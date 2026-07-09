@@ -27,6 +27,3 @@ Koo xamne kii ànd ngeen us lëf mu wall la lëf
 Bul ñakku yaw ci ku bon, ñakkul ba jar ci ku baax
 And ak ku yokk ci yaw as lëf lu bon-bon a gën
 Ànd ak ku wàññi ci yaw as lëf, wayal ci lu baax
-
-Luy tee nga ñëw nima jaajëf fàww
-Yaalna ma moy

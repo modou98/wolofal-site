@@ -16,6 +16,3 @@ Dem ak ci kuy jekki ak ci kuy soow akay gajadam
 
 La war ci nun lépp biir ak biti Yàl na nu cay
 Sax dàkk fàww ta raw kuy woo lor ak xadadam
-
-Julleek a màgg ku kàbbar sànni say
-yoxo nag

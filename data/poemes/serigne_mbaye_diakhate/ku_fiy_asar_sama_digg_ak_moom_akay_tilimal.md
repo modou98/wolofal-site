@@ -26,6 +26,3 @@ May nu’g juboo ak jegeñ ak cafka ak ja ci yaw
 Ta fab ma nag ni ci say yëf ak sa xol bi yabuuf
 Yaw Yàlla jébbal nala’y caabéem aki ngëramam
 Ubbil nu yaatal nu, nuy tàbbee’ka sant aka tuub
-
-Bul yedd kuy sàcc yéerey Bàmba
-mukkati ngir

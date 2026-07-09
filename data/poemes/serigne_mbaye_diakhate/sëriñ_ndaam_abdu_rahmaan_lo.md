@@ -36,6 +36,3 @@ Ta awmag mënam, yii bëyit laa fi teg
 
 Ta kat donte amnaa ludul yii bëyit
 Ma fob joxla, santal ta ñaanal ma nag
-
-Rëy ug bon du tee man ma jug jëm ci
-yaw

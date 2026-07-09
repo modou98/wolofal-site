@@ -61,5 +61,3 @@ Xamal sëriñ bi gépp xam
 Jëmal ci moom it gépp jëm
 Ngir Yàlla daal a mat a jëm
 Ta moo ca jëm moo ca jëme
-
-Murit moo di koo xam ne bëggul dara

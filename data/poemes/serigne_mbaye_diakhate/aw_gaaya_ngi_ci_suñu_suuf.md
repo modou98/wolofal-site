@@ -85,4 +85,3 @@ Na nga nu may nu sut u fan
 Képp ku nekk nag, te gën
 Fee baax i jëf fàww, te gën
 Fee sàmmu, gën fee sell xol !
-Xarit nit ñi

@@ -36,6 +36,3 @@ Ta dox suñu digg ak jaani àll ak jaani kër
 
 Musal ci mbooleem nit ñi ak seen i lor bu wér
 Ta yor ñu bu wér yaw kiy jariñ nit ta dooko lor
-
-Réeray waral nit a bon réer ay waral
-nit a bew

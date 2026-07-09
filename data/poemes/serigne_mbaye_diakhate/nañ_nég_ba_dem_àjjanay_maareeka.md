@@ -39,5 +39,3 @@ Jëm sowwu ta ñu ànd yaw moomee dangay woru ji
 
 Na nu yër limuy jëf a jëf tay déglu wax yi mu wax
 Ba gis ko dégg ko fab lañ mën ta dem jëfe ji
-
-Dëkkal ci xol yi

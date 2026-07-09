@@ -71,6 +71,3 @@ Te sànni lo diglewul mootax mu xam la te am
 
 Ey Yàlla may nu nu def nag Bàmba nii mu la def
 Ba xam ko, am ko bu wér moom it mu xam nu te am
-
-Ma jóg yafal sama fas wi genn sax
-jotagul

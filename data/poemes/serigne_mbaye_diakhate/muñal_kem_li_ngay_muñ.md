@@ -36,5 +36,3 @@ Bu ñuy yuuxu ngay sant, lii jar ko it !
 
 Bu ñuy yuuxu ëllëg ña daa dëkke muñ
 Ci dunyaa nga firdawsi, lii xam ko kat !
-
-Bul ñéddloo buur

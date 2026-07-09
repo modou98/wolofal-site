@@ -68,6 +68,3 @@ Mu sell moo xamne moo gën mbay mu nit mës a bay
 
 Saxal ci tuub ak xalam sag moy di wéet ak a muñ
 Ta xam ni kuy fay i jëf, say jëf la lay xala fay
-
-Yaw mii di sàkku ngëram luy wéy di
-wéy laxasul

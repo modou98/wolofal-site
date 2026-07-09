@@ -36,6 +36,3 @@ Yaa mat mat ub sang, jaajëf may nu lépp ngëram
 
 Nun ñépp Yàl na nu lay sàntooka sant aka gëm
 Bu wér ta Yàl na nga ñuy ñeel ak sa lépp ngëram
-
-Baaxal ta bul gis mukk nit kuy bon di
-bon

@@ -65,6 +65,3 @@ Bu dee si waare,
 Yàl naala waare
 Yaw ku la waare
 Waari moroomam
-
-Sóobul ngirum Àjjanay waaxooka
-lagg aka daw

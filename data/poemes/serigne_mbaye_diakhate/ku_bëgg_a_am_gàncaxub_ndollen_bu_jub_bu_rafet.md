@@ -40,5 +40,3 @@ Bégal nu fàww ta jox nuy mbég dugal nu ci yaw
 
 Naatal nu ta saxal naatànge fàww fi nun
 Musal nu yit ci ludul yaw mii mosal nu ci yaw
-
-Naa jug siyaare ji Sëriñ

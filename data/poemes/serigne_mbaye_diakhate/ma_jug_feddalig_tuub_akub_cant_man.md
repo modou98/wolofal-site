@@ -33,6 +33,3 @@ Ta far def ko mbubb ak mbalaan ak tubëy
 
 Ta def ko’m ndox ak ñam ak ub sànt far
 Aku’w fas ta war Marhaban, nii la kay
-
-Sëriñ bi fas naala yéene sant dëgg fi
-nja

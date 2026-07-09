@@ -25,6 +25,3 @@ Ak topp Yàlla gu nangoo f… alal ak i wuur
 
 Te may nu mucc ci lor fàww ak di musle ci lor
 Fegal nu yit ay wu ñi wàcce’g nawet ak i noor
-
-Sëriñ bi yaa gën a am yërmànde may
-nga nu xaat
