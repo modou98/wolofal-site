@@ -1,6 +1,6 @@
 Title: Njuuj Njaaj
 Excerpt: Wolofal Sëriñ Tuuba
-Theme: Murit, Sëriñ bi
+Theme: Murit | Sëriñ bi
 ---
 Na ngeen déglu ma dellooti fent ab daaj
 Ba saahir sa di baatin jullee gën ug maaj

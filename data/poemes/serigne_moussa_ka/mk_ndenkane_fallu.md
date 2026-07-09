@@ -1,7 +1,7 @@
 Title: Ndenkaane Sëriñ Fàllu
 Excerpt: Mboolem muriy yi nekk fii ak ya fa Xaay...
 Audio: https://youtu.be/tGJa23FzFYI
-Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins), Yar (Éducation)
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins) | Yar (Éducation)
 ---
 Mboolem murit yi nekk fii ak ya fa Xaay
 Ak soww ak penku Bawal ak boppu raay

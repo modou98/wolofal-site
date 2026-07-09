@@ -19,6 +19,10 @@ def build():
     # Ajouter le tableau des poèmes à chaque auteur
     for author in authors:
         author['poems'] = []
+
+    # Le texte complet des poèmes est stocké à part (data/poemes_content.json)
+    # pour garder content.js léger : il est chargé en async par script.js.
+    poem_contents = {}
     
     # 2. Parcourir les dossiers d'auteurs et lire leurs fichiers .md
     poems_dir = 'data/poemes'
@@ -52,9 +56,10 @@ def build():
                 header = parts[0].strip()
                 body = parts[1].strip()
                 
+                poem_id = filename.replace('.md', '')
+                poem_contents[poem_id] = body
                 poem_data = {
-                    "id": filename.replace('.md', ''),
-                    "content": body
+                    "id": poem_id
                 }
                 
                 for line in header.split('\n'):
@@ -109,14 +114,17 @@ def build():
                 
                 author['poems'].append(poem_data)
     
-    # 3. Générer le fichier content.js
+    # 3. Générer content.js (métadonnées) et data/poemes_content.json (textes)
     js_content = "window.authorsData = " + json.dumps(authors, ensure_ascii=False, indent=4) + ";\n"
     js_content += "window.themesData = " + json.dumps(themes, ensure_ascii=False, indent=4) + ";\n"
-    
+
     with open('content.js', 'w', encoding='utf-8') as f:
         f.write(js_content)
-        
-    print("Succès ! Fichier content.js mis à jour avec les dernières données.")
+
+    with open(os.path.join('data', 'poemes_content.json'), 'w', encoding='utf-8') as f:
+        json.dump(poem_contents, f, ensure_ascii=False)
+
+    print("Succès ! content.js et data/poemes_content.json mis à jour.")
 
 if __name__ == '__main__':
     build()

@@ -9,7 +9,8 @@ const app = {
         currentAuthorId: null,
         currentPoemId: null,
         activeHighlightIndex: -1,
-        totalHighlights: 0
+        totalHighlights: 0,
+        contentLoaded: false
     },
 
     init: () => {
@@ -34,6 +35,32 @@ const app = {
 
         const { view, param } = app.parseHash();
         app.render(view, param);
+
+        app.loadContents();
+    },
+
+    // Charge le texte des poèmes en arrière-plan et le fusionne dans authorsData.
+    // Le premier rendu (galerie, bios, titres) n'attend pas ce chargement.
+    loadContents: async () => {
+        try {
+            const res = await fetch('data/poemes_content.json?v=12');
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const contents = await res.json();
+            authorsData.forEach(author => {
+                author.poems.forEach(poem => {
+                    if (contents[poem.id] !== undefined) {
+                        poem.content = contents[poem.id];
+                    }
+                });
+            });
+            app.state.contentLoaded = true;
+            // Si un poème était affiché en attente de son texte, on le re-rend
+            if (app.state.currentView === 'reader') {
+                app.render('reader', app.state.currentPoemId);
+            }
+        } catch (e) {
+            console.error('Impossible de charger le texte des poèmes :', e);
+        }
     },
 
     routeToHash: (view, param) => {
@@ -79,7 +106,7 @@ const app = {
                     break;
                 }
             }
-            if (poem) {
+            if (poem && poem.content !== undefined) {
                 const { parsedContent } = app.parsePoemContent(poem.content, app.state.searchQuery, poem.stanzaSize || 2);
                 const poemContentEl = document.getElementById('poemContent');
                 if (poemContentEl) {
@@ -120,7 +147,7 @@ const app = {
                     break;
                 }
             }
-            if (poem) {
+            if (poem && poem.content !== undefined) {
                 const { parsedContent } = app.parsePoemContent(poem.content, '', poem.stanzaSize || 2);
                 const poemContentEl = document.getElementById('poemContent');
                 if (poemContentEl) poemContentEl.innerHTML = parsedContent;
@@ -361,7 +388,19 @@ const app = {
         }
 
         if (!poem) return;
-        
+
+        // Le texte est chargé en async : si pas encore là, on affiche une attente
+        // et loadContents() re-rendra la vue une fois le JSON arrivé.
+        if (poem.content === undefined) {
+            document.title = `${poem.title} - par ${author.name} | Wolofal Heritage`;
+            container.innerHTML = `
+                <div class="reader-view" style="max-width: 1200px; text-align: center; padding: 4rem 1rem;">
+                    <p style="opacity: 0.7;">Chargement du texte…</p>
+                </div>
+            `;
+            return;
+        }
+
         const { parsedContent, tocHtml } = app.parsePoemContent(poem.content, app.state.searchQuery, poem.stanzaSize || 2);
 
         document.title = `${poem.title} - par ${author.name} | Wolofal Heritage`;

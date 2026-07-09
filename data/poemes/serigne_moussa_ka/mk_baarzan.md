@@ -1,7 +1,7 @@
 Title: Baarzan
 Excerpt: Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab.
 Audio: https://www.youtube.com/playlist?list=PLrYQY_QVCG1xBJm7x5C-iql6VfuiknB91
-Theme: Yonen bi (PSL)
+Theme: Yonnen bi (PSL)
 ---
 Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab
 
