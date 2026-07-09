@@ -237,29 +237,51 @@ const app = {
         }
     },
 
+    // Regex de recherche insensible aux accents : "geram" trouve "Gëram",
+    // "serin" trouve "Sëriñ", etc. Indispensable pour les titres wolof.
+    searchRegex: (query, flags = 'i') => {
+        const classes = ['aàâäã', 'eéèëê', 'iîïì', 'oóôöò', 'uùûü', 'nñŋ', 'cç', "'’‘"];
+        let pattern = '';
+        for (const ch of query) {
+            const lower = ch.toLowerCase();
+            const cls = classes.find(c => c.includes(lower));
+            if (cls) {
+                pattern += '[' + cls + ']';
+            } else {
+                pattern += ch.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+            }
+        }
+        return new RegExp(pattern, flags);
+    },
+
     renderHome: (container) => {
         const query = app.state.searchQuery;
 
         if (query) {
+            const regex = app.searchRegex(query);
             let matchingPoems = [];
             authorsData.forEach(author => {
-                const authorMatches = author.name.toLowerCase().includes(query);
+                const authorMatches = regex.test(author.name);
                 author.poems.forEach(poem => {
-                    const titleMatches = poem.title.toLowerCase().includes(query);
-                    const excerptMatches = poem.excerpt && poem.excerpt.toLowerCase().includes(query);
-                    const contentMatches = poem.content && poem.content.toLowerCase().includes(query);
-                    
-                    if (authorMatches || titleMatches || excerptMatches || contentMatches) {
+                    // tier = pertinence : titre d'abord, puis auteur, extrait, contenu
+                    let tier = null;
+                    if (regex.test(poem.title)) tier = 0;
+                    else if (authorMatches) tier = 1;
+                    else if (poem.excerpt && regex.test(poem.excerpt)) tier = 2;
+                    else if (poem.content && regex.test(poem.content)) tier = 3;
+
+                    if (tier !== null) {
                         matchingPoems.push({
                             ...poem,
                             authorName: author.name,
-                            authorId: author.id
+                            authorId: author.id,
+                            tier
                         });
                     }
                 });
             });
 
-            matchingPoems.sort((a, b) => a.title.localeCompare(b.title));
+            matchingPoems.sort((a, b) => a.tier - b.tier || a.title.localeCompare(b.title));
 
             const poemsHtml = matchingPoems.map(poem => {
                 const snippet = app.getSearchSnippet(poem.content, query);
@@ -330,11 +352,11 @@ const app = {
         document.title = `${author.name} | Wolofal Heritage`;
 
         const query = app.state.searchQuery;
+        const regex = query ? app.searchRegex(query) : null;
         const poems = query ? author.poems.filter(p => {
-            const titleMatches = p.title.toLowerCase().includes(query);
-            const excerptMatches = p.excerpt && p.excerpt.toLowerCase().includes(query);
-            const contentMatches = p.content && p.content.toLowerCase().includes(query);
-            return titleMatches || excerptMatches || contentMatches;
+            return regex.test(p.title) ||
+                (p.excerpt && regex.test(p.excerpt)) ||
+                (p.content && regex.test(p.content));
         }) : [...author.poems];
         poems.sort((a, b) => a.title.localeCompare(b.title));
 
@@ -681,15 +703,14 @@ const app = {
 
     getSearchSnippet: (content, query) => {
         if (!content || !query) return '';
-        
-        const lowerContent = content.toLowerCase();
-        const lowerQuery = query.toLowerCase();
-        const index = lowerContent.indexOf(lowerQuery);
-        if (index === -1) return '';
+
+        const match = app.searchRegex(query).exec(content);
+        if (!match) return '';
+        const index = match.index;
 
         // Extract surrounding context (50 characters before/after)
         const start = Math.max(0, index - 50);
-        const end = Math.min(content.length, index + query.length + 50);
+        const end = Math.min(content.length, index + match[0].length + 50);
         let snippet = content.substring(start, end);
 
         // Replace newlines with / for a clean single-line display
@@ -698,10 +719,8 @@ const app = {
         if (start > 0) snippet = '...' + snippet;
         if (end < content.length) snippet = snippet + '...';
 
-        // Highlight matching text case-insensitively
-        const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-        const regex = new RegExp(`(${escapedQuery})`, 'gi');
-        return snippet.replace(regex, '<mark style="background-color: rgba(212, 175, 55, 0.3); color: inherit; padding: 0.1rem 0.2rem; border-radius: 4px; font-weight: bold;">$1</mark>');
+        // Highlight matching text (accent- and case-insensitive)
+        return snippet.replace(app.searchRegex(query, 'gi'), m => `<mark style="background-color: rgba(212, 175, 55, 0.3); color: inherit; padding: 0.1rem 0.2rem; border-radius: 4px; font-weight: bold;">${m}</mark>`);
     },
 
     parsePoemContent: (content, query, stanzaSize = 2) => {
@@ -733,8 +752,7 @@ const app = {
             } else {
                 let highlightedLine = line;
                 if (query) {
-                    const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-                    const regex = new RegExp(`(${escapedQuery})`, 'gi');
+                    const regex = app.searchRegex(query, 'gi');
                     highlightedLine = line.replace(regex, (match) => {
                         const idx = highlightCount++;
                         return `<mark class="dynamic-highlight" data-index="${idx}" style="background-color: rgba(212, 175, 55, 0.35); padding: 0.1rem 0.2rem; border-radius: 4px; font-weight: bold;">${match}</mark>`;
