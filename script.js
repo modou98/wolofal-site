@@ -8,6 +8,8 @@ const app = {
         currentView: 'home',
         currentAuthorId: null,
         currentPoemId: null,
+        currentThemeId: null,
+        authorThemeFilter: null,
         activeHighlightIndex: -1,
         totalHighlights: 0,
         contentLoaded: false
@@ -66,6 +68,8 @@ const app = {
     routeToHash: (view, param) => {
         if (view === 'author') return `#/auteur/${param}`;
         if (view === 'reader') return `#/poeme/${encodeURIComponent(param)}`;
+        if (view === 'themes') return '#/themes';
+        if (view === 'theme') return `#/theme/${encodeURIComponent(param)}`;
         return '#/';
     },
 
@@ -77,6 +81,12 @@ const app = {
         }
         if (parts[0] === 'poeme' && parts[1]) {
             return { view: 'reader', param: decodeURIComponent(parts[1]) };
+        }
+        if (parts[0] === 'themes') {
+            return { view: 'themes', param: null };
+        }
+        if (parts[0] === 'theme' && parts[1]) {
+            return { view: 'theme', param: decodeURIComponent(parts[1]) };
         }
         return { view: 'home', param: null };
     },
@@ -230,10 +240,17 @@ const app = {
             app.renderHome(container);
         } else if (view === 'author') {
             app.state.currentAuthorId = param;
+            app.state.authorThemeFilter = null;
             app.renderAuthor(container, param);
         } else if (view === 'reader') {
             app.state.currentPoemId = param;
             app.renderReader(container, param);
+        } else if (view === 'themes') {
+            document.title = "Thèmes | Wolofal Heritage";
+            app.renderThemes(container);
+        } else if (view === 'theme') {
+            app.state.currentThemeId = param;
+            app.renderTheme(container, param);
         }
     },
 
@@ -345,6 +362,98 @@ const app = {
         }
     },
 
+    // Nombre de poèmes par nom de thème, tous auteurs confondus
+    countPoemsByTheme: () => {
+        const counts = {};
+        authorsData.forEach(author => {
+            author.poems.forEach(poem => {
+                (poem.themes || []).forEach(name => {
+                    counts[name] = (counts[name] || 0) + 1;
+                });
+            });
+        });
+        return counts;
+    },
+
+    renderThemes: (container) => {
+        const counts = app.countPoemsByTheme();
+        const themesHtml = (window.themesData || []).map(theme => {
+            const n = counts[theme.name] || 0;
+            return `
+            <div class="theme-card ${n === 0 ? 'theme-card-empty' : ''}" onclick="app.navigate('theme', '${theme.id}')">
+                <h3>${theme.name}</h3>
+                <span class="theme-count">${n} poème${n > 1 ? 's' : ''}</span>
+            </div>
+            `;
+        }).join('');
+
+        container.innerHTML = `
+            <div class="gallery-header">
+                <h1>Les Thèmes</h1>
+                <p>Parcourez les poèmes par thème, tous auteurs confondus.</p>
+            </div>
+            <div class="themes-grid">
+                ${themesHtml || '<p style="text-align:center;">Aucun thème défini.</p>'}
+            </div>
+        `;
+    },
+
+    renderTheme: (container, themeId) => {
+        const theme = (window.themesData || []).find(t => t.id === themeId);
+        if (!theme) {
+            app.navigate('themes');
+            return;
+        }
+
+        document.title = `${theme.name} | Wolofal Heritage`;
+
+        let poems = [];
+        authorsData.forEach(author => {
+            author.poems.forEach(poem => {
+                if ((poem.themes || []).includes(theme.name)) {
+                    poems.push({ ...poem, authorName: author.name, authorId: author.id });
+                }
+            });
+        });
+        poems.sort((a, b) => a.authorName.localeCompare(b.authorName) || a.title.localeCompare(b.title));
+
+        const poemsHtml = poems.map(poem => `
+            <div class="search-poem-card" onclick="app.navigate('reader', '${poem.id}')">
+                <div style="display: flex; flex-direction: column; gap: 0.25rem; text-align: left; width: 100%;">
+                    <span class="poem-title" style="font-size: 1.3rem;">${poem.title}</span>
+                    <span class="poem-author" style="font-size: 0.9rem; color: var(--accent-color); font-weight: 500;">par ${poem.authorName}</span>
+                    ${poem.excerpt ? `<span class="poem-excerpt">${poem.excerpt}</span>` : ''}
+                </div>
+                <span class="poem-meta" style="white-space: nowrap; margin-left: 1rem;">Lire &rarr;</span>
+            </div>
+        `).join('');
+
+        container.innerHTML = `
+            <div class="author-view">
+                <button class="back-button" onclick="app.navigate('themes')">
+                    &larr; Tous les thèmes
+                </button>
+                <div class="gallery-header">
+                    <h1>${theme.name}</h1>
+                    <p>${poems.length} poème${poems.length > 1 ? 's' : ''}</p>
+                </div>
+                <div class="search-results" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; width: 100%;">
+                    ${poemsHtml || `
+                    <div class="empty-state">
+                        <h3>Aucun poème pour ce thème</h3>
+                        <p>Les poèmes de ce thème seront bientôt disponibles.</p>
+                    </div>
+                    `}
+                </div>
+            </div>
+        `;
+    },
+
+    setAuthorThemeFilter: (themeId) => {
+        app.state.authorThemeFilter = themeId;
+        app.renderAuthor(document.getElementById('app'), app.state.currentAuthorId);
+    },
+
     renderAuthor: (container, authorId) => {
         const author = authorsData.find(a => a.id === authorId);
         if (!author) return;
@@ -353,11 +462,42 @@ const app = {
 
         const query = app.state.searchQuery;
         const regex = query ? app.searchRegex(query) : null;
-        const poems = query ? author.poems.filter(p => {
+        let poems = query ? author.poems.filter(p => {
             return regex.test(p.title) ||
                 (p.excerpt && regex.test(p.excerpt)) ||
                 (p.content && regex.test(p.content));
         }) : [...author.poems];
+
+        // Pastilles de filtre par thème : uniquement les thèmes présents chez cet auteur
+        const themeCounts = {};
+        author.poems.forEach(p => (p.themes || []).forEach(name => {
+            themeCounts[name] = (themeCounts[name] || 0) + 1;
+        }));
+        const authorThemes = (window.themesData || []).filter(t => themeCounts[t.name]);
+        const activeFilter = app.state.authorThemeFilter;
+        let themePillsHtml = '';
+        if (authorThemes.length > 0) {
+            const pills = authorThemes.map(t => `
+                <button class="theme-pill ${activeFilter === t.id ? 'active' : ''}" onclick="app.setAuthorThemeFilter('${t.id}')">
+                    ${t.name} <span class="theme-pill-count">${themeCounts[t.name]}</span>
+                </button>
+            `).join('');
+            themePillsHtml = `
+                <div class="theme-pills" role="group" aria-label="Filtrer par thème">
+                    <button class="theme-pill ${!activeFilter ? 'active' : ''}" onclick="app.setAuthorThemeFilter(null)">
+                        Tous <span class="theme-pill-count">${author.poems.length}</span>
+                    </button>
+                    ${pills}
+                </div>
+            `;
+        }
+
+        if (activeFilter) {
+            const theme = (window.themesData || []).find(t => t.id === activeFilter);
+            if (theme) {
+                poems = poems.filter(p => (p.themes || []).includes(theme.name));
+            }
+        }
         poems.sort((a, b) => a.title.localeCompare(b.title));
 
         const poemsHtml = poems.map(poem => {
@@ -388,6 +528,7 @@ const app = {
                 </div>
                 <div class="poems-list">
                     <h2>Œuvres Disponibles</h2>
+                    ${themePillsHtml}
                     <div class="poems-grid">
                         ${poemsHtml || '<p>Aucun poème trouvé.</p>'}
                     </div>
