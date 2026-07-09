@@ -2,6 +2,7 @@ Title: Wolofal Jumaa Ji
 Excerpt: Un poème solennel dédié à la construction et à l'importance spirituelle de la grande mosquée, appelant la communauté à s'unir derrière le guide Mustafa.
 Audio: 
 Theme: Taarix
+ThemeReview: Long poème (165 vers) sur la mosquée ("jumaa") voulue par Bàmba ; probable récit de construction/institution mais extrait limité.
 ---
 
 Réew mi na ngeen yeddu gaaw te kaay nu defal

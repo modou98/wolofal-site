@@ -2,6 +2,7 @@ Title: Ku fiy asar sama digg ak moom akay tilimal
 Excerpt: Ku fiy asar sama digg ak moom akay tilimal - Man may defar sama digg ak yaw, di sant ak a tuub
 StanzaSize: 8
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
+ThemeReview: Parle du lien (digg) et de la soumission au ndigal ; probablement lien taalibe-Sëriñ mais destinataire ambigu.
 ---
 Ku fiy asar sama digg ak moom akay tilimal
 Man may defar sama digg ak yaw, di sant ak a tuub

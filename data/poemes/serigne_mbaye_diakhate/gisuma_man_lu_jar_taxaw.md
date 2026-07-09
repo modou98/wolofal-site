@@ -2,6 +2,7 @@ Title: Gisuma man lu jar taxaw
 Excerpt: Gisuma man lu jar taxaw ! - Séenuma yit lu jar taxaw !
 StanzaSize: 4
 Theme: Muñ (Patience face aux épreuves)
+ThemeReview: Poème court évoquant tristesse/épreuves familiales, incertain, possible thème patience ou renoncement.
 ---
 Gisuma man lu jar taxaw !
 Séenuma yit lu jar taxaw !

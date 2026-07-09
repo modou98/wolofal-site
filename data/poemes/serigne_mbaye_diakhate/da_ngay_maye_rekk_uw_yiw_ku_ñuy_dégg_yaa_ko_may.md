@@ -2,6 +2,7 @@ Title: Da ngay maye rekk uw yiw ku ñuy dégg yaa ko may
 Excerpt: Da ngay maye rekk uw yiw ku ñuy dégg yaa ko may - Ta yaa may ku ñuy gis ndollen ak may gu sedd xol
 StanzaSize: 5
 Theme: Sëriñ bi
+ThemeReview: Éloge élogieux d'une figure dont bénéficient anges, Prophète, compagnons et saints.
 ---
 Da ngay maye rekk uw yiw ku ñuy dégg yaa ko may
 Ta yaa may ku ñuy gis ndollen ak may gu sedd xol

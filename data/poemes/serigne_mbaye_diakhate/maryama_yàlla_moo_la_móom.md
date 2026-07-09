@@ -2,6 +2,7 @@ Title: Maryama Yàlla moo la móom
 Excerpt: Maryama Yàlla moo la móom - Teg naa la fàww ci’b loxoom
 StanzaSize: 4
 Theme: Tawhiid
+ThemeReview: Réconfort à Maryama  - Yàlla seul la possède et la protège, ne pas craindre.
 ---
 Maryama Yàlla moo la móom
 Teg naa la fàww ci’b loxoom

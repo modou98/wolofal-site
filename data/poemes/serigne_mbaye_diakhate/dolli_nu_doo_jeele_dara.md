@@ -2,6 +2,7 @@ Title: Dolli nu doo jeele dara
 Excerpt: Dolli nu doo jeele dara - Moo tax ma laajati dara
 StanzaSize: 4
 Theme: Tawhiid
+ThemeReview: Métaphore de Yàlla comme fleuve inépuisable, confiance exclusive en Sa générosité infinie.
 ---
 Dolli nu doo jeele dara
 Moo tax ma laajati dara

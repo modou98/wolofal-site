@@ -2,6 +2,7 @@ Title: Man xejju Yàlla yi daa naa sàkku bokk ci ñoom
 Excerpt: Man xejju Yàlla yi daa naa sàkku bokk ci ñoom - Tay maa ngi sàkkoo di seen ub xaj su topp ci ñoom
 StanzaSize: 3
 Theme: Bakkan (Éducation de l'âme)
+ThemeReview: Humilité extrême, désir de se joindre aux dévots de Dieu (image du chien qui suit).
 ---
 Man xejju Yàlla yi daa naa sàkku bokk ci ñoom
 Tay maa ngi sàkkoo di seen ub xaj su topp ci ñoom

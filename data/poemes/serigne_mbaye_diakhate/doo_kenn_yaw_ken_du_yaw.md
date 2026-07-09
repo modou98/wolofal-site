@@ -1,6 +1,7 @@
 Title: Doo kenn yaw, ken du yaw
 Excerpt: Doo kenn yaw, ken du yaw, ëskëy sa mbir woyoful - Sa ndend nekkul ci dendub suu si tay, doo maas !
 Theme: Sëriñ bi
+ThemeReview: Poème incomplet, éloge de qualités (générosité, noblesse) sans destinataire nommé, possiblement Bàmba.
 ---
 Doo kenn yaw, ken du yaw, ëskëy sa mbir woyoful
 Sa ndend nekkul ci dendub suu si tay, doo maas !

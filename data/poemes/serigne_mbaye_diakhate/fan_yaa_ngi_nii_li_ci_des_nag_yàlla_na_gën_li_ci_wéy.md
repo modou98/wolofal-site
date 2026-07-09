@@ -2,6 +2,7 @@ Title: Fan yaa ngi nii li ci des nag Yàlla na gën li ci wéy
 Excerpt: Fan yaa ngi nii li ci des nag Yàlla na gën li ci wéy - Gënal ko Yàllaaki tànneefam, gënal nu ko fuuf
 StanzaSize: 3
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
+ThemeReview: Invocation sur les jours qui restent, proche d'une prière de fin de période/année.
 ---
 Fan yaa ngi nii li ci des nag Yàlla na gën li ci wéy
 Gënal ko Yàllaaki tànneefam, gënal nu ko fuuf

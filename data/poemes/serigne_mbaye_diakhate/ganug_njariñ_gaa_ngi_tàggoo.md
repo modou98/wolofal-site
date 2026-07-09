@@ -1,6 +1,7 @@
 Title: Ganug njariñ gaa ngi tàggoo
 Excerpt: Ganug njariñ gaa ngi tàggoo, Yal na fab suñu lor, - Yóbbàale fàww te dem delseeti, fekk nu fi.
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
+ThemeReview: Prière d'adieu/retour lors d'une séparation, proche d'un contexte de rassemblement/pèlerinage.
 ---
 Ganug njariñ gaa ngi tàggoo, Yal na fab suñu lor,
 Yóbbàale fàww te dem delseeti, fekk nu fi.

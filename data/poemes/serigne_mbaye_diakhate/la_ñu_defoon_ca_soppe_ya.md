@@ -1,6 +1,7 @@
 Title: La ñu defoon ca soppe ya
 Excerpt: La ñu defoon ca soppe ya - Ba ñu ni mes ca àll ya
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
+ThemeReview: Prière très courte pour perpétuer l'amour/les valeurs des ancêtres ; sens vague.
 ---
 La ñu defoon ca soppe ya
 Ba ñu ni mes ca àll ya

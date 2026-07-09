@@ -111,6 +111,8 @@ def build():
                                 poem_data['stanzaSize'] = int(val)
                             except ValueError:
                                 pass
+                        elif key == 'themereview':
+                            poem_data['themeReview'] = val
                 
                 author['poems'].append(poem_data)
     

@@ -2,6 +2,7 @@ Title: Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax
 Excerpt: Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax - Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?
 StanzaSize: 4
 Theme: Séytaane (Les ruses de Satan)
+ThemeReview: Mentionne Séytaane qui « jàpp » celui qui abandonne le bien ; lutte contre la tentation.
 ---
 Laajal ma mbooleem ña am xam-xam ba xam lu ñu wax
 Ci waa ju ñuy woo te séq ub jéego wuy ji të ko ?

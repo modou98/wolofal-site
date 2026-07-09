@@ -1,6 +1,7 @@
 Title: Gawar gum fasam të lumuy laaji fas
 Excerpt: Gawar gum fasam të lumuy laaji fas - Xanaa dof ne kon day defar aw fasam
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
+ThemeReview: Proverbes sur la sagesse/folie concluant par la nécessité de chercher son Sëriñ.
 ---
 Gawar gum fasam të lumuy laaji fas
 Xanaa dof ne kon day defar aw fasam

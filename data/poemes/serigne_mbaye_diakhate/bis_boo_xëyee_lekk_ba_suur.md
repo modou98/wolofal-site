@@ -2,6 +2,7 @@ Title: Bis boo xëyee lekk ba suur
 Excerpt: Bis boo xëyee lekk ba suur - Ba noppi sàng nag sa biir
 StanzaSize: 8
 Theme: Àddina (La dunya et ses illusions)
+ThemeReview: Mise en garde contre l'abondance/gloutonnerie ; rien du monde ne reste.
 ---
 Bis boo xëyee lekk ba suur
 Ba noppi sàng nag sa biir

@@ -164,6 +164,13 @@
             <input type="text" id="filterInput" class="form-control" placeholder="Rechercher par titre de poème ou par auteur..." oninput="filterPoemsTable()">
         </div>
 
+        <div class="form-group" style="display: flex; align-items: center; gap: 0.6rem;">
+            <label style="display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; font-weight: 500; margin: 0;">
+                <input type="checkbox" id="reviewOnlyFilter" onchange="filterPoemsTable()">
+                ⚠️ Afficher seulement les poèmes à vérifier (<span id="reviewCount">0</span>)
+            </label>
+        </div>
+
         <div style="overflow-x: auto; margin-top: 1.5rem;">
             <table style="width: 100%; border-collapse: collapse; text-align: left; background: var(--bg-color); border-radius: 8px; border: 1px solid var(--border-color);">
                 <thead>
@@ -287,15 +294,19 @@
             
             tbody.innerHTML = '';
             let count = 0;
-            
+            let reviewCount = 0;
+
             window.authorsData.forEach(author => {
                 author.poems.forEach(poem => {
                     count++;
+                    if (poem.themeReview) reviewCount++;
                     const tr = document.createElement('tr');
                     tr.style.borderBottom = '1px solid var(--border-color)';
                     tr.className = 'poem-row';
                     tr.dataset.title = poem.title.toLowerCase();
                     tr.dataset.author = author.name.toLowerCase();
+                    tr.dataset.needsReview = poem.themeReview ? '1' : '0';
+                    if (poem.themeReview) tr.style.background = 'rgba(212, 175, 55, 0.08)';
                     
                     // Options de thèmes (mini pills)
                     let themeCheckboxes = '';
@@ -327,8 +338,12 @@
                         }
                     }
                     
+                    const reviewBadge = poem.themeReview
+                        ? `<span title="${poem.themeReview.replace(/"/g, '&quot;')}" style="cursor: help; margin-left: 0.4rem;">⚠️</span>`
+                        : '';
+
                     tr.innerHTML = `
-                        <td style="padding: 1rem; font-weight: 500; color: var(--text-color);">${poem.title}</td>
+                        <td style="padding: 1rem; font-weight: 500; color: var(--text-color);">${poem.title}${reviewBadge}</td>
                         <td style="padding: 1rem; font-size: 0.9rem; color: var(--text-color); opacity: 0.8;">${author.name}</td>
                         <td style="padding: 0.5rem 1rem;">
                             <div class="row-themes-container" style="display: flex; flex-wrap: wrap; gap: 0.3rem; max-width: 250px;">
@@ -349,21 +364,22 @@
             if (count === 0) {
                 tbody.innerHTML = `<tr><td colspan="5" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Aucun poème trouvé dans le système.</td></tr>`;
             }
+
+            document.getElementById('reviewCount').textContent = reviewCount;
         }
 
         // Filtrer localement les poèmes
         function filterPoemsTable() {
             const query = document.getElementById('filterInput').value.toLowerCase().trim();
+            const reviewOnly = document.getElementById('reviewOnlyFilter').checked;
             const rows = document.querySelectorAll('.poem-row');
-            
+
             rows.forEach(row => {
                 const title = row.dataset.title;
                 const author = row.dataset.author;
-                if (title.includes(query) || author.includes(query)) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
+                const matchesQuery = title.includes(query) || author.includes(query);
+                const matchesReview = !reviewOnly || row.dataset.needsReview === '1';
+                row.style.display = (matchesQuery && matchesReview) ? '' : 'none';
             });
         }
 

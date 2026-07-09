@@ -2,6 +2,7 @@ Title: Ba naa bépp buntub sang ñëw ci sa buntu bii
 Excerpt: Ba naa bépp buntub sang ñëw ci sa buntu bii - Da naa am li may wut mbaa ma dee ci sa buntu bi
 StanzaSize: 4
 Theme: Sëriñ bi
+ThemeReview: Adresse suppliante à la « porte » du maître (Mbàkke), éloge de sa valeur/protection.
 ---
 Ba naa bépp buntub sang ñëw ci sa buntu bii
 Da naa am li may wut mbaa ma dee ci sa buntu bi

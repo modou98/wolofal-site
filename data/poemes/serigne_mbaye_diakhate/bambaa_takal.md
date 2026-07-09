@@ -2,6 +2,7 @@ Title: Bamba a ma takkalu sallam Mustafaa ne ma cas
 Excerpt: Exaltation de la ferveur mouride à travers la figure du Calife, symbole de la continuité de la grâce et du salut.
 Audio: 
 Theme: Sëriñ bi
+ThemeReview: Vision/bénédiction reçue de Bàmba et du Prophète, imagerie lumineuse à sa gloire.
 ---
 
 Bamba a ma takkalu sàllam Mustafaa ne ma cas

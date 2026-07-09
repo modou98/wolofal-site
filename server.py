@@ -85,6 +85,9 @@ def update_poem_metadata(filepath, themes, audio):
                 if audio:
                     new_header_lines.append(f"Audio: {audio}")
                 audio_updated = True
+            elif key_stripped == 'themereview':
+                # L'admin a relu/validé ce poème depuis le dashboard : on lève le signalement.
+                pass
             else:
                 new_header_lines.append(line.rstrip())
         else:

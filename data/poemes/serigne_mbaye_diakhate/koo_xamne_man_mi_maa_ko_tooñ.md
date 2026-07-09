@@ -2,6 +2,7 @@ Title: Koo xamne man mi maa ko tooñ
 Excerpt: Koo xamne man mii maa ko tooñ - Yàl na nu boole la mu tooñ
 StanzaSize: 4
 Theme: Bakkan (Éducation de l'âme)
+ThemeReview: Reconnaissance de fautes et demande de pardon répétée (jéggal, tooñ) ; discipline/purification personnelle.
 ---
 Koo xamne man mii maa ko tooñ
 Yàl na nu boole la mu tooñ

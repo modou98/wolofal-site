@@ -2,6 +2,7 @@ Title: Bàmbaa nu jox li fi dee faa dox di bëgg aka wut
 Excerpt: Bàmbaa nu jox li fi dee faa dox di bëgg aka wut - Bay jug di waaxu di dem Màkkaaka dem Medina
 StanzaSize: 3
 Theme: Sëriñ bi
+ThemeReview: Bàmba source de ce qui est nécessaire ici-bas, éloge de sa grandeur.
 ---
 Bàmbaa nu jox li fi dee faa dox di bëgg aka wut
 Bay jug di waaxu di dem Màkkaaka dem Medina

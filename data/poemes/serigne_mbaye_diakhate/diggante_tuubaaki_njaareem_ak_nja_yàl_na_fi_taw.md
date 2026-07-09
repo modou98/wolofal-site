@@ -2,6 +2,7 @@ Title: Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw
 Excerpt: Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw - Taw buy waral ñépp fëx ñëw sax fi dëkk aku yiw
 StanzaSize: 3
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
+ThemeReview: Prière de bénédiction sur le lien entre deux mosquées/lieux saints, proche de la thématique siyaare.
 ---
 Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw
 Taw buy waral ñépp fëx ñëw sax fi dëkk aku yiw

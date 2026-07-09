@@ -1,6 +1,7 @@
 Title: Bari’y wax ak bari’y nelaw tageefuko
 Excerpt: Bari’y wax ak bari’y nelaw tageefuko - Doo gis kuñ nee faa moo fi gën bari leko
 Theme: Bakkan (Éducation de l'âme)
+ThemeReview: Mise en garde contre l'excès de parole et de sommeil, discipline personnelle.
 ---
 Bari’y wax ak bari’y nelaw tageefuko
 Doo gis kuñ nee faa moo fi gën bari leko

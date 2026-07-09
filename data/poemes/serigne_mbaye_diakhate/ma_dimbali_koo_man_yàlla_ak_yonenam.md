@@ -2,6 +2,7 @@ Title: Ma dimbali koo man Yàlla ak Yonenam
 Excerpt: Ma dimbali koo man Yàlla ak Yonenam ba tay - Ba sant Sëriñ Tuubaa ta ñaanal ko wépp yiw
 StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
+ThemeReview: Série d'invocations (Yàl na) remerciant/priant pour Yàlla, Yonnen et Sëriñ Tuubaa.
 ---
 Ma dimbali koo man Yàlla ak Yonenam ba tay
 Ba sant Sëriñ Tuubaa ta ñaanal ko wépp yiw

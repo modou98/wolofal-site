@@ -2,6 +2,7 @@ Title: Bàyyil ayib yile ngay yër yaw ta yër sa ayib
 Excerpt: Bàyyil ayib yile ngay yër yaw ta yër sa ayib - Ayib ju dul sa ayib joo ja ayib bu ko yër
 StanzaSize: 3
 Theme: Bakkan (Éducation de l'âme)
+ThemeReview: Ne pas dénoncer les défauts d'autrui, s'examiner d'abord soi-même.
 ---
 Bàyyil ayib yile ngay yër yaw ta yër sa ayib
 Ayib ju dul sa ayib joo ja ayib bu ko yër

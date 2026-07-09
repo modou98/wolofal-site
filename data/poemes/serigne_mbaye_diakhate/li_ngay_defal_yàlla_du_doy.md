@@ -2,6 +2,7 @@ Title: Li ngay defal Yàlla du doy
 Excerpt: Li ngay defal Yàlla du doy - Ngir li mu lay defal du doy
 StanzaSize: 4
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
+ThemeReview: Ce que l'on fait pour Dieu ne suffit jamais face à ce que Lui fait pour nous ; gratitude/insuffisance humaine.
 ---
 Li ngay defal Yàlla du doy
 Ngir li mu lay defal du doy

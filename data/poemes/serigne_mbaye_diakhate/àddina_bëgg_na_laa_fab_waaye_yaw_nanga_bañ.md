@@ -2,6 +2,7 @@ Title: Àddina bëgg na laa fab waaye yaw nanga bañ
 Excerpt: Àddina bëgg na laa fab waaye yaw nanga bañ
 Audio: https://youtu.be/y_uxFPayM4E
 Theme: Àddina (La dunya et ses illusions)
+ThemeReview: Le titre annonce la séduction du monde à refuser, mais le contenu détaille surtout les objets de la tombe (frontière avec dee_ak_bisu_penc).
 ---
 
 Àddina bëgg na laa fab waaye yaw nanga bañ

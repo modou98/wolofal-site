@@ -2,6 +2,7 @@ Title: Yàlla nii cas yermandeem ak xewalam ni ma am
 Excerpt: Yàllaa ni cas yërmandeem ak xéewalam ni ma am - Yàl naani cas mbégam ak cantam gu rëy ni ko am !
 StanzaSize: 4
 Theme: Sëriñ bi
+ThemeReview: Description des qualités spirituelles élevées d'une personne (probablement le Sëriñ) bénie par la miséricorde divine.
 ---
 Yàllaa ni cas yërmandeem ak xéewalam ni ma am
 Yàl naani cas mbégam ak cantam gu rëy ni ko am !

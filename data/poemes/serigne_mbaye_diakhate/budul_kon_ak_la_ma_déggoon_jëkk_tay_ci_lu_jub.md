@@ -2,6 +2,7 @@ Title: Budul kon ak la ma déggoon jëkk tay ci lu jub
 Excerpt: Budul kon ak la ma déggoon jëkk tay ci lu jub - Ma topp saa njël yi man tay wëy di wëy ba ni mes
 StanzaSize: 3
 Theme: Yar (Éducation)
+ThemeReview: Ce qu'il a appris/entendu jeune l'a préservé du mauvais chemin ; valeur de l'éducation reçue.
 ---
 Budul kon ak la ma déggoon jëkk tay ci lu jub
 Ma topp saa njël yi man tay wëy di wëy ba ni mes

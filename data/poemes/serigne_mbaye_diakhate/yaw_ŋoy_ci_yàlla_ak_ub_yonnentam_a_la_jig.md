@@ -2,6 +2,7 @@ Title: Yaw ŋoy ci Yàlla ak ub Yonnentam a la jig
 Excerpt: Yaw ŋoy ci Yàlla ak ub Yonnentam a la jig - Nun ŋoy ci Yaw dong ak doyloo la rek a ñu jig
 StanzaSize: 4
 Theme: Sëriñ bi
+ThemeReview: Éloge du rang élevé de l'adressé accordé par Dieu, et soumission de la communauté envers lui ; interprétation comme éloge du Sëriñ.
 ---
 Yaw ŋoy ci Yàlla ak ub Yonnentam a la jig
 Nun ŋoy ci Yaw dong ak doyloo la rek a ñu jig

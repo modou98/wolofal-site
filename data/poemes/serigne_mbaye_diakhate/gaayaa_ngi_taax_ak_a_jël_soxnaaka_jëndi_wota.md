@@ -2,6 +2,7 @@ Title: Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota
 Excerpt: Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota - Xéewal gi tax na ñu far dof kenn xaml lu ko të
 StanzaSize: 8
 Theme: Àddina (La dunya et ses illusions)
+ThemeReview: Richesse et pauvreté ne déterminent pas la valeur morale ; illusions matérielles de l'Àddina.
 ---
 Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota
 Xéewal gi tax na ñu far dof kenn xaml lu ko të
