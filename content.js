@@ -704,9 +704,101 @@ window.authorsData = [
         "folder": "kubra",
         "poems": [
             {
+                "id": "marsiya_soxna_xadi_mbakke",
+                "title": "Marsiya Soxna Xadi Mbàkke",
+                "excerpt": "Bismil ilaahi ma def tay ay bëyit si mbirum - Bintul Xaddimi rasuululaahi moo waare",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/watch?v=b-czXVe7nwY"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "marsiyya_soxna_joob_mbakke",
+                "title": "Marsiyya Soxna Joob Mbàkke",
+                "excerpt": "Ma ñëw fi def marsiyab koo xamni kii gisumab - Kemam si rakk yi ak magg yi ak ñi di maasam",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/watch?v=szBAvlWYOF8"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "maymuunatul_bintul_xadiim",
+                "title": "Maymuunatul bintul Xadiim",
+                "excerpt": "Maymuunatul bintul Xadiim - War na la foo toll di jéem",
+                "stanzaSize": 4,
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/watch?v=87zzV0ITrBo"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
                 "id": "ramadaan",
                 "title": "Ramadaan",
                 "excerpt": "Un poème sur le mois béni de Ramadan composé par Sokhna Maymuuna Mbacké Al Kubra."
+            },
+            {
+                "id": "siyaare_naawel_ak_poroxaan",
+                "title": "Siyaare Naawel ak Poroxaan",
+                "excerpt": "Alhamdu wa shukru mahal lilaahi - Alal Xadiimi wa Rasuulilaahi",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/x39e9z3VW9g"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "siyaare_naawel_ak_poroxaan_bis",
+                "title": "Siyaare Naawel ak Poroxaan bis",
+                "excerpt": "Bismil ilaahi noo ngi santaat Yàlla - Cant gu rëy goo xamni am na yilla",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/watch?v=6vk9gfBxDzg"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "tawfeex",
+                "title": "Tawfeex",
+                "excerpt": "Sëriñ bi yaa ma taxa jug - Su ma tëdee nga di ma rog",
+                "stanzaSize": 4,
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/u4Y1y6NXX6o"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "weeru_gammu",
+                "title": "Weeru Gàmmu",
+                "excerpt": "Bismil ilaahi waxal alhamdulilaahi - Fi shahri mawlidihil muhtaari Yallaahu",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/VtItoMPN-ac"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "weeru_gammu_bis",
+                "title": "Weeru Gàmmu bis",
+                "excerpt": "Bismil ilaahi ma way man weeru gàmmu wi ndax - Sëriñ bi dàbbali saab ñag sëkk të ruurma",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/yxjVrWlw1WI"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
+            },
+            {
+                "id": "weeru_koor_ak_serign_tuuba",
+                "title": "Weeru koor ak Sëriñ Tuuba",
+                "excerpt": "Bismil ilaahi ci barkep Seexuna mi nu gën - Tey Xaadimal Mustafal Muxtaari xeetali nu",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/t-SnYs0QXa4"
+                },
+                "manuscript": "assets/ay_wolofal_soxna_may.pdf"
             }
         ]
     },
