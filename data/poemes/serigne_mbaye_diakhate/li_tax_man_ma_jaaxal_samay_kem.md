@@ -1,5 +1,6 @@
 Title: Li tax man ma jaaxal samay kem
 Excerpt: Li tax man ma jaaxal samay kem damaa - demul woon ba ñiy dem ta far jiitu léen
+Theme: Muñ (Patience face aux épreuves)
 ---
 Li tax man ma jaaxal samay kem damaa
 demul woon ba ñiy dem ta far jiitu léen

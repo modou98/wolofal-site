@@ -1,6 +1,7 @@
 Title: Julleek a màgg ku kàbbar sànni say yoxo nag
 Excerpt: Julleek a màgg ku kàbbar sànni say yoxo nag - Jàppul, yarul, def ca sam xel mépp jàkk xalam
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Julleek a màgg ku kàbbar sànni say yoxo nag
 Jàppul, yarul, def ca sam xel mépp jàkk xalam

@@ -1,6 +1,7 @@
 Title: Xarit
 Excerpt: Une méditation poétique sur la nature des relations humaines, de l'amitié sincère et de la nécessité de se préserver des calomnies et des médisances.
 Audio: 
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 
 Kuy seeti teranga du tàggoo gis teranga yu mat

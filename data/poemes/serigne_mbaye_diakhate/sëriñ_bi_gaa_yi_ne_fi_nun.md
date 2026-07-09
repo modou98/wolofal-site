@@ -1,6 +1,7 @@
 Title: Sëriñ bi gaa yi ne fi nun
 Excerpt: Sëriñ bi gaa yi ne fi nun - Ngir fas ne lëf ne na fi nun
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi gaa yi ne fi nun
 Ngir fas ne lëf ne na fi nun

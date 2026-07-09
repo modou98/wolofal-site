@@ -1,6 +1,7 @@
 Title: Fabal sa ñam joxe te xiif
 Excerpt: Fabal sa ñam joxe te xiif - Te bàyyi sa'b lal tëdd suuf
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Fabal sa ñam joxe te xiif
 Te bàyyi sa'b lal tëdd suuf

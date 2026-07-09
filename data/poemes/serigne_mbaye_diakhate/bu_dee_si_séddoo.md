@@ -1,6 +1,7 @@
 Title: Bu dee si séddoo
 Excerpt: Bu dee si séddoo - Yàl naa la séddoo
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Bu dee si séddoo
 Yàl naa la séddoo

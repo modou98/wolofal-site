@@ -1,6 +1,7 @@
 Title: Ku jëm ci ab dëkk xeebum ngir du yegg du dem
 Excerpt: Ku jëm ci ab dëkk xeebum ngir du yegg du dem - Yàllaa di dëkk ba sangay ngir ma, sóobuko dem
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ku jëm ci ab dëkk xeebum ngir du yegg du dem
 Yàllaa di dëkk ba sangay ngir ma, sóobuko dem

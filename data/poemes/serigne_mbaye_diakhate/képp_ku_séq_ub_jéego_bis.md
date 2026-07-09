@@ -1,5 +1,6 @@
 Title: Képp ku séq ub jéego bis
 Excerpt: Képp ku séq ub jéego bis
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Képp ku séq ub jéego bis
 Jëmme ci man ngir bëgg a gis

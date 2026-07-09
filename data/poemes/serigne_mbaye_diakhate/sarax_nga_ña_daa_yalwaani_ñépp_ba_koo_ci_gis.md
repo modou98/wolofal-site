@@ -1,6 +1,7 @@
 Title: Sarax nga ña daa yalwaani ñépp ba koo ci gis
 Excerpt: Sarax nga ña daa yalwaani ñépp ba koo ci gis - Mi ngiy saraxeekay sant, Yàlla na la Yàlla fay
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Sarax nga ña daa yalwaani ñépp ba koo ci gis
 Mi ngiy saraxeekay sant, Yàlla na la Yàlla fay

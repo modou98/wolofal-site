@@ -1,6 +1,7 @@
 Title: Buurub Aras yaa ngi ànd ak say malaaka bu wér
 Excerpt: Buurub Aras yaa ngi ànd ak say malaaka bu wér - Di julli fàww ci Yonnen baa ka jullilu yaw
 StanzaSize: 3
+Theme: Yonnen bi (PSL)
 ---
 Buurub Aras yaa ngi ànd ak say malaaka bu wér
 Di julli fàww ci Yonnen baa ka jullilu yaw

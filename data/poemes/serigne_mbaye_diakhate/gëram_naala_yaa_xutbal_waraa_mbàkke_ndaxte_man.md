@@ -1,6 +1,7 @@
 Title: Gëram naala yaa xutbal waraa Mbàkke, ndaxte man
 Excerpt: Gëram naala yaa xutbal waraa Mbàkke, ndaxte man - Bawoo maa’ki doktoor ak kolee’ki nu kenn xamul
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Gëram naala yaa xutbal waraa Mbàkke, ndaxte man
 Bawoo maa’ki doktoor ak kolee’ki nu kenn xamul

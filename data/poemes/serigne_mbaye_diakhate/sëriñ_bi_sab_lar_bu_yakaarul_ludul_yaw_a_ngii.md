@@ -1,6 +1,7 @@
 Title: Sëriñ bi sa’b lar bu yakaarul ludul yaw a ngii
 Excerpt: Sëriñ bi sa’b lar bu yakaarul ludul yaw a ngii - Amul xamul mënul it tay bëgg nag sa ngëram
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi sa’b lar bu yakaarul ludul yaw a ngii
 Amul xamul mënul it tay bëgg nag sa ngëram

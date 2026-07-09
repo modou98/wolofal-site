@@ -1,6 +1,7 @@
 Title: Sarax nu mbalaanum cant ak suturaaku yiw
 Excerpt: Sarax nu mbalaanum cant ak suturaaku yiw - Te bole ca mbubb as ndollen ak tubayas ngëram
 StanzaSize: 8
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Sarax nu mbalaanum cant ak suturaaku yiw
 Te bole ca mbubb as ndollen ak tubayas ngëram

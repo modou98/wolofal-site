@@ -1,6 +1,7 @@
 Title: Dàq nga lor mu sori nu
 Excerpt: Dàq nga lor mu sori nu - Ñoddi njariñ mu jege nu
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Dàq nga lor mu sori nu
 Ñoddi njariñ mu jege nu

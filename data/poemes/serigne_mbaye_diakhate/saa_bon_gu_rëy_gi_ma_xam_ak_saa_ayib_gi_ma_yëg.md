@@ -1,6 +1,7 @@
 Title: Saa bon gu rëy gi ma xam ak saa ayib gi ma yëg
 Excerpt: Saa bon gu rëy gi ma xam ak saa ayib gi ma yëg - Ak saa tilim gi ma gis doynaa xalaat aka wax
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Saa bon gu rëy gi ma xam ak saa ayib gi ma yëg
 Ak saa tilim gi ma gis doynaa xalaat aka wax

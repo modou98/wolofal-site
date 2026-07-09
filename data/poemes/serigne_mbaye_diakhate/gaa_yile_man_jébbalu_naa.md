@@ -1,6 +1,6 @@
 Title: Gaa yile man jébbalu naa
 Excerpt: Gaa yile man jébbalu naa
-Theme: Murit
+Theme: Àddina (La dunya et ses illusions)
 StanzaSize: 4
 ---
 Gaa yile man jébbalu naa 

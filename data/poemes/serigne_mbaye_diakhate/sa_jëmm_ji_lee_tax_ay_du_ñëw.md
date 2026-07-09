@@ -1,5 +1,6 @@
 Title: Sa jëmm ji lee tax ay du ñëw
 Excerpt: Sa jëmm ji lee tax ay du ñëw Yàlla yaw la rus - Rusul ku la moy Yaw donga tee nu gisug mbugël
+Theme: Sëriñ bi
 ---
 Sa jëmm ji lee tax ay du ñëw Yàlla yaw la rus
 Rusul ku la moy Yaw donga tee nu gisug mbugël

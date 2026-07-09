@@ -2,6 +2,7 @@ Title: Weeru Gàmmu bis
 Excerpt: Bismil ilaahi ma way man weeru gàmmu wi ndax - Sëriñ bi dàbbali saab ñag sëkk të ruurma
 Audio: https://youtu.be/yxjVrWlw1WI
 Manuscript: assets/ay_wolofal_soxna_may.pdf
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Bismil ilaahi ma way man weeru gàmmu wi ndax
 Sëriñ bi dàbbali saab ñag sëkk të ruurma

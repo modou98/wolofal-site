@@ -1,6 +1,7 @@
 Title: Yaw mii di sàkku ngëram luy wéy di wéy laxasul
 Excerpt: Yaw mii di sàkku ngëram luy wéy di wéy laxasul - Ta sànni àdduna mii daa sànk waaju xamul
 StanzaSize: 4
+Theme: Àddina (La dunya et ses illusions)
 ---
 Yaw mii di sàkku ngëram luy wéy di wéy laxasul
 Ta sànni àdduna mii daa sànk waaju xamul

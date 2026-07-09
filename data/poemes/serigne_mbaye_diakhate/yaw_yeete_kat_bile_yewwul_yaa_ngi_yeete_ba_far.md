@@ -1,6 +1,7 @@
 Title: Yaw yeete kat bile, yewwul yaa ngi yeete ba far
 Excerpt: Yaw yeete kat bile, yewwul yaa ngi yeete ba far - Dolliy nelaw ngir da ngaa nar kenn dootu nelaw
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Yaw yeete kat bile, yewwul yaa ngi yeete ba far
 Dolliy nelaw ngir da ngaa nar kenn dootu nelaw

@@ -1,6 +1,7 @@
 Title: Murid dafay gaaw
 Excerpt: Une pièce rythmée qui décrit avec ferveur et concision les attitudes d'empressement, d'humilité et de soumission du vrai mouride.
 Audio: 
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Murid dafay gaaw

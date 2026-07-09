@@ -1,6 +1,7 @@
 Title: Nëbbal tawat yi ne fi yaw
 Excerpt: Nëbbal tawat yi ne fi yaw - Te génne cant yi fi yaw
 StanzaSize: 4
+Theme: Muñ (Patience face aux épreuves)
 ---
 Nëbbal tawat yi ne fi yaw
 Te génne cant yi fi yaw

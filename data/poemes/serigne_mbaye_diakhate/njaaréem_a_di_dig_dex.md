@@ -1,5 +1,6 @@
 Title: Njaaréem a di dig dex
 Excerpt: Njaaréem a di dig dex, ku sàggan sànku fàww ta lab - Ta ñàkk nag sab ligéey ak Yàlla, alku ji far
+Theme: Bakkan (Éducation de l'âme)
 ---
 Njaaréem a di dig dex, ku sàggan sànku fàww ta lab
 Ta ñàkk nag sab ligéey ak Yàlla, alku ji far

@@ -1,5 +1,6 @@
 Title: Yaw mii fasoo jot ci Buur
 Excerpt: Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit
+Theme: Yar (Éducation)
 ---
 Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am
 Xel ak ngor ak wollaréekub yar bu baax aku fit

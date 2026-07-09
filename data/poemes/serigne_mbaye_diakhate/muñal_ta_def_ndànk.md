@@ -1,5 +1,6 @@
 Title: Muñal ta def ndànk
 Excerpt: Muñal te def ndànk bul yàkkamti lee nga doyal - Mësay mudul séwet ak waamee xaloo yami mbir
+Theme: Muñ (Patience face aux épreuves)
 ---
 Muñal te def ndànk bul yàkkamti lee nga doyal
 Mësay mudul séwet ak waamee xaloo yami mbir

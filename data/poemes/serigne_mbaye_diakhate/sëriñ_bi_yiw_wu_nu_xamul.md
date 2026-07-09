@@ -1,5 +1,6 @@
 Title: Sëriñ bi yiw wu nu xamul 
 Excerpt: Sëriñ bi yiw wu nu xamul 
+Theme: Sëriñ bi
 ---
 
 Sëriñ bi yiw wu nu xamul 

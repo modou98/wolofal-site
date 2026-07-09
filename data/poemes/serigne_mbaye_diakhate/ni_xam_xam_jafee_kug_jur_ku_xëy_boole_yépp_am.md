@@ -1,6 +1,7 @@
 Title: Ni xam-xam jafee kug jur ku xëy boole yépp am
 Excerpt: Ni xam-xam jafee kug jur ku xëy boole yépp am - Te jàngoo ligéeyoo yal na ngay santkat bu rëy
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Ni xam-xam jafee kug jur ku xëy boole yépp am
 Te jàngoo ligéeyoo yal na ngay santkat bu rëy

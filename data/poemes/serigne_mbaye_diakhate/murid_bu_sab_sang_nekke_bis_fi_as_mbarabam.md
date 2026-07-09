@@ -1,5 +1,6 @@
 Title: Murid bu sab sang nekke bis fi as mbarabam
 Excerpt: Murid bu sab sang nekke bis fi as mbarabam Bul dem ni jawwu ta diisoo woo ba nee fi ñëwal
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murid bu sab sang nekke bis fi as mbarabam
 Bul dem ni jawwu ta diisoo woo ba nee fi ñëwal

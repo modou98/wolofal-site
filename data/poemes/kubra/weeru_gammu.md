@@ -2,6 +2,7 @@ Title: Weeru Gàmmu
 Excerpt: Bismil ilaahi waxal alhamdulilaahi - Fi shahri mawlidihil muhtaari Yallaahu
 Audio: https://youtu.be/VtItoMPN-ac
 Manuscript: assets/ay_wolofal_soxna_may.pdf
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Bismil ilaahi waxal alhamdulilaahi
 Fi shahri mawlidihil muhtaari Yallaahu

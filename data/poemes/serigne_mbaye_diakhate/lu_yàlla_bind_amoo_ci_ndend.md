@@ -1,6 +1,7 @@
 Title: Lu YÀLLA bind, amoo ci ndend
 Excerpt: Lu YÀLLA bind, - Amoo ci ndend
 StanzaSize: 4
+Theme: Tawhiid
 ---
 Lu YÀLLA bind,
 Amoo ci ndend

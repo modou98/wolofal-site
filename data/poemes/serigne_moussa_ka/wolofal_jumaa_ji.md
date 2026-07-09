@@ -1,7 +1,7 @@
 Title: Wolofal Jumaa Ji
 Excerpt: Un poème qui retrace la construction de la grande mosquée de Touba
 Audio: https://www.youtube.com/playlist?list=PLrYQY_QVCG1xMiq7dbfj37tbZLi2nmRf8
-Theme: Jumaa & Magal
+Theme: Taarix
 ---
 La Bàmba wax ca Majma'a l-Nuurayni
 Laay bëgga way ngeen sant fii daarayni

@@ -1,6 +1,7 @@
 Title: Nañ jéem a sant gërëm buur ub aras ki nu jox
 Excerpt: Nañ jéem a sant gërëm buur ub aras ki nu jox - Xéewal yu toll ni suufam sii nu gis ni xasar
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Nañ jéem a sant gërëm buur ub aras ki nu jox
 Xéewal yu toll ni suufam sii nu gis ni xasar

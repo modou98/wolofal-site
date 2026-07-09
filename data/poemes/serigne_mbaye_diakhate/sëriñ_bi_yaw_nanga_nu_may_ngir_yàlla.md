@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaw nanga nu may, Ngir Yàlla
 Excerpt: Sëriñ bi yaw na nga nu may - Ngir Yàlla ak Yonnen ba tay
 StanzaSize: 8
+Theme: Yar (Éducation)
 ---
 Sëriñ bi yaw na nga nu may
 Ngir Yàlla ak Yonnen ba tay

@@ -1,6 +1,7 @@
 Title: Ma fàtteleeti waa àddinaati Àjjana
 Excerpt: Ma fàtteleeti waa àddinaati - Àjjana jee ti ndax xol yi dundu
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Ma fàtteleeti waa àddinaati
 Àjjana jee ti ndax xol yi dundu

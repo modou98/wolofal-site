@@ -1,5 +1,6 @@
 Title: Sëriñ Abdul Ahad
 Excerpt: Abdul Ahad yal na saw fan gudd Mbàkke nga wér - Te sax ci jàmm aku yiw ak jaamu Yàlla gu wér !
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Abdul Ahad yal na saw fan gudd Mbàkke nga wér
 Te sax ci jàmm aku yiw ak jaamu Yàlla gu wér !

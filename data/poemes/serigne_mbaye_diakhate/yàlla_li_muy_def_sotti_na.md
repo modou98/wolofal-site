@@ -1,6 +1,7 @@
 Title: Yàlla li muy def sotti na
 Excerpt: Yalla li muy def sotti na - Te lu mu dul def sotti na
 StanzaSize: 8
+Theme: Tawhiid
 ---
 Yalla li muy def sotti na
 Te lu mu dul def sotti na

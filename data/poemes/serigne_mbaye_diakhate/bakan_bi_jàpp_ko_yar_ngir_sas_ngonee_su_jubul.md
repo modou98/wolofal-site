@@ -1,6 +1,7 @@
 Title: Bakan bi jàpp ko yar ngir sas ngonee su jubul
 Excerpt: Bakan bi jàpp ko yar ngir sas ngonee su jubul - Kuy saytu sas ngone boo jàppul ta yar du jubal
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Bakan bi jàpp ko yar ngir sas ngonee su jubul
 Kuy saytu sas ngone boo jàppul ta yar du jubal

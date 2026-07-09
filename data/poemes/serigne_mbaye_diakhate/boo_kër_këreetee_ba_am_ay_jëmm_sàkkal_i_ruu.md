@@ -1,6 +1,7 @@
 Title: Boo kër këreetee ba am ay jëmm sàkkal i ruu
 Excerpt: Boo kër këreetee ba am ay jëmm sàkkal i ruu - Kuy dundu moo gën ku dee ngir séeni mbir du nuroo
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Boo kër këreetee ba am ay jëmm sàkkal i ruu
 Kuy dundu moo gën ku dee ngir séeni mbir du nuroo

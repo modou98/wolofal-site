@@ -1,6 +1,7 @@
 Title: Naa jug siyaare ji Sëriñ
 Excerpt: Naa jug siyaare ji Sëriñ - Tuubaa ki am lu am njariñ
 StanzaSize: 4
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Naa jug siyaare ji Sëriñ
 Tuubaa ki am lu am njariñ

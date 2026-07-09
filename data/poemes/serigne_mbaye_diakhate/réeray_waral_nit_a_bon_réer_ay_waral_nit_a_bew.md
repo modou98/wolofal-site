@@ -1,6 +1,7 @@
 Title: Réeray waral nit a bon réer ay waral nit a bew
 Excerpt: Réeray waral nit a bon réer ay waral nit a bew - Ku saw yaram maxe say gët suulu doo tala mer
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Réeray waral nit a bon réer ay waral nit a bew
 Ku saw yaram maxe say gët suulu doo tala mer

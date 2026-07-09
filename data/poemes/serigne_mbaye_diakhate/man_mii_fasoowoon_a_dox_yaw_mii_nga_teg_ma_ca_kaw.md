@@ -1,6 +1,7 @@
 Title: Man mii fasoowoon a dox yaw mii nga teg ma ca kaw
 Excerpt: Man mii fasoowoon a dox yaw mii nga teg ma ca kaw - Sëriñ Yàl na nu fab nun népp teg nu ca kaw
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Man mii fasoowoon a dox yaw mii nga teg ma ca kaw
 Sëriñ Yàl na nu fab nun népp teg nu ca kaw

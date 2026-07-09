@@ -1,6 +1,7 @@
 Title: Ma sant Bàmba ki xëy teggil ma dég yi ma jam
 Excerpt: Ma sant Bàmba ki xëy teggil ma dég yi ma jam - Teggil ma lor yi ma dal fab saa mbébét ni ma am
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Ma sant Bàmba ki xëy teggil ma dég yi ma jam
 Teggil ma lor yi ma dal fab saa mbébét ni ma am

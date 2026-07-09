@@ -1,6 +1,7 @@
 Title: Njegam bëgg nga sag murid jag te wér
 Excerpt: Njegam bëgg yaw nga sag murid jag te wér - Moyul marsandiis ak jigéen ak pexeem
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Njegam bëgg yaw nga sag murid jag te wér
 Moyul marsandiis ak jigéen ak pexeem

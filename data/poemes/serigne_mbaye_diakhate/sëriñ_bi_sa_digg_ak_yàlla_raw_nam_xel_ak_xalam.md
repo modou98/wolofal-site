@@ -1,6 +1,7 @@
 Title: Sëriñ bi sa digg ak Yàlla raw nam xel ak xalam
 Excerpt: Sëriñ bi sa digg ak Yàlla raw nam xel ak xalam - Te raw njort, man seenub diggante damaa ëlëm
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ bi sa digg ak Yàlla raw nam xel ak xalam
 Te raw njort, man seenub diggante damaa ëlëm

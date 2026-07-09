@@ -1,5 +1,6 @@
 Title: Xarit dëgg yaw bul defub tëddkat
 Excerpt: Xarit dëgg yaw bul def ub tëddkat
+Theme: Bakkan (Éducation de l'âme)
 ---
 Xarit dëgg yaw bul def ub tëddkat 
 Njegam bëgg ngaa def nit ug tedd nga

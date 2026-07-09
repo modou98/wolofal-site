@@ -1,6 +1,7 @@
 Title: Soppal ka def Al Jànnay firdawsi moo gën a war
 Excerpt: Soppal ka def Al Jànnay firdawsi moo gën a war - Ka sàkk añ moo gënub añ sopp koo gën a war
 StanzaSize: 4
+Theme: Tawhiid
 ---
 Soppal ka def Al Jànnay firdawsi moo gën a war
 Ka sàkk añ moo gënub añ sopp koo gën a war

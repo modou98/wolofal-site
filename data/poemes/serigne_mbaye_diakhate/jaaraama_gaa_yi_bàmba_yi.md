@@ -1,6 +1,7 @@
 Title: Jaaraama gaa yi Bàmba yi
 Excerpt: Jaaraama gaa yi Bàmba yi - Bàmbaa di sangub sang yi
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Jaaraama gaa yi Bàmba yi
 Bàmbaa di sangub sang yi

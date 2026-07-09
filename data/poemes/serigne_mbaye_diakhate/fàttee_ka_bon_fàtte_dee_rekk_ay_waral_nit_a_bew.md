@@ -1,6 +1,7 @@
 Title: Fàttee ka bon fàtte dee rekk ay waral nit a bew
 Excerpt: Fàttee ka bon fàtte dee rekk ay waral nit a bew - Bu dul kon ak fàtte dee ken doo tu reew ak a bew
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Fàttee ka bon fàtte dee rekk ay waral nit a bew
 Bu dul kon ak fàtte dee ken doo tu reew ak a bew

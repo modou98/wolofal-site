@@ -1,6 +1,7 @@
 Title: Li ngay defal Yàlla du doy
 Excerpt: Li ngay defal Yàlla du doy - Ngir li mu lay defal du doy
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Li ngay defal Yàlla du doy
 Ngir li mu lay defal du doy

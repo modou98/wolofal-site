@@ -1,6 +1,7 @@
 Title: Sa xol bi génné ci soxnaaki murid aki kër
 Excerpt: Sa xol bi génne ci soxnaaki murid aki kër - Ak doom akii alal ak mbooleem lu koy tilimal
 StanzaSize: 3
+Theme: Àddina (La dunya et ses illusions)
 ---
 Sa xol bi génne ci soxnaaki murid aki kër
 Ak doom akii alal ak mbooleem lu koy tilimal

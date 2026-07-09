@@ -1,6 +1,7 @@
 Title: Baaxal ta bul gis mukk nit kuy bon di bon
 Excerpt: Baaxal ta bul gis mukk nit kuy bon di bon - Bay tax nga naa waajii ma gis amtil ngëram
 StanzaSize: 3
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Baaxal ta bul gis mukk nit kuy bon di bon
 Bay tax nga naa waajii ma gis amtil ngëram

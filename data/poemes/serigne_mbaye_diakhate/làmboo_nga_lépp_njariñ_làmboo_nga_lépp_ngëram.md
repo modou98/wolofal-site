@@ -1,6 +1,7 @@
 Title: Làmboo nga lépp njariñ, làmboo nga lépp ngëram
 Excerpt: Làmboo nga lépp njariñ, làmboo nga lépp ngëram - Làmboo nga lépp lu baax it, loo saful safuma
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Làmboo nga lépp njariñ, làmboo nga lépp ngëram
 Làmboo nga lépp lu baax it, loo saful safuma

@@ -1,6 +1,7 @@
 Title: Luy tee nga ñëw nima jaajëf fàww Yaalna ma moy
 Excerpt: Luy tee nga ñëw nima jaajëf fàww Yaalna ma moy - Luy tax nga jog ni ma jaajëf fàww Yaalna ma dal
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Luy tee nga ñëw nima jaajëf fàww Yaalna ma moy
 Luy tax nga jog ni ma jaajëf fàww Yaalna ma dal

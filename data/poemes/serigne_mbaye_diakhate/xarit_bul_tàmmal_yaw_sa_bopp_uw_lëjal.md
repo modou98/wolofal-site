@@ -1,5 +1,6 @@
 Title: Xarit bul tàmmal yaw sa bopp uw lëjal
 Excerpt: Xarit bul tàmmal yaw sa bopp uw lëjal
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Xarit bul tàmmal yaw sa bopp uw lëjal

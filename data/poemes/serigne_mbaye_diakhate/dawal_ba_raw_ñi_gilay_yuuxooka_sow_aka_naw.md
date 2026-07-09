@@ -1,6 +1,7 @@
 Title: Dawal ba raw ñi gilay yuuxooka sow aka naw
 Excerpt: Dawal ba raw ñi gilay yuuxooka sow aka naw - Te’w rab, bukoy xaj di baw, nay yokku xël, rawagul
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Dawal ba raw ñi gilay yuuxooka sow aka naw
 Te’w rab, bukoy xaj di baw, nay yokku xël, rawagul

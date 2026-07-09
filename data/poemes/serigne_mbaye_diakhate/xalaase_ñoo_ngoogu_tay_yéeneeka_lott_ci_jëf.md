@@ -1,6 +1,7 @@
 Title: Xalaase ñoo ngoogu tay yéeneeka lott ci jëf
 Excerpt: Xalaase ñoo ngoogu tay yéeneeka lott ci jëf - Li ngay teere ngi, li ngay diglee ngi, dimbali nu
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Xalaase ñoo ngoogu tay yéeneeka lott ci jëf
 Li ngay teere ngi, li ngay diglee ngi, dimbali nu

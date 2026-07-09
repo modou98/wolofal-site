@@ -1,6 +1,7 @@
 Title: Baol
 Excerpt: Un poème valorisant la région du Baol, devenue une capitale spirituelle grâce à la présence sainte de Touba et de Cheikh Ahmadou Bamba.
 Audio: 
+Theme: Taarix
 ---
 
 Kuy xas Bawol te dib ajoor na jug Bawol

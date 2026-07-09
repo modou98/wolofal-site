@@ -1,6 +1,7 @@
 Title: Jazboul Majzoob
 Excerpt: Le chef-d'œuvre poétique de Cheikh Samba Diarra Mbaye, célébrant sa dévotion et les bienfaits spirituels.
 Audio: https://www.youtube.com/watch?v=1F_XbM73wU0
+Theme: Sëriñ bi
 ---
 
 Alhamdulilahi kimay xamal ni Bamba

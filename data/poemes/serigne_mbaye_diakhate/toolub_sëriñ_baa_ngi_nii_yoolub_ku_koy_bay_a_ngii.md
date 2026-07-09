@@ -1,6 +1,7 @@
 Title: Toolub Sëriñ baa ngi nii yoolub ku koy bay a ngii
 Excerpt: Toolub Sëriñ baa ngi nii yoolub ku koy bay a ngii - Toolam bi moo ndigal yoolam bi moo di ngëram
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Toolub Sëriñ baa ngi nii yoolub ku koy bay a ngii
 Toolam bi moo ndigal yoolam bi moo di ngëram

@@ -1,6 +1,7 @@
 Title: Yaw miy nelaw te xamoo say mbir nangay nelawe?
 Excerpt: Yaw miy nelaw te xamoo say mbir nangay nelawe?
 Audio: https://youtu.be/F4dcrm_3F-c
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 
 Yaw miy nelaw te xamoo say mbir nangay nelawe?

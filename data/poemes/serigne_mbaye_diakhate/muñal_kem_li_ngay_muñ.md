@@ -1,5 +1,6 @@
 Title: Muñal kem li ngay muñ
 Excerpt: Muñal kem li ngay muñ la saw yiw di doy - Li ngay sàkku cig muñ nga koy laqqe kat
+Theme: Muñ (Patience face aux épreuves)
 ---
 Muñal kem li ngay muñ la saw yiw di doy
 Li ngay sàkku cig muñ nga koy laqqe kat

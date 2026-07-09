@@ -1,6 +1,7 @@
 Title: Xastee fi xew aki fen
 Excerpt: Xastee fi xew aki fen, ku mer di wax sa ayib, - Buy bég di wax lu la saf, loo xam ne lii gëmu ko
 StanzaSize: 8
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Xastee fi xew aki fen, ku mer di wax sa ayib,
 Buy bég di wax lu la saf, loo xam ne lii gëmu ko

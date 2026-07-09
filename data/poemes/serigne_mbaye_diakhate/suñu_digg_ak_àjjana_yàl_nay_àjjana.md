@@ -1,6 +1,7 @@
 Title: Suñu digg ak Àjjana Yàl nay Àjjana
 Excerpt: Suñu digg ak Àjjana Yàl nay Àjjana - Àjjana Yàlla nañ ca duggak Àjjana
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Suñu digg ak Àjjana Yàl nay Àjjana
 Àjjana Yàlla nañ ca duggak Àjjana

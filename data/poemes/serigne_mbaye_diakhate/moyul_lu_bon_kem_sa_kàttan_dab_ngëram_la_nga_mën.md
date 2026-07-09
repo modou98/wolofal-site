@@ -1,6 +1,7 @@
 Title: Moyul lu bon kem sa kàttan, dab ngëram la nga mën
 Excerpt: Moyul lu bon kem sa kàttan, dab ngëram la nga mën - Lu Yàlla def nag nga gis, doo gis ludul la mu def
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Moyul lu bon kem sa kàttan, dab ngëram la nga mën
 Lu Yàlla def nag nga gis, doo gis ludul la mu def

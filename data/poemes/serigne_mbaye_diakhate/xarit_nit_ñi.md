@@ -1,5 +1,6 @@
 Title: Xarit nit ñi
 Excerpt: Xarit nit ñi ken mën la tax ñii gëram - Té ken man la tée ñii goreedeeka jëw
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Xarit nit ñi ken mën la tax ñii gëram
 Té ken man la tée ñii goreedeeka jëw

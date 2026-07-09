@@ -1,6 +1,7 @@
 Title: Bastul a bon
 Excerpt: Une mise en garde contre l'orgueil (Bastul) et l'insoumission, rappelant que l'humilité est la clé de l'élévation spirituelle.
 Audio: https://youtu.be/0Av7YB2ggz4
+Theme: Séytaane (Les ruses de Satan)
 ---
 Bastul a bon bu dee taxaw
 Séytaane daaldi jog taxaw

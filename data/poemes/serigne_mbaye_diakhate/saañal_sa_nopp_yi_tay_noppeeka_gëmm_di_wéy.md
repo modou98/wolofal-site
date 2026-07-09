@@ -1,6 +1,7 @@
 Title: Saañal sa nopp yi tay noppeeka gëmm di wéy
 Excerpt: Saañal sa nopp yi tay noppeeka gëmm di wéy - Bul déglu, bul wax ta bul xooleeti ngir maa ngi
 StanzaSize: 3
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Saañal sa nopp yi tay noppeeka gëmm di wéy
 Bul déglu, bul wax ta bul xooleeti ngir maa ngi

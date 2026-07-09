@@ -1,5 +1,6 @@
 Title: Jàppal sa xol bi defar ngir xol bi moo di sa kër
 Excerpt: Jàppal sa xol bi defar ngir xol bi moo di sa kër
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Jàppal sa xol bi defar ngir xol bi moo di sa kër

@@ -1,6 +1,6 @@
 Title: Foo bëgg a dem
 Excerpt: Foo bëgg a dem na nga wut loo yóbbaloo soog a dem
-Theme: Soññe
+Theme: Yar (Éducation)
 ---
 Foo bëgg a dem na nga wut loo yóbbaloo soog a dem
 kon boo demee doo fa lor yaw nit te doo fa loru

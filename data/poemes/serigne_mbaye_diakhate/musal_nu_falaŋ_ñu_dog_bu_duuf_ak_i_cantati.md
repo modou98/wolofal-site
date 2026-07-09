@@ -1,6 +1,7 @@
 Title: Musal nu falaŋ ñu dog bu duuf ak i cantati
 Excerpt: Musal nu falaŋ nu dog bu duuf ak i cantati - Ci bii jant fàww ak bépp jant bu fenkati
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Musal nu falaŋ nu dog bu duuf ak i cantati
 Ci bii jant fàww ak bépp jant bu fenkati

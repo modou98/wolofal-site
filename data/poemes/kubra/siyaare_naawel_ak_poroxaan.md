@@ -2,6 +2,7 @@ Title: Siyaare Naawel ak Poroxaan
 Excerpt: Alhamdu wa shukru mahal lilaahi - Alal Xadiimi wa Rasuulilaahi
 Audio: https://youtu.be/x39e9z3VW9g
 Manuscript: assets/ay_wolofal_soxna_may.pdf
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Alhamdu wa shukru mahal lilaahi
 Alal Xadiimi wa Rasuulilaahi

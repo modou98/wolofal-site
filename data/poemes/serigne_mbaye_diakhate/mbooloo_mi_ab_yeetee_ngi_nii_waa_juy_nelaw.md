@@ -1,6 +1,7 @@
 Title: Mbooloo mi ab yeetee ngi nii, waa juy nelaw
 Excerpt: Mbooloo mi ab yeetee ngi nii, waa juy nelaw - Na ko daaldi xam tay ndaxte yewwoo gën nelaw
 StanzaSize: 8
+Theme: Bakkan (Éducation de l'âme)
 ---
 Mbooloo mi ab yeetee ngi nii, waa juy nelaw
 Na ko daaldi xam tay ndaxte yewwoo gën nelaw

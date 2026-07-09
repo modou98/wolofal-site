@@ -1,6 +1,7 @@
 Title: Ku dawal sunu seex
 Excerpt: Un chant d'honneur destiné aux disciples fidèles qui s'investissent sincèrement pour la grandeur de leur guide et le respect des préceptes divins.
 Audio: 
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Ku dawal sunu Seex ba daloo ngërëmam

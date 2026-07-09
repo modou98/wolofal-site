@@ -1,5 +1,6 @@
 Title: Ganug njariñ gaa ngi tàggoo
 Excerpt: Ganug njariñ gaa ngi tàggoo, Yal na fab suñu lor, - Yóbbàale fàww te dem delseeti, fekk nu fi.
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Ganug njariñ gaa ngi tàggoo, Yal na fab suñu lor,
 Yóbbàale fàww te dem delseeti, fekk nu fi.

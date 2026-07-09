@@ -1,6 +1,7 @@
 Title: Ndaxam gaayi may siis akay dox di bañ
 Excerpt: Ndaxam gaayi may siis akay dox di bañ - La ñiy bañ ci man mii du man mii ko def
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ndaxam gaayi may siis akay dox di bañ
 La ñiy bañ ci man mii du man mii ko def

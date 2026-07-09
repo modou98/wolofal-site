@@ -1,6 +1,7 @@
 Title: Weeru Koor
 Excerpt: Mbooloo mi gan ñëw na tay nun ñépp nan ko dalal Yaatal ko jublu ko ak mbég may ko yitte ju rëy
 Audio: https://youtu.be/9BEuzkSjZI8
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 
 Mbooloo mi gan ñëw na tay nun ñépp nan ko dalal

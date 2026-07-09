@@ -1,6 +1,7 @@
 Title: Da ngay maye rekk uw yiw ku ñuy dégg yaa ko may
 Excerpt: Da ngay maye rekk uw yiw ku ñuy dégg yaa ko may - Ta yaa may ku ñuy gis ndollen ak may gu sedd xol
 StanzaSize: 5
+Theme: Sëriñ bi
 ---
 Da ngay maye rekk uw yiw ku ñuy dégg yaa ko may
 Ta yaa may ku ñuy gis ndollen ak may gu sedd xol

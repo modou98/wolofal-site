@@ -1,6 +1,7 @@
 Title: Ka xas ŋàbb caabi’b Yàlla Yàl na nu far jubóo
 Excerpt: Ka xas ŋàbb caabi’b Yàlla Yàl na nu far jubóo - Ta Yàl na suñub diggante leer it ta neex a neex
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ka xas ŋàbb caabi’b Yàlla Yàl na nu far jubóo
 Ta Yàl na suñub diggante leer it ta neex a neex

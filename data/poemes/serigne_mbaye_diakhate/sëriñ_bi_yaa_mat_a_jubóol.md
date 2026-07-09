@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaa mat a jubóol
 Excerpt: Sëriñ bi yaa mat a jubóol - Yaa mat a sopp mat a yool
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi yaa mat a jubóol
 Yaa mat a sopp mat a yool

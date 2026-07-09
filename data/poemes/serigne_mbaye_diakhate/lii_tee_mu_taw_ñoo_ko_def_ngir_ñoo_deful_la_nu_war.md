@@ -1,6 +1,7 @@
 Title: Lii tee mu taw ñoo ko def ngir ñoo deful la nu war
 Excerpt: Lii tee mu taw ñoo ko def ngir ñoo deful la nu war - Ñoo wac u sas dem di soññeb añ da ñoo war a tuub
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Lii tee mu taw ñoo ko def ngir ñoo deful la nu war
 Ñoo wac u sas dem di soññeb añ da ñoo war a tuub

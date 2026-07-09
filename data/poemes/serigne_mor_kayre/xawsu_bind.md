@@ -1,6 +1,7 @@
 Title: Ku Xawsuy bindug baaxam
 Excerpt: Un témoignage poétique de l'auteur affirmant sa relation avec le guide spirituel (Xawsu) et la bénédiction reçue à travers ses écrits.
 Audio: 
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Ku xawsuy bind baaxam buleen seetatig bonam

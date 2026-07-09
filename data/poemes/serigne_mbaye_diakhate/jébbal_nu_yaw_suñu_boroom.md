@@ -1,6 +1,7 @@
 Title: Jébbal nu yaw suñu Boroom
 Excerpt: Jébbal nu yaw suñu Boroom - Woroom i koom ak seen i koom
 StanzaSize: 8
+Theme: Tawhiid
 ---
 Jébbal nu yaw suñu Boroom
 Woroom i koom ak seen i koom

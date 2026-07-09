@@ -1,6 +1,7 @@
 Title: Ma tagg Bàmba
 Excerpt: Ma tagg Bàmba - Ak wax i Bàmba
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Ma tagg Bàmba
 Ak wax i Bàmba

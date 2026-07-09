@@ -1,6 +1,7 @@
 Title: Dugal naa saw nit ñépp ak sama jëmm jii
 Excerpt: Dugal naa saw nit ñépp ak sama jëmm jii - Ci gaalub Sëriñ tuubaa gi yaw Yàlla seere ko
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Dugal naa saw nit ñépp ak sama jëmm jii
 Ci gaalub Sëriñ tuubaa gi yaw Yàlla seere ko

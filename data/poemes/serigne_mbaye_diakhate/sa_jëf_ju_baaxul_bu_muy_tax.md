@@ -1,5 +1,6 @@
 Title: Sa jëf ju baaxul bu muy tax
 Excerpt: Sa jëf ju baaxul bu muy tax yaw nga naagu ngëram - Sa jëf ju baax it bu muy tax yaw sa xel dal a dal
+Theme: Séytaane (Les ruses de Satan)
 ---
 Sa jëf ju baaxul bu muy tax yaw nga naagu ngëram
 Sa jëf ju baax it bu muy tax yaw sa xel dal a dal

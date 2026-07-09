@@ -1,5 +1,6 @@
 Title: Sëriñ bu nekk Yàl na bég
 Excerpt: Sëriñ bu nekk Yàl na bég - Murit bu nekk Yàl na bég
+Theme: Bakkan (Éducation de l'âme)
 ---
 Sëriñ bu nekk Yàl na bég
 Murit bu nekk Yàl na bég

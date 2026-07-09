@@ -1,6 +1,7 @@
 Title: Jàppal ñi dee defi nawlee ki xarit aki kem
 Excerpt: Jàppal ñi dee defi nawleeki xarit aki kem - Ta boole ñiy dundu def niy want rekk ta jëf
 StanzaSize: 4
+Theme: Àddina (La dunya et ses illusions)
 ---
 Jàppal ñi dee defi nawleeki xarit aki kem
 Ta boole ñiy dundu def niy want rekk ta jëf

@@ -1,6 +1,7 @@
 Title: Lar ub Yàlla bii yaw mii na ngay ñàkke lenn lëf
 Excerpt: Lar ub Yàlla bii yaw mii na ngay ñàkke lenn lëf - Ta sab sang gën mbooleem ñi gën ñépp, ñaani ko
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Lar ub Yàlla bii yaw mii na ngay ñàkke lenn lëf
 Ta sab sang gën mbooleem ñi gën ñépp, ñaani ko

@@ -2,6 +2,7 @@ Title: Marsiyya Soxna Joob Mbàkke
 Excerpt: Ma ñëw fi def marsiyab koo xamni kii gisumab - Kemam si rakk yi ak magg yi ak ñi di maasam
 Audio: https://www.youtube.com/watch?v=szBAvlWYOF8
 Manuscript: assets/ay_wolofal_soxna_may.pdf
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Ma ñëw fi def marsiyab koo xamni kii gisumab
 Kemam si rakk yi ak magg yi ak ñi di maasam

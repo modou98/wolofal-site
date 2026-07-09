@@ -1,6 +1,7 @@
 Title: Murid bu itte ja daanoo matul a waarati sax
 Excerpt: Murid bu itte ja daanoo matla waarati sax - Ngir jom ja jee na, amul soxlaati far ci lu baax
 StanzaSize: 8
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Murid bu itte ja daanoo matla waarati sax
 Ngir jom ja jee na, amul soxlaati far ci lu baax

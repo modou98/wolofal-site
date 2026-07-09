@@ -1,6 +1,7 @@
 Title: Njàccaar a ngii silmaxaa ngi gàddu seeni fetal
 Excerpt: Njàccaar a ngii, silmaxaa ngii, gàddu seen i fetal - Di téq akay moy akay jam, jàpp rek a ware
 StanzaSize: 4
+Theme: Muñ (Patience face aux épreuves)
 ---
 Njàccaar a ngii, silmaxaa ngii, gàddu seen i fetal
 Di téq akay moy akay jam, jàpp rek a ware

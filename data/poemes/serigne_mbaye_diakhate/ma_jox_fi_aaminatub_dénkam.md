@@ -1,5 +1,6 @@
 Title: Ma jox fi Aaminatu’b dénkam
 Excerpt: Ma jox fi Aaminatu’b dénkam bu sedd xolam - Ngir Yàlla ak Yonnenam ak Bàmba mii di magam
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Ma jox fi Aaminatu’b dénkam bu sedd xolam
 Ngir Yàlla ak Yonnenam ak Bàmba mii di magam

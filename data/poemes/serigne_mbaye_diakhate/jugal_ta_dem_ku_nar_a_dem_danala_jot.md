@@ -1,6 +1,7 @@
 Title: Jugal ta dem, ku nar a dem danala jot
 Excerpt: Jugal ta dem, ku nar a dem danala jot - Moo gën di waareeka xulooka woowu nit
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Jugal ta dem, ku nar a dem danala jot
 Moo gën di waareeka xulooka woowu nit

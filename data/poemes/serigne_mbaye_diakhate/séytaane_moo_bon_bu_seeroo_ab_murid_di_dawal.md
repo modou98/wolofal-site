@@ -1,6 +1,7 @@
 Title: Séytaane moo bon, bu seeroo ab murid di dawal
 Excerpt: Séytaane moo bon, bu seeroo ab murid di dawal - Sangam ba, bay bëgg a am jaajëf mu yàqaliko
 StanzaSize: 4
+Theme: Séytaane (Les ruses de Satan)
 ---
 Séytaane moo bon, bu seeroo ab murid di dawal
 Sangam ba, bay bëgg a am jaajëf mu yàqaliko

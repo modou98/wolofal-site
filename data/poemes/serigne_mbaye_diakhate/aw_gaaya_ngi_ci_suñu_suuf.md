@@ -1,6 +1,7 @@
 Title: Aw gaaya ngi ci suñu suuf
 Excerpt: Aw gaaya ngi ci suñu suuf - Nun ñoongi nii ci sa suuf
 StanzaSize: 8
+Theme: Sëriñ bi
 ---
 Aw gaaya ngi ci suñu suuf
 Nun ñoongi nii ci sa suuf

@@ -1,6 +1,7 @@
 Title: Alhamdulilllaahi rabbil haalamina ma jug
 Excerpt: Alhamdulilllaahi rabbil haalamina ma jug - Man santfeeti Sëriñ bii may teral ta du ba
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Alhamdulilllaahi rabbil haalamina ma jug
 Man santfeeti Sëriñ bii may teral ta du ba

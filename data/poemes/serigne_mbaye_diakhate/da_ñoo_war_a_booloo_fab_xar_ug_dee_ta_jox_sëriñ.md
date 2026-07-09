@@ -1,6 +1,7 @@
 Title: Da ñoo war a booloo fab xar ug dee ta jox Sëriñ
 Excerpt: Da ñoo war a booloo fab xar ug dee ta jox Sëriñ - bu mag bi li nuy taaxee’ka jëndé’y wataa’ki fas
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Da ñoo war a booloo fab xar ug dee ta jox Sëriñ
 bu mag bi li nuy taaxee’ka jëndé’y wataa’ki fas

@@ -1,6 +1,7 @@
 Title: Jaajëf ku dul yaw ligéey ul gaa ya wéy da ñu daa
 Excerpt: Poème de gratitude envers le premier calife, Serigne Mouhamadou Moustapha, saluant l'édification de la grande mosquée de Touba.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Jaajëf ku dul yaw ligéeyul gaa ya wéy da ñu daa

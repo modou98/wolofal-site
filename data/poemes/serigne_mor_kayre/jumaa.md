@@ -1,6 +1,7 @@
 Title: Wolofal Jumaa Ji
 Excerpt: Un poème solennel dédié à la construction et à l'importance spirituelle de la grande mosquée, appelant la communauté à s'unir derrière le guide Mustafa.
 Audio: 
+Theme: Taarix
 ---
 
 Réew mi na ngeen yeddu gaaw te kaay nu defal

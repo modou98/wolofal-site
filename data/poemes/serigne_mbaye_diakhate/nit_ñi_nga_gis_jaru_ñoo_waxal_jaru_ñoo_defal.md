@@ -1,6 +1,7 @@
 Title: Nit ñi nga gis jaru ñoo waxal jaru ñoo defal
 Excerpt: Nit ñii nga gis, jaru ñoo waxal, jaru ñoo defal - Loo man di def, yaw dee ko def ngir Yàlla daal
 StanzaSize: 4
+Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Nit ñii nga gis, jaru ñoo waxal, jaru ñoo defal
 Loo man di def, yaw dee ko def ngir Yàlla daal

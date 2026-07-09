@@ -1,6 +1,7 @@
 Title: Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko
 Excerpt: Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko - Mboolem lu jëm si ci nun ciw ay na wëlbatiku
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Bu ay jugee jëm ci nun, yaw Bàmba wëlbati ko
 Mboolem lu jëm si ci nun ciw ay na wëlbatiku

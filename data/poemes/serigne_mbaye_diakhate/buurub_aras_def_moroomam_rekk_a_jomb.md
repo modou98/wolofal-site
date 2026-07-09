@@ -1,6 +1,7 @@
 Title: Buurub Aras def moroomam rekk a jomb
 Excerpt: Buurub Aras def moroomam rekk a jomb, ludul - Defub kemam loola man naa ñàkk a am, man a am
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Buurub Aras def moroomam rekk a jomb, ludul
 Defub kemam loola man naa ñàkk a am, man a am

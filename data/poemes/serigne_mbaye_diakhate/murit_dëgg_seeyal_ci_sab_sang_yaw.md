@@ -1,5 +1,6 @@
 Title: Murit dëgg seeyal ci sab sang yaw
 Excerpt: Murit dëgg seeyal ci sab sang yaw - Ndegam bëgg nga sab Sang xëy fab la naan
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murit dëgg seeyal ci sab sang yaw
 Ndegam bëgg nga sab Sang xëy fab la naan

@@ -1,6 +1,7 @@
 Title: Tawat naa samag bon ci yaw miy fajal
 Excerpt: Tawat naa samag bon ci yaw miy fajal - Nit ug bon, jugal faj ma yaa faj kune
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Tawat naa samag bon ci yaw miy fajal
 Nit ug bon, jugal faj ma yaa faj kune

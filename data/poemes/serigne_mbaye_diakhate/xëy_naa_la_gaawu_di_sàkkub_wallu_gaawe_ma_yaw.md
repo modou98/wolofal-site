@@ -1,6 +1,7 @@
 Title: Xëy naa la gaawu di sàkku’b wallu gaawe ma yaw
 Excerpt: Xëy naa la gaawu di sàkku’b wallu gaawe ma yaw - Ni gaawe ag wallu wallul nag ci man suñu giir
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Xëy naa la gaawu di sàkku’b wallu gaawe ma yaw
 Ni gaawe ag wallu wallul nag ci man suñu giir

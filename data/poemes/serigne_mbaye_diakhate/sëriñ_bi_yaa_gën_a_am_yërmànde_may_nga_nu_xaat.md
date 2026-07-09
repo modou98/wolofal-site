@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaa gën a am yërmànde may nga nu xaat
 Excerpt: Sëriñ bi yaa gën a am yërmànde may nga nu xaat - Am ndox mu doy, ku la xas am wenn yiw du ko faat
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaa gën a am yërmànde may nga nu xaat
 Am ndox mu doy, ku la xas am wenn yiw du ko faat

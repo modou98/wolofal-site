@@ -1,6 +1,7 @@
 Title: Yaw ngën ji wéttalu bët tay ngën ji wéttalu xol
 Excerpt: Yaw ngën ji wéttalu bët tay ngën ji wéttalu xol - Nekkal di wéttalu saa bët fàww ak sama xol
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Yaw ngën ji wéttalu bët tay ngën ji wéttalu xol
 Nekkal di wéttalu saa bët fàww ak sama xol

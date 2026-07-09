@@ -1,6 +1,7 @@
 Title: Masàmba Xumma fabul jëm kaw li kaw ta fexee
 Excerpt: Masàmba Xumma fabul jëm kaw li kaw ta fexee - Jot bépp waa ju la raw yaw mii ba jiitu ko far
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Masàmba Xumma fabul jëm kaw li kaw ta fexee
 Jot bépp waa ju la raw yaw mii ba jiitu ko far

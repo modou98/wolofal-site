@@ -1,6 +1,7 @@
 Title: Murit boo bëggee raw lu bon jot ngëram
 Excerpt: Murit boo bëggee raw lu bon jot ngëram - Moyul denc i soxnaa ka denc iy alal
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murit boo bëggee raw lu bon jot ngëram
 Moyul denc i soxnaa ka denc iy alal

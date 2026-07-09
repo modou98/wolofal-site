@@ -1,6 +1,7 @@
 Title: Ey yaw murid bile bul sol dàll ak mbaxana
 Excerpt: Ey yaw murid bile bul sol dàll ak mbaxana - Fu sab sëriñ jekki, ngir màggal sëriñ ware na
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ey yaw murid bile bul sol dàll ak mbaxana
 Fu sab sëriñ jekki, ngir màggal sëriñ ware na

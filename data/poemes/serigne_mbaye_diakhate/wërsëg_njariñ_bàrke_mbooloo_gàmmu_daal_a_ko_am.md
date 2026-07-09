@@ -1,6 +1,7 @@
 Title: Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am
 Excerpt: Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am - Màggal ko yaw, def ci loo man lépp, gan la gu baax
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Wërsëg, njariñ, bàrke, mbooloo, Gàmmu daal a ko am
 Màggal ko yaw, def ci loo man lépp, gan la gu baax

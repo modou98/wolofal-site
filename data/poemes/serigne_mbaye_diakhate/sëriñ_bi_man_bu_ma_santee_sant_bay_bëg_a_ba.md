@@ -1,6 +1,7 @@
 Title: Sëriñ bi man bu ma santee sant bay bëg a ba
 Excerpt: Sëriñ bi man bu ma santee sant bay bëg a ba - Ngay jàppi yëf di ma jox yaw mii te doo xam a ba
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Sëriñ bi man bu ma santee sant bay bëg a ba
 Ngay jàppi yëf di ma jox yaw mii te doo xam a ba

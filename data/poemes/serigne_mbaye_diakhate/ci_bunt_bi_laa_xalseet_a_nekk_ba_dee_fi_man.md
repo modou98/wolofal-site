@@ -1,6 +1,7 @@
 Title: Ci bunt bi laa xalseet a nekk ba dee fi man
 Excerpt: Ci bunt bi laa xalseet a nekk ba dee fi man - Te loo wax wax ak loo noppi ma sax fi man
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ci bunt bi laa xalseet a nekk ba dee fi man
 Te loo wax wax ak loo noppi ma sax fi man

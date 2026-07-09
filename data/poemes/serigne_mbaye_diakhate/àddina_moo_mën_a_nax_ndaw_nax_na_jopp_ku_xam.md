@@ -1,6 +1,7 @@
 Title: Àddina moo mën a nax ndaw nax na jopp ku xam
 Excerpt: Àddina moo mën a nax ndaw nax na jopp ku xam
 Audio: https://youtu.be/pghEJTLfCIY
+Theme: Àddina (La dunya et ses illusions)
 ---
 
 Àddina moo mën a nax ndaw nax na jopp ku xam

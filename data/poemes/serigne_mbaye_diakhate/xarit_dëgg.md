@@ -1,5 +1,6 @@
 Title: Xarit dëgg
 Excerpt: Xarit dëgg bul gaddul ub tànk (1fr) nit - Ku gaddul nit ub taŋk gadduy loram
+Theme: Bakkan (Éducation de l'âme)
 ---
 Xarit dëgg bul gaddul ub tànk (1fr) nit
 Ku gaddul nit ub taŋk gadduy loram

@@ -1,6 +1,7 @@
 Title: Tee ngeen a far muñ Sëriñ baa ngii ñëw ak lu rafet
 Excerpt: Tee ngeen a far muñ Sëriñ baa ngii ñëw ak lu rafet - Bu ndey ñëwee, jooyi doomam dakk, léegi mu ñëw
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Tee ngeen a far muñ Sëriñ baa ngii ñëw ak lu rafet
 Bu ndey ñëwee, jooyi doomam dakk, léegi mu ñëw

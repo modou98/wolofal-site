@@ -1,6 +1,7 @@
 Title: Xamal ni taalibe diineemay gëm ub sëriñam
 Excerpt: Xamal ni taalibe diineemay gëm ub sëriñam - Jox ko’g juram ak mbiram doyloo ko aw ndigalam
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Xamal ni taalibe diineemay gëm ub sëriñam
 Jox ko’g juram ak mbiram doyloo ko aw ndigalam

@@ -1,6 +1,7 @@
 Title: Murid dëgg bul mer te bul jàpp mer, Mer ak jàpp mer day alak ab murid
 Excerpt: Murid dëgg bul mer te bul jàpp mer
 Audio: https://youtu.be/ZrbEWFNbHAA
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Murid dëgg bul mer te bul jàpp mer

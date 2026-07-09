@@ -1,5 +1,6 @@
 Title: Ma jug man ta déeyaale ak sang bi
 Excerpt: Ma jug man ta déeyaale ak sang bi - Ba dag yépp booloo ne xëndëŋ nelaw
+Theme: Àddina (La dunya et ses illusions)
 ---
 Ma jug man ta déeyaale ak sang bi
 Ba dag yépp booloo ne xëndëŋ nelaw

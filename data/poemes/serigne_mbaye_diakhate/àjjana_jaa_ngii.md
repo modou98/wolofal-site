@@ -1,6 +1,7 @@
 Title: Àjjana jaa ngii
 Excerpt: Àjjana jaa ngii - Fu tedd faa ngii
 StanzaSize: 8
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Àjjana jaa ngii
 Fu tedd faa ngii

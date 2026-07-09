@@ -1,5 +1,6 @@
 Title: Nañ nég ba dem àjjanay maareeka
 Excerpt: Nañ nég ba dem àjjanay maareeka noppalu ndax - Falay bànneex aki xéewal ak mbébét di dajee
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Nañ nég ba dem àjjanay maareeka noppalu ndax
 Falay bànneex aki xéewal ak mbébét di dajee

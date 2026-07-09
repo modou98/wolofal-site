@@ -1,6 +1,7 @@
 Title: Àddina yaw waxal ak say far yu bon yi la nob
 Excerpt: Àddina yaw waxal ak say far yu bon yi la nob - Yëgal ne man mile firdawsee di ndaw si ma nob
 StanzaSize: 4
+Theme: Àddina (La dunya et ses illusions)
 ---
 Àddina yaw waxal ak say far yu bon yi la nob
 Yëgal ne man mile firdawsee di ndaw si ma nob

@@ -1,5 +1,6 @@
 Title: And ak lu bon gën a bon
 Excerpt: And ak lu bon gën a bon ànd ak ku bon gën a bon - Day lakk nit di ko teg gàcceeku ay aku tiis
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 And ak lu bon gën a bon ànd ak ku bon gën a bon
 Day lakk nit di ko teg gàcceeku ay aku tiis

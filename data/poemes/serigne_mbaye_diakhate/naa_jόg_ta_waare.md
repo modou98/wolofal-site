@@ -1,6 +1,6 @@
 Title: Naa jόg ta waare
 Excerpt: Naa jόg ta waare
-Theme: Murit
+Theme: Àddina (La dunya et ses illusions)
 Audio: https://youtu.be/CFs3t5I8wsE
 ---
 Naa jόg ta waare ku waaru waare

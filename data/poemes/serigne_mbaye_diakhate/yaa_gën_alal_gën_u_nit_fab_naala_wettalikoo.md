@@ -1,6 +1,7 @@
 Title: Yaa gën alal gën u nit, fab naala wettalikoo
 Excerpt: Yaa gën alal gën u nit, fab naala wettalikoo - Fab naala mottalikoo, amnaala, dootuma bon
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Yaa gën alal gën u nit, fab naala wettalikoo
 Fab naala mottalikoo, amnaala, dootuma bon

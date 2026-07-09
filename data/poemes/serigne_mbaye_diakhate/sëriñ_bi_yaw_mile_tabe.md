@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaw mile tabe
 Excerpt: Sëriñ bi yaw mile tabe - Ba jiitu mbooleem ku tabe
 StanzaSize: 8
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaw mile tabe
 Ba jiitu mbooleem ku tabe

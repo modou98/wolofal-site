@@ -1,5 +1,6 @@
 Title: Sëriñ Masàmba Mbàkke
 Excerpt: Xarit bulay jariñookay lor asal jafe na - Xarit bulay may junnée-kay jariñ jafe na
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Xarit bulay jariñookay lor asal jafe na
 Xarit bulay may junnée-kay jariñ jafe na

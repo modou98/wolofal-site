@@ -1,6 +1,6 @@
 Title: Génnal ci ñépp ba set
 Excerpt: Génnal ci ñépp ba set
-Theme: Soññe
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Génnal ci ñépp ba set, nag, génne ñépp ci yaw
 Bul tàbbi nit, te bu nit tàbbeeti mukk ci yaw

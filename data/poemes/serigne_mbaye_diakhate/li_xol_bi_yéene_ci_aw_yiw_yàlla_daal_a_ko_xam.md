@@ -1,6 +1,7 @@
 Title: Li xol bi yéene ci aw yiw Yàlla daal a ko xam
 Excerpt: Li xol bi yéene ci aw yiw Yàlla daal a ko xam - Moo man ni cas benne lii may bëgg yit nima am
 StanzaSize: 4
+Theme: Tawhiid
 ---
 Li xol bi yéene ci aw yiw Yàlla daal a ko xam
 Moo man ni cas benne lii may bëgg yit nima am

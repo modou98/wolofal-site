@@ -1,6 +1,7 @@
 Title: Sa benn kaasub kafe daa dàkk ab komiseer
 Excerpt: Sa benn kaasub kafe daa dàq ab komiseer - Ak ub komàndaŋ akay follee’ka sànk aka tëj
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sa benn kaasub kafe daa dàq ab komiseer
 Ak ub komàndaŋ akay follee’ka sànk aka tëj

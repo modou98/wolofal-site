@@ -1,6 +1,7 @@
 Title: Ma wax fi Ahmadu Kumbay wax ju koy tax a raw
 Excerpt: Ma wax fi Ahmadu Kumbay wax ju koy tax a raw Séytaane ak bakkan ak mbooleem lu dee fi ragal
 Audio: https://youtu.be/PrFpRGzpGUo
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Ma wax fi Ahmadu Kumbay wax ju koy tax a raw

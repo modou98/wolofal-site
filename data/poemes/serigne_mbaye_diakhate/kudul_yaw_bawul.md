@@ -1,5 +1,6 @@
 Title: kudul yaw bawul
 Excerpt: Kudul yaw bawul góor ak jigéen ak këram ne mes
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Kudul yaw bawul góor ak jigéen ak këram ne mes 

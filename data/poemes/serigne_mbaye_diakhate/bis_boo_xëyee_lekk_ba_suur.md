@@ -1,6 +1,7 @@
 Title: Bis boo xëyee lekk ba suur
 Excerpt: Bis boo xëyee lekk ba suur - Ba noppi sàng nag sa biir
 StanzaSize: 8
+Theme: Àddina (La dunya et ses illusions)
 ---
 Bis boo xëyee lekk ba suur
 Ba noppi sàng nag sa biir

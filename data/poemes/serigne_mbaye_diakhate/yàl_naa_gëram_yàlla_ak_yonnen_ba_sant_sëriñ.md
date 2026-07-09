@@ -1,6 +1,7 @@
 Title: Yàl naa gëram Yàlla ak Yonnen ba sant Sëriñ
 Excerpt: Yàl naa gëram Yàlla ak Yonnen ba sant Sëriñ - Tuubaa gëram ko ta doyloo fàww li nu ma may
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Yàl naa gëram Yàlla ak Yonnen ba sant Sëriñ
 Tuubaa gëram ko ta doyloo fàww li nu ma may

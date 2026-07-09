@@ -1,5 +1,6 @@
 Title: Kulay jiiñati’b sang akay naw sa mbir
 Excerpt: Kulay jiiñati’b sang akay naw sa mbir - Xamal yaw ne ab dof la doo kenn kat
+Theme: Bakkan (Éducation de l'âme)
 ---
 Kulay jiiñati’b sang akay naw sa mbir
 Xamal yaw ne ab dof la doo kenn kat

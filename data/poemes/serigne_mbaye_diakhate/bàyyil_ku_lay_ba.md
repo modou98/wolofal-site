@@ -1,6 +1,7 @@
 Title: Bàyyil ku lay ba
 Excerpt: Bàyyil ku lay ba - Bàyyi lu lay ba
 StanzaSize: 5
+Theme: Tawhiid
 ---
 Bàyyil ku lay ba
 Bàyyi lu lay ba

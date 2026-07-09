@@ -1,5 +1,6 @@
 Title: Murit moo di koo xam ne bëggul dara
 Excerpt: Murit moo di koo xam ne bëggul dara - Sëriñ moo di koo xam ne ñàkkul dara
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murit moo di koo xam ne bëggul dara
 Sëriñ moo di koo xam ne ñàkkul dara

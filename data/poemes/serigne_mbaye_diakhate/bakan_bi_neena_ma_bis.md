@@ -1,5 +1,6 @@
 Title: Bakan bi neena ma bis
 Excerpt: Bakan bi neena ma bis « Moo tee nga tukki te woo - Nit ñépp, kon da nga am aw nit te doyle alal »
+Theme: Àddina (La dunya et ses illusions)
 ---
 Bakan bi neena ma bis « Moo tee nga tukki te woo
 Nit ñépp, kon da nga am aw nit te doyle alal »

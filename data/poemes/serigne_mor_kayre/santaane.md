@@ -1,6 +1,7 @@
 Title: Bismilaahi Kayre santaane
 Excerpt: Un recueil de recommandations spirituelles et de sagesse exhortant les Mourides à la droiture, au souvenir d'Allah (Sikkar) et à la vigilance face aux tentations.
 Audio: 
+Theme: Séytaane (Les ruses de Satan)
 ---
 
 Bismilaahi Kayre santaane

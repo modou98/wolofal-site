@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaw yaa war a sant Yàlla
 Excerpt: Sëriñ bi yaw yaa war a sant Yàlla - Ta yaw li tax nga war a sant Yàlla
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaw yaa war a sant Yàlla
 Ta yaw li tax nga war a sant Yàlla

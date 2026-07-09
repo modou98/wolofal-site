@@ -1,5 +1,6 @@
 Title: Yàl na nu wuute fàww layoo ba
 Excerpt: Yàl na nu wuute fàww layoo ba - Te bañ a wuute mukk nuyóo ba
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Yàl na nu wuute fàww layoo ba
 Te bañ a wuute mukk nuyóo ba

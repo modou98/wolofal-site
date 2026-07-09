@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaa baax
 Excerpt: Sëriñ bi yaa baax - Yaa yeému yaa jeex
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaa baax
 Yaa yeému yaa jeex

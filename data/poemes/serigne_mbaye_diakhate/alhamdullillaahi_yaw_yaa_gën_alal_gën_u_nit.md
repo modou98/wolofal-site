@@ -1,6 +1,7 @@
 Title: Alhamdullillaahi yaw yaa gën alal gën u nit
 Excerpt: Alhamdullillaahi yaw yaa gën alal gën u nit - Yaa gën bakkan gën barab, kuy jug fi yaw fu mu jëm ?
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Alhamdullillaahi yaw yaa gën alal gën u nit
 Yaa gën bakkan gën barab, kuy jug fi yaw fu mu jëm ?

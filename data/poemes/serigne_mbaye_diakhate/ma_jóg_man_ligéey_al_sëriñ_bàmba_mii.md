@@ -1,5 +1,6 @@
 Title: Ma jóg man ligéey al Sëriñ Bàmba mii
 Excerpt: Ma jóg man ligéey al Sëriñ Bàmba mii - Ligéey al Boroomam ba am lii mu am
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Ma jóg man ligéey al Sëriñ Bàmba mii
 Ligéey al Boroomam ba am lii mu am

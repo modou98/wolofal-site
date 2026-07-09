@@ -1,6 +1,7 @@
 Title: Sëriñ bi tay amoo moroom, fi nit ñi ak fa sa Boroom
 Excerpt: Sëriñ bi tay amoo moroom, - Fi nit ñi ak fa sa Boroom,
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi tay amoo moroom,
 Fi nit ñi ak fa sa Boroom,

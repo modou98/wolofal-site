@@ -1,5 +1,6 @@
 Title: Sëriñ bi fas naala yéene sant dëgg fi nja
 Excerpt: Sëriñ bi fas naala yéene sant dëgg fi nja - Ak fépp, cant gu dootul dog ba àjjana ja
+Theme: Sëriñ bi
 ---
 Sëriñ bi fas naala yéene sant dëgg fi nja
 Ak fépp, cant gu dootul dog ba àjjana ja

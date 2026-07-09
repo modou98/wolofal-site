@@ -1,6 +1,7 @@
 Title: Yaw Mustafaa awma sag pay
 Excerpt: Hommage et prière pour Serigne Moustapha Mbacké (le premier calife), saluant son rôle unificateur et sa dévotion au service de son père.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Yaw Mustafaa awma sag pay waaye yal na nga tiim

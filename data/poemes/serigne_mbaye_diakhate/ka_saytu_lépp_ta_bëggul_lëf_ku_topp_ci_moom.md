@@ -1,6 +1,7 @@
 Title: Ka saytu lépp, ta bëggul lëf, ku topp ci moom
 Excerpt: Ka saytu lépp, ta bëggul lëf, ku topp ci moom - Lo mën di bëgg aka wut, jombul nga am ko ci moom
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Ka saytu lépp, ta bëggul lëf, ku topp ci moom
 Lo mën di bëgg aka wut, jombul nga am ko ci moom

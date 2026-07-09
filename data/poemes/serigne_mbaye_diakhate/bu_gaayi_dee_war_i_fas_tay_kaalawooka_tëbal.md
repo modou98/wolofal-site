@@ -1,6 +1,7 @@
 Title: Bu gaayi dee war i fas tay kaalawooka tëbal
 Excerpt: Bu gaayi dee war i fas tay kaalawooka tëbal - Yaw Bàmba ngay jàng téereb Yàlla beeka wasal
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Bu gaayi dee war i fas tay kaalawooka tëbal
 Yaw Bàmba ngay jàng téereb Yàlla beeka wasal

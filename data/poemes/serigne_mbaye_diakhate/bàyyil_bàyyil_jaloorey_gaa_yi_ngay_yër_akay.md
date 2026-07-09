@@ -1,5 +1,6 @@
 Title: Bàyyil bàyyil jaloorey gaa yi ngay yër akay
 Excerpt: Bàyyil bàyyil jaloorey gaa yi ngay yër akay - Doyloo ta wut sa jaloorey bopp, moo gën a wóor
+Theme: Bakkan (Éducation de l'âme)
 ---
 Bàyyil bàyyil jaloorey gaa yi ngay yër akay
 Doyloo ta wut sa jaloorey bopp, moo gën a wóor

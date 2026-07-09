@@ -1,6 +1,7 @@
 Title: Sëriñ bi dëgg na mbooleem fan yi gudd
 Excerpt: Sëriñ bi dëgg na mbooleem fan yi gudd ta mbooleem - Lépp lëf lu nu ñaan it nangu ak lu nu bay
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi dëgg na mbooleem fan yi gudd ta mbooleem
 Lépp lëf lu nu ñaan it nangu ak lu nu bay

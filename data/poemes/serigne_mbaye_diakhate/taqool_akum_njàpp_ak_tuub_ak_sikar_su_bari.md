@@ -1,6 +1,7 @@
 Title: Taqool akum njàpp ak tuub ak sikar su bari
 Excerpt: Taqool akum njàpp ak tuub ak sikar su bari - Tay damm sab seet akay daw gaayi tay lu bari
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Taqool akum njàpp ak tuub ak sikar su bari
 Tay damm sab seet akay daw gaayi tay lu bari

@@ -1,6 +1,7 @@
 Title: Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam
 Excerpt: Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam - Yàl na’b xolam sedd mbooleem ay mbiram jag a jag
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Mbooleem ku ŋëb ci Sëriñ bii mbaa mu ŋëb ci kokam
 Yàl na’b xolam sedd mbooleem ay mbiram jag a jag

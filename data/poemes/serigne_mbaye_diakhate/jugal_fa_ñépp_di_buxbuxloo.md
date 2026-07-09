@@ -1,5 +1,6 @@
 Title: Jugal fa ñépp di buxbuxloo
 Excerpt: Jugal fa ñépp di buxbuxlooka soowe ta dem - Fa Yàlla nekk aki xejjam boo bëgee yaatu
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Jugal fa ñépp di buxbuxlooka soowe ta dem
 Fa Yàlla nekk aki xejjam boo bëgee yaatu

@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaw ki ma may loo xamne kenn amu ko
 Excerpt: Sëriñ bi yaw ki ma may loo xamne kenn amu ko - Saw tag war na ma war goo xamne kenn xamu ko
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaw ki ma may loo xamne kenn amu ko
 Saw tag war na ma war goo xamne kenn xamu ko

@@ -1,6 +1,7 @@
 Title: Ngirum Sëriñ bile jàpp ug njàmburay la ci war
 Excerpt: Ngirum Sëriñ bile jàpp ug njàmburay la ci war - Koo xamni kii jàppu ci’g njàmbur du mucc ci lor
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ngirum Sëriñ bile jàpp ug njàmburay la ci war
 Koo xamni kii jàppu ci’g njàmbur du mucc ci lor

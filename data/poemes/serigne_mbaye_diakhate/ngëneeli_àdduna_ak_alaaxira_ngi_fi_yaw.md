@@ -1,6 +1,7 @@
 Title: Ngëneeli Àdduna ak Alaaxira ngi fi yaw
 Excerpt: Ngënéeli àdduna ak allaaxira ngi fi yaw - Ku bëgg a jituy moroomam te mu fekk sila
 StanzaSize: 8
+Theme: Sëriñ bi
 ---
 Ngënéeli àdduna ak allaaxira ngi fi yaw
 Ku bëgg a jituy moroomam te mu fekk sila

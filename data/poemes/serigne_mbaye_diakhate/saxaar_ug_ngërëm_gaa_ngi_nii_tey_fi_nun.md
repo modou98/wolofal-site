@@ -1,6 +1,7 @@
 Title: Saxaar ug ngërëm gaa ngi nii tey fi nun
 Excerpt: Saxaar ug ngërëm gaa ngi nii tey fi nun - Ku bëggul lu dul dem na jóg ñaani paas
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Saxaar ug ngërëm gaa ngi nii tey fi nun
 Ku bëggul lu dul dem na jóg ñaani paas

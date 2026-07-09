@@ -1,6 +1,7 @@
 Title: Waajal nga gaayi ta waajoo yaa ka doy keemaan
 Excerpt: Waajal nga gaayi ta waajoo yaa ka doy keemaan - Fooral nga gaayi ta fooroo yaa ka doy keemaan
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Waajal nga gaayi ta waajoo yaa ka doy keemaan
 Fooral nga gaayi ta fooroo yaa ka doy keemaan

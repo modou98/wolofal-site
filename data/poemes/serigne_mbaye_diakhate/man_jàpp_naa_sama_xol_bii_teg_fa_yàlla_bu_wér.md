@@ -1,6 +1,7 @@
 Title: Man jàpp naa sama xol bii teg fa Yàlla bu wér
 Excerpt: Man jàpp naa sama xol bii teg fa Yàlla bu wér - Fàww ak fa mbooleem ña koy mokkooka jaamu bu wér
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Man jàpp naa sama xol bii teg fa Yàlla bu wér
 Fàww ak fa mbooleem ña koy mokkooka jaamu bu wér

@@ -1,6 +1,7 @@
 Title: Sëriñ bi nëbb nga saa mbon gii ba dee fi ma jox
 Excerpt: Sëriñ bi nëbb nga saa bon gii ba dee fi ma jox - Nëbbal bon ug nit ku may jox lëf ba dee fi ko jox
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi nëbb nga saa bon gii ba dee fi ma jox
 Nëbbal bon ug nit ku may jox lëf ba dee fi ko jox

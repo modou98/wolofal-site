@@ -1,6 +1,7 @@
 Title: Ku bëgg a am gàncaxub ndollen bu jub bu rafet
 Excerpt: Ku bëgg a am gàncaxub ndollen bu jub bu rafet - Na ngay teral gaaya lay jiitoo’ka féete ca kaw
 StanzaSize: 3
+Theme: Yar (Éducation)
 ---
 Ku bëgg a am gàncaxub ndollen bu jub bu rafet
 Na ngay teral gaaya lay jiitoo’ka féete ca kaw

@@ -1,6 +1,7 @@
 Title: Wut leen a wut bàrke tay muñ wépp tiis ak u naaj
 Excerpt: Wut leen a wut bàrke tay muñ wépp tiis ak u naaj - Ab xol bu seddee boroomam fàtte tiis ak u naaj
 StanzaSize: 4
+Theme: Muñ (Patience face aux épreuves)
 ---
 Wut leen a wut bàrke tay muñ wépp tiis ak u naaj
 Ab xol bu seddee boroomam fàtte tiis ak u naaj

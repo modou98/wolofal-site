@@ -1,6 +1,7 @@
 Title: Ndaxam ab Murid
 Excerpt: Une méditation profonde sur la condition et les devoirs spirituels et moraux d'un disciple mouride (Murid), insistant sur le renoncement et le dévouement.
 Audio: 
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Ndaxam ab murid saa su bëggee ludul

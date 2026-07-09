@@ -1,5 +1,6 @@
 Title: Àddina moo di kër ug séytaane
 Excerpt: Àddina moo di kër ug séytaane maa la ko wax - Bis bo xëyee jekki ngir daw lor ñu fekk si la
+Theme: Séytaane (Les ruses de Satan)
 ---
 Àddina moo di kër ug séytaane maa la ko wax
 Bis bo xëyee jekki ngir daw lor ñu fekk si la

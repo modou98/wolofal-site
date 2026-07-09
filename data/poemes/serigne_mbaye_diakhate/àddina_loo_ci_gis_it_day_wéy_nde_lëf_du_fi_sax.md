@@ -1,6 +1,7 @@
 Title: Àddina loo ci gis it day wéy nde lëf du fi sax
 Excerpt: Àddina loo ci gis it day wéy nde lëf du fi sax - Mootax lu neex ak lu neexul lépp sàmm ca ngor
 StanzaSize: 4
+Theme: Àddina (La dunya et ses illusions)
 ---
 Àddina loo ci gis it day wéy nde lëf du fi sax
 Mootax lu neex ak lu neexul lépp sàmm ca ngor

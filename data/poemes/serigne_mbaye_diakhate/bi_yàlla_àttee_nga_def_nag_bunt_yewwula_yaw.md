@@ -1,6 +1,7 @@
 Title: Bi Yàlla àttee nga def nag bunt yewwula yaw
 Excerpt: Bi Yàlla àttee nga def nag bunt yewwula yaw - Bul def lu yegsi nga for jël loola kon du rafet
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Bi Yàlla àttee nga def nag bunt yewwula yaw
 Bul def lu yegsi nga for jël loola kon du rafet

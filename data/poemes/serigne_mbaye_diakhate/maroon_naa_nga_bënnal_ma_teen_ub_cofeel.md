@@ -1,6 +1,7 @@
 Title: Maroon naa nga bënnal ma teen ub cofeel 
 Excerpt: Maroon naa nga bënnal ma teen ub cofeel 
 Audio: https://youtu.be/otkSAnaFtOk
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 
 Maroon naa nga bënnal ma teen ub cofeel 

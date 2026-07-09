@@ -1,6 +1,7 @@
 Title: Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër
 Excerpt: Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër - Fab ak ngëram may nu fàww ak luy jubal suñu mbir
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Firdawsi dëkk bu sedd ub xol la, Yàl na ko mbër
 Fab ak ngëram may nu fàww ak luy jubal suñu mbir

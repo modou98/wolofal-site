@@ -1,5 +1,6 @@
 Title: Sëriñ bee ne fii, moo nekk fépp
 Excerpt: Sëriñ bee ne fii, moo nekk fépp te moo nu yor - Lu jag mooma loo gis mooma moo tee nu déglu ko
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bee ne fii, moo nekk fépp te moo nu yor
 Lu jag mooma loo gis mooma moo tee nu déglu ko

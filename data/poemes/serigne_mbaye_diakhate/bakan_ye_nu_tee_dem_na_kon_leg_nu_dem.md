@@ -1,6 +1,7 @@
 Title: Bakan ye nu tee dem na kon leg nu dem
 Excerpt: Bakan yee nu tee dem nde kon leeg nu dem - Dogontee ki bakan ba tay ñépp dem
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Bakan yee nu tee dem nde kon leeg nu dem
 Dogontee ki bakan ba tay ñépp dem

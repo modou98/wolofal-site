@@ -1,6 +1,7 @@
 Title: Tawat ja deñ na
 Excerpt: Tawat ja deñ na - Coono ba wéy na
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Tawat ja deñ na
 Coono ba wéy na

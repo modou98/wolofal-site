@@ -1,6 +1,7 @@
 Title: Jaaraaki doomam a jël ndam ñoo am it
 Excerpt: it - Jaaraaki doomam a jël ndam ñoo am it jërëjëf
 StanzaSize: 4
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 it
 Jaaraaki doomam a jël ndam ñoo am it jërëjëf

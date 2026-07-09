@@ -1,6 +1,7 @@
 Title: Yàl na nu waxtuy juróom daaldi waxal suñu Borooom
 Excerpt: Yàl na nu waxtuy juróom daaldi waxal suñu Borooom - Mu may nu ci’g baaxam juróom yoo xamne sedd nanu xol
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Yàl na nu waxtuy juróom daaldi waxal suñu Borooom
 Mu may nu ci’g baaxam juróom yoo xamne sedd nanu xol

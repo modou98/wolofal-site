@@ -1,6 +1,7 @@
 Title: Ndaxam gaayi koo xam ne bàmmeel a koy
 Excerpt: Ndaxam gaayi koo xam ne bàmmeel a koy - Xaloo mujje senn’as cagar doy na ko
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Ndaxam gaayi koo xam ne bàmmeel a koy
 Xaloo mujje senn’as cagar doy na ko

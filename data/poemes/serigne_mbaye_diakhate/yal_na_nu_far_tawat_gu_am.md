@@ -1,6 +1,7 @@
 Title: Yal na nu far tawat gu am
 Excerpt: Yal na nu far tawat gu am - Te feg tawat gu nar am
 StanzaSize: 8
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Yal na nu far tawat gu am
 Te feg tawat gu nar am

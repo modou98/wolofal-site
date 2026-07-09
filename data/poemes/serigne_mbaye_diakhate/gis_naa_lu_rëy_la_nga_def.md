@@ -1,6 +1,7 @@
 Title: Gis naa lu rëy la nga def
 Excerpt: Gis naa lu rëy la nga def, gis naa lu saf la nga def - Gis naa lu jub la nga def, Yàl naa gëram nga gëram
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Gis naa lu rëy la nga def, gis naa lu saf la nga def
 Gis naa lu jub la nga def, Yàl naa gëram nga gëram

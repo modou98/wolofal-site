@@ -1,6 +1,7 @@
 Title: Maryama Yàlla moo la móom
 Excerpt: Maryama Yàlla moo la móom - Teg naa la fàww ci’b loxoom
 StanzaSize: 4
+Theme: Tawhiid
 ---
 Maryama Yàlla moo la móom
 Teg naa la fàww ci’b loxoom

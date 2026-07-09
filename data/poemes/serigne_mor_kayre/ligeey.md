@@ -1,6 +1,7 @@
 Title: Ligéey
 Excerpt: Une hymne au travail (Ligéey) comme valeur fondamentale du Mouridisme, source de dignité, de réussite et d'accomplissement des recommandations.
 Audio: 
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Kuy sàkku ak àgg ak ngëram lëgéeyi

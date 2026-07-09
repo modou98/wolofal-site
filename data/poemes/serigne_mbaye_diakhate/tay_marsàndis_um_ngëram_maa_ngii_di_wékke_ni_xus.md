@@ -1,6 +1,7 @@
 Title: Tay marsàndis um ngëram maa ngii di wékke ni xus
 Excerpt: Tay marsàndis um ngëram maa ngii di wékké ni xus - Ku bëgg a jënd na indi’g njëg gu rëy gu rafet
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Tay marsàndis um ngëram maa ngii di wékké ni xus
 Ku bëgg a jënd na indi’g njëg gu rëy gu rafet

@@ -1,6 +1,7 @@
 Title: Sëriñ bi bokkoo ci say wax jëf la moo gën i wax
 Excerpt: Sëriñ bi bokkoo ci say wax jëf la moo gën i wax - Ta jépp wax joo waxul ay wax la maa lako wax
 StanzaSize: 4
+Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Sëriñ bi bokkoo ci say wax jëf la moo gën i wax
 Ta jépp wax joo waxul ay wax la maa lako wax

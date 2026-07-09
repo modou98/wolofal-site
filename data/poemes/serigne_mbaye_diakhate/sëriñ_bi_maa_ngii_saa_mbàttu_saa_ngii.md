@@ -1,6 +1,7 @@
 Title: Sëriñ bi maa ngii, Saa mbàttu saa ngii
 Excerpt: Sëriñ bi maa ngii - Saa mbàttu saa ngii
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi maa ngii
 Saa mbàttu saa ngii

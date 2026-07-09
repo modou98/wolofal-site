@@ -1,6 +1,7 @@
 Title: Mboolo mi tay jii la kori
 Excerpt: Mbooloo mi tay jii la kori - Nan sant Yàlla lu bari
 StanzaSize: 4
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Mbooloo mi tay jii la kori
 Nan sant Yàlla lu bari

@@ -1,6 +1,7 @@
 Title: Budul kon ak la ma déggoon jëkk tay ci lu jub
 Excerpt: Budul kon ak la ma déggoon jëkk tay ci lu jub - Ma topp saa njël yi man tay wëy di wëy ba ni mes
 StanzaSize: 3
+Theme: Yar (Éducation)
 ---
 Budul kon ak la ma déggoon jëkk tay ci lu jub
 Ma topp saa njël yi man tay wëy di wëy ba ni mes

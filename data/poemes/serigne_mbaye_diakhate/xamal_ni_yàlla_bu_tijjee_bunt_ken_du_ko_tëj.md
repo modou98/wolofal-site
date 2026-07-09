@@ -1,6 +1,7 @@
 Title: Xamal ni Yàlla bu tijjee bunt ken du ko tëj
 Excerpt: Xamal ni Yàlla bu tijjee bunt ken du ko tëj - Ta moo la tijjil asal buntub ngëram gëramal
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Xamal ni Yàlla bu tijjee bunt ken du ko tëj
 Ta moo la tijjil asal buntub ngëram gëramal

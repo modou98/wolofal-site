@@ -1,6 +1,7 @@
 Title: Yaw Ibra xujja wutal ab yar ta not sa bakkan
 Excerpt: Yaw Ibra xujja wutal ab yar ta not sa bakkan - Te daaldi xàjjiku daw ndax Yàlla Mbàkke nga raw
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Yaw Ibra xujja wutal ab yar ta not sa bakkan
 Te daaldi xàjjiku daw ndax Yàlla Mbàkke nga raw

@@ -1,6 +1,7 @@
 Title: Murit saxaar a ngi ni seetal mbiram ta xalam
 Excerpt: Murit saxaar a ngi ni seetal mbiram ta xalam - Nit yaa ngi daw di ca jëm ak seen i yëf di gëram
 StanzaSize: 3
+Theme: Àddina (La dunya et ses illusions)
 ---
 Murit saxaar a ngi ni seetal mbiram ta xalam
 Nit yaa ngi daw di ca jëm ak seen i yëf di gëram

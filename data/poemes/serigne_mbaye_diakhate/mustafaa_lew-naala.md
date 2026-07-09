@@ -1,6 +1,7 @@
 Title: Yaw Mustafaa mangi nii lew naala jënd nga ma !...........
 Excerpt: Pacte d'allégeance et de fidélité absolue d'un disciple envers son guide spirituel, affirmant sa totale soumission.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Yaw Mustafaa mangi nii lew naala jënd nga ma !

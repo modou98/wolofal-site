@@ -1,5 +1,6 @@
 Title: Ndaxam Bàmba yaa jar di sonnal
 Excerpt: Ndaxam Bàmba yaa jar di sonnal ba dee - Ludul jóg ligéeyal la xaw nay araam
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Ndaxam Bàmba yaa jar di sonnal ba dee
 Ludul jóg ligéeyal la xaw nay araam

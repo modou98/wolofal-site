@@ -1,6 +1,7 @@
 Title: Ma jóg te fàggul jullit ñi yóbbal
 Excerpt: Ma jóg te fàggul - Jullit ñi yóbbal
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ma jóg te fàggul
 Jullit ñi yóbbal

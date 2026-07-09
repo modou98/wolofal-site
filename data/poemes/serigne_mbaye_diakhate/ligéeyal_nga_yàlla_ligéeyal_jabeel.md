@@ -1,5 +1,6 @@
 Title: Ligéeyal nga Yàlla, ligéeyal Jabeel
 Excerpt: Ligéeyal nga Yàlla, ligéeyal Jabeel - Ligéeyal nga mbooleem ku am ay ngënéel
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ligéeyal nga Yàlla, ligéeyal Jabeel
 Ligéeyal nga mbooleem ku am ay ngënéel

@@ -1,6 +1,7 @@
 Title: Yaa gën luñuy bëgg
 Excerpt: Yaa gën luñuy bëgg aka wut - Yaa gën luñuy dox di mbébét
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Yaa gën luñuy bëgg aka wut
 Yaa gën luñuy dox di mbébét

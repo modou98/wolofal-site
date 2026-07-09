@@ -1,5 +1,6 @@
 Title: Koo xamni neenab murid laa
 Excerpt: Koo xamni neenab murid laa mba mu fas ko na jog - Ta déglu wax jile may wax ndax mu làq i ngëram
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Koo xamni neenab murid laa mba mu fas ko na jog
 Ta déglu wax jile may wax ndax mu làq i ngëram

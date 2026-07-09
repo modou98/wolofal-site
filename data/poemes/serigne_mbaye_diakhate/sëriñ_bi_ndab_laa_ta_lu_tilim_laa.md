@@ -1,6 +1,7 @@
 Title: Sëriñ bi ndab laa ta lu tilim laa
 Excerpt: Sëriñ bi ndab laa - ta lu tilim laa
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi ndab laa
 ta lu tilim laa

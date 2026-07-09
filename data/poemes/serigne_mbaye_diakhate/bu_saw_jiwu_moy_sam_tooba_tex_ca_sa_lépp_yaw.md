@@ -1,6 +1,7 @@
 Title: Bu saw jiwu moy sam tooba tex ca sa lépp yaw
 Excerpt: Bu saw jiwu moy sam tooba tex ca sa lépp yaw - Ku saw jiwu moy sam tooba cant ga teggi la
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Bu saw jiwu moy sam tooba tex ca sa lépp yaw
 Ku saw jiwu moy sam tooba cant ga teggi la

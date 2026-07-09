@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaa gën alal..
 Excerpt: Poème de louanges et d'allégeance exclusive soulignant la supériorité des richesses spirituelles sur les biens matériels.
 Audio: https://youtu.be/IssVORvZiEE
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaa gën alal, yaa gën barab, gënu nit 
 Ku way ci yaw mucc am mbooleem mbébét ya asal 

@@ -1,6 +1,7 @@
 Title: Fan yaa ngi nii li ci des nag Yàlla na gën li ci wéy
 Excerpt: Fan yaa ngi nii li ci des nag Yàlla na gën li ci wéy - Gënal ko Yàllaaki tànneefam, gënal nu ko fuuf
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Fan yaa ngi nii li ci des nag Yàlla na gën li ci wéy
 Gënal ko Yàllaaki tànneefam, gënal nu ko fuuf

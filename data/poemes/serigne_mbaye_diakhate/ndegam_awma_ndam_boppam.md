@@ -1,5 +1,6 @@
 Title: Ndegam awma ndam boppam
 Excerpt: Ndegam awma ndam boppam samab sang amna ndam - Ndegam manke naa moo xam samab sang mankiwul
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ndegam awma ndam boppam samab sang amna ndam
 Ndegam manke naa moo xam samab sang mankiwul

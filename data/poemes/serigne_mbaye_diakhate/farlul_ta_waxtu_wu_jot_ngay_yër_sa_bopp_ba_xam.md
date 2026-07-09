@@ -1,6 +1,7 @@
 Title: Farlul ta waxtu wu jot ngay yër sa bopp ba xam
 Excerpt: Farlul ta waxtu wu jot ngay yër sa bopp ba xam - Fi gaa yi sàggan nga nekkam gaa yu farlu yu xam
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Farlul ta waxtu wu jot ngay yër sa bopp ba xam
 Fi gaa yi sàggan nga nekkam gaa yu farlu yu xam

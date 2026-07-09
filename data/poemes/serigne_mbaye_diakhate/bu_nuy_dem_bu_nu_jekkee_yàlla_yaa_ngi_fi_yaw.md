@@ -1,6 +1,7 @@
 Title: Bu nuy dem, bu nu jekkee, Yàlla yaa ngi fi yaw
 Excerpt: Bu nuy dem, bu nu jekkee, Yàlla yaa ngi fi yaw - Ta dénk naala ginaaw it ak kanam, taxawal
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Bu nuy dem, bu nu jekkee, Yàlla yaa ngi fi yaw
 Ta dénk naala ginaaw it ak kanam, taxawal

@@ -1,6 +1,7 @@
 Title: Dolli nu doo jeele dara
 Excerpt: Dolli nu doo jeele dara - Moo tax ma laajati dara
 StanzaSize: 4
+Theme: Tawhiid
 ---
 Dolli nu doo jeele dara
 Moo tax ma laajati dara

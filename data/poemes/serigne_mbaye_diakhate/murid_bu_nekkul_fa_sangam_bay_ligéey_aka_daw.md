@@ -1,5 +1,6 @@
 Title: Murid bu nekkul fa sangam bay ligéey aka daw
 Excerpt: Murid bu nekkul fa sangam bay ligéey aka daw - Demul àllarba joxeetul lëf, ku xam lumu doon
+Theme: Séytaane (Les ruses de Satan)
 ---
 Murid bu nekkul fa sangam bay ligéey aka daw
 Demul àllarba joxeetul lëf, ku xam lumu doon

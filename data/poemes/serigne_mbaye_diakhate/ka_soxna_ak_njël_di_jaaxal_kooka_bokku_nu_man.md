@@ -1,6 +1,7 @@
 Title: Ka soxna ak njël di jaaxal kooka bokku nu man
 Excerpt: Ka soxna ak njël di jaaxal kooka bokku nu man - Man Baabakar la ma jaaxal kay du soxna du njël
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Ka soxna ak njël di jaaxal kooka bokku nu man
 Man Baabakar la ma jaaxal kay du soxna du njël

@@ -1,6 +1,6 @@
 Title: Ku toppatul Yàlla yit boum deeti …
 Excerpt: Ku toppatul Yàlla yit bum deeti juk diko moy
-Theme: Soññe
+Theme: Tawhiid
 ---
 Ku toppatul Yàlla yit bum deeti juk diko moy 
 Moy Yàlla rëyna te dee dem naari it woyoful

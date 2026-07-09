@@ -1,6 +1,6 @@
 Title: Fasoo na maa fase dunyaa
 Excerpt: Fasoo na maa fase dunyaa
-Theme: Soññe
+Theme: Àddina (La dunya et ses illusions)
 ---
 Fasoo na maa fase dunyaa fàww nag bu rafet
 Ba xam ne kuy tuddi gaayam doo ma tuddaale

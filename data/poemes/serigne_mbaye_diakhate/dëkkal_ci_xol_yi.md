@@ -1,6 +1,7 @@
 Title: Dëkkal ci xol yi
 Excerpt: Dëkkal ci xol yi, - Dëkkal dëram yi
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Dëkkal ci xol yi,
 Dëkkal dëram yi

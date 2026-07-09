@@ -1,6 +1,7 @@
 Title: Diirub li ñuy dundu, tuub ak rëccu daal a nu war
 Excerpt: Diirub li ñuy dundu, tuub ak rëccu daal a nu war - Ngir ñàkk a bëgg daraa war ab murid ta të na
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Diirub li ñuy dundu, tuub ak rëccu daal a nu war
 Ngir ñàkk a bëgg daraa war ab murid ta të na

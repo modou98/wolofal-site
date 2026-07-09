@@ -1,5 +1,6 @@
 Title: Yaw foo dajeeteek u nit jàppal sa bopp bu wér
 Excerpt: Yaw foo dajeeteek u nit jàppal sa bopp bu wér
+Theme: Séytaane (Les ruses de Satan)
 ---
 
 Yaw foo dajeeteek u nit jàppal sa bopp bu wér

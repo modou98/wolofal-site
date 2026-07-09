@@ -1,6 +1,7 @@
 Title: Di bay di bay ba sa mbay ñor xomb nag nga ne cas
 Excerpt: Di bay di bay ba sa mbay ñor xomb nag nga ne cas - Mbay mepp sànk ci àllub neen a bon bu ko def!
 StanzaSize: 4
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Di bay di bay ba sa mbay ñor xomb nag nga ne cas
 Mbay mepp sànk ci àllub neen a bon bu ko def!

@@ -1,6 +1,6 @@
 Title: Murid bi yaw jeexalal sag dundu
 Excerpt: Murid bi yaw jeexalal sag dundu
-Theme: Murit
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murit bi yaw jeexalal sag dundu far ci ndigal 
 Sa noo gu ñëw mbaa mu wéy nay ñëw di wéy ci ndigal

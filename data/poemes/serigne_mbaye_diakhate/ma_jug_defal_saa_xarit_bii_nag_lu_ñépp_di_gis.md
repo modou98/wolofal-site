@@ -1,6 +1,7 @@
 Title: Ma jug defal saa xarit bii nag lu ñépp di gis
 Excerpt: Ma jug defal saa xarit bii nag lu ñépp di gis - Ngir ab xarit ku ko am war koo defal lu ñu gis
 StanzaSize: 4
+Theme: Yar (Éducation)
 ---
 Ma jug defal saa xarit bii nag lu ñépp di gis
 Ngir ab xarit ku ko am war koo defal lu ñu gis

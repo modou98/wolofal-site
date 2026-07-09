@@ -1,6 +1,7 @@
 Title: Nangul a féete ñépp suuf
 Excerpt: Nangul a féete ñépp suuf - Kuy bañ a féete ku ne suuf
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Nangul a féete ñépp suuf
 Kuy bañ a féete ku ne suuf

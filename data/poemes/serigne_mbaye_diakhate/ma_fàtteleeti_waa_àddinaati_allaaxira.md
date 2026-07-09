@@ -1,5 +1,6 @@
 Title: Ma fàtteleeti waa àddinaati Allaaxira
 Excerpt: Ma fàtteleeti waa àddinaati - Allaaxiraati ndaxte nu farlu
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Ma fàtteleeti waa àddinaati
 Allaaxiraati ndaxte nu farlu

@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaw mii
 Excerpt: Sëriñ bi yaw mii - Sarax ma man mii
 StanzaSize: 8
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi yaw mii
 Sarax ma man mii

@@ -1,6 +1,7 @@
 Title: Sëriñ bi yaw ki ame’y xarbaax aki kemaan
 Excerpt: Sëriñ bi yaw ki ame’y xarbaax aki kemaan - Sarax nu dëggati ay xarbaax aki kemaan
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ bi yaw ki ame’y xarbaax aki kemaan
 Sarax nu dëggati ay xarbaax aki kemaan

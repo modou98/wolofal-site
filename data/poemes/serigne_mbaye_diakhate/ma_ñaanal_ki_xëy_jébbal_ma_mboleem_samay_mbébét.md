@@ -1,6 +1,7 @@
 Title: Ma ñaanal ki xëy jébbal ma mboleem samay mbébét
 Excerpt: Ma ñaanal ki xëy jébbal ma mboleem samay mbébét - Te defloo wuma’s lëf ,Yàlla na am lumu daa mbébét
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Ma ñaanal ki xëy jébbal ma mboleem samay mbébét
 Te defloo wuma’s lëf ,Yàlla na am lumu daa mbébét

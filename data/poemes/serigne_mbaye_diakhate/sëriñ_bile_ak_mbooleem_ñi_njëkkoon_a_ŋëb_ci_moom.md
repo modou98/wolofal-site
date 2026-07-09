@@ -1,6 +1,7 @@
 Title: Sëriñ bile ak mbooleem ñi njëkkoon a ŋëb ci moom
 Excerpt: Sëriñ bile ak mbooleem ñi njëkkoon a ŋëb ci moom - Asal du ñu maasum kenn, ñoo gën ku nekk ñoom
 StanzaSize: 8
+Theme: Taarix
 ---
 Sëriñ bile ak mbooleem ñi njëkkoon a ŋëb ci moom
 Asal du ñu maasum kenn, ñoo gën ku nekk ñoom

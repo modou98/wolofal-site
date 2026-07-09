@@ -1,6 +1,7 @@
 Title: Naa jug fexee sant cant ug xol gu rëy gu rafet
 Excerpt: Naa jug fexee sant cant ug xol gu rëy gu rafet - Ku ag mayam rëy rafet cantam na rëy ta rafet
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Naa jug fexee sant cant ug xol gu rëy gu rafet
 Ku ag mayam rëy rafet cantam na rëy ta rafet

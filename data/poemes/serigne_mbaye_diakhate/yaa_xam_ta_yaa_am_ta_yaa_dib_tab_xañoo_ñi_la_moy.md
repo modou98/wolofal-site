@@ -1,6 +1,7 @@
 Title: Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy
 Excerpt: Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy - Xañoo ñi lay topp, waccoo kenn, ñépp nga may
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Yaa xam ta yaa am, ta yaa di’b tab, xañoo ñi la moy
 Xañoo ñi lay topp, waccoo kenn, ñépp nga may

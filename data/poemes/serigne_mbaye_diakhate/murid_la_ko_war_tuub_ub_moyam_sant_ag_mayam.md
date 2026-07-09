@@ -1,6 +1,7 @@
 Title: Murid la ko war, tuub ub moyam, sant ag mayam
 Excerpt: Murid la ko war, tuub ub moyam, sant ag mayam - Rafet njort, sax ci’g njub, ludul lii warul murid !
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Murid la ko war, tuub ub moyam, sant ag mayam
 Rafet njort, sax ci’g njub, ludul lii warul murid !

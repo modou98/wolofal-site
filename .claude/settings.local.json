@@ -7,7 +7,10 @@
       "Bash(python dedup_internal.py)",
       "Bash(rm \"jaxate_out/sëriñ_bi_yaa_nu_fayal_taal_ub_tawat_ba_mu_fay_2.md\")",
       "Bash(python -)",
-      "Bash(python build_data.py)"
+      "Bash(python build_data.py)",
+      "Bash(python -c ' *)",
+      "Bash(python build_batches.py)",
+      "Bash(python -c \"import json; d=json.load\\(open\\(r'C:\\\\Users\\\\SERIGN~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-serigne-diene-OneDrive---UNIVERSITE-D-ARTOIS-Documents-Daara-ji-wolofal-site\\\\6a53a9d0-f12a-47b2-b245-50c22d226428\\\\scratchpad\\\\batches\\\\result_02.json', encoding='utf-8'\\)\\); print\\(len\\(d\\)\\); from collections import Counter; c=Counter\\(x['theme_id'] for x in d\\); print\\(c\\); low=[x['id'] for x in d if x['confidence']=='low']; print\\(len\\(low\\)\\)\")"
     ]
   }
 }

@@ -1,6 +1,7 @@
 Title: Naa tudd fii gaa yu am ndam yuy waral xol a tooy
 Excerpt: Naa tudd fii gaa yu am ndam yuy waral xol a tooy - Ndax ñépp xemmeemu yiw xol yépp dund te tooy
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Naa tudd fii gaa yu am ndam yuy waral xol a tooy
 Ndax ñépp xemmeemu yiw xol yépp dund te tooy

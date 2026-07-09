@@ -1,5 +1,6 @@
 Title: Jegeb dex xarit am na lor am njariñ
 Excerpt: Jegeb dex xarit am na lor am njariñ - Ta lor jaa di sàggan ci cant ak ci duy
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Jegeb dex xarit am na lor am njariñ
 Ta lor jaa di sàggan ci cant ak ci duy

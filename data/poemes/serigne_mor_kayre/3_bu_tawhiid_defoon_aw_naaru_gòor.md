@@ -1,5 +1,6 @@
 Title: Bu tawhiid defoon aw naaru gòor 
 Excerpt: Bu tawhiid defoon aw naaru gòor gëm di wuddam ba Ragal Yàlla dib ñàddam, nangoo muñ di géttam ba
+Theme: Tawhiid
 ---
 
 Bu tawhiid defoon aw naaru gòor gëm di wuddam ba

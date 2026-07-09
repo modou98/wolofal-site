@@ -1,6 +1,7 @@
 Title: Nit ñaa ngi wer àddina'kay jaab a kay wuti yëf
 Excerpt: Nit ñaa ngi wer àddina'kay jaab a kay wuti yëf - Bàmbaa ngi jekki di wut Yàllaa'ka wut ngëraman
 StanzaSize: 8
+Theme: Sëriñ bi
 ---
 Nit ñaa ngi wer àddina'kay jaab a kay wuti yëf
 Bàmbaa ngi jekki di wut Yàllaa'ka wut ngëraman

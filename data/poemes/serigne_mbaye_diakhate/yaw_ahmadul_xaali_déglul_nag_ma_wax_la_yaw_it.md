@@ -1,6 +1,7 @@
 Title: Yaw ahmadul Xaali déglul nag ma wax la yaw it
 Excerpt: Yaw ahmadul Xaali déglul nag ma wax la yaw it - Loo xamne lii boo ko toppee jub ta yëkkati ku
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Yaw ahmadul Xaali déglul nag ma wax la yaw it
 Loo xamne lii boo ko toppee jub ta yëkkati ku

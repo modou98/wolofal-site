@@ -1,6 +1,8 @@
 Title: Alhamdulilaahi
 Excerpt: Une litanie rythmée de louanges universelles (Tahmid), rendant grâce à Dieu pour les bienfaits de l'Islam, de la foi et du calife Khadimou Rassoul.
-Audio: [ {"label": "Partie 1 (Vidéo)", "url": "https://youtu.be/LSTEKo_bEsc"}, {"label": "Partie 2 (Vidéo)", "url": "https://youtu.be/tgKt6X1HtlM"},{"label": "Partie 3 (Vidéo)", "url": "https://youtu.be/TXQjLDjw_0I"}, {"label": "Partie 4 (Vidéo)", "url": "https://youtu.be/uUNrfUrSXEY"}, ]---
+Audio: [ {"label": "Partie 1 (Vidéo)", "url": "https://youtu.be/LSTEKo_bEsc"}, {"label": "Partie 2 (Vidéo)", "url": "https://youtu.be/tgKt6X1HtlM"},{"label": "Partie 3 (Vidéo)", "url": "https://youtu.be/TXQjLDjw_0I"}, {"label": "Partie 4 (Vidéo)", "url": "https://youtu.be/uUNrfUrSXEY"}, ]
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
+---
 
 Buurub aras moo di buurub dëgg-dëgg budul
 Dee bis, du folliku bis, Alhamdu Lillaahi !

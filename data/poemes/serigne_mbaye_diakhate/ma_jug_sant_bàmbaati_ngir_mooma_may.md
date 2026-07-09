@@ -1,6 +1,7 @@
 Title: Ma jug sant Bàmbaati ngir mooma may
 Excerpt: Ma jug sant Bàmbaati ngir mooma may - Lu saa xel dajoon ak lu saa xel dajul
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Ma jug sant Bàmbaati ngir mooma may
 Lu saa xel dajoon ak lu saa xel dajul

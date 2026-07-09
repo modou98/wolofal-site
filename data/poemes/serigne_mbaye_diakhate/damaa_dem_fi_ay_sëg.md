@@ -1,6 +1,6 @@
 Title: Damaa dem fi ay sëg
 Excerpt: Damaa dem fi ay sëg
-Theme: Soññe
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Damaa dem fi ay sëg ma jis képp nit 
 Ni cundung ci bàmmeelam ak ay jëfam

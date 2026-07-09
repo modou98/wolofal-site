@@ -1,6 +1,7 @@
 Title: At mile wéy yal na wéy ak
 Excerpt: At mile wéy yal na wéy ak - Suñuy tawat tay ak ëllëg
 StanzaSize: 8
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 At mile wéy yal na wéy ak
 Suñuy tawat tay ak ëllëg

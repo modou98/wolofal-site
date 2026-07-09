@@ -1,5 +1,6 @@
 Title: Jooyal ma junni bi at
 Excerpt: Jooyal ma junni bi at saa waa ji moo mata jooy
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 
 Jooyal ma junni bi at saa waa ja moo mat a jooy 

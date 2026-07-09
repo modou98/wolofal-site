@@ -1,6 +1,7 @@
 Title: Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota
 Excerpt: Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota - Xéewal gi tax na ñu far dof kenn xaml lu ko të
 StanzaSize: 8
+Theme: Àddina (La dunya et ses illusions)
 ---
 Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota
 Xéewal gi tax na ñu far dof kenn xaml lu ko të

@@ -1,5 +1,6 @@
 Title: Yaaw mii murid yi la wër
 Excerpt: Yaw mii murid yi la wër, seetal ayib yi la wër - Tay ittewo ag setam, boo sàggane assaru
+Theme: Bakkan (Éducation de l'âme)
 ---
 Yaw mii murid yi la wër, seetal ayib yi la wër
 Tay ittewo ag setam, boo sàggane assaru

@@ -1,6 +1,7 @@
 Title: Budul kon ag ñàkk yóbbal kon ma nemmiku tay
 Excerpt: Budul kon ag ñàkk yóbbal kon ma nemmiku tay - Sëriñ ba ndax bëgg naa koo gis ba santati ko
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Budul kon ag ñàkk yóbbal kon ma nemmiku tay
 Sëriñ ba ndax bëgg naa koo gis ba santati ko

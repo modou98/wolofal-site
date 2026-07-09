@@ -1,6 +1,6 @@
 Title: Ludul ndigal amul njariñ
 Excerpt: Ludul ndigal amul njariñ
-Theme: Soññe
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 StanzaSize: 4
 ---
 Ludul ndigal amul njariñ 

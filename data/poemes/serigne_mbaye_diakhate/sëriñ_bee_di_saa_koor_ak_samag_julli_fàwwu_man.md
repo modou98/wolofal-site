@@ -1,6 +1,7 @@
 Title: Sëriñ bee di saa koor ak samag julli fàwwu man
 Excerpt: Sëriñ bee di saa koor ak samag julli fàwwu man - Su ñuy woor ak ay julleek a wird ma ŋëb ko man
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bee di saa koor ak samag julli fàwwu man
 Su ñuy woor ak ay julleek a wird ma ŋëb ko man

@@ -1,6 +1,7 @@
 Title: Koo gis da lay raas a key wut lef ti yaw lumu for
 Excerpt: Koo gis da lay raas akay wut lëf, ci yaw lumu for - Bu ken raasati bay for lëf ci yaw mii ti
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Koo gis da lay raas akay wut lëf, ci yaw lumu for
 Bu ken raasati bay for lëf ci yaw mii ti

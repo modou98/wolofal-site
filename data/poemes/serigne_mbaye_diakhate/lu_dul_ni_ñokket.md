@@ -1,5 +1,6 @@
 Title: Lu dul ni ñokket
 Excerpt: Lu dul ni ñokket Rekk ni waqet
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 
 Lu dul ni ñokket

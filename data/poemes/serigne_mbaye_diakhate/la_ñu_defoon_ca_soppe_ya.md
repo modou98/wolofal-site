@@ -1,5 +1,6 @@
 Title: La ñu defoon ca soppe ya
 Excerpt: La ñu defoon ca soppe ya - Ba ñu ni mes ca àll ya
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 La ñu defoon ca soppe ya
 Ba ñu ni mes ca àll ya

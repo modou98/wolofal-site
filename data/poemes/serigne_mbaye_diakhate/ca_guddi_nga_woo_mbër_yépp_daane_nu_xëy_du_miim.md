@@ -1,6 +1,7 @@
 Title: Ca guddi nga woo mbër yépp daane nu xëy du miim
 Excerpt: Ca guddi nga woo mbër yépp daane nu xëy du miim - Nga woote ca bëccëg daane ñépp faf ne xiim
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Ca guddi nga woo mbër yépp daane nu xëy du miim
 Nga woote ca bëccëg daane ñépp faf ne xiim

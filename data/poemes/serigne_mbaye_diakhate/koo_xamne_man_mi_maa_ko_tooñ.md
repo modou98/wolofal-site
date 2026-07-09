@@ -1,6 +1,7 @@
 Title: Koo xamne man mi maa ko tooñ
 Excerpt: Koo xamne man mii maa ko tooñ - Yàl na nu boole la mu tooñ
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Koo xamne man mii maa ko tooñ
 Yàl na nu boole la mu tooñ

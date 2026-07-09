@@ -1,6 +1,7 @@
 Title: Gis naa fi man senn ndaw soo xam ne fuq na bët
 Excerpt: Gis naa fi man senn ndaw soo xam ne fuq na bët - Ku bëgg saa mbég na may ñaanal ma yeggale ko
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Gis naa fi man senn ndaw soo xam ne fuq na bët
 Ku bëgg saa mbég na may ñaanal ma yeggale ko

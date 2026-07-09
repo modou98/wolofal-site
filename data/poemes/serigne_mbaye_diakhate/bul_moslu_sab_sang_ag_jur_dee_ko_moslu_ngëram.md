@@ -1,6 +1,7 @@
 Title: Bul moslu sab sang ag jur, dee ko moslu ngëram
 Excerpt: Bul moslu sab sang ag jur, dee ko moslu ngëram - Murid bu dee moslu sangam jur du mos ngëramam
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Bul moslu sab sang ag jur, dee ko moslu ngëram
 Murid bu dee moslu sangam jur du mos ngëramam

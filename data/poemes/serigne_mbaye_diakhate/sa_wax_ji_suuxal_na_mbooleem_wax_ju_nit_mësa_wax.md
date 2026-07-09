@@ -1,6 +1,7 @@
 Title: Sa wax ji suuxal na mbooleem wax ju nit mësa wax
 Excerpt: Sa wax ji suuxal na mbooleem wax ju nit mës a wax - Sa jëf ji suuxal na mbooleem jëf ju nit mësa jëf
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sa wax ji suuxal na mbooleem wax ju nit mës a wax
 Sa jëf ji suuxal na mbooleem jëf ju nit mësa jëf

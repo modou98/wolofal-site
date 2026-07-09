@@ -1,6 +1,7 @@
 Title: Ma jóg yafal sama fas wi genn sax jotagul
 Excerpt: Ma jóg yafal sama fas wi genn sax jotagul - Te bis ba may genne saa fas wi asal jotagul
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Ma jóg yafal sama fas wi genn sax jotagul
 Te bis ba may genne saa fas wi asal jotagul

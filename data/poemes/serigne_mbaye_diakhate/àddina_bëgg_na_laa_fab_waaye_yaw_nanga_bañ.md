@@ -1,6 +1,7 @@
 Title: Àddina bëgg na laa fab waaye yaw nanga bañ
 Excerpt: Àddina bëgg na laa fab waaye yaw nanga bañ
 Audio: https://youtu.be/y_uxFPayM4E
+Theme: Àddina (La dunya et ses illusions)
 ---
 
 Àddina bëgg na laa fab waaye yaw nanga bañ

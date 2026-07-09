@@ -1,6 +1,7 @@
 Title: Nañ jàpp tànk yi ak làmmiñ yi, jàpp gu tarr
 Excerpt: Nañ jàpp tànk yi ak làmmiñ yi, jàpp gu tarr
 Audio: https://youtu.be/Afy3zI4qHJE
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Nañ jàpp tànk yi ak làmmiñ yi, jàpp gu tarr

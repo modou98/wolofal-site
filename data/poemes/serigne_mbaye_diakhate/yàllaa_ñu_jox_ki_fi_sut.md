@@ -1,5 +1,6 @@
 Title: Yàllaa ñu jox ki fi sut
 Excerpt: Yàllaa nu jox ki fi sut, Yàllaa nu jox ki fi gën - Yàllaa nu jox ngir ngënéelam mbër mi fiy ubale
+Theme: Sëriñ bi
 ---
 Yàllaa nu jox ki fi sut, Yàllaa nu jox ki fi gën
 Yàllaa nu jox ngir ngënéelam mbër mi fiy ubale

@@ -1,6 +1,7 @@
 Title: Sëriñ baa ngi ànd ak nun di xool aka sàmm daal
 Excerpt: Sëriñ baa ngi ànd ak nun di xool aka sàmm daal - Ku jëm ci nun ak loo xamni neexul mu femm daal
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ baa ngi ànd ak nun di xool aka sàmm daal
 Ku jëm ci nun ak loo xamni neexul mu femm daal

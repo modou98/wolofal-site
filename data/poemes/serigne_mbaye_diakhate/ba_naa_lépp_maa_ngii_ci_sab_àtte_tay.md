@@ -1,5 +1,6 @@
 Title: Ba naa lépp maa ngii ci sab àtte tay
 Excerpt: Ba naa lépp maa ngii ci sab àtte tay - Faxas naa ludul yaw falaŋ naa ko yit
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ba naa lépp maa ngii ci sab àtte tay
 Faxas naa ludul yaw falaŋ naa ko yit

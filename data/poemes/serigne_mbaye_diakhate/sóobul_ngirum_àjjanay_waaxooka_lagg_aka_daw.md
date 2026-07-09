@@ -1,6 +1,7 @@
 Title: Sóobul ngirum Àjjanay waaxooka lagg aka daw
 Excerpt: Sóobul ngirum Àjjanay waaxooka lagg aka daw - Ba tàbbi firdawsi biir ak biti door a taxaw
 StanzaSize: 3
+Theme: Àddina (La dunya et ses illusions)
 ---
 Sóobul ngirum Àjjanay waaxooka lagg aka daw
 Ba tàbbi firdawsi biir ak biti door a taxaw

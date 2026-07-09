@@ -1,6 +1,7 @@
 Title: Xarit Yàlla yombul te moo am njariñ
 Excerpt: Xarit Yàlla yombul te moo am njariñ - Wutil Yàlla yaw mii ba dee baa nga am
 StanzaSize: 4
+Theme: Tawhiid
 ---
 Xarit Yàlla yombul te moo am njariñ
 Wutil Yàlla yaw mii ba dee baa nga am

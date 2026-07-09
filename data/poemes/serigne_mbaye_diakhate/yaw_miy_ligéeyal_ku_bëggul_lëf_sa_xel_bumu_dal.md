@@ -1,6 +1,7 @@
 Title: Yaw miy ligéeyal ku bëggul lëf sa xel bumu dal
 Excerpt: Yaw miy ligéeyal ku bëggul lëf sa xel bumu dal - Loo def def uw yiw mu mën laa sànni sànni sa jëf
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Yaw miy ligéeyal ku bëggul lëf sa xel bumu dal
 Loo def def uw yiw mu mën laa sànni sànni sa jëf

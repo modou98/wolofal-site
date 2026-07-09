@@ -1,6 +1,7 @@
 Title: Masàmba sëmbal ci géejug Bàmba sangu ba set
 Excerpt: Masàmba sëmbal ci géejug Bàmba sangu ba set
 Audio: https://youtu.be/VUGMZt1mHLc
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Masàmba sëmbal ci géejug Bàmba sangu ba set

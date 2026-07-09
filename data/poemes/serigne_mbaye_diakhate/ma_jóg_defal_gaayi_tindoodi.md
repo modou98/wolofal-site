@@ -1,6 +1,6 @@
 Title: Ma jóg defal gaayi Tindoodi
 Excerpt: Ma jóg defal gaayi tindoodiy bëyit yu rafet
-Theme: Soññe
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ma jóg defal gaayi tindoodiy bëyit yu rafet
 Ndax seeni xol sedd seen iy itte yëkkatiku

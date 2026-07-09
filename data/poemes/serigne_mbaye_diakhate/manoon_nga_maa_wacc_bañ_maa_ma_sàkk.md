@@ -1,6 +1,7 @@
 Title: Manoon nga maa wacc bañ maa ma sàkk
 Excerpt: Manoon nga maa wacc bañ maa sàkk, may ku amul - Manoon nga maa sàkk, defmab ceddo may ku gëmul
 StanzaSize: 3
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Manoon nga maa wacc bañ maa sàkk, may ku amul
 Manoon nga maa sàkk, defmab ceddo may ku gëmul

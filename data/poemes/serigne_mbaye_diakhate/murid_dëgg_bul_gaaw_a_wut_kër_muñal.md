@@ -1,6 +1,7 @@
 Title: Murid dëgg bul gaaw a wut kër muñal
 Excerpt: Murid dëgg bul gaaw a wut kër muñal - Ta wut itte ngir kër da fay kar Murid
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murid dëgg bul gaaw a wut kër muñal
 Ta wut itte ngir kër da fay kar Murid

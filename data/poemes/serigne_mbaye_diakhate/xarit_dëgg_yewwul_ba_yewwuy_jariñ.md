@@ -1,6 +1,7 @@
 Title: Xarit dëgg yewwul ba yewwuy jariñ
 Excerpt: Xarit dëgg yewwul ba yewwuy jariñ
 Audio: https://youtu.be/N5TxF1isqao
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Xarit dëgg yewwul ba yewwuy jariñ

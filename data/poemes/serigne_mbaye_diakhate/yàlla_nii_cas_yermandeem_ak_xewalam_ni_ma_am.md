@@ -1,6 +1,7 @@
 Title: Yàlla nii cas yermandeem ak xewalam ni ma am
 Excerpt: Yàllaa ni cas yërmandeem ak xéewalam ni ma am - Yàl naani cas mbégam ak cantam gu rëy ni ko am !
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Yàllaa ni cas yërmandeem ak xéewalam ni ma am
 Yàl naani cas mbégam ak cantam gu rëy ni ko am !

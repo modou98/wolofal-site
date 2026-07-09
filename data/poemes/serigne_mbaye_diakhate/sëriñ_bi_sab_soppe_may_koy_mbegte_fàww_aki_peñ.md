@@ -1,5 +1,6 @@
 Title: Sëriñ bi sab soppe may koy mbegte fàww aki peñ
 Excerpt: Sëriñ bi sab soppe may ko’y mbégte fàww ak i peñ - Mbooleem ku lay noonu may ko’y rëkk fàww aki njoñ
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi sab soppe may ko’y mbégte fàww ak i peñ
 Mbooleem ku lay noonu may ko’y rëkk fàww aki njoñ

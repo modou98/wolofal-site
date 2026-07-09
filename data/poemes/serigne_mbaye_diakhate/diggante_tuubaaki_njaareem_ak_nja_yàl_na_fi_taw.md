@@ -1,6 +1,7 @@
 Title: Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw
 Excerpt: Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw - Taw buy waral ñépp fëx ñëw sax fi dëkk aku yiw
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Diggante Tuubaaki Njaareem ak Nja Yàl na fi taw
 Taw buy waral ñépp fëx ñëw sax fi dëkk aku yiw

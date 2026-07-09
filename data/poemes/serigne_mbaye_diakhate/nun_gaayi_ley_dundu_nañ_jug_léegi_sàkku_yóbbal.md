@@ -1,6 +1,7 @@
 Title: Nun gaayi ley dundu nañ jug léegi sàkku yóbbal
 Excerpt: Nun gaayi ley dundu nañ jug léegi sàkku yóbbal - Suñ mbokk yaa ngi fi sëg yii naa ku ñuy saraxal
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Nun gaayi ley dundu nañ jug léegi sàkku yóbbal
 Suñ mbokk yaa ngi fi sëg yii naa ku ñuy saraxal

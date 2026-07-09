@@ -1,6 +1,7 @@
 Title: La mat mbég, du am soxna ak fas wu suur
 Excerpt: La mat mbég, du am soxna ak fas wu suur, - Du njébbal ludul dog du lekk it ba suur
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 La mat mbég, du am soxna ak fas wu suur,
 Du njébbal ludul dog du lekk it ba suur

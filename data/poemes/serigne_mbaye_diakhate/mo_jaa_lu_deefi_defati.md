@@ -1,6 +1,7 @@
 Title: Mo jaa lu deefi defati
 Excerpt: Moo jaa lu deefi defati ? - Moo jaa lu deefi waxati ?
 StanzaSize: 8
+Theme: Tawhiid
 ---
 Moo jaa lu deefi defati ?
 Moo jaa lu deefi waxati ?

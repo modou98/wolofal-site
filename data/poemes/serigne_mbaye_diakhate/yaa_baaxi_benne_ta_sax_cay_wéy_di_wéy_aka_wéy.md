@@ -1,6 +1,7 @@
 Title: Yaa baaxi benne ta sax cay wéy di wéy aka wéy
 Excerpt: Yaa baaxi benne ta sax cay wéy di wéy aka wéy - Doo wéy ba wéy mukku, yaw yaa neexa way mat a way
 StanzaSize: 3
+Theme: Tawhiid
 ---
 Yaa baaxi benne ta sax cay wéy di wéy aka wéy
 Doo wéy ba wéy mukku, yaw yaa neexa way mat a way

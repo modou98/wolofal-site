@@ -1,6 +1,7 @@
 Title: Sëriñ bi ngir Yàlla ak Yonnen ba tay gantandul
 Excerpt: Sëriñ bi ngir Yàlla ak Yonnen ba tay gantandul - Sa gaa yi lay dab a dab tay néew a néew i kàttan
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ bi ngir Yàlla ak Yonnen ba tay gantandul
 Sa gaa yi lay dab a dab tay néew a néew i kàttan

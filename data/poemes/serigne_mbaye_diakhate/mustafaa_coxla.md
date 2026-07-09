@@ -1,6 +1,7 @@
 Title: Yaw Mustafaa boo amee as coxla
 Excerpt: Appel au dévouement total et à l'action pour les besoins du guide, s'inscrivant dans l'exemplarité de l'œuvre du Cheikh.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Yaw Mustafaa boo amee as coxla képp ku am

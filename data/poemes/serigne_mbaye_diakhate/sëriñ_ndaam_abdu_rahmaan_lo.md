@@ -1,5 +1,6 @@
 Title: Sëriñ Ndaam Abdu Rahmaan LO
 Excerpt: Sëriñ Ndaame, tay ji ma sàkkul la lëf - Ci Yonnen bi ak Yàlla ak Bàmba nag
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Sëriñ Ndaame, tay ji ma sàkkul la lëf
 Ci Yonnen bi ak Yàlla ak Bàmba nag

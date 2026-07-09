@@ -1,6 +1,6 @@
 Title: Xarit, Sëriñ, Jëkër
 Excerpt: Xarit da lay xaral us lëf ciy yëfam ne la am
-Theme: Soññe
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 Xarit da lay xaral us lëf ciy yëfam ne la am
 Koo xam ne kii du xaras lëf may la doo waayam

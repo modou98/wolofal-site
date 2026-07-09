@@ -1,6 +1,7 @@
 Title: Gêram na nu Yàlla
 Excerpt: Poème de gratitude envers Dieu et la lignée de Mbacké, évoquant le parcours spirituel du poète, de l'égarement vers la lumière de Touba.
 Audio: 
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 
 Gëram na nu Yàlla askanu Mbàkke Baari

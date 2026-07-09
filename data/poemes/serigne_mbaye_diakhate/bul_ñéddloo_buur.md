@@ -1,5 +1,6 @@
 Title: Bul ñéddloo buur
 Excerpt: Bul ñéddloo buuratis ndab ngir yayoo na ludul - Ñédd as ndab ak nég u des, tuubal te réccu bu gaaw
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Bul ñéddloo buuratis ndab ngir yayoo na ludul
 Ñédd as ndab ak nég u des, tuubal te réccu bu gaaw

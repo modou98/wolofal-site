@@ -1,6 +1,7 @@
 Title: Yàl na nu am gëm gu wér ak jëf ju rafet
 Excerpt: Yàl na nu am gëm gu wér ak jëf ju rafet - Ak ngëram ak bàrke ta am mujj gu rafet
 StanzaSize: 3
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Yàl na nu am gëm gu wér ak jëf ju rafet
 Ak ngëram ak bàrke ta am mujj gu rafet

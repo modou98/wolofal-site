@@ -1,6 +1,7 @@
 Title: Saxal nu ci péeyib Yàlla xejjal nu fàww nag
 Excerpt: Saxal nu ci péeyib Yàlla xejjal nu fàww nag - Te fàggul nu fàww sañ-sañ’ak fan wu guddu lool
 StanzaSize: 4
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Saxal nu ci péeyib Yàlla xejjal nu fàww nag
 Te fàggul nu fàww sañ-sañ’ak fan wu guddu lool

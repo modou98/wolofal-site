@@ -1,6 +1,7 @@
 Title: Xam naa ci Yaw lu ma saf, am naa ci Yaw lu ma saf
 Excerpt: Xam naa ci yaw lu ma saf, am naa ci yaw lu ma saf - Mos naa ci yaw lu ma saf, ŋëb naa la dootu ma ba
 StanzaSize: 8
+Theme: Sëriñ bi
 ---
 Xam naa ci yaw lu ma saf, am naa ci yaw lu ma saf
 Mos naa ci yaw lu ma saf, ŋëb naa la dootu ma ba

@@ -1,6 +1,7 @@
 Title: Di xutbay murid ta doo def ludul nelaw
 Excerpt: Di xutbay murit te doo def lu dul, - Nelaw daal a kay lekk cëy lii ka bon.
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Di xutbay murit te doo def lu dul,
 Nelaw daal a kay lekk cëy lii ka bon.

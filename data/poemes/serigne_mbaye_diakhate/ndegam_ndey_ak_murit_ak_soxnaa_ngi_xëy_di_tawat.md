@@ -1,6 +1,7 @@
 Title: Ndegam ndey ak murit ak soxnaa ngi xëy di tawat
 Excerpt: Ndegam ndey ak murit ak soxnaa ngi xëy di tawat - Ta Bàmba mii di gëram, seen ub tawat du ma saf
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ndegam ndey ak murit ak soxnaa ngi xëy di tawat
 Ta Bàmba mii di gëram, seen ub tawat du ma saf

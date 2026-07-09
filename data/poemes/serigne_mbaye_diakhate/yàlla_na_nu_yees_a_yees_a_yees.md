@@ -1,6 +1,7 @@
 Title: Yàlla na nu yees a yees a yees
 Excerpt: Yàl na nu yees a yees a yees - Te am ngëram lu yees a yees
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Yàl na nu yees a yees a yees
 Te am ngëram lu yees a yees

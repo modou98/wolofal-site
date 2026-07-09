@@ -1,5 +1,6 @@
 Title: Sab sang yaw buko muñ saa
 Excerpt: Sab sang yaw buko muñ saa donte muñ na la yit - Muñ muñ lu sab sàngga bon day wañi sas ndoole
+Theme: Muñ (Patience face aux épreuves)
 ---
 Sab sang yaw buko muñ saa donte muñ na la yit
 Muñ muñ lu sab sàngga bon day wañi sas ndoole

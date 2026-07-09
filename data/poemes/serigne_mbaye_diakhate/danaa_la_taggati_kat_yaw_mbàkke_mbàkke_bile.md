@@ -1,6 +1,7 @@
 Title: Danaa la taggati kat yaw Mbàkke-Mbàkke bile
 Excerpt: Danaa la taggati kat yaw Mbàkke-Mbàkke bile - Te Mbàkke-Mbàkke bi nanggul dëgg tagg wile
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Danaa la taggati kat yaw Mbàkke-Mbàkke bile
 Te Mbàkke-Mbàkke bi nanggul dëgg tagg wile

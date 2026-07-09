@@ -1,6 +1,7 @@
 Title: Sëriñ bi bégal sab xol na sedd nga sant yaw
 Excerpt: Sëriñ bi bégal sab xol na sedd nga sant yaw - Ku Yàlla bégal day bég te Yàlla bégal na la
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi bégal sab xol na sedd nga sant yaw
 Ku Yàlla bégal day bég te Yàlla bégal na la

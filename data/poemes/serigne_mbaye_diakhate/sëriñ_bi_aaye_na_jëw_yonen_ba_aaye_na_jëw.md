@@ -1,6 +1,7 @@
 Title: Sëriñ bi aaye na jëw yonen ba aaye na jëw
 Excerpt: Sëriñ bi aaye na jëw yonen ba aaye na jëw
 Audio: https://youtu.be/xlOepIMkbGo
+Theme: Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)
 ---
 
 Sëriñ bi aaye na jëw yonen ba aaye na jëw

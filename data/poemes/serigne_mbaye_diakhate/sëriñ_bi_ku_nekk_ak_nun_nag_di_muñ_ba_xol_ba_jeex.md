@@ -1,6 +1,7 @@
 Title: Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex
 Excerpt: Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex - Mu xëy yewwi boppam, dem, musal ko ci jépp lor
 StanzaSize: 4
+Theme: Muñ (Patience face aux épreuves)
 ---
 Sëriñ bi ku nekk ak nun nag di muñ ba xol ba jeex
 Mu xëy yewwi boppam, dem, musal ko ci jépp lor

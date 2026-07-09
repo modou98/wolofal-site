@@ -1,7 +1,7 @@
 Title: Huqal bukaa'u ( Maarsiyya Sëñ Mòodu Mustafaa)
 Excerpt: Huqal bukaa’u  Xaaba rajaa u
 Audio: https://youtu.be/R7yES-3bW-o?si=owAmE6SL_PU54T_L
-Theme: Ay marsiya
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Huqal bukaa’u 
 Xaaba rajaa u 

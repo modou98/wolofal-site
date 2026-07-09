@@ -1,6 +1,7 @@
 Title: Ma jug caw ub yar
 Excerpt: Une réflexion centrée sur les règles de bienséance, la politesse et la nécessité de corriger les comportements pour maintenir l'harmonie au sein de la communauté.
 Audio: https://youtu.be/-wxi30vfxAU
+Theme: Yar (Éducation)
 ---
 Ma jug caw ub yar
 Ku amul ub yar

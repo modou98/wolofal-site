@@ -1,6 +1,7 @@
 Title: Moo waarekat bile yaw miy waare waaru nga ndax ?
 Excerpt: Moo waarekat bile yaw miy waare waaru nga ndax ? - Waaral sa bopp ba waaroo waaru jóg waare
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Moo waarekat bile yaw miy waare waaru nga ndax ?
 Waaral sa bopp ba waaroo waaru jóg waare

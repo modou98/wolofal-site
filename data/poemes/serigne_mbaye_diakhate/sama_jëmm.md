@@ -1,6 +1,7 @@
 Title: Sama jëmm a ngii
 Excerpt: Une déclaration d'abandon de soi au Prophète Mouhammad, érigé en modèle de salut et de guidance.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Sama jëmm a ngii Sama ñépp a ngii sama lépp a ngii

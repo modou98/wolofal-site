@@ -1,5 +1,6 @@
 Title: Xamal say ayib te far say ayib
 Excerpt: Xamal say ayib te far say ayib - Te lii rekk a dig xam ludul lii du ag xam
+Theme: Bakkan (Éducation de l'âme)
 ---
 Xamal say ayib te far say ayib
 Te lii rekk a dig xam ludul lii du ag xam

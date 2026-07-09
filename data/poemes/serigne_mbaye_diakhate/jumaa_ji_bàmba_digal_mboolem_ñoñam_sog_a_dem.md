@@ -1,6 +1,7 @@
 Title: Jumaa ji Bàmba digal mboolem ñoñam sog a dem
 Excerpt: Jumaa ji Bàmba digal mboolem ñoñam sog a dem - Ku ca’y dem ak ku ca dul dem dee ca sant aka dem
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Jumaa ji Bàmba digal mboolem ñoñam sog a dem
 Ku ca’y dem ak ku ca dul dem dee ca sant aka dem

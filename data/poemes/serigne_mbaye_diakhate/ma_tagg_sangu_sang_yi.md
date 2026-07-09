@@ -1,6 +1,7 @@
 Title: Ma tagg sangu sang yi
 Excerpt: Ma tagg sangu sang yi - Te tagg jant ub jant yi
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Ma tagg sangu sang yi
 Te tagg jant ub jant yi

@@ -1,6 +1,7 @@
 Title: Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat
 Excerpt: Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat - Bàyyi’g tawat doyna’g tawat doyloo ko wëllis di tawat
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Xarit defal bàyyi’g tawat ak sa bakkan muy sag tawat
 Bàyyi’g tawat doyna’g tawat doyloo ko wëllis di tawat

@@ -1,6 +1,7 @@
 Title: Nañ yeesal ug tuub ak ub njébbal ak ug bàyyiku
 Excerpt: Nañ yeesal ug tuub ak ub njébbal ak ug bàyyiku - Ta kat Sëriñ bii ludul def lii ma wax safu ko
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Nañ yeesal ug tuub ak ub njébbal ak ug bàyyiku
 Ta kat Sëriñ bii ludul def lii ma wax safu ko

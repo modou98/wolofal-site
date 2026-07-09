@@ -1,6 +1,7 @@
 Title: Xarit feddalil gëm feddali’g laxasaayati
 Excerpt: Xarit feddalil gëm feddali’g laxasaayati - Ta dëddu ñi lay suxlooka suufooka ñormati
 StanzaSize: 3
+Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Xarit feddalil gëm feddali’g laxasaayati
 Ta dëddu ñi lay suxlooka suufooka ñormati

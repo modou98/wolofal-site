@@ -1,5 +1,6 @@
 Title: Salamun hãlaykum Mbàkke
 Excerpt: Salamun hãlaykum Mbàkke sab gewal lay nuyoo - Ku réere’w turam nag Baabakar moo di aw turam
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Salamun hãlaykum Mbàkke sab gewal lay nuyoo
 Ku réere’w turam nag Baabakar moo di aw turam

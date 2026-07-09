@@ -1,6 +1,7 @@
 Title: Yaw xaali xàllal sa digg ak Yàlla xàll wu set
 Excerpt: Yaw xaali xàllal sa digg ak Yàlla xàll wu set - Wu jub ta yaa, aw ca nag ngir Yàlla aw gu rafet
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Yaw xaali xàllal sa digg ak Yàlla xàll wu set
 Wu jub ta yaa, aw ca nag ngir Yàlla aw gu rafet

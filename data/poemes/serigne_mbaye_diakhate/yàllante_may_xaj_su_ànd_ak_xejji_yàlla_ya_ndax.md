@@ -1,6 +1,7 @@
 Title: Yàllante may xaj su ànd ak xejji Yàlla ya ndax
 Excerpt: Yàllante may xaj su ànd ak xejji Yàlla ya ndax - Bu ñiy desal woo ma naa ‘éy éy’ te naa ma ‘xuri’
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Yàllante may xaj su ànd ak xejji Yàlla ya ndax
 Bu ñiy desal woo ma naa ‘éy éy’ te naa ma ‘xuri’

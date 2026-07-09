@@ -1,6 +1,7 @@
 Title: Sànnil sa sang bi’g
 Excerpt: Sànnil sa sang bi’g cofeel - Moom it mu sànnila’g cofeel
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sànnil sa sang bi’g cofeel
 Moom it mu sànnila’g cofeel

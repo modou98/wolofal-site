@@ -1,6 +1,7 @@
 Title: Yàllante tay jile may suukar, nga def ma kafe
 Excerpt: Yàllante tay jile may suukar, nga def ma kafe - Mbaa sax ma nekk di sag ruu fàww tay sa yaram
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Yàllante tay jile may suukar, nga def ma kafe
 Mbaa sax ma nekk di sag ruu fàww tay sa yaram

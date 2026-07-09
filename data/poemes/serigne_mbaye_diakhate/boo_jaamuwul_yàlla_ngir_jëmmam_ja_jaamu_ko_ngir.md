@@ -1,6 +1,7 @@
 Title: Boo jaamuwul Yàlla ngir jëmmam ja jaamu ko ngir
 Excerpt: Boo jaamuwul Yàlla ngir jëmmam ja jaamu ko ngir - Firdawsii mii fees akii taaxi ak wurus aki leer
 StanzaSize: 3
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Boo jaamuwul Yàlla ngir jëmmam ja jaamu ko ngir
 Firdawsii mii fees akii taaxi ak wurus aki leer

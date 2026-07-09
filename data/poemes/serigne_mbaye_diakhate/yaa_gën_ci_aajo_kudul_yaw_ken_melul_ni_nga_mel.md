@@ -1,6 +1,7 @@
 Title: Yaa gën ci aajo kudul yaw ken melul ni nga mel
 Excerpt: Yaa gën ci aajo kudul yaw ken melul ni nga mel - Doo jàpp aajoy segël muy jëm ëlëg di forox
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Yaa gën ci aajo kudul yaw ken melul ni nga mel
 Doo jàpp aajoy segël muy jëm ëlëg di forox

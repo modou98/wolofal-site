@@ -1,6 +1,7 @@
 Title: Yaw Bàmba dàqul nu’b murid boo xamne day
 Excerpt: Yaw Bàmba dàqul nu’b murid boo xamne day - Dem kër jigéen aka bañ ligéey aka dox di kaf
 StanzaSize: 3
+Theme: Séytaane (Les ruses de Satan)
 ---
 Yaw Bàmba dàqul nu’b murid boo xamne day
 Dem kër jigéen aka bañ ligéey aka dox di kaf

@@ -1,6 +1,7 @@
 Title: Ludul Sëriñ bile man mii sànni naako bu wér
 Excerpt: Ludul Sëriñ bile man mii sànni naako bu wér - Ludul Sëriñ bii du man koy deeti jàpp aka yor
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ludul Sëriñ bile man mii sànni naako bu wér
 Ludul Sëriñ bii du man koy deeti jàpp aka yor

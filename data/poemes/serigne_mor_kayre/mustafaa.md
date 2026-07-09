@@ -1,6 +1,7 @@
 Title: Seex Mustafaa
 Excerpt: Hommage vibrant à la générosité de Cheikh Moustapha, soulignant sa fidélité aux valeurs d'hospitalité (Berndé) héritées de son père.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Seex Mustafaa teddngay baayam la nuy terale

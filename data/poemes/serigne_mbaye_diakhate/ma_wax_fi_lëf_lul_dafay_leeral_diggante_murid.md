@@ -1,6 +1,7 @@
 Title: Ma wax fi lëf lul dafay leeral diggante murid
 Excerpt: Ma wax fi lëf lul dafay leeral diggante murid - Akub Sëriñ aki maasam ak kumuy gane ji
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ma wax fi lëf lul dafay leeral diggante murid
 Akub Sëriñ aki maasam ak kumuy gane ji

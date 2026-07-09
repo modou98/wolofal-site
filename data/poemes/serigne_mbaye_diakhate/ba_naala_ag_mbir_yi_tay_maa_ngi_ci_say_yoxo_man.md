@@ -1,6 +1,7 @@
 Title: Ba naala ag mbir yi tay maa ngi ci say yoxo man
 Excerpt: Ba naala ag mbir yi tay maa ngi ci say yoxo man - Yër naa ba xam ni kudul yaw mii mënul ta du mën
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ba naala ag mbir yi tay maa ngi ci say yoxo man
 Yër naa ba xam ni kudul yaw mii mënul ta du mën

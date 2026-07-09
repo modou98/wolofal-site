@@ -1,6 +1,6 @@
 Title: Bu cér yépp gàntoo def as lëf jafe
 Excerpt: Bu cér yépp gàntoo def as lëf jafe
-Theme: Soññe
+Theme: Diggante jëf ak wax (Les actes et les paroles)
 Audio: https://youtu.be/MkEqtzEPVHE
 ---
 Bu cér yépp gàntoo def as lëf jafe

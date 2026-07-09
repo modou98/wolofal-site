@@ -1,6 +1,7 @@
 Title: Demba kebe ma dénk la
 Excerpt: Demba kebe ma dénk la - Ndax dénk bii dimbali la
 StanzaSize: 4
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Demba kebe ma dénk la
 Ndax dénk bii dimbali la

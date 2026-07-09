@@ -1,6 +1,7 @@
 Title: Xarit xarit bala ngaa yeddaate yaw na nga nég
 Excerpt: Xarit xarit bala ngaa yeddaate yaw na nga nég - Ba xam fanuy jaaye ay jëf, jëf ju fay xala jar
 StanzaSize: 8
+Theme: Diggante jëf ak wax (Les actes et les paroles)
 ---
 Xarit xarit bala ngaa yeddaate yaw na nga nég
 Ba xam fanuy jaaye ay jëf, jëf ju fay xala jar

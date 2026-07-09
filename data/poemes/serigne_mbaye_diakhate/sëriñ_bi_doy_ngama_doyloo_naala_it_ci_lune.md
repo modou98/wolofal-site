@@ -1,6 +1,7 @@
 Title: Sëriñ bi doy ngama doyloo naala it ci lune
 Excerpt: Sëriñ bi doy ngama doyloo naala it ci lune - Fegal nu wopp aki dee fàww ak ñu bon fu ñu ne
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ bi doy ngama doyloo naala it ci lune
 Fegal nu wopp aki dee fàww ak ñu bon fu ñu ne

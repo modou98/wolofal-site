@@ -1,5 +1,6 @@
 Title: Sëriñ baa ngi yonne ndaw ci nun
 Excerpt: Sëriñ baa ngi yonne ndaw ci nun booleekoo’ki mbég - Bu ndaw loola yegsee ñépp ñee nu, nu waaru bég
+Theme: Séytaane (Les ruses de Satan)
 ---
 Sëriñ baa ngi yonne ndaw ci nun booleekoo’ki mbég
 Bu ndaw loola yegsee ñépp ñee nu, nu waaru bég

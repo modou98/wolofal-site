@@ -1,6 +1,7 @@
 Title: Murit deel taqoo
 Excerpt: Une explication sémantique et spirituelle des concepts de Muriit, Mariit et Muraat, définissant les qualités d'un véritable chercheur de Dieu.
 Audio: 
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Muriit deel taqoo’k seex bu mat tey bu xam

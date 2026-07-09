@@ -1,6 +1,7 @@
 Title: Ma jóg ligéey al Sëriñ Tuubaa mu tedd ma man...
 Excerpt: Poème appelant à l'effort soutenu dans le travail pieux pour Serigne Touba, sous l'autorité du Calife désigné.
 Audio: 
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 
 Ma jóg ligéey al Sëriñ Tuubaa mu tedd ma man

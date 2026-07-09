@@ -1,6 +1,7 @@
 Title: Sëriñ bi nun yaa nu rokkas yaa nu roofat u yiw
 Excerpt: Sëriñ bi nun yaa nu rokkas yaa nu roofat u yiw - Yaa tee nu haf yaa nu tee xëy daanu, yaa gën a baax
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Sëriñ bi nun yaa nu rokkas yaa nu roofat u yiw
 Yaa tee nu haf yaa nu tee xëy daanu, yaa gën a baax

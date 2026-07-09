@@ -1,6 +1,7 @@
 Title: Waa jii rusal gaa yi xëy jëm àll ngir sa ndigal
 Excerpt: Waa jii rusal gaa yi xëy jëm àll ngir sa ndigal - Nga xëy di fëgg sa lal bii yaw di waaj a nelaw
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Waa jii rusal gaa yi xëy jëm àll ngir sa ndigal
 Nga xëy di fëgg sa lal bii yaw di waaj a nelaw

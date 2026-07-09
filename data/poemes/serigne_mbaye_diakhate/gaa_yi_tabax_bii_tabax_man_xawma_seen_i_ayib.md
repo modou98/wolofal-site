@@ -1,6 +1,7 @@
 Title: Gaa yi tabax bii tabax man xawma seen i ayib
 Excerpt: Gaa yi tabax bii tabax man xawma seen i ayib - Ku xëy defal sab Sëriñ lii sax mu far sa ayib
 StanzaSize: 4
+Theme: Taarix
 ---
 Gaa yi tabax bii tabax man xawma seen i ayib
 Ku xëy defal sab Sëriñ lii sax mu far sa ayib

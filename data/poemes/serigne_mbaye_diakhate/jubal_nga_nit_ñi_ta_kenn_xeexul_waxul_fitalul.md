@@ -1,6 +1,7 @@
 Title: Jubal nga nit ñi ta kenn xeexul waxul fitalul
 Excerpt: Jubal nga nit ñi ta kenn xeexul waxul fitalul - Xamal nga leen it ta kenn jàngul haraf laxasul
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Jubal nga nit ñi ta kenn xeexul waxul fitalul
 Xamal nga leen it ta kenn jàngul haraf laxasul

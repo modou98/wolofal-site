@@ -1,6 +1,7 @@
 Title: Sëriñ bi gaa yaa ngi rëbi
 Excerpt: Sëriñ bi gaa yaa ngi rëbi - Jigéen a kay dox di rëbi
 StanzaSize: 8
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Sëriñ bi gaa yaa ngi rëbi
 Jigéen a kay dox di rëbi

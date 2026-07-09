@@ -1,6 +1,7 @@
 Title: Yaw Abdu Xaadr laxasul
 Excerpt: Yaw Abdu Xaadir laxasul te aw a aw yoonu ndigal - Tey wattu pakk bu la fél ngir pakk yee gën a bari
 StanzaSize: 4
+Theme: Séytaane (Les ruses de Satan)
 ---
 Yaw Abdu Xaadir laxasul te aw a aw yoonu ndigal
 Tey wattu pakk bu la fél ngir pakk yee gën a bari

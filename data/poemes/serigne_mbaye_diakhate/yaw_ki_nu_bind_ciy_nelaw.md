@@ -1,6 +1,7 @@
 Title: Yaw ki nu bind ciy nelaw
 Excerpt: Yaw ki nu bind ciy nelaw - Ba manuñoo ñàkk a nelaw
 StanzaSize: 8
+Theme: Bakkan (Éducation de l'âme)
 ---
 Yaw ki nu bind ciy nelaw
 Ba manuñoo ñàkk a nelaw

@@ -1,6 +1,7 @@
 Title: Sëriñ bi man yaa ma gën
 Excerpt: Sëriñ bi man yaa ma gën - Yaa gën ba gën ka ma gën
 StanzaSize: 4
+Theme: Sëriñ bi
 ---
 Sëriñ bi man yaa ma gën
 Yaa gën ba gën ka ma gën

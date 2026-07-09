@@ -1,6 +1,7 @@
 Title: Ma jug way fi man Baabakar way wu jub
 Excerpt: Ma jug way fi man Baabakar way wu jub - Sëriñ beeki bokkam akii taalibeem
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ma jug way fi man Baabakar way wu jub
 Sëriñ beeki bokkam akii taalibeem

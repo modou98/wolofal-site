@@ -1,6 +1,7 @@
 Title: Ma wax fi Ahmadu Sekk ub dénk tay jile nag
 Excerpt: Ma wax fi Ahmadu Sekk ub dénk tay jile nag - Ndax Yàlla boole ñu jox aw yiw fegal ñu mbugal
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ma wax fi Ahmadu Sekk ub dénk tay jile nag
 Ndax Yàlla boole ñu jox aw yiw fegal ñu mbugal

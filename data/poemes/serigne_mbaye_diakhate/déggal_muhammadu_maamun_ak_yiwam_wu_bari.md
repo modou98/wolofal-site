@@ -1,6 +1,7 @@
 Title: Déggal Muhammadu Maamun ak yiwam wu bari
 Excerpt: Déggal Muhammadu Maamun ak yiwam wu bari - Day may ganam aajo ak jàmm ak njariñ yu bari
 StanzaSize: 3
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Déggal Muhammadu Maamun ak yiwam wu bari
 Day may ganam aajo ak jàmm ak njariñ yu bari

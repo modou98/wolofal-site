@@ -1,6 +1,7 @@
 Title: Yaw rekk a am solo, aa cam jox ma sab loxo man
 Excerpt: Yaw rekk a am solo, aa cam jox ma sab loxo man - Nu ànd wéy, ku la am sottal na yaa di ngañaay
 StanzaSize: 3
+Theme: Sëriñ bi
 ---
 Yaw rekk a am solo, aa cam jox ma sab loxo man
 Nu ànd wéy, ku la am sottal na yaa di ngañaay

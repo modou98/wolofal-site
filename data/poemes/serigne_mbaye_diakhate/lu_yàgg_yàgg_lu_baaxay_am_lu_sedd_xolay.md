@@ -1,6 +1,7 @@
 Title: Lu yàgg yàgg lu baaxay am lu sedd xolay
 Excerpt: Lu yàgg yàgg lu baaxay am lu sedd xolay - Am dëgg dëgg ak lu gën loo gis gënal nu lune
 StanzaSize: 4
+Theme: Bakkan (Éducation de l'âme)
 ---
 Lu yàgg yàgg lu baaxay am lu sedd xolay
 Am dëgg dëgg ak lu gën loo gis gënal nu lune

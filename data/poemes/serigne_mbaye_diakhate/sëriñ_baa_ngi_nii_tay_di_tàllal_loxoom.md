@@ -1,5 +1,6 @@
 Title: Sëriñ baa ngi nii tay di tàllal loxoom
 Excerpt: Sëriñ baa ngi nii tay di tàllal loxoom - Jugal jox ko ngir lee mu delloo loxoom
+Theme: Sëriñ bi
 ---
 Sëriñ baa ngi nii tay di tàllal loxoom
 Jugal jox ko ngir lee mu delloo loxoom

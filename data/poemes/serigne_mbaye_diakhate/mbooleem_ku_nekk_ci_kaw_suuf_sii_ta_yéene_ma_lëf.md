@@ -1,5 +1,6 @@
 Title: Mbooleem ku nekk ci kaw suuf sii ta yéene ma lëf
 Excerpt: Mbooleem ku nekk ci kaw suuf sii ta yéene ma lëf - Loolee mu yéene ci man mi lépp Yàlla na ko dal
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Mbooleem ku nekk ci kaw suuf sii ta yéene ma lëf
 Loolee mu yéene ci man mi lépp Yàlla na ko dal

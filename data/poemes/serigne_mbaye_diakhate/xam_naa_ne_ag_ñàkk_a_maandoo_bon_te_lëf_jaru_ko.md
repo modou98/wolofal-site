@@ -1,6 +1,7 @@
 Title: Xam naa ne ag ñàkk a maandoo bon te lëf jaru ko
 Excerpt: Xam naa ne ag ñàkk a maandoo bon te lëf jaru ko
 Audio: https://youtu.be/_fOr-yqp0aY
+Theme: Bakkan (Éducation de l'âme)
 ---
 
 Xam naa ne ag ñàkk a maandoo bon te lëf jaru ko

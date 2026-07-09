@@ -1,5 +1,6 @@
 Title: Am leen a am gëm
 Excerpt: Am leen a am gëm dollikooti’g wóolu it - Bu nu lor jege it téggi wéy doxtil fi nun
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Am leen a am gëm dollikooti’g wóolu it
 Bu nu lor jege it téggi wéy doxtil fi nun

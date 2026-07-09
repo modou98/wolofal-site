@@ -1,5 +1,6 @@
 Title: Maa bon te baax ub Sëriñ *
 Excerpt: Maa bon te baax ub Sëriñ nit ñépp ñépp a ma gën  Te maa fi gën ab Sëriñ saa mbon gi dootu ma lor
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 
 Maa bon te baax ub Sëriñ nit ñépp ñépp a ma gën 

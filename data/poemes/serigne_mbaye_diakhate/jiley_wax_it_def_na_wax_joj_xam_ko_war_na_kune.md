@@ -1,6 +1,7 @@
 Title: Jiley wax it def na wax joj xam ko war na kune
 Excerpt: Jiley wax it def na wax joj xam ko war na kune - Ta képp kuy réere wax jii yaa ngi mel ni gone
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Jiley wax it def na wax joj xam ko war na kune
 Ta képp kuy réere wax jii yaa ngi mel ni gone

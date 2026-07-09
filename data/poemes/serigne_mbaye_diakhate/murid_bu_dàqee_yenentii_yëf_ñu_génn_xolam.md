@@ -1,6 +1,7 @@
 Title: Murid bu dàqee yenentii yëf ñu génn xolam
 Excerpt: Murid bu dàqee yenentii yëf ñu génn xolam - Mu tàbbi péeyub Boroomam ànd akub Sëriñam
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Murid bu dàqee yenentii yëf ñu génn xolam
 Mu tàbbi péeyub Boroomam ànd akub Sëriñam

@@ -1,6 +1,7 @@
 Title: Sëriñ bi may nga nu ñu baax
 Excerpt: Sëriñ bi may nga nu ñu baax - Mbàkke ta may nga nu yu baax
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Sëriñ bi may nga nu ñu baax
 Mbàkke ta may nga nu yu baax

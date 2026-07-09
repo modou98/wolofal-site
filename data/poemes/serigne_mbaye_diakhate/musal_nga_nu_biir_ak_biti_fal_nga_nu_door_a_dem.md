@@ -1,6 +1,7 @@
 Title: Musal nga nu biir ak biti, fal nga nu door a dem
 Excerpt: Musal nga nu biir ak biti, fal nga nu door a dem - Sa dem gii du lor, Jaajëf ! Ku wàcci añee ci des
 StanzaSize: 4
+Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Musal nga nu biir ak biti, fal nga nu door a dem
 Sa dem gii du lor, Jaajëf ! Ku wàcci añee ci des

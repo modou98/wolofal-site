@@ -1,6 +1,7 @@
 Title: Fab naa samay mbir ta fab saa bopp dénkatila
 Excerpt: Fab naa samay mbir ta fab saa bopp dénkatila - Musal ma baaxal ma yor saa mbir yi, lëf tëwu la
 StanzaSize: 3
+Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Fab naa samay mbir ta fab saa bopp dénkatila
 Musal ma baaxal ma yor saa mbir yi, lëf tëwu la

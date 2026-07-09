@@ -1,6 +1,7 @@
 Title: Ñaanal Sëriñ Mbay
 Excerpt: Yal na nu fab mbay - Fàww ak ndamal mbay
 StanzaSize: 8
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Yal na nu fab mbay
 Fàww ak ndamal mbay

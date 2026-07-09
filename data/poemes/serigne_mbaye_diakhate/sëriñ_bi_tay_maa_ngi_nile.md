@@ -1,6 +1,7 @@
 Title: Sëriñ bi tay maa ngi nile
 Excerpt: Sëriñ bi tay maa ngi nile - Samab xol it mingi nile
 StanzaSize: 4
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 Sëriñ bi tay maa ngi nile
 Samab xol it mingi nile

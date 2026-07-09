@@ -1,6 +1,7 @@
 Title: Man xejju Yàlla yi daa naa sàkku bokk ci ñoom
 Excerpt: Man xejju Yàlla yi daa naa sàkku bokk ci ñoom - Tay maa ngi sàkkoo di seen ub xaj su topp ci ñoom
 StanzaSize: 3
+Theme: Bakkan (Éducation de l'âme)
 ---
 Man xejju Yàlla yi daa naa sàkku bokk ci ñoom
 Tay maa ngi sàkkoo di seen ub xaj su topp ci ñoom

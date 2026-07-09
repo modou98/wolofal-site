@@ -1,5 +1,6 @@
 Title: Man Bàmba doy nama
 Excerpt: Man Bàmba doy nama, doyloo naa ko dootu ma fab - Téerée ki maxtumi ak ndomboy përëg di ko sol
+Theme: Sëriñ bi
 ---
 Man Bàmba doy nama, doyloo naa ko dootu ma fab
 Téerée ki maxtumi ak ndomboy përëg di ko sol

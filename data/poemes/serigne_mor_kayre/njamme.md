@@ -1,6 +1,7 @@
 Title: Njàmme Gòor nga jaajëfe waay
 Excerpt: Un long poème panégyrique célébrant les hauts faits de Serigne Moustapha Mbacké, la grandeur de son lignage et l'accomplissement des projets de son père.
 Audio: 
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
 
 Njàmme gòor nga jaajëfe waay
