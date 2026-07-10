@@ -802,3 +802,77 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     font-weight: 600;
     margin-left: 0.15rem;
 }
+
+/* Page Manuscrits */
+.manuscript-author-section {
+    max-width: 1100px;
+    margin: 0 auto 3rem auto;
+}
+
+.manuscript-author-section h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    display: inline-block;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.manuscripts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.manuscript-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.manuscript-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.manuscript-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: var(--primary-color);
+    margin-top: 0.6rem;
+    line-height: 1.4;
+}
+
+.manuscript-type-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.manuscript-type-ajami {
+    background: rgba(212, 175, 55, 0.15);
+    color: #a8842a;
+}
+
+[data-theme="dark"] .manuscript-type-ajami {
+    color: #d4af37;
+}
+
+.manuscript-type-transcrit {
+    background: rgba(15, 23, 42, 0.08);
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .manuscript-type-transcrit {
+    background: rgba(255, 255, 255, 0.08);
+}

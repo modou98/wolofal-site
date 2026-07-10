@@ -10,6 +10,7 @@ const app = {
         currentPoemId: null,
         currentThemeId: null,
         authorThemeFilter: null,
+        manuscriptTypeFilter: 'all',
         activeHighlightIndex: -1,
         totalHighlights: 0,
         contentLoaded: false
@@ -70,6 +71,7 @@ const app = {
         if (view === 'reader') return `#/poeme/${encodeURIComponent(param)}`;
         if (view === 'themes') return '#/themes';
         if (view === 'theme') return `#/theme/${encodeURIComponent(param)}`;
+        if (view === 'manuscripts') return '#/manuscrits';
         return '#/';
     },
 
@@ -87,6 +89,9 @@ const app = {
         }
         if (parts[0] === 'theme' && parts[1]) {
             return { view: 'theme', param: decodeURIComponent(parts[1]) };
+        }
+        if (parts[0] === 'manuscrits') {
+            return { view: 'manuscripts', param: null };
         }
         return { view: 'home', param: null };
     },
@@ -251,6 +256,10 @@ const app = {
         } else if (view === 'theme') {
             app.state.currentThemeId = param;
             app.renderTheme(container, param);
+        } else if (view === 'manuscripts') {
+            document.title = "Manuscrits | Wolofal Heritage";
+            app.state.manuscriptTypeFilter = app.state.manuscriptTypeFilter || 'all';
+            app.renderManuscripts(container);
         }
     },
 
@@ -449,6 +458,77 @@ const app = {
         `;
     },
 
+    // Convertit un lien de partage Google Drive (".../file/d/ID/view...") en URL
+    // embarquable pour un <iframe> ("/preview"). Laisse les autres URLs telles quelles.
+    driveEmbedUrl: (url) => {
+        const m = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+        return m ? `https://drive.google.com/file/d/${m[1]}/preview` : url;
+    },
+
+    // URL de téléchargement direct pour un lien Drive ; sinon l'URL d'origine.
+    driveDownloadUrl: (url) => {
+        const m = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+        return m ? `https://drive.google.com/uc?export=download&id=${m[1]}` : url;
+    },
+
+    isPdfUrl: (url) => {
+        return url.toLowerCase().endsWith('.pdf') || url.includes('drive.google.com');
+    },
+
+    renderManuscripts: (container) => {
+        const filter = app.state.manuscriptTypeFilter || 'all';
+        const manuscripts = (window.manuscriptsData || []).filter(m => filter === 'all' || m.type === filter);
+
+        const byAuthor = {};
+        manuscripts.forEach(m => {
+            (byAuthor[m.authorId] = byAuthor[m.authorId] || []).push(m);
+        });
+
+        const authorsHtml = authorsData
+            .filter(a => byAuthor[a.id] && byAuthor[a.id].length > 0)
+            .map(author => {
+                const cards = byAuthor[author.id].map(m => `
+                    <div class="manuscript-card">
+                        <span class="manuscript-type-badge manuscript-type-${m.type}">${m.type === 'ajami' ? 'Ajami' : 'Transcrit'}</span>
+                        <h3>${m.title}</h3>
+                        <div style="display:flex; gap:0.5rem; margin-top:0.75rem;">
+                            <a href="${app.driveEmbedUrl(m.url)}" target="_blank" class="ctrl-btn" style="text-decoration:none; flex:1; text-align:center;">👁️ Consulter</a>
+                            <a href="${app.driveDownloadUrl(m.url)}" target="_blank" download class="ctrl-btn" style="text-decoration:none; flex:1; text-align:center;">📥 Télécharger</a>
+                        </div>
+                    </div>
+                `).join('');
+                return `
+                    <div class="manuscript-author-section">
+                        <h2>${author.name}</h2>
+                        <div class="manuscripts-grid">${cards}</div>
+                    </div>
+                `;
+            }).join('');
+
+        container.innerHTML = `
+            <div class="gallery-header">
+                <h1>Les Manuscrits</h1>
+                <p>Manuscrits originaux en Ajami et recueils transcrits, classés par auteur.</p>
+            </div>
+            <div class="theme-pills" style="justify-content:center; margin-bottom:2rem;">
+                <button class="theme-pill ${filter === 'all' ? 'active' : ''}" onclick="app.setManuscriptFilter('all')">Tous</button>
+                <button class="theme-pill ${filter === 'ajami' ? 'active' : ''}" onclick="app.setManuscriptFilter('ajami')">Ajami</button>
+                <button class="theme-pill ${filter === 'transcrit' ? 'active' : ''}" onclick="app.setManuscriptFilter('transcrit')">Transcrit</button>
+            </div>
+            ${authorsHtml || `
+            <div class="empty-state">
+                <h3>Aucun manuscrit</h3>
+                <p>Aucun manuscrit disponible pour l'instant dans cette catégorie.</p>
+            </div>
+            `}
+        `;
+    },
+
+    setManuscriptFilter: (type) => {
+        app.state.manuscriptTypeFilter = type;
+        app.renderManuscripts(document.getElementById('app'));
+    },
+
     setAuthorThemeFilter: (themeId) => {
         app.state.authorThemeFilter = themeId;
         app.renderAuthor(document.getElementById('app'), app.state.currentAuthorId);
@@ -568,6 +648,13 @@ const app = {
 
         document.title = `${poem.title} - par ${author.name} | Wolofal Heritage`;
 
+        const manuscriptIsPdf = poem.manuscript && app.isPdfUrl(poem.manuscript);
+        const manuscriptEmbedUrl = poem.manuscript ? app.driveEmbedUrl(poem.manuscript) : '';
+        const manuscriptDownloadUrl = poem.manuscript ? app.driveDownloadUrl(poem.manuscript) : '';
+        const manuscriptIframeSrc = poem.manuscript && poem.manuscript.includes('drive.google.com')
+            ? manuscriptEmbedUrl
+            : `${manuscriptEmbedUrl}#toolbar=0&navpanes=0&scrollbar=0&page=1`;
+
         container.innerHTML = `
             <div class="reader-view" style="max-width: 1200px;">
                 <div class="reader-top-bar">
@@ -609,17 +696,17 @@ const app = {
                         
                         ${poem.manuscript ? `
                         <div class="manuscript-placeholder">
-                            ${poem.manuscript.toLowerCase().endsWith('.pdf') ? `
+                            ${manuscriptIsPdf ? `
                                     <div class="manuscript-pdf-card" style="width: 100%; border: 1px solid var(--border-color); border-radius: 12px; background: var(--card-bg); box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-top: 1rem; padding: 1rem; display: flex; flex-direction: column; gap: 0.8rem;">
                                         <h4 style="margin: 0; color: var(--text-color); font-size: 1.1rem; text-align: center;">📄 Aperçu du Manuscrit</h4>
                                         <div class="manuscript-preview" style="width: 100%; height: 350px; overflow: hidden; border-radius: 8px; border: 1px solid var(--border-color);">
-                                            <iframe src="${poem.manuscript}#toolbar=0&navpanes=0&scrollbar=0&page=1" style="width: 100%; height: 100%; border: none;" frameborder="0"></iframe>
+                                            <iframe src="${manuscriptIframeSrc}" style="width: 100%; height: 100%; border: none;" frameborder="0"></iframe>
                                         </div>
                                         <div style="display: flex; flex-direction: column; width: 100%; gap: 0.5rem;">
-                                            <a href="${poem.manuscript}" target="_blank" download class="ctrl-btn" style="text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center; width: 100%;">
+                                            <a href="${manuscriptDownloadUrl}" target="_blank" download class="ctrl-btn" style="text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center; width: 100%;">
                                                 📥 Télécharger le PDF
                                             </a>
-                                            <a href="${poem.manuscript}" target="_blank" class="ctrl-btn" style="text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center; width: 100%;">
+                                            <a href="${manuscriptEmbedUrl}" target="_blank" class="ctrl-btn" style="text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center; width: 100%;">
                                                 👁️ Visualiser en plein écran
                                             </a>
                                         </div>

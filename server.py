@@ -54,6 +54,18 @@ def resolve_poem_path(author_folder, poem_id):
         raise Exception("Chemin de fichier invalide.")
     return filepath
 
+MANUSCRIPTS_PATH = os.path.join("data", "manuscripts.json")
+
+def load_manuscripts():
+    if not os.path.exists(MANUSCRIPTS_PATH):
+        return []
+    with open(MANUSCRIPTS_PATH, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def save_manuscripts(manuscripts):
+    with open(MANUSCRIPTS_PATH, 'w', encoding='utf-8') as f:
+        json.dump(manuscripts, f, ensure_ascii=False, indent=4)
+
 def update_poem_metadata(filepath, themes, audio):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -234,6 +246,117 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(json.dumps({"status": "success"}).encode('utf-8'))
                 
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+        elif self.path == '/api/save_manuscript':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                title = data.get('title', '').strip()
+                author_id = data.get('authorId')
+                manuscript_type = data.get('type', '')
+                url = data.get('url', '').strip()
+
+                if not title or not author_id or manuscript_type not in ('ajami', 'transcrit') or not url:
+                    raise Exception("Titre, auteur, type et lien sont obligatoires.")
+
+                with open('data/auteurs.json', 'r', encoding='utf-8') as f:
+                    authors = json.load(f)
+                if not any(a.get('id') == author_id for a in authors):
+                    raise Exception("Auteur inconnu.")
+
+                manuscripts = load_manuscripts()
+                base_id = slugify(title) + '_' + manuscript_type
+                new_id = base_id
+                n = 2
+                existing_ids = {m['id'] for m in manuscripts}
+                while new_id in existing_ids:
+                    new_id = f"{base_id}_{n}"
+                    n += 1
+
+                manuscripts.append({
+                    "id": new_id,
+                    "title": title,
+                    "authorId": author_id,
+                    "type": manuscript_type,
+                    "url": url
+                })
+                save_manuscripts(manuscripts)
+                build()
+
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "success", "manuscripts": manuscripts}).encode('utf-8'))
+
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+        elif self.path == '/api/update_manuscript':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                manuscript_id = data.get('id', '')
+                author_id = data.get('authorId')
+                manuscript_type = data.get('type', '')
+                url = data.get('url', '').strip()
+
+                if not manuscript_id or not author_id or manuscript_type not in ('ajami', 'transcrit') or not url:
+                    raise Exception("Identifiant, auteur, type et lien sont obligatoires.")
+
+                manuscripts = load_manuscripts()
+                target = next((m for m in manuscripts if m['id'] == manuscript_id), None)
+                if not target:
+                    raise Exception("Manuscrit introuvable.")
+
+                target['authorId'] = author_id
+                target['type'] = manuscript_type
+                target['url'] = url
+                save_manuscripts(manuscripts)
+                build()
+
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "success", "manuscripts": manuscripts}).encode('utf-8'))
+
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "error", "message": str(e)}).encode('utf-8'))
+        elif self.path == '/api/delete_manuscript':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                manuscript_id = data.get('id', '')
+                if not manuscript_id:
+                    raise Exception("Identifiant manquant.")
+
+                manuscripts = load_manuscripts()
+                new_manuscripts = [m for m in manuscripts if m['id'] != manuscript_id]
+                if len(new_manuscripts) == len(manuscripts):
+                    raise Exception("Manuscrit introuvable.")
+
+                save_manuscripts(new_manuscripts)
+                build()
+
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                self.wfile.write(json.dumps({"status": "success", "manuscripts": new_manuscripts}).encode('utf-8'))
+
             except Exception as e:
                 self.send_response(500)
                 self.send_header('Content-type', 'application/json')

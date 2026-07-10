@@ -3631,6 +3631,15 @@ window.authorsData = [
                 "themes": [
                     "Sëriñ bi"
                 ]
+            },
+            {
+                "id": "yaaram_bi_naam_faal",
+                "title": "YAARAM BI NAAM FAAL",
+                "excerpt": "Seex Ibra moom raw na ag maasam te deefu ko jot",
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "stanzaSize": 4
             }
         ]
     }
@@ -3699,5 +3708,49 @@ window.themesData = [
     {
         "id": "taariix",
         "name": "Taarix"
+    }
+];
+window.manuscriptsData = [
+    {
+        "id": "magal_yi_ajami",
+        "title": "Wolofal Maggal yi",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "assets/magal_yi.pdf"
+    },
+    {
+        "id": "njuuj_njaaj_ajami",
+        "title": "Njuuj Njaaj",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "assets/njuuj_njaaj.pdf"
+    },
+    {
+        "id": "marsiya_seex_ndaam_ajami",
+        "title": "Marsiya Seex Ndaam",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "assets/marsiya-seex-ndaam.pdf"
+    },
+    {
+        "id": "wolofal_jumaa_ji_ajami",
+        "title": "Wolofal Jumaa Ji",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "assets/Wolofalu-Jumaa-ji.pdf"
+    },
+    {
+        "id": "ay_wolofal_soxna_may_transcrit",
+        "title": "Ay Wolofal Soxna Maymuunatul Mbàkke Al Kubra",
+        "authorId": 4,
+        "type": "transcrit",
+        "url": "assets/ay_wolofal_soxna_may.pdf"
+    },
+    {
+        "id": "kadduy_serign_mbay_jaxate_transcrit",
+        "title": "Kàdduy Sëriñ Mbay Jaxate (V3)",
+        "authorId": 2,
+        "type": "transcrit",
+        "url": "assets/kadduy_serign_mbay_jaxate_v3.pdf"
     }
 ];

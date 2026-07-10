@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lateef&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=12">
+    <link rel="stylesheet" href="style.css?v=13">
     <style>
         .admin-container {
             max-width: 800px;
@@ -191,7 +191,59 @@
         </div>
     </div>
 
-    <script src="content.js?v=12"></script>
+    <div class="admin-container" style="max-width: 950px; margin-top: 2rem; margin-bottom: 4rem;">
+        <div class="admin-header">
+            <h1>Gérer les Manuscrits</h1>
+            <p>Catalogue des manuscrits Ajami (originaux) et Transcrit (recueils) affiché sur la page « Manuscrits » du site.</p>
+        </div>
+
+        <form id="manuscriptForm">
+            <div class="form-group">
+                <label for="manuscriptTitle">Titre du manuscrit</label>
+                <input type="text" id="manuscriptTitle" class="form-control" required placeholder="Ex: Njuuj Njaaj">
+            </div>
+            <div class="form-group">
+                <label for="manuscriptAuthorId">Auteur</label>
+                <select id="manuscriptAuthorId" class="form-control" required>
+                    <option value="">Chargement des auteurs...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="manuscriptType">Type</label>
+                <select id="manuscriptType" class="form-control" required>
+                    <option value="ajami">Ajami (manuscrit original)</option>
+                    <option value="transcrit">Transcrit (recueil en caractères latins)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="manuscriptUrl">Lien du fichier</label>
+                <input type="text" id="manuscriptUrl" class="form-control" required placeholder="Lien de partage Google Drive, ou assets/nom_fichier.pdf">
+            </div>
+            <button type="submit" class="btn-submit" id="manuscriptSubmitBtn">Ajouter le manuscrit</button>
+            <div id="manuscriptStatusMessage" class="status"></div>
+        </form>
+
+        <div style="overflow-x: auto; margin-top: 2rem;">
+            <table style="width: 100%; border-collapse: collapse; text-align: left; background: var(--bg-color); border-radius: 8px; border: 1px solid var(--border-color);">
+                <thead>
+                    <tr style="border-bottom: 2px solid var(--border-color); background: rgba(0, 0, 0, 0.02); color: var(--text-color);">
+                        <th style="padding: 1rem; font-weight: 600;">Titre</th>
+                        <th style="padding: 1rem; font-weight: 600;">Auteur</th>
+                        <th style="padding: 1rem; font-weight: 600; width: 140px;">Type</th>
+                        <th style="padding: 1rem; font-weight: 600;">Lien</th>
+                        <th style="padding: 1rem; font-weight: 600; text-align: center; width: 180px;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="manuscriptsTableBody">
+                    <tr>
+                        <td colspan="5" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Chargement des manuscrits...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="content.js?v=13"></script>
     <script>
         // Jeton admin : demandé une fois, mémorisé, renvoyé avec chaque écriture.
         // Le serveur l'affiche au démarrage (fichier admin_password.txt).
@@ -225,10 +277,13 @@
         // Charger les auteurs et les thèmes et afficher la table
         window.addEventListener('DOMContentLoaded', () => {
             const selectAuthor = document.getElementById('authorId');
+            const selectManuscriptAuthor = document.getElementById('manuscriptAuthorId');
             if (window.authorsData) {
                 selectAuthor.innerHTML = '<option value="">Sélectionnez un auteur</option>';
+                selectManuscriptAuthor.innerHTML = '<option value="">Sélectionnez un auteur</option>';
                 window.authorsData.forEach(author => {
                     selectAuthor.innerHTML += `<option value="${author.id}">${author.name}</option>`;
+                    selectManuscriptAuthor.innerHTML += `<option value="${author.id}">${author.name}</option>`;
                 });
             }
 
@@ -246,6 +301,7 @@
             }
 
             renderPoemsTable();
+            renderManuscriptsTable();
         });
 
         // Gérer la soumission
@@ -449,6 +505,144 @@
                 label.style.background = 'rgba(0,0,0,0.03)';
                 label.style.color = 'var(--text-color)';
                 label.style.borderColor = 'var(--border-color)';
+            }
+        }
+
+        // --- Gestion des manuscrits ---
+
+        function renderManuscriptsTable() {
+            const tbody = document.getElementById('manuscriptsTableBody');
+            if (!tbody) return;
+            const manuscripts = window.manuscriptsData || [];
+
+            if (manuscripts.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="5" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Aucun manuscrit enregistré.</td></tr>`;
+                return;
+            }
+
+            tbody.innerHTML = manuscripts.map(m => {
+                const author = (window.authorsData || []).find(a => a.id === m.authorId);
+                const authorOptions = (window.authorsData || []).map(a =>
+                    `<option value="${a.id}" ${a.id === m.authorId ? 'selected' : ''}>${a.name}</option>`
+                ).join('');
+                return `
+                    <tr class="manuscript-row" style="border-bottom: 1px solid var(--border-color);" data-id="${m.id}">
+                        <td style="padding: 1rem; font-weight: 500; color: var(--text-color);">${m.title}</td>
+                        <td style="padding: 0.5rem 1rem;">
+                            <select class="form-control manuscript-author-input" style="padding: 0.5rem; font-size: 0.85rem;">
+                                ${authorOptions}
+                            </select>
+                        </td>
+                        <td style="padding: 0.5rem 1rem;">
+                            <select class="form-control manuscript-type-input" style="padding: 0.5rem; font-size: 0.85rem;">
+                                <option value="ajami" ${m.type === 'ajami' ? 'selected' : ''}>Ajami</option>
+                                <option value="transcrit" ${m.type === 'transcrit' ? 'selected' : ''}>Transcrit</option>
+                            </select>
+                        </td>
+                        <td style="padding: 0.5rem 1rem;">
+                            <input type="text" class="form-control manuscript-url-input" style="padding: 0.5rem; font-size: 0.85rem;" value="${m.url}">
+                        </td>
+                        <td style="padding: 1rem; text-align: center; white-space: nowrap;">
+                            <button type="button" class="ctrl-btn" style="padding: 0.5rem 0.8rem; font-size: 0.8rem; font-weight: 600; border-radius: 6px; cursor: pointer;" onclick="saveManuscriptRow(this, '${m.id}')">Enregistrer</button>
+                            <button type="button" class="ctrl-btn" style="padding: 0.5rem 0.8rem; font-size: 0.8rem; font-weight: 600; border-radius: 6px; cursor: pointer; margin-left: 0.3rem;" onclick="deleteManuscriptRow(this, '${m.id}', '${m.title.replace(/'/g, "\\'")}')">Suppr.</button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        document.getElementById('manuscriptForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('manuscriptSubmitBtn');
+            const status = document.getElementById('manuscriptStatusMessage');
+
+            btn.textContent = "Ajout en cours...";
+            btn.disabled = true;
+            status.className = 'status';
+
+            const payload = {
+                title: document.getElementById('manuscriptTitle').value,
+                authorId: parseInt(document.getElementById('manuscriptAuthorId').value, 10),
+                type: document.getElementById('manuscriptType').value,
+                url: document.getElementById('manuscriptUrl').value
+            };
+
+            try {
+                const response = await adminFetch('/api/save_manuscript', payload);
+                const result = await response.json();
+                if (response.ok && result.status === 'success') {
+                    status.textContent = `Succès ! Le manuscrit « ${payload.title} » a été ajouté.`;
+                    status.className = 'status success';
+                    document.getElementById('manuscriptForm').reset();
+                    if (result.manuscripts) {
+                        window.manuscriptsData = result.manuscripts;
+                        renderManuscriptsTable();
+                    }
+                } else {
+                    throw new Error(result.message || "Erreur inconnue");
+                }
+            } catch (err) {
+                status.textContent = `Erreur : ${err.message}`;
+                status.className = 'status error';
+            } finally {
+                btn.textContent = "Ajouter le manuscrit";
+                btn.disabled = false;
+            }
+        });
+
+        async function saveManuscriptRow(btn, id) {
+            const tr = btn.closest('tr');
+            const payload = {
+                id: id,
+                authorId: parseInt(tr.querySelector('.manuscript-author-input').value, 10),
+                type: tr.querySelector('.manuscript-type-input').value,
+                url: tr.querySelector('.manuscript-url-input').value
+            };
+
+            const originalText = btn.textContent;
+            btn.textContent = "Sauvegarde...";
+            btn.disabled = true;
+
+            try {
+                const response = await adminFetch('/api/update_manuscript', payload);
+                const result = await response.json();
+                if (response.ok && result.status === 'success') {
+                    if (result.manuscripts) window.manuscriptsData = result.manuscripts;
+                    btn.textContent = "Enregistré !";
+                    btn.style.background = '#2ecc71';
+                    btn.style.color = '#fff';
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.style.background = '';
+                        btn.style.color = '';
+                        btn.disabled = false;
+                    }, 1200);
+                } else {
+                    throw new Error(result.message || "Erreur inconnue");
+                }
+            } catch (err) {
+                alert(`Erreur de sauvegarde : ${err.message}`);
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }
+        }
+
+        async function deleteManuscriptRow(btn, id, title) {
+            if (!confirm(`Supprimer le manuscrit « ${title} » du catalogue ? Le fichier lui-même n'est pas supprimé.`)) return;
+
+            btn.disabled = true;
+            try {
+                const response = await adminFetch('/api/delete_manuscript', { id });
+                const result = await response.json();
+                if (response.ok && result.status === 'success') {
+                    if (result.manuscripts) window.manuscriptsData = result.manuscripts;
+                    renderManuscriptsTable();
+                } else {
+                    throw new Error(result.message || "Erreur inconnue");
+                }
+            } catch (err) {
+                alert(`Erreur de suppression : ${err.message}`);
+                btn.disabled = false;
             }
         }
     </script>

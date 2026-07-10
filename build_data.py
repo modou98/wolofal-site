@@ -15,6 +15,13 @@ def build():
     if os.path.exists(themes_path):
         with open(themes_path, 'r', encoding='utf-8') as f:
             themes = json.load(f)
+
+    # Lire le catalogue de manuscrits (Ajami / Transcrit)
+    manuscripts = []
+    manuscripts_path = 'data/manuscripts.json'
+    if os.path.exists(manuscripts_path):
+        with open(manuscripts_path, 'r', encoding='utf-8') as f:
+            manuscripts = json.load(f)
     
     # Ajouter le tableau des poèmes à chaque auteur
     for author in authors:
@@ -119,6 +126,7 @@ def build():
     # 3. Générer content.js (métadonnées) et data/poemes_content.json (textes)
     js_content = "window.authorsData = " + json.dumps(authors, ensure_ascii=False, indent=4) + ";\n"
     js_content += "window.themesData = " + json.dumps(themes, ensure_ascii=False, indent=4) + ";\n"
+    js_content += "window.manuscriptsData = " + json.dumps(manuscripts, ensure_ascii=False, indent=4) + ";\n"
 
     with open('content.js', 'w', encoding='utf-8') as f:
         f.write(js_content)
