@@ -1,0 +1,243 @@
+========================================================================
+ WOLOFAL HERITAGE - GUIDE D'UTILISATION DU PROJET
+========================================================================
+
+Site : https://modou98.github.io/wolofal-site/
+Depot GitHub : https://github.com/modou98/wolofal-site
+
+Ce fichier explique comment faire tourner le site en local, publier
+des poemes/manuscrits via le dashboard admin, et mettre les
+modifications en ligne.
+
+
+------------------------------------------------------------------------
+1. PREREQUIS
+------------------------------------------------------------------------
+
+- Python 3 installe (aucune librairie externe requise, tout utilise
+  la bibliotheque standard de Python).
+- Git installe et configure (pour publier les changements).
+
+
+------------------------------------------------------------------------
+2. LANCER LE SITE EN LOCAL
+------------------------------------------------------------------------
+
+Ouvrir un terminal a la racine du projet (le dossier qui contient
+server.py) et taper :
+
+    python server.py
+
+Le serveur demarre sur le port 8085 par defaut. On peut choisir un
+autre port :
+
+    python server.py 8090
+
+Une fois lance, le terminal affiche :
+
+    Serveur actif sur le port 8085.
+    Accedez au site : http://localhost:8085/
+    Accedez au dashboard : http://localhost:8085/admin.html
+    Mot de passe admin (fichier admin_password.txt) : XXXXXXXXXX
+
+- Site public : http://localhost:8085/
+- Dashboard admin : http://localhost:8085/admin.html
+
+IMPORTANT : le mot de passe admin est genere automatiquement au
+premier lancement et stocke dans le fichier "admin_password.txt" a la
+racine du projet (ce fichier n'est PAS envoye sur GitHub, il reste
+uniquement sur cet ordinateur). Pour le changer, il suffit d'editer
+ce fichier texte et de relancer le serveur.
+
+ATTENTION : si on modifie le fichier server.py ou build_data.py,
+il faut ARRETER le serveur (Ctrl+C dans le terminal) et le relancer
+pour que les changements de code Python prennent effet. Le serveur ne
+recharge pas le code automatiquement.
+
+
+------------------------------------------------------------------------
+3. UTILISER LE DASHBOARD ADMIN (http://localhost:8085/admin.html)
+------------------------------------------------------------------------
+
+Le dashboard permet, sans toucher au code :
+
+  a) AJOUTER UN POEME
+     - Choisir l'auteur, les themes, le nombre de vers par strophe,
+       le titre, un lien audio (YouTube ou mp3) et le texte du poeme.
+     - Cliquer "Enregistrer et Publier".
+     - Le mot de passe admin sera demande la premiere fois (il est
+       ensuite memorise dans le navigateur).
+
+  b) MODIFIER UN POEME EXISTANT
+     - Table "Gerer les Poemes Existants" : chercher le poeme,
+       cocher/decocher les themes, changer le lien audio, choisir un
+       manuscrit dans le menu deroulant, puis cliquer "Enregistrer"
+       sur la ligne correspondante.
+     - La case a cocher "Afficher seulement les poemes a verifier"
+       filtre les poemes dont le theme a ete attribue automatiquement
+       avec une confiance faible (a relire en priorite).
+
+  c) GERER LES MANUSCRITS (catalogue Ajami / Transcrit)
+     - Formulaire en bas de page : titre du manuscrit, auteur, type
+       (Ajami = photo/scan du manuscrit original ; Transcrit = PDF
+       contenant la transcription en alphabet latin), et lien du
+       fichier.
+     - Le lien peut etre :
+         * un chemin local dans assets/ (ex: assets/mon_fichier.pdf)
+         * un lien de partage Google Drive
+           (ex: https://drive.google.com/file/d/XXXXX/view?usp=sharing)
+     - Si on modifie l'URL d'un manuscrit deja attribue a des poemes,
+       TOUS les poemes qui l'utilisent sont mis a jour automatiquement
+       (pas besoin de les reassigner un par un).
+
+  d) HEBERGEMENT DES PDF (important)
+     Les PDF de manuscrits sont volumineux. GitHub refuse les fichiers
+     de plus de 100 Mo et ralentit fortement au-dela de quelques
+     dizaines de Mo. Pour cette raison :
+       - Les PDF de plus de quelques Mo doivent etre heberges sur
+         Google Drive plutot que dans le dossier assets/ du projet.
+       - Sur Google Drive : clic droit sur le fichier > Partager >
+         "Accessible a toute personne disposant du lien" > Copier le
+         lien, puis le coller dans le champ URL du manuscrit.
+       - Le site convertit automatiquement ce lien en apercu integre
+         (iframe) sur les pages concernees.
+
+
+------------------------------------------------------------------------
+4. PUBLIER LES CHANGEMENTS EN LIGNE (obligatoire apres chaque modif)
+------------------------------------------------------------------------
+
+Modifier le site via le dashboard (ou directement les fichiers) ne
+change que les fichiers EN LOCAL sur cet ordinateur. Pour que ce soit
+visible sur https://modou98.github.io/wolofal-site/, il faut envoyer
+les changements sur GitHub :
+
+    git add -A
+    git commit -m "Description courte du changement"
+    git push
+
+Le site en ligne se met a jour automatiquement 1 a 2 minutes apres le
+push (GitHub Pages republie tout seul).
+
+Pour verifier l'etat des fichiers avant de commit :
+
+    git status
+
+Pour voir l'historique des changements :
+
+    git log --oneline
+
+
+------------------------------------------------------------------------
+5. STRUCTURE DU PROJET
+------------------------------------------------------------------------
+
+wolofal_site/
+|-- index.html            Page principale du site (structure HTML)
+|-- admin.html             Dashboard d'administration
+|-- style.css               Feuille de style (couleurs, mise en page)
+|-- script.js                Logique du site (navigation, recherche,
+|                             affichage des poemes/themes/manuscrits)
+|-- content.js               Fichier GENERE automatiquement, ne pas
+|                             modifier a la main (regenere par
+|                             build_data.py a chaque publication)
+|-- build_data.py            Script qui lit data/ et regenere
+|                             content.js + data/poemes_content.json
+|-- server.py                 Serveur local + API du dashboard admin
+|-- admin_password.txt        Mot de passe admin (non envoye sur Git)
+|
+|-- data/
+|   |-- auteurs.json          Liste des auteurs (nom, bio, photo...)
+|   |-- themes.json           Liste des themes disponibles
+|   |-- manuscripts.json      Catalogue des manuscrits (Ajami/Transcrit)
+|   |-- poemes_content.json   GENERE : texte de tous les poemes
+|   |-- poemes/
+|       |-- <dossier_auteur>/
+|           |-- <poeme>.md    Un fichier par poeme (voir section 6)
+|
+|-- assets/
+    |-- *.png, *.jpg          Photos des auteurs, logo du site
+    |-- *.pdf                 Manuscrits de petite taille uniquement
+                               (les gros PDF vont sur Google Drive,
+                               voir section 3.d)
+
+
+------------------------------------------------------------------------
+6. FORMAT D'UN FICHIER POEME (data/poemes/<auteur>/<poeme>.md)
+------------------------------------------------------------------------
+
+Chaque poeme est un fichier texte simple avec un en-tete (metadonnees)
+suivi de "---" puis le texte du poeme. Exemple :
+
+    Title: Nom du poeme
+    Excerpt: Un court extrait ou resume
+    Theme: Sëriñ bi
+    StanzaSize: 4
+    Audio: https://www.youtube.com/watch?v=XXXXXXXX
+    Manuscript: https://drive.google.com/file/d/XXXXX/view?usp=sharing
+    ---
+    Premier vers
+    Deuxieme vers
+    Troisieme vers
+    Quatrieme vers
+
+    Vers suivant de la strophe suivante
+    ...
+
+Champs de l'en-tete :
+  Title         Obligatoire. Titre du poeme.
+  Excerpt       Optionnel. Resume affiche dans les listes.
+  Theme         Optionnel. Un ou plusieurs themes separes par " | "
+                (ex: "Sëriñ bi | Tawhiid").
+  StanzaSize    Optionnel (defaut 2). Nombre de vers par strophe pour
+                le regroupement visuel automatique.
+  Audio         Optionnel. Lien YouTube ou fichier mp3.
+  Manuscript    Optionnel. Lien vers le manuscrit associe (voir
+                section 3.d pour l'hebergement).
+
+Le texte du poeme (apres "---") : une ligne vide separe les strophes.
+Si aucune ligne vide n'est presente, le site regroupe automatiquement
+les vers par paquets de StanzaSize.
+
+Apres avoir modifie un fichier .md a la main, il faut reconstruire les
+donnees pour que le site les prenne en compte :
+
+    python build_data.py
+
+(Cette etape est automatique quand on passe par le dashboard admin.)
+
+
+------------------------------------------------------------------------
+7. COMMANDES UTILES - RECAPITULATIF
+------------------------------------------------------------------------
+
+    python server.py              Lance le site en local (port 8085)
+    python server.py 8090         Lance le site sur un autre port
+    python build_data.py          Regenere content.js manuellement
+    git status                    Voir les fichiers modifies
+    git add -A                    Preparer tous les changements
+    git commit -m "message"       Enregistrer les changements
+    git push                      Publier en ligne
+    git log --oneline             Voir l'historique des publications
+
+
+------------------------------------------------------------------------
+8. EN CAS DE PROBLEME
+------------------------------------------------------------------------
+
+- "Le serveur ne demarre pas / port deja utilise"
+    -> Un autre serveur tourne peut-etre deja. Fermer le terminal
+       precedent ou choisir un autre port (python server.py 8090).
+
+- "Mes changements Python (server.py) ne s'appliquent pas"
+    -> Arreter le serveur (Ctrl+C) et le relancer.
+
+- "Un manuscrit affiche une erreur 404"
+    -> Le lien pointe vers un fichier qui n'existe plus. Verifier
+       l'URL dans le dashboard admin, section "Gerer les Manuscrits".
+
+- "Mes changements n'apparaissent pas sur le site en ligne"
+    -> Verifier qu'on a bien fait git add -A / git commit / git push.
+       Attendre 1-2 minutes que GitHub Pages republie.
+
+========================================================================
