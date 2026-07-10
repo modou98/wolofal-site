@@ -104,7 +104,7 @@ window.authorsData = [
                 "stanzaSize": 4,
                 "manuscript": "https:/drive.google.com/file/d/1CUiqAWwugxMg4eaJv7wsm-l6rnx6JROf/view?usp=drive_link",
                 "themes": [
-                    "Dee ak bisu pénc (La mort et l'au-delà)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -3504,7 +3504,7 @@ window.authorsData = [
                     "url": "https://www.youtube.com/watch?v=b-czXVe7nwY"
                 },
                 "themes": [
-                    "Dee ak bisu pénc (La mort et l'au-delà)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -3516,7 +3516,7 @@ window.authorsData = [
                     "url": "https://www.youtube.com/watch?v=szBAvlWYOF8"
                 },
                 "themes": [
-                    "Dee ak bisu pénc (La mort et l'au-delà)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -3639,8 +3639,7 @@ window.authorsData = [
                 "excerpt": "Seex Ibra moom raw na ag maasam te deefu ko jot",
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "stanzaSize": 4
+                ]
             }
         ]
     }
