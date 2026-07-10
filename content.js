@@ -98,6 +98,16 @@ window.authorsData = [
                 ]
             },
             {
+                "id": "marsiyya_seex_ibra_faal",
+                "title": "Marsiyya Seex Ibra Faal",
+                "excerpt": "àddina ndax day bëgg a jeex - am gaa yu baax yeey bëgg a jeex",
+                "stanzaSize": 4,
+                "manuscript": "https:/drive.google.com/file/d/1CUiqAWwugxMg4eaJv7wsm-l6rnx6JROf/view?usp=drive_link",
+                "themes": [
+                    "Dee ak bisu pénc (La mort et l'au-delà)"
+                ]
+            },
+            {
                 "id": "mk_baarzan",
                 "title": "Baarzan",
                 "excerpt": "Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab.",
@@ -140,7 +150,8 @@ window.authorsData = [
                 "excerpt": "Wolofal Sëriñ Tuuba",
                 "themes": [
                     "Sëriñ bi"
-                ]
+                ],
+                "manuscript": "https:/drive.google.com/file/d/1RYJB9AtGSPZaGI_WIm58DAY2ToiWUSie/view?usp=drive_link"
             },
             {
                 "id": "soxna_may",
@@ -3619,7 +3630,8 @@ window.authorsData = [
                 "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
-                ]
+                ],
+                "manuscript": "https:/drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link"
             },
             {
                 "id": "yaaram_bi_naam_faal",
