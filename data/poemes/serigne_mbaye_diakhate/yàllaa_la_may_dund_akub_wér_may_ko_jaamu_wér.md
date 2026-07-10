@@ -1,7 +1,6 @@
 Title: Yàllaa la may dund akub wér may ko jaamu wér
 Excerpt: Yàllaa la may dund akub wér may ko jaamu wér - Mbaa sax nga fay ko boram, boo dul may it war a fay
-Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Insiste sur le rôle guide du "sa Sëriñ" qui donne provision avant le départ, mais mêle plusieurs thèmes.
+Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Yàllaa la may dund akub wér may ko jaamu wér
 Mbaa sax nga fay ko boram, boo dul may it war a fay

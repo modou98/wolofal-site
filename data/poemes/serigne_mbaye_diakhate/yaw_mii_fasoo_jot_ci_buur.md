@@ -1,7 +1,6 @@
 Title: Yaw mii fasoo jot ci Buur
 Excerpt: Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit
 Theme: Yar (Éducation)
-ThemeReview: Bénédiction souhaitant esprit, dignité et bonne éducation (yar) à quelqu'un lié au Roi/Dieu ; thème incertain.
 ---
 Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am
 Xel ak ngor ak wollaréekub yar bu baax aku fit

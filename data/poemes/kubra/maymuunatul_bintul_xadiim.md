@@ -4,7 +4,6 @@ StanzaSize: 4
 Audio: https://www.youtube.com/watch?v=87zzV0ITrBo
 Manuscript: assets/ay_wolofal_soxna_may.pdf
 Theme: Bakkan (Éducation de l'âme)
-ThemeReview: Auto-exhortation à l'effort spirituel, au repentir et à la persévérance personnelle.
 ---
 Maymuunatul bintul Xadiim
 War na la foo toll di jéem

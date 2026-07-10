@@ -2,7 +2,6 @@ Title: Yal na nu far tawat gu am
 Excerpt: Yal na nu far tawat gu am - Te feg tawat gu nar am
 StanzaSize: 4
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
-ThemeReview: Longue supplication (dua) pour la guérison et diverses bénédictions ; pas de rituel explicite.
 ---
 Yal na nu far tawat gu am
 Te feg tawat gu nar am

@@ -1,6 +1,5 @@
 Title: Ku fiy asar sama digg ak moom akay tilimal
 Excerpt: Ku fiy asar sama digg ak moom akay tilimal - Man may defar sama digg ak yaw, di sant ak a tuub
-StanzaSize: 8
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Ku fiy asar sama digg ak moom akay tilimal

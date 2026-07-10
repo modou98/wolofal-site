@@ -1,9 +1,7 @@
 Title: Xarit bul tàmmal yaw sa bopp uw lëjal
 Excerpt: Xarit bul tàmmal yaw sa bopp uw lëjal
 Theme: Bakkan (Éducation de l'âme)
-ThemeReview: Conseil à un ami de ne pas se fatiguer pour des plaisirs matériels/dettes ; ambigu.
 ---
-
 Xarit bul tàmmal yaw sa bopp uw lëjal
 Te loo man la tàggoolatee di’w lëjal
 Kafeek iy ataayaaki mbiskit jarul

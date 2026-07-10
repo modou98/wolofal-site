@@ -1,8 +1,7 @@
 Title: Yaw ngën ji képp kuy ligéey
 Excerpt: Yaw ngën ji képp kuy ligéey - Te gën ku nekk ab ligéey
-StanzaSize: 8
+StanzaSize: 4
 Theme: Diggante jëf ak wax (Les actes et les paroles)
-ThemeReview: Éloge du ligéey (travail/effort) comme meilleure aumône et acte persévérant ; pas de contexte clair sur l'obéissance au Sëriñ.
 ---
 Yaw ngën ji képp kuy ligéey
 Te gën ku nekk ab ligéey

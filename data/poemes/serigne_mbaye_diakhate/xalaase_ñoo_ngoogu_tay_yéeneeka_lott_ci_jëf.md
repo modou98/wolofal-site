@@ -1,7 +1,6 @@
 Title: Xalaase ñoo ngoogu tay yéeneeka lott ci jëf
 Excerpt: Xalaase ñoo ngoogu tay yéeneeka lott ci jëf - Li ngay teere ngi, li ngay diglee ngi, dimbali nu
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: S'adresse directement à 'Yaw Bàmba', demande d'accroissement/soutien ; sujet peu clair.
 ---
 Xalaase ñoo ngoogu tay yéeneeka lott ci jëf
 Li ngay teere ngi, li ngay diglee ngi, dimbali nu

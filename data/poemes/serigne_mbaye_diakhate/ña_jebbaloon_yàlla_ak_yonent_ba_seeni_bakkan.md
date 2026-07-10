@@ -1,7 +1,6 @@
 Title: Ña jebbaloon Yàlla ak Yonent ba seeni bakkan
 Excerpt: Ña jébbaloon Yalla ak Yonent ba seen i bakkan - Ak seeni jur raw nan ug ñakk ak lu dee si ragal
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Soumission (jébbal) et observance du ndigal, vocabulaire murid, mais soumission adressée à Yàlla/Yonent plutôt qu'à un Sëriñ explicite.
 ---
 Ña jébbaloon Yalla ak Yonent ba seen i bakkan
 Ak seeni jur raw nan ug ñakk ak lu dee si ragal

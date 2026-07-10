@@ -1,7 +1,6 @@
 Title: Yaa denc yaw ndaw sa
 Excerpt: Yaa denc yaw ndaw sa say kem daa ngorook a jamoo - Muy tog akay yakk, ngay mosleek a mos, sooyoo !
-Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
-ThemeReview: Semble dédié/nommer des personnes précises (Sàmbaa, Bóoyoo) ; contenu difficile à interpréter clairement.
+Theme: Sëriñ bi
 ---
 Yaa denc yaw ndaw sa say kem daa ngorook a jamoo
 Muy tog akay yakk, ngay mosleek a mos, sooyoo !

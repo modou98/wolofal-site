@@ -1,10 +1,7 @@
 Title: Ku Xawsuy bindug baaxam
 Excerpt: Un témoignage poétique de l'auteur affirmant sa relation avec le guide spirituel (Xawsu) et la bénédiction reçue à travers ses écrits.
-Audio: 
-Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
-ThemeReview: Récit d'une lettre reçue de Bàmba donnant des conseils personnels au disciple ; interprétation incertaine faute de contexte complet.
+Theme: Ngëram ak Sant (Gratitude et reconnaissance)
 ---
-
 Ku xawsuy bind baaxam buleen seetatig bonam
 Ku seet ag bonam kat xawsu lay weddi ay waxam
 Te man Kayre Bàmbaa bind saa jub ci aw këyit

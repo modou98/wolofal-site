@@ -4,7 +4,6 @@ StanzaSize: 4
 Audio: https://youtu.be/u4Y1y6NXX6o
 Manuscript: assets/ay_wolofal_soxna_may.pdf
 Theme: Ngëram ak Sant (Gratitude et reconnaissance)
-ThemeReview: Reconnaissance et dépendance envers le Sëriñ bi, avec mentions généalogiques qui compliquent la classification.
 ---
 Sëriñ bi yaa ma taxa jug
 Su ma tëdee nga di ma rog

@@ -411,7 +411,6 @@ window.authorsData = [
                 "id": "bul_yedd_kuy_sàcc_yéerey_bàmba_mukkati_ngir",
                 "title": "Bul yedd kuy sàcc yéerey Bàmba mukkati ngir",
                 "excerpt": "Bul yedd kuy sàcc yéerey Bàmba mukkati ngir - Nun ñépp a koy sàcc akay leb, ay yëfam la nu yor",
-                "stanzaSize": 8,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -818,7 +817,6 @@ window.authorsData = [
                 "id": "gaayaa_ngi_taax_ak_a_jël_soxnaaka_jëndi_wota",
                 "title": "Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota",
                 "excerpt": "Gaayaa ngi taax ak a jël soxnaa’ka jëndi wota - Xéewal gi tax na ñu far dof kenn xaml lu ko të",
-                "stanzaSize": 8,
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
                 ]
@@ -1117,7 +1115,6 @@ window.authorsData = [
                 "id": "ku_dof_bay_ndamoo_baaya_mit_mbaa_ndayam",
                 "title": "Ku dof bay ndamoo baaya mit mbaa ndayam",
                 "excerpt": "Ku dof bay ndamoo baaya mit mbaa ndayam - Dofal bay ndamoo yaw sa Sëriñ beka gëm",
-                "stanzaSize": 8,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -1126,7 +1123,6 @@ window.authorsData = [
                 "id": "ku_fiy_asar_sama_digg_ak_moom_akay_tilimal",
                 "title": "Ku fiy asar sama digg ak moom akay tilimal",
                 "excerpt": "Ku fiy asar sama digg ak moom akay tilimal - Man may defar sama digg ak yaw, di sant ak a tuub",
-                "stanzaSize": 8,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -1983,7 +1979,6 @@ window.authorsData = [
                 "id": "ndegam_gaa_ya_bay_daal_a_xal_seeta_añ",
                 "title": "Ndegam gaa ya bay daal a xal seeta añ",
                 "excerpt": "añ, - Ndegam gaa ya bay daal a xal seeta añ,",
-                "stanzaSize": 8,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ]
@@ -2086,7 +2081,6 @@ window.authorsData = [
                 "id": "pexem_yàlla_mo_gën_pexem",
                 "title": "Pexem Yàlla mo gën pexem",
                 "excerpt": "Pexem Yàlla moo gën pexem nit ndaxam - Fa Yàllay fexee yàqkat yeggu fa",
-                "stanzaSize": 8,
                 "themes": [
                     "Tawhiid"
                 ]
@@ -2164,7 +2158,6 @@ window.authorsData = [
                 "id": "sarax_nu_mbalaanum_cant_ak_suturaaku_yiw",
                 "title": "Sarax nu mbalaanum cant ak suturaaku yiw",
                 "excerpt": "Sarax nu mbalaanum cant ak suturaaku yiw - Te bole ca mbubb as ndollen ak tubayas ngëram",
-                "stanzaSize": 8,
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -2343,9 +2336,8 @@ window.authorsData = [
                 "id": "sëriñ_bile_ak_mbooleem_ñi_njëkkoon_a_ŋëb_ci_moom",
                 "title": "Sëriñ bile ak mbooleem ñi njëkkoon a ŋëb ci moom",
                 "excerpt": "Sëriñ bile ak mbooleem ñi njëkkoon a ŋëb ci moom - Asal du ñu maasum kenn, ñoo gën ku nekk ñoom",
-                "stanzaSize": 8,
                 "themes": [
-                    "Taarix"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ]
             },
             {
@@ -2809,8 +2801,7 @@ window.authorsData = [
                 "excerpt": "Xalaase ñoo ngoogu tay yéeneeka lott ci jëf - Li ngay teere ngi, li ngay diglee ngi, dimbali nu",
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "themeReview": "S'adresse directement à 'Yaw Bàmba', demande d'accroissement/soutien ; sujet peu clair."
+                ]
             },
             {
                 "id": "xamal_ni_taalibe_diineemay_gëm_ub_sëriñam",
@@ -2842,7 +2833,6 @@ window.authorsData = [
                 "id": "xam_naa_ci_yaw_lu_ma_saf_am_naa_ci_yaw_lu_ma_saf",
                 "title": "Xam naa ci Yaw lu ma saf, am naa ci Yaw lu ma saf",
                 "excerpt": "Xam naa ci yaw lu ma saf, am naa ci yaw lu ma saf - Mos naa ci yaw lu ma saf, ŋëb naa la dootu ma ba",
-                "stanzaSize": 8,
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -2865,8 +2855,7 @@ window.authorsData = [
                 "excerpt": "Xarit bul tàmmal yaw sa bopp uw lëjal",
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
-                ],
-                "themeReview": "Conseil à un ami de ne pas se fatiguer pour des plaisirs matériels/dettes ; ambigu."
+                ]
             },
             {
                 "id": "xarit_defal_bàyyig_tawat_ak_sa_bakkan_muy_sag_tawat",
@@ -2934,11 +2923,9 @@ window.authorsData = [
                 "id": "xarit_xarit_bala_ngaa_yeddaate_yaw_na_nga_nég",
                 "title": "Xarit xarit bala ngaa yeddaate yaw na nga nég",
                 "excerpt": "Xarit xarit bala ngaa yeddaate yaw na nga nég - Ba xam fanuy jaaye ay jëf, jëf ju fay xala jar",
-                "stanzaSize": 8,
                 "themes": [
                     "Diggante jëf ak wax (Les actes et les paroles)"
-                ],
-                "themeReview": "Les actes témoignent contre soi-même ; thème entre reddition de comptes et cohérence jëf/wax, incertain."
+                ]
             },
             {
                 "id": "xarit_yàlla_yombul_te_moo_am_njariñ",
@@ -2952,7 +2939,6 @@ window.authorsData = [
                 "id": "xastee_fi_xew_aki_fen",
                 "title": "Xastee fi xew aki fen",
                 "excerpt": "Xastee fi xew aki fen, ku mer di wax sa ayib, - Buy bég di wax lu la saf, loo xam ne lii gëmu ko",
-                "stanzaSize": 8,
                 "themes": [
                     "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)"
                 ]
@@ -2964,8 +2950,7 @@ window.authorsData = [
                 "stanzaSize": 3,
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
-                ],
-                "themeReview": "Mentionne le Jour de la Résurrection ('Yawmal xiyaamati') dans une supplication pour la lignée ; thème mixte incertain."
+                ]
             },
             {
                 "id": "yaaw_mii_murid_yi_la_wër",
@@ -2989,9 +2974,8 @@ window.authorsData = [
                 "title": "Yaa denc yaw ndaw sa",
                 "excerpt": "Yaa denc yaw ndaw sa say kem daa ngorook a jamoo - Muy tog akay yakk, ngay mosleek a mos, sooyoo !",
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "themeReview": "Semble dédié/nommer des personnes précises (Sàmbaa, Bóoyoo) ; contenu difficile à interpréter clairement."
+                    "Sëriñ bi"
+                ]
             },
             {
                 "id": "yaa_gën",
@@ -3030,8 +3014,7 @@ window.authorsData = [
                 "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
-                ],
-                "themeReview": "Décrit un être avec un corps ('yaaram') accomplissant des actes d'homme mais aux attributs exaltés ; figure ambiguë (Sëriñ ou Prophète)."
+                ]
             },
             {
                 "id": "yaa_xam_ta_yaa_am_ta_yaa_dib_tab_xañoo_ñi_la_moy",
@@ -3048,8 +3031,7 @@ window.authorsData = [
                 "stanzaSize": 4,
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
-                ],
-                "themeReview": "Longue supplication (dua) pour la guérison et diverses bénédictions ; pas de rituel explicite."
+                ]
             },
             {
                 "id": "yaw_abdu_xaadr_laxasul",
@@ -3117,8 +3099,7 @@ window.authorsData = [
                 "excerpt": "Yaw mii fasoo jot ci Buur ak xol ba Yàl na nga am - Xel ak ngor ak wollaréekub yar bu baax aku fit",
                 "themes": [
                     "Yar (Éducation)"
-                ],
-                "themeReview": "Bénédiction souhaitant esprit, dignité et bonne éducation (yar) à quelqu'un lié au Roi/Dieu ; thème incertain."
+                ]
             },
             {
                 "id": "yaw_miy_ligéeyal_ku_bëggul_lëf_sa_xel_bumu_dal",
@@ -3154,11 +3135,10 @@ window.authorsData = [
                 "id": "yaw_ngën_ji_képp_kuy_ligéey",
                 "title": "Yaw ngën ji képp kuy ligéey",
                 "excerpt": "Yaw ngën ji képp kuy ligéey - Te gën ku nekk ab ligéey",
-                "stanzaSize": 8,
+                "stanzaSize": 4,
                 "themes": [
                     "Diggante jëf ak wax (Les actes et les paroles)"
-                ],
-                "themeReview": "Éloge du ligéey (travail/effort) comme meilleure aumône et acte persévérant ; pas de contexte clair sur l'obéissance au Sëriñ."
+                ]
             },
             {
                 "id": "yaw_ngën_ji_wéttalu_bët_tay_ngën_ji_wéttalu_xol",
@@ -3176,8 +3156,7 @@ window.authorsData = [
                 "stanzaSize": 3,
                 "themes": [
                     "Sëriñ bi"
-                ],
-                "themeReview": "Le \"yaw\" est comparé aux grandes fêtes religieuses (Gàmmu, Tabaski, Tamxarit) en éloge, mais l'identité exacte de l'adressé reste ambiguë."
+                ]
             },
             {
                 "id": "yaw_xaali_xàllal_sa_digg_ak_yàlla_xàll_wu_set",
@@ -3201,8 +3180,7 @@ window.authorsData = [
                 "excerpt": "Yaw ŋoy ci Yàlla ak ub Yonnentam a la jig - Nun ŋoy ci Yaw dong ak doyloo la rek a ñu jig",
                 "themes": [
                     "Sëriñ bi"
-                ],
-                "themeReview": "Éloge du rang élevé de l'adressé accordé par Dieu, et soumission de la communauté envers lui ; interprétation comme éloge du Sëriñ."
+                ]
             },
             {
                 "id": "yàllaa_di_géej_ug_njariñ_goo_xam_ne_kenn_du_ko_as",
@@ -3217,9 +3195,8 @@ window.authorsData = [
                 "title": "Yàllaa la may dund akub wér may ko jaamu wér",
                 "excerpt": "Yàllaa la may dund akub wér may ko jaamu wér - Mbaa sax nga fay ko boram, boo dul may it war a fay",
                 "themes": [
-                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "themeReview": "Insiste sur le rôle guide du \"sa Sëriñ\" qui donne provision avant le départ, mais mêle plusieurs thèmes."
+                    "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
+                ]
             },
             {
                 "id": "yàllaa_ñu_jox_ki_fi_sut",
@@ -3227,8 +3204,7 @@ window.authorsData = [
                 "excerpt": "Yàllaa nu jox ki fi sut, Yàllaa nu jox ki fi gën - Yàllaa nu jox ngir ngënéelam mbër mi fiy ubale",
                 "themes": [
                     "Sëriñ bi"
-                ],
-                "themeReview": "Poème court et incomplet, semble louer une figure (guide) donnée par Dieu comme surpassant tous ; incertain."
+                ]
             },
             {
                 "id": "yàllante_may_xaj_su_ànd_ak_xejji_yàlla_ya_ndax",
@@ -3237,8 +3213,7 @@ window.authorsData = [
                 "stanzaSize": 3,
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "themeReview": "Humilité extrême (métaphore du chien) exprimant la dépendance totale envers le guide (\"mbër\") ; interprétation incertaine."
+                ]
             },
             {
                 "id": "yàllante_tay_jile_may_suukar_nga_def_ma_kafe",
@@ -3271,9 +3246,8 @@ window.authorsData = [
                 "title": "Yàlla nii cas yermandeem ak xewalam ni ma am",
                 "excerpt": "Yàllaa ni cas yërmandeem ak xéewalam ni ma am - Yàl naani cas mbégam ak cantam gu rëy ni ko am !",
                 "themes": [
-                    "Sëriñ bi"
-                ],
-                "themeReview": "Description des qualités spirituelles élevées d'une personne (probablement le Sëriñ) bénie par la miséricorde divine."
+                    "Ngëram ak Sant (Gratitude et reconnaissance)"
+                ]
             },
             {
                 "id": "yàl_naa_gëram_yàlla_ak_yonnen_ba_sant_sëriñ",
@@ -3291,8 +3265,7 @@ window.authorsData = [
                 "stanzaSize": 3,
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
-                ],
-                "themeReview": "Longue prière/supplication (dua) générale pour la foi, la bénédiction et une bonne fin ; thème diffus."
+                ]
             },
             {
                 "id": "yàl_na_nu_waxtuy_juróom_daaldi_waxal_suñu_borooom",
@@ -3321,8 +3294,7 @@ window.authorsData = [
                 },
                 "themes": [
                     "Àddina (La dunya et ses illusions)"
-                ],
-                "themeReview": "Le titre annonce la séduction du monde à refuser, mais le contenu détaille surtout les objets de la tombe (frontière avec dee_ak_bisu_penc)."
+                ]
             },
             {
                 "id": "àddina_loo_ci_gis_it_day_wéy_nde_lëf_du_fi_sax",
@@ -3376,8 +3348,7 @@ window.authorsData = [
                 "stanzaSize": 4,
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "themeReview": "Prière/bénédiction dédiée à \"Sëriñ Mbay\", figure nommée ; ambiguïté possible avec une prière générale."
+                ]
             },
             {
                 "id": "ña_jebbaloon_yàlla_ak_yonent_ba_seeni_bakkan",
@@ -3385,8 +3356,7 @@ window.authorsData = [
                 "excerpt": "Ña jébbaloon Yalla ak Yonent ba seen i bakkan - Ak seeni jur raw nan ug ñakk ak lu dee si ragal",
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "themeReview": "Soumission (jébbal) et observance du ndigal, vocabulaire murid, mais soumission adressée à Yàlla/Yonent plutôt qu'à un Sëriñ explicite."
+                ]
             }
         ]
     },
@@ -3428,11 +3398,9 @@ window.authorsData = [
                 "id": "jumaa",
                 "title": "Wolofal Jumaa Ji",
                 "excerpt": "Un poème solennel dédié à la construction et à l'importance spirituelle de la grande mosquée, appelant la communauté à s'unir derrière le guide Mustafa.",
-                "audio": null,
                 "themes": [
                     "Taarix"
-                ],
-                "themeReview": "Long poème (165 vers) sur la mosquée (\"jumaa\") voulue par Bàmba ; probable récit de construction/institution mais extrait limité."
+                ]
             },
             {
                 "id": "ku_dawal_seex",
@@ -3501,11 +3469,9 @@ window.authorsData = [
                 "id": "xawsu_bind",
                 "title": "Ku Xawsuy bindug baaxam",
                 "excerpt": "Un témoignage poétique de l'auteur affirmant sa relation avec le guide spirituel (Xawsu) et la bénédiction reçue à travers ses écrits.",
-                "audio": null,
                 "themes": [
-                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "themeReview": "Récit d'une lettre reçue de Bàmba donnant des conseils personnels au disciple ; interprétation incertaine faute de contexte complet."
+                    "Ngëram ak Sant (Gratitude et reconnaissance)"
+                ]
             }
         ]
     },
@@ -3555,8 +3521,7 @@ window.authorsData = [
                 "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
-                ],
-                "themeReview": "Auto-exhortation à l'effort spirituel, au repentir et à la persévérance personnelle."
+                ]
             },
             {
                 "id": "ramadaan",
@@ -3604,8 +3569,7 @@ window.authorsData = [
                 "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
-                ],
-                "themeReview": "Reconnaissance et dépendance envers le Sëriñ bi, avec mentions généalogiques qui compliquent la classification."
+                ]
             },
             {
                 "id": "weeru_gammu",

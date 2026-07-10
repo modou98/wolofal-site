@@ -1,6 +1,5 @@
 Title: Pexem Yàlla mo gën pexem
 Excerpt: Pexem Yàlla moo gën pexem nit ndaxam - Fa Yàllay fexee yàqkat yeggu fa
-StanzaSize: 8
 Theme: Tawhiid
 ---
 Pexem Yàlla moo gën pexem nit ndaxam

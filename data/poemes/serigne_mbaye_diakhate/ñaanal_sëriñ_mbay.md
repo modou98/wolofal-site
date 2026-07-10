@@ -2,7 +2,6 @@ Title: Ñaanal Sëriñ Mbay
 Excerpt: Yal na nu fab mbay - Fàww ak ndamal mbay
 StanzaSize: 4
 Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
-ThemeReview: Prière/bénédiction dédiée à "Sëriñ Mbay", figure nommée ; ambiguïté possible avec une prière générale.
 ---
 Yal na nu fab mbay
 Fàww ak ndamal mbay

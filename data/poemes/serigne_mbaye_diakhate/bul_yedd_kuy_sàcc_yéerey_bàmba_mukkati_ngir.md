@@ -1,6 +1,5 @@
 Title: Bul yedd kuy sàcc yéerey Bàmba mukkati ngir
 Excerpt: Bul yedd kuy sàcc yéerey Bàmba mukkati ngir - Nun ñépp a koy sàcc akay leb, ay yëfam la nu yor
-StanzaSize: 8
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
 Bul yedd kuy sàcc yéerey Bàmba mukkati ngir

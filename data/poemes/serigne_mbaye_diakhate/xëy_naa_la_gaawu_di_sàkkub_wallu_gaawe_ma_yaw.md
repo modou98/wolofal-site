@@ -2,7 +2,6 @@ Title: Xëy naa la gaawu di sàkku’b wallu gaawe ma yaw
 Excerpt: Xëy naa la gaawu di sàkku’b wallu gaawe ma yaw - Ni gaawe ag wallu wallul nag ci man suñu giir
 StanzaSize: 3
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
-ThemeReview: Mentionne le Jour de la Résurrection ('Yawmal xiyaamati') dans une supplication pour la lignée ; thème mixte incertain.
 ---
 Xëy naa la gaawu di sàkku’b wallu gaawe ma yaw
 Ni gaawe ag wallu wallul nag ci man suñu giir

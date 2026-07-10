@@ -2,7 +2,6 @@ Title: Yàl na nu am gëm gu wér ak jëf ju rafet
 Excerpt: Yàl na nu am gëm gu wér ak jëf ju rafet - Ak ngëram ak bàrke ta am mujj gu rafet
 StanzaSize: 3
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
-ThemeReview: Longue prière/supplication (dua) générale pour la foi, la bénédiction et une bonne fin ; thème diffus.
 ---
 Yàl na nu am gëm gu wér ak jëf ju rafet
 Ak ngëram ak bàrke ta am mujj gu rafet

@@ -2,7 +2,6 @@ Title: Yaa gën luñuy bëgg
 Excerpt: Yaa gën luñuy bëgg aka wut - Yaa gën luñuy dox di mbébét
 StanzaSize: 4
 Theme: Sëriñ bi
-ThemeReview: Décrit un être avec un corps ('yaaram') accomplissant des actes d'homme mais aux attributs exaltés ; figure ambiguë (Sëriñ ou Prophète).
 ---
 Yaa gën luñuy bëgg aka wut
 Yaa gën luñuy dox di mbébét
