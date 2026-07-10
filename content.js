@@ -3614,20 +3614,22 @@ window.authorsData = [
     },
     {
         "id": 5,
-        "name": "Seex",
+        "name": "Seex Sàmba Jaara Mbay",
         "image": "",
-        "shortBio": "Pionnier du Wolofal et disciple fidèle surnommé Sâhibul Abyât par Serigne Touba.",
-        "fullBio": "Cheikh Samba Diarra Mbaye (v. 1868–1917), de son vrai nom Mouhamadou Abdoul Karim, est l'un des pionniers les plus célèbres de la poésie Wolofal. Né à Koki, il a mémorisé le Coran à un jeune âge avant de parfaire ses études en sciences religieuses et en grammaire arabe à Saint-Louis.\n\nDisciple de la première heure de Cheikh Ahmadou Bamba, son talent d'expression poétique lui a valu d'être surnommé par le Maître \"Sâhibul Abyât\" (l'auteur des vers). Il a mis toute son érudition au service de la vulgarisation des enseignements mourides en langue wolof, permettant ainsi d'éclairer les fidèles et de préserver l'identité spirituelle et linguistique locale à travers des pièces poétiques majeures comme Jazboul Majzoob.",
+        "shortBio": "Poète wolofal originaire de Koki, célèbre pour son chef-d'œuvre Jazbul Majzòob et sa proximité avec Serigne Mor Kayré.",
+        "fullBio": "Né en 1868 à Koki, fils d'Ahmadou et de Sokhna Ndack Kane, Seex Sàmba Jaara Mbay (Cheikh Samba Diarra Mbaye, de son vrai nom Mouhamadou Abdoul Karim) mémorise le Coran dès son jeune âge avant de parfaire ses études religieuses à Saint-Louis. Il rejoint Cheikh Ahmadou Bamba aux côtés de son frère aîné Cheikh Sadiaye, à Ndiarème, et vit sans jamais rechercher les honneurs : disciple discret, il se mêle à la population et fréquente le marché comme n'importe quel talibé.\n\nProche parent et compagnon de Serigne Mor Kayré, il partage avec lui les années d'exil du Cheikh en Mauritanie (1903-1907) et devient l'un des poètes wolofal les plus admirés de son temps, mêlant volontiers vers wolof et invocations arabes dans ses compositions. Son œuvre la plus célèbre, Jazbul Majzòob (« l'attirance de l'attiré »), chante l'attachement mystique du disciple à son guide.\n\nPère de trois enfants, il s'éteint en 1917 à Saint-Louis, où repose sa dépouille au cimetière de Thiém. La tradition rapporte qu'il pressentit sa fin prochaine et laissa ses derniers vers en guise d'adieu, empreints d'une sérénité totale face à la mort.",
         "folder": "cheikh_samba_diarra_mbaye",
         "poems": [
             {
                 "id": "jazboul_majzoob",
                 "title": "Jazboul Majzoob",
-                "excerpt": "Le chef-d'œuvre poétique de Cheikh Samba Diarra Mbaye, célébrant sa dévotion et les bienfaits spirituels.",
+                "excerpt": "Al xamdu lil-laahi, kimay - Xamal bu wér, ta dima may",
+                "stanzaSize": 4,
                 "audio": {
                     "type": "youtube",
                     "url": "https://www.youtube.com/watch?v=1F_XbM73wU0"
                 },
+                "manuscript": "assets/jazbul_majzoob.pdf",
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -3752,5 +3754,75 @@ window.manuscriptsData = [
         "authorId": 2,
         "type": "transcrit",
         "url": "assets/kadduy_serign_mbay_jaxate_v3.pdf"
+    },
+    {
+        "id": "jazbul_majzoob_transcrit",
+        "title": "Jazbul Majzòob",
+        "authorId": 5,
+        "type": "transcrit",
+        "url": "assets/jazbul_majzoob.pdf"
+    },
+    {
+        "id": "maarsiya_maam_seex_anta_ajami",
+        "title": "Maarsiya Maam Seex Anta",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1AZ7vGvDfYqWjx1c6ki7u1ZC7BDn7WOiC/view?usp=sharing"
+    },
+    {
+        "id": "bàkk_wi_ajami",
+        "title": "Bàkk wi",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link"
+    },
+    {
+        "id": "jaarama_maam_jaara_transcrit",
+        "title": "Jaarama Maam Jaara",
+        "authorId": 1,
+        "type": "transcrit",
+        "url": "https://drive.google.com/file/d/1fHhjA6H7jpqkQ9YfznnvCUt0XPEGNwXM/view?usp=drive_link"
+    },
+    {
+        "id": "jazaau_shakoor_jeeri_ajami",
+        "title": "jazaau shakoor jeeri",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1uT609on5hu5-EiU2Q3BxifGRHkUvSLo0/view?usp=drive_link"
+    },
+    {
+        "id": "jazbul_majzoob_ajami",
+        "title": "Jazbul Majzoob",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link"
+    },
+    {
+        "id": "serigne_mor_kayre_vol1_ajami",
+        "title": "Serigne Mor Kayre vol1",
+        "authorId": 3,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1C5b5F3dBSzFwFOVwc6Q-FuQO6z6W9HcL/view?usp=drive_link"
+    },
+    {
+        "id": "sëriñ_moor_kayre_xaaj_2_ajami",
+        "title": "Sëriñ Moor Kayre Xaaj  2",
+        "authorId": 3,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/15gL8By2FN8y6247CLvIjcAFC-OrK6I_h/view?usp=drive_link"
+    },
+    {
+        "id": "maarsiya_seex_ndaam_abdurahmane_ajami",
+        "title": "Maarsiya Seex Ndaam Abdurahmane",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/149t7S2vgU19_aYY69t-HnXVHv2zyLU9w/view?usp=drive_link"
+    },
+    {
+        "id": "maarsiya_sëriñ_masàmba_mbàkke_transcrit",
+        "title": "Maarsiya Sëriñ Masàmba Mbàkke",
+        "authorId": 1,
+        "type": "transcrit",
+        "url": "https://drive.google.com/file/d/1zIPJRBCO4rR45CDtcqDAtLN8KyPWkZxc/view?usp=drive_link"
     }
 ];

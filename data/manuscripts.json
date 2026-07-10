@@ -40,5 +40,75 @@
         "authorId": 2,
         "type": "transcrit",
         "url": "assets/kadduy_serign_mbay_jaxate_v3.pdf"
+    },
+    {
+        "id": "jazbul_majzoob_transcrit",
+        "title": "Jazbul Majzòob",
+        "authorId": 5,
+        "type": "transcrit",
+        "url": "assets/jazbul_majzoob.pdf"
+    },
+    {
+        "id": "maarsiya_maam_seex_anta_ajami",
+        "title": "Maarsiya Maam Seex Anta",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1AZ7vGvDfYqWjx1c6ki7u1ZC7BDn7WOiC/view?usp=sharing"
+    },
+    {
+        "id": "bàkk_wi_ajami",
+        "title": "Bàkk wi",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link"
+    },
+    {
+        "id": "jaarama_maam_jaara_transcrit",
+        "title": "Jaarama Maam Jaara",
+        "authorId": 1,
+        "type": "transcrit",
+        "url": "https://drive.google.com/file/d/1fHhjA6H7jpqkQ9YfznnvCUt0XPEGNwXM/view?usp=drive_link"
+    },
+    {
+        "id": "jazaau_shakoor_jeeri_ajami",
+        "title": "jazaau shakoor jeeri",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1uT609on5hu5-EiU2Q3BxifGRHkUvSLo0/view?usp=drive_link"
+    },
+    {
+        "id": "jazbul_majzoob_ajami",
+        "title": "Jazbul Majzoob",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link"
+    },
+    {
+        "id": "serigne_mor_kayre_vol1_ajami",
+        "title": "Serigne Mor Kayre vol1",
+        "authorId": 3,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/1C5b5F3dBSzFwFOVwc6Q-FuQO6z6W9HcL/view?usp=drive_link"
+    },
+    {
+        "id": "sëriñ_moor_kayre_xaaj_2_ajami",
+        "title": "Sëriñ Moor Kayre Xaaj  2",
+        "authorId": 3,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/15gL8By2FN8y6247CLvIjcAFC-OrK6I_h/view?usp=drive_link"
+    },
+    {
+        "id": "maarsiya_seex_ndaam_abdurahmane_ajami",
+        "title": "Maarsiya Seex Ndaam Abdurahmane",
+        "authorId": 1,
+        "type": "ajami",
+        "url": "https://drive.google.com/file/d/149t7S2vgU19_aYY69t-HnXVHv2zyLU9w/view?usp=drive_link"
+    },
+    {
+        "id": "maarsiya_sëriñ_masàmba_mbàkke_transcrit",
+        "title": "Maarsiya Sëriñ Masàmba Mbàkke",
+        "authorId": 1,
+        "type": "transcrit",
+        "url": "https://drive.google.com/file/d/1zIPJRBCO4rR45CDtcqDAtLN8KyPWkZxc/view?usp=drive_link"
     }
 ]
