@@ -86,6 +86,14 @@ h1, h2, h3, .logo {
     color: var(--primary-color);
     cursor: pointer;
     letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 48px;
+    width: auto;
+    display: block;
 }
 
 .nav-links a {
