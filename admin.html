@@ -631,7 +631,7 @@
                 const result = await response.json();
                 if (response.ok && result.status === 'success') {
                     if (result.manuscripts) window.manuscriptsData = result.manuscripts;
-                    btn.textContent = "Enregistré !";
+                    btn.textContent = result.poemsUpdated ? `Enregistré ! (${result.poemsUpdated} poème${result.poemsUpdated > 1 ? 's' : ''} mis à jour)` : "Enregistré !";
                     btn.style.background = '#2ecc71';
                     btn.style.color = '#fff';
                     setTimeout(() => {
@@ -639,7 +639,8 @@
                         btn.style.background = '';
                         btn.style.color = '';
                         btn.disabled = false;
-                    }, 1200);
+                        renderPoemsTable();
+                    }, 1800);
                 } else {
                     throw new Error(result.message || "Erreur inconnue");
                 }

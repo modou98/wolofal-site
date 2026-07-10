@@ -66,6 +66,29 @@ def save_manuscripts(manuscripts):
     with open(MANUSCRIPTS_PATH, 'w', encoding='utf-8') as f:
         json.dump(manuscripts, f, ensure_ascii=False, indent=4)
 
+def cascade_manuscript_url_update(old_url, new_url):
+    """Quand l'URL d'un manuscrit du catalogue change (ex. fichier local
+    -> lien Drive), met à jour tous les poèmes dont le champ Manuscript
+    pointait vers l'ancienne URL, pour ne pas avoir à les re-sélectionner
+    un par un dans l'admin."""
+    if not old_url or old_url == new_url:
+        return 0
+    updated = 0
+    for root, _dirs, files in os.walk(POEMES_ROOT):
+        for fn in files:
+            if not fn.endswith('.md'):
+                continue
+            path = os.path.join(root, fn)
+            with open(path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            m = re.search(r'^Manuscript:\s*(.*)$', content, re.M)
+            if m and m.group(1).strip() == old_url:
+                new_content = re.sub(r'^Manuscript:.*$', f'Manuscript: {new_url}', content, count=1, flags=re.M)
+                with open(path, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                updated += 1
+    return updated
+
 def update_poem_metadata(filepath, themes, audio, manuscript=None):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -330,16 +353,18 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 if not target:
                     raise Exception("Manuscrit introuvable.")
 
+                old_url = target['url']
                 target['authorId'] = author_id
                 target['type'] = manuscript_type
                 target['url'] = url
                 save_manuscripts(manuscripts)
+                poems_updated = cascade_manuscript_url_update(old_url, url)
                 build()
 
                 self.send_response(200)
                 self.send_header('Content-type', 'application/json')
                 self.end_headers()
-                self.wfile.write(json.dumps({"status": "success", "manuscripts": manuscripts}).encode('utf-8'))
+                self.wfile.write(json.dumps({"status": "success", "manuscripts": manuscripts, "poemsUpdated": poems_updated}).encode('utf-8'))
 
             except Exception as e:
                 self.send_response(500)

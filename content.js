@@ -25,7 +25,8 @@ window.authorsData = [
                 "excerpt": "Dégluleen tay ma bàkkati mbër",
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ]
+                ],
+                "manuscript": "https:/drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link"
             },
             {
                 "id": "huqal_bukaau_maarsiyya_sëñ_mòodu_mustafaa",
@@ -67,7 +68,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://youtube.com/playlist?list=PLrYQY_QVCG1xuPbQOmKxUVmBx_tjJPzfB&si=m4aevulp5yTIuSvr"
                 },
-                "manuscript": "assets/magal_yi.pdf",
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -3491,7 +3491,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://www.youtube.com/watch?v=b-czXVe7nwY"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -3504,7 +3503,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://www.youtube.com/watch?v=szBAvlWYOF8"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
                 ]
@@ -3518,7 +3516,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://www.youtube.com/watch?v=87zzV0ITrBo"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Bakkan (Éducation de l'âme)"
                 ]
@@ -3539,7 +3536,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://youtu.be/x39e9z3VW9g"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -3552,7 +3548,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://www.youtube.com/watch?v=6vk9gfBxDzg"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -3566,7 +3561,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://youtu.be/u4Y1y6NXX6o"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ]
@@ -3579,7 +3573,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://youtu.be/VtItoMPN-ac"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -3592,7 +3585,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://youtu.be/yxjVrWlw1WI"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -3605,7 +3597,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://youtu.be/t-SnYs0QXa4"
                 },
-                "manuscript": "assets/ay_wolofal_soxna_may.pdf",
                 "themes": [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ]
@@ -3629,7 +3620,6 @@ window.authorsData = [
                     "type": "youtube",
                     "url": "https://www.youtube.com/watch?v=1F_XbM73wU0"
                 },
-                "manuscript": "assets/jazbul_majzoob.pdf",
                 "themes": [
                     "Sëriñ bi"
                 ]
@@ -3713,55 +3703,6 @@ window.themesData = [
     }
 ];
 window.manuscriptsData = [
-    {
-        "id": "magal_yi_ajami",
-        "title": "Wolofal Maggal yi",
-        "authorId": 1,
-        "type": "ajami",
-        "url": "assets/magal_yi.pdf"
-    },
-    {
-        "id": "njuuj_njaaj_ajami",
-        "title": "Njuuj Njaaj",
-        "authorId": 1,
-        "type": "ajami",
-        "url": "assets/njuuj_njaaj.pdf"
-    },
-    {
-        "id": "marsiya_seex_ndaam_ajami",
-        "title": "Marsiya Seex Ndaam",
-        "authorId": 1,
-        "type": "ajami",
-        "url": "assets/marsiya-seex-ndaam.pdf"
-    },
-    {
-        "id": "wolofal_jumaa_ji_ajami",
-        "title": "Wolofal Jumaa Ji",
-        "authorId": 1,
-        "type": "ajami",
-        "url": "assets/Wolofalu-Jumaa-ji.pdf"
-    },
-    {
-        "id": "ay_wolofal_soxna_may_transcrit",
-        "title": "Ay Wolofal Soxna Maymuunatul Mbàkke Al Kubra",
-        "authorId": 4,
-        "type": "transcrit",
-        "url": "assets/ay_wolofal_soxna_may.pdf"
-    },
-    {
-        "id": "kadduy_serign_mbay_jaxate_transcrit",
-        "title": "Kàdduy Sëriñ Mbay Jaxate (V3)",
-        "authorId": 2,
-        "type": "transcrit",
-        "url": "assets/kadduy_serign_mbay_jaxate_v3.pdf"
-    },
-    {
-        "id": "jazbul_majzoob_transcrit",
-        "title": "Jazbul Majzòob",
-        "authorId": 5,
-        "type": "transcrit",
-        "url": "assets/jazbul_majzoob.pdf"
-    },
     {
         "id": "maarsiya_maam_seex_anta_ajami",
         "title": "Maarsiya Maam Seex Anta",

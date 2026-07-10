@@ -1,7 +1,6 @@
 Title: Siyaare Naawel ak Poroxaan bis
 Excerpt: Bismil ilaahi noo ngi santaat Yàlla - Cant gu rëy goo xamni am na yilla
 Audio: https://www.youtube.com/watch?v=6vk9gfBxDzg
-Manuscript: assets/ay_wolofal_soxna_may.pdf
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Bismil ilaahi noo ngi santaat Yàlla

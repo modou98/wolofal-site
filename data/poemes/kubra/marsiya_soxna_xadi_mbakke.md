@@ -1,7 +1,6 @@
 Title: Marsiya Soxna Xadi Mbàkke
 Excerpt: Bismil ilaahi ma def tay ay bëyit si mbirum - Bintul Xaddimi rasuululaahi moo waare
 Audio: https://www.youtube.com/watch?v=b-czXVe7nwY
-Manuscript: assets/ay_wolofal_soxna_may.pdf
 Theme: Dee ak bisu pénc (La mort et l'au-delà)
 ---
 Bismil ilaahi ma def tay ay bëyit si mbirum

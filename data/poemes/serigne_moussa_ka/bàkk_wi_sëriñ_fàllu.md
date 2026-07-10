@@ -1,6 +1,7 @@
 Title: Bàkk wi- Sëriñ Fàllu
 Excerpt: Dégluleen tay ma bàkkati mbër
 Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
+Manuscript: https://drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link
 ---
 Dégluleen tay ma bàkkati mbër
 Yàlla miy fale fal na ko buur

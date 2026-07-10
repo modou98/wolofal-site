@@ -2,7 +2,6 @@
 Title: Wolofal Maggal yi
 Excerpt: Un recueil hagiographique d'envergure majeure structuré en chapitres, dédié à la sacralisation des temps forts de l'Islam et de l'histoire du mouridisme.
 Audio: https://youtube.com/playlist?list=PLrYQY_QVCG1xuPbQOmKxUVmBx_tjJPzfB&si=m4aevulp5yTIuSvr
-Manuscript:  assets//magal_yi.pdf
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 ## Déglul ma wax la la waral màggal ya

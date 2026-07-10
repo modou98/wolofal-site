@@ -1,7 +1,6 @@
 Title: Weeru koor ak Sëriñ Tuuba
 Excerpt: Bismil ilaahi ci barkep Seexuna mi nu gën - Tey Xaadimal Mustafal Muxtaari xeetali nu
 Audio: https://youtu.be/t-SnYs0QXa4
-Manuscript: assets/ay_wolofal_soxna_may.pdf
 Theme: Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)
 ---
 Bismil ilaahi ci barkep Seexuna mi nu gën
