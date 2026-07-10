@@ -66,25 +66,27 @@ def save_manuscripts(manuscripts):
     with open(MANUSCRIPTS_PATH, 'w', encoding='utf-8') as f:
         json.dump(manuscripts, f, ensure_ascii=False, indent=4)
 
-def update_poem_metadata(filepath, themes, audio):
+def update_poem_metadata(filepath, themes, audio, manuscript=None):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
-    
+
     parts = content.split('---', 1)
     if len(parts) < 2:
         raise Exception("Format de fichier invalide (pas de '---')")
-        
+
     header = parts[0]
     body = parts[1]
-    
+
     header_lines = header.split('\n')
     new_header_lines = []
-    
+
     theme_updated = False
     audio_updated = False
-    
+    manuscript_updated = False
+    manuscript_provided = manuscript is not None
+
     themes_str = " | ".join(themes) if themes else ""
-    
+
     for line in header_lines:
         if ':' in line:
             key, val = line.split(':', 1)
@@ -97,6 +99,13 @@ def update_poem_metadata(filepath, themes, audio):
                 if audio:
                     new_header_lines.append(f"Audio: {audio}")
                 audio_updated = True
+            elif key_stripped == 'manuscript':
+                if manuscript_provided:
+                    if manuscript:
+                        new_header_lines.append(f"Manuscript: {manuscript}")
+                    manuscript_updated = True
+                else:
+                    new_header_lines.append(line.rstrip())
             elif key_stripped == 'themereview':
                 # L'admin a relu/validé ce poème depuis le dashboard : on lève le signalement.
                 pass
@@ -105,12 +114,14 @@ def update_poem_metadata(filepath, themes, audio):
         else:
             if line.strip():
                 new_header_lines.append(line.rstrip())
-                
+
     if not theme_updated and themes_str:
         new_header_lines.append(f"Theme: {themes_str}")
     if not audio_updated and audio:
         new_header_lines.append(f"Audio: {audio}")
-        
+    if not manuscript_updated and manuscript_provided and manuscript:
+        new_header_lines.append(f"Manuscript: {manuscript}")
+
     new_header = "\n".join(new_header_lines).strip()
     
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -228,15 +239,16 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                         themes = [single_theme]
                 
                 audio = data.get('audio', '')
-                
+                manuscript = data.get('manuscript', None)
+
                 if not author_folder or not poem_id:
                     raise Exception("Auteur ou ID de poème manquant.")
 
                 filepath = resolve_poem_path(author_folder, poem_id)
                 if not os.path.exists(filepath):
                     raise Exception("Poème introuvable.")
-                
-                update_poem_metadata(filepath, themes, audio)
+
+                update_poem_metadata(filepath, themes, audio, manuscript)
                 
                 # Run build script
                 build()

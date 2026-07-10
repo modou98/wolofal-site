@@ -179,6 +179,7 @@
                         <th style="padding: 1rem; font-weight: 600;">Auteur</th>
                         <th style="padding: 1rem; font-weight: 600; width: 220px;">Thème</th>
                         <th style="padding: 1rem; font-weight: 600;">Lien Audio</th>
+                        <th style="padding: 1rem; font-weight: 600; width: 200px;">Manuscrit</th>
                         <th style="padding: 1rem; font-weight: 600; text-align: center; width: 120px;">Actions</th>
                     </tr>
                 </thead>
@@ -398,6 +399,21 @@
                         ? `<span title="${poem.themeReview.replace(/"/g, '&quot;')}" style="cursor: help; margin-left: 0.4rem;">⚠️</span>`
                         : '';
 
+                    // Sélecteur de manuscrit : options du catalogue + l'URL actuelle du
+                    // poème si elle n'y correspond à aucune entrée (pour ne pas la perdre).
+                    const currentManuscript = poem.manuscript || '';
+                    const catalog = window.manuscriptsData || [];
+                    const inCatalog = catalog.some(m => m.url === currentManuscript);
+                    let manuscriptOptions = '<option value="">Aucun</option>';
+                    if (currentManuscript && !inCatalog) {
+                        manuscriptOptions += `<option value="${currentManuscript}" selected>(existant) ${currentManuscript}</option>`;
+                    }
+                    catalog.forEach(m => {
+                        const typeLabel = m.type === 'ajami' ? 'Ajami' : 'Transcrit';
+                        const sel = m.url === currentManuscript ? 'selected' : '';
+                        manuscriptOptions += `<option value="${m.url}" ${sel}>${m.title} (${typeLabel})</option>`;
+                    });
+
                     tr.innerHTML = `
                         <td style="padding: 1rem; font-weight: 500; color: var(--text-color);">${poem.title}${reviewBadge}</td>
                         <td style="padding: 1rem; font-size: 0.9rem; color: var(--text-color); opacity: 0.8;">${author.name}</td>
@@ -409,6 +425,11 @@
                         <td style="padding: 0.5rem 1rem;">
                             <input type="text" class="form-control poem-audio-input" style="padding: 0.5rem; font-size: 0.9rem; border-radius: 6px;" value="${audioUrl}" placeholder="Lien YouTube ou MP3">
                         </td>
+                        <td style="padding: 0.5rem 1rem;">
+                            <select class="form-control poem-manuscript-input" style="padding: 0.5rem; font-size: 0.85rem; border-radius: 6px;">
+                                ${manuscriptOptions}
+                            </select>
+                        </td>
                         <td style="padding: 1rem; text-align: center;">
                             <button type="button" class="ctrl-btn save-row-btn" style="padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; min-width: 90px; border-radius: 6px; cursor: pointer;" onclick="savePoemRow(this, '${author.folder}', '${poem.id}')">Enregistrer</button>
                         </td>
@@ -418,7 +439,7 @@
             });
             
             if (count === 0) {
-                tbody.innerHTML = `<tr><td colspan="5" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Aucun poème trouvé dans le système.</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="6" style="padding: 2rem; text-align: center; color: var(--text-color); opacity: 0.6;">Aucun poème trouvé dans le système.</td></tr>`;
             }
 
             document.getElementById('reviewCount').textContent = reviewCount;
@@ -444,17 +465,19 @@
             const tr = btn.closest('tr');
             const checkedRowThemes = Array.from(tr.querySelectorAll('.row-theme-checkbox:checked')).map(el => el.value);
             const audioInput = tr.querySelector('.poem-audio-input');
-            
+            const manuscriptInput = tr.querySelector('.poem-manuscript-input');
+
             const originalText = btn.textContent;
             btn.textContent = "Sauvegarde...";
             btn.disabled = true;
             btn.style.opacity = '0.7';
-            
+
             const payload = {
                 authorFolder: authorFolder,
                 poemId: poemId,
                 themes: checkedRowThemes,
-                audio: audioInput.value
+                audio: audioInput.value,
+                manuscript: manuscriptInput.value
             };
             
             try {
