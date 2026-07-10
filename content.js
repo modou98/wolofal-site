@@ -3617,10 +3617,6 @@ window.authorsData = [
                 "title": "Jazboul Majzoob",
                 "excerpt": "Al xamdu lil-laahi, kimay - Xamal bu wér, ta dima may",
                 "stanzaSize": 4,
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/watch?v=1F_XbM73wU0"
-                },
                 "themes": [
                     "Sëriñ bi"
                 ]
