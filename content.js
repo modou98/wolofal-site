@@ -3433,6 +3433,15 @@ window.authorsData = [
                 ]
             },
             {
+                "id": "maggal_gu_njekk_gi",
+                "title": "Wolofalu Màggal gu Njëkk gi",
+                "excerpt": "Bismi ilaahi nu doora tambale wax, Na nga nu aar musël nu may nu ak sax",
+                "themes": [
+                    "Sëriñ bi",
+                    "Taarix"
+                ]
+            },
+            {
                 "id": "murit_taqoo",
                 "title": "Murit deel taqoo",
                 "excerpt": "Une explication sémantique et spirituelle des concepts de Muriit, Mariit et Muraat, définissant les qualités d'un véritable chercheur de Dieu.",

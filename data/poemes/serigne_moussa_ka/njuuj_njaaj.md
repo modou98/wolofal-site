@@ -1,6 +1,7 @@
 Title: Njuuj Njaaj
 Excerpt: Wolofal Sëriñ Tuuba
 Theme: Sëriñ bi
+Manuscript: https://drive.google.com/file/d/1RYJB9AtGSPZaGI_WIm58DAY2ToiWUSie/view?usp=drive_link
 ---
 Na ngeen déglu ma dellooti fent ab daaj
 Ba saahir sa di baatin jullee gën ug maaj

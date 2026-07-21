@@ -2,7 +2,7 @@ Title: Marsiyya Seex Ibra Faal
 Excerpt: àddina ndax day bëgg a jeex - am gaa yu baax yeey bëgg a jeex
 StanzaSize: 4
 Manuscript: https://drive.google.com/file/d/1CUiqAWwugxMg4eaJv7wsm-l6rnx6JROf/view?usp=drive_link
-Theme: Dee ak bisu pénc (La mort et l'au-delà)
+Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
 ---
 Bismi-l-laahi-r-Rahmàni-r-Rahìmi
 Wa Sallallàhu anla Seyidina Muhammadin wa salla- ma taslìman

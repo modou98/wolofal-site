@@ -2,6 +2,7 @@ Title: Jazboul Majzoob
 Excerpt: Al xamdu lil-laahi, kimay - Xamal bu wér, ta dima may
 StanzaSize: 4
 Theme: Sëriñ bi
+Manuscript: https://drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link
 ---
 Bismi-l-Laahi-r-Rahmaani-r-Rahiimi
 
