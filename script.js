@@ -957,6 +957,7 @@ const app = {
         let chapterCount = 0;
         let highlightCount = 0;
         const lines = content.split('\n');
+        const hasBlankLines = lines.some(l => l.trim() === '');
         let currentStanzaLines = [];
 
         function flushStanza() {
@@ -987,7 +988,7 @@ const app = {
                     });
                 }
                 currentStanzaLines.push(highlightedLine);
-                if (currentStanzaLines.length === stanzaSize) {
+                if (!hasBlankLines && currentStanzaLines.length === stanzaSize) {
                     flushStanza();
                 }
             }

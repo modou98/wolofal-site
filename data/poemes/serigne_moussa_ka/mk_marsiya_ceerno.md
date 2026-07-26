@@ -134,7 +134,7 @@ Njàmmee ngi deeti suli mbóoti xeet wa
 Ndax ku xamul saahir sa toppi mii mboor
 Xaayaan balaa neex kat nga dégg séréer
 Sëriñ Masàmba neena inspektër laa
-Ku reere Ceerno tay ma coñsigeer la
+Ku reere Ceerno tay ma consiñeer la
 Maam Ceerno wàcc na defar na diine
 Ñibbina àjjana caa uurul hiini
 Maam Ceerno wàcc na ba fab Sëriñ Ndaam
