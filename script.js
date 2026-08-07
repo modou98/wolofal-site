@@ -977,7 +977,7 @@ const app = {
                 const title = trimmed.substring(3).trim();
                 const id = `chap-${chapterCount}`;
                 tocItems += `<li style="margin-bottom:8px;"><a href="#${id}" style="color:var(--accent-color); text-decoration:none;">${title}</a></li>`;
-                parsedContent += `<h2 id="${id}" style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">${title}</h2>`;
+                parsedContent += `<h2 id="${id}" style="margin-top: 2rem; margin-bottom: 1rem; font-size: inherit; font-weight: inherit; font-family: inherit; color: var(--accent-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem;">${title}</h2>`;
             } else if (trimmed === '') {
                 flushStanza();
             } else {

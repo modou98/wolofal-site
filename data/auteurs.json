@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Soxna Maymuuna Mbàkke Al Kubra",
-        "image": "",
+        "image": "assets/may_kubra.jpeg",
         "shortBio": "Fille de Cheikh Ahmadou Bamba, érudite et poétesse éminente du mouridisme.",
         "fullBio": "Sokhna Maïmounatou Mbacké Al Koubra (1908–1999), également connue sous le nom de Sokhna Maï Kabîr, est la fille aînée de Cheikh Ahmadou Bamba et de Sokhna Aminata Kanny Bousso. Née à Thiéyène Djolof pendant l'exil de son père, elle a reçu une éducation spirituelle et théologique de premier plan, mémorisant le Saint Coran auprès de Serigne Dame Abdou Rahmane Lô à Ndame.\n\nÉrudite et poétesse de haut niveau, elle a composé d'admirables poèmes de dévotion en arabe ainsi qu'en langue wolof (Wolofal). Elle est reconnue au sein de la communauté pour sa rigueur intellectuelle, sa piété exemplaire et son attachement indéfectible au Livre Saint et aux enseignements du fondateur du mouridisme.",
         "folder": "kubra"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Seex Sàmba Jaara Mbay",
-        "image": "",
+        "image": "assets/samba_jaara.jpg",
         "shortBio": "Poète wolofal originaire de Koki, célèbre pour son chef-d'œuvre Jazbul Majzòob et sa proximité avec Serigne Mor Kayré.",
         "fullBio": "Né en 1868 à Koki, fils d'Ahmadou et de Sokhna Ndack Kane, Seex Sàmba Jaara Mbay (Cheikh Samba Diarra Mbaye, de son vrai nom Mouhamadou Abdoul Karim) mémorise le Coran dès son jeune âge avant de parfaire ses études religieuses à Saint-Louis. Il rejoint Cheikh Ahmadou Bamba aux côtés de son frère aîné Cheikh Sadiaye, à Ndiarème, et vit sans jamais rechercher les honneurs : disciple discret, il se mêle à la population et fréquente le marché comme n'importe quel talibé.\n\nProche parent et compagnon de Serigne Mor Kayré, il partage avec lui les années d'exil du Cheikh en Mauritanie (1903-1907) et devient l'un des poètes wolofal les plus admirés de son temps, mêlant volontiers vers wolof et invocations arabes dans ses compositions. Son œuvre la plus célèbre, Jazbul Majzòob (« l'attirance de l'attiré »), chante l'attachement mystique du disciple à son guide.\n\nPère de trois enfants, il s'éteint en 1917 à Saint-Louis, où repose sa dépouille au cimetière de Thiém. La tradition rapporte qu'il pressentit sa fin prochaine et laissa ses derniers vers en guise d'adieu, empreints d'une sérénité totale face à la mort.",
         "folder": "cheikh_samba_diarra_mbaye"

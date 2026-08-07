@@ -5,6 +5,8 @@ Theme: Yonnen bi (PSL)
 ---
 Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab
 
+## Bismil ilaahil haziimi sha’ni Yàllaahu
+
 Bismil ilaahil haziimi sha’ni Yàllaahu
 Qadibtada’tu bi nazmid durri Yàllaahu
 
@@ -47,6 +49,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Muhammadun xayru xalqil laahi fii abadin
+
 Muhammadun xayru xalqil laahi fii abadin
 Yàllaahu salli aleyhi dëhra Yàllaahu
 
@@ -88,6 +92,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Lammaa araadal ilaahil Harshi maalikunaa
 
 Lammaa araadal ilaahil Harshi maalikunaa
 Takwiina nuura Rasuulullaahi Yàllaahu
@@ -187,6 +193,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Déglul ma wax la faa leerag Mustafaa dox a dox 
 
 Déglul ma wax la faa leerag Mustafaa dox a dox 
 Ca awwalan sooga ñëw fil kawni Yàllaahu
@@ -323,6 +331,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la ganaaw kiiray yaak géej ya mu aw
+
 Déglul ma wax la ganaaw kiiray yaak géej ya mu aw
 Bahrul minal bahri fawxal bahri Yàllaahu
 
@@ -370,6 +380,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Déglul ma wax na Buur def leer ga ak fa mu dox
 
 Déglul ma wax na Buur def leer ga ak fa mu dox
 Ca péeyi Yàlla ya ak dàmbam ya Yàllaahu
@@ -500,6 +512,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la fi as lëf yaw ci Aadama ak
+
 Déglul ma wax la fi as lëf yaw ci Aadama ak
 Yonen ba ak calalag maamam ya Yàllaahu
 
@@ -616,6 +630,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Déglul ma wax la fa leerag Mustafaa ga solo
 
 Déglul ma wax la fa leerag Mustafaa ga solo
 Ci Haashimi min banni Adnaan a Yàllaahu
@@ -749,6 +765,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Keroog ba leetar ba àgge Màkka mbokk ya fab
+
 Keroog ba leetar ba àgge Màkka mbokk ya fab
 Yëréem ya jébbal Muttalib mag ja Yàllaahu
 
@@ -829,6 +847,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Keroog la noofal di xas Habdul Mutallib a far
 
 Keroog la noofal di xas Habdul Mutallib a far
 Ci néewi doom ngir kañaanam booba Yàllaahu
@@ -935,6 +955,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Yahuudi Màkka ya yónnee Saam di bind Yaman
+
 Yahuudi Màkka ya yónnee Saam di bind Yaman
 Naa leegi lislaam taxaw bid diini Yàllaahu
 
@@ -1036,6 +1058,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Déglul ma wax la ba baayab Mustafaa ba amee
 
 Déglul ma wax la ba baayab Mustafaa ba amee
 Kem nitti at ca Xuraysin siiw na Yàllaahu
@@ -1395,6 +1419,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la fi xarbaax yoy la naa zaharat 
+
 Déglul ma wax la fi xarbaax yoy la naa zaharat 
 Gudig juddug Mustafa Njool Màkka Yàllaahu
 
@@ -1554,6 +1580,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la ba Abdullaahi baay ba demee
+
 Déglul ma wax la ba Abdullaahi baay ba demee
 Di tukki Yasrib ba far dem faatu Yàllaahu
 
@@ -1668,6 +1696,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la ba dundag Mustafaa ga matee
+
 Déglul ma wax la ba dundag Mustafaa ga matee
 Fanweeri at ak juróom lam daj fa Yàllaahu
 
@@ -1709,6 +1739,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Ma wax la lëf ca cosaanal Kahba gaak la ca xew
 
 Ma wax la lëf ca cosaanal Kahba gaak la ca xew
 Mawlid waxul ko da koo gàttal fa Yàllaahu
@@ -1763,6 +1795,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Su ngeen xamul at ya Yonen am ci àddina jii
 
 Su ngeen xamul at ya Yonen am ci àddina jii
 Buur Yàlla yónnee ko bil ayaati Yàlllaahu
@@ -1845,6 +1879,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul keroog Mustafaa woote ca Màkkata yaw
+
 Déglul keroog Mustafaa woote ca Màkkata yaw
 Ku njëkk gëm Mustafaa tey góor fa Yàllaahu
 
@@ -1889,6 +1925,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Ma dellu wax leen ba ngeen xam gaa ya jébbalu woon
 
 Ma dellu wax leen ba ngeen xam gaa ya jébbalu woon
 Ca njëkk gàddaay ga fil Islaami Yàllaahu
@@ -2058,6 +2096,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la rañaanam Mustafaa ma ñu dem
+
 Déglul ma wax la rañaanam Mustafaa ma ñu dem
 Ila samawaati mook Jibriilu Yàllaahu
 
@@ -2214,6 +2254,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la ba Yonen dellusee juge kaw 
+
 Déglul ma wax la ba Yonen dellusee juge kaw 
 Minas samawaati lil ardiina Yàllaahu
 
@@ -2295,6 +2337,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la atam gàddaay ga ak la ca xew
+
 Déglul ma wax la atam gàddaay ga ak la ca xew
 Ak jalti jalti ja ak xarbaax ya Yàllaahu
 
@@ -2369,6 +2413,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Déglul ma wax laati as lëf yaw ci mbir yi ma xam
 
 Déglul ma wax laati as lëf yaw ci mbir yi ma xam
 Ci Mawlidil Mustafaa Muxtaari Yàllaahu
@@ -2490,6 +2536,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Déglul ma wax la na bindab Mustafaa mel a mel 
+
 Déglul ma wax la na bindab Mustafaa mel a mel 
 Bam tudd gën gi mbindeef gën ñëpp Yàllaahu
 
@@ -2564,6 +2612,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Ma wax fi nak ay jikkoom yoo xam ni tuut la batay
 
 Ma wax fi nak ay jikkoom yoo xam ni tuut la batay
 Ci ay soloom ya ca Mawlid wax fa Yàllaahu
@@ -2702,6 +2752,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Mawlid ba jeex na te way naa lépp lum wesaroon
 
 Mawlid ba jeex na te way naa lépp lum wesaroon
 Ma way xawaarix ya Yonen def fa Yàllaahu
@@ -2919,6 +2971,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
+## Ku déglu déggati tay ji muhjizaat yu mu wax
+
 Ku déglu déggati tay ji muhjizaat yu mu wax
 Te muy yu akseeguloon tey xaybu Yàllaahu
 
@@ -3011,6 +3065,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Déglul ma waxlaati jagleey Mustafaa ya mu am
 
 Déglul ma waxlaati jagleey Mustafaa ya mu am
 Mbindéef jagoowul ko fil akwaani Yàllaahu
@@ -3125,6 +3181,8 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
+
+## Ma wax la sañ-sañ ya Yonen sañ ci àddina jii
 
 Ma wax la sañ-sañ ya Yonen sañ ci àddina jii
 Yoo xamni deesu ko roy fid diini Yàllaahu
