@@ -31,7 +31,9 @@ const app = {
         });
 
         // Route via l'URL (hash) pour permettre les liens directs et le bouton retour
+        // On ignore les ancres internes hors-routing (ex: #chap-1 du sommaire d'un poème)
         window.addEventListener('hashchange', () => {
+            if (!window.location.hash.startsWith('#/')) return;
             const { view, param } = app.parseHash();
             app.render(view, param);
         });
