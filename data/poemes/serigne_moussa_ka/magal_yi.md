@@ -1,4 +1,3 @@
-```markdown
 Title: Wolofal Maggal yi
 Excerpt: Un recueil hagiographique d'envergure majeure structuré en chapitres, dédié à la sacralisation des temps forts de l'Islam et de l'histoire du mouridisme.
 Audio: https://youtube.com/playlist?list=PLrYQY_QVCG1xuPbQOmKxUVmBx_tjJPzfB&si=m4aevulp5yTIuSvr
@@ -8,6 +7,7 @@ Manuscript: https://drive.google.com/file/d/1GSMrxIczkpWeEIH9BEuafRW4-6yeWrWC/vi
 ## Déglul ma wax la la waral màggal ya
 
 Déglul ma wax la la waral màggal ya
+
 Mbooleem murit yiy dajjaloo di màggal
 Ngir Yalla Dégluleen ma wax ba àggal
 Man Njambe maa leen deeti yee ciy màggal
@@ -501,6 +501,7 @@ Ker Mustafaal Màkkiiyu mbaate Tuubaa
 
 ## Màggal Sheex Móodu Lóo Dagana
 Màggal Sheex Móodu Lóo Dagana
+
 Ma dellu woote màggalug Seex Móodu Lóo
 Seex Móodu Lóo Dagana jar na dajaloo
 Ngir moo demoon « Limbar » ci hãama aysahi
@@ -1432,5 +1433,3 @@ Limub malaaka yi malakuut ak mulk
 Yu weex yu sooy lañuy dëppoo duñ ko rësal
 Kangami ashaabi shimaali raaya
 Yu xonq yuy tàkk lañuy jox gaa ya
-
-```

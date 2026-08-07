@@ -959,14 +959,22 @@ const app = {
         let chapterCount = 0;
         let highlightCount = 0;
         const lines = content.split('\n');
-        const hasBlankLines = lines.some(l => l.trim() === '');
         let currentStanzaLines = [];
 
+        // Un paragraphe (lignes non vides consécutives) n'est redécoupé par StanzaSize
+        // que si ça tombe juste (multiple exact) : sinon on le garde entier, pour ne
+        // pas casser une strophe irrégulière déjà délimitée par des lignes vides.
         function flushStanza() {
-            if (currentStanzaLines.length > 0) {
+            if (currentStanzaLines.length === 0) return;
+            if (stanzaSize > 0 && currentStanzaLines.length % stanzaSize === 0) {
+                for (let i = 0; i < currentStanzaLines.length; i += stanzaSize) {
+                    const chunk = currentStanzaLines.slice(i, i + stanzaSize);
+                    parsedContent += `<div class="poem-stanza">${chunk.join('<br>')}</div>`;
+                }
+            } else {
                 parsedContent += `<div class="poem-stanza">${currentStanzaLines.join('<br>')}</div>`;
-                currentStanzaLines = [];
             }
+            currentStanzaLines = [];
         }
 
         for (let line of lines) {
@@ -990,9 +998,6 @@ const app = {
                     });
                 }
                 currentStanzaLines.push(highlightedLine);
-                if (!hasBlankLines && currentStanzaLines.length === stanzaSize) {
-                    flushStanza();
-                }
             }
         }
         flushStanza();
