@@ -1125,7 +1125,7 @@ Keroog Xutaylatu xaw naa faatu ngir ga bëgoon
 Leerag Muhammadu Abdul Laahi Yàllaahu
 
 Mësnaa dikkal baay ba ciy fan jox ko junni yu rong
-Digante xaalis wurus ak jaam ya Yàllaahu
+Digante xaalis wurus ak jaamam ya Yàllaahu
 
 Day bis-bisi’y jooy di xemem taar ba naa ko sarax
 Waay jël ma waay jël ma Abdul Laahi Yàllaahu
@@ -1136,7 +1136,7 @@ Jébbal ko sangam ba Abdul Laahi Yàllaahu
 Keroog la Ajjana waaj nib jank sol la mu am
 Dunyaa ji ndox mépp saf lem woorna Yàllaahu
 
-Keroog la Yàlla yabal Jibriil bajjo ba dem
+Keroog la Yàlla yabal Jibriil bàjjo ba dem
 Ci péeyi Yonen ya fab seen mbóot ya Yàllaahu
 
 Jibriilu rekki na sellag Aadama ak ngërëmal
@@ -1154,7 +1154,7 @@ Zul Qifli lañ rekki jox xejjam ba Yàllaahu
 Ayuubu muñ gam amoon ak taar ba Yuusuufa am
 Lañ boole jox doomi Abdul Laahi Yàllaahu
 
-Yãquubu cantam ga ak dëddug Masiihu ga woon
+Yaaquubu cantam ga ak dëddug Masiihu ga woon
 Lañ boole jox doomi Abdul Laahi Yàllaahu
 
 Dawuudu baatam bu neex baak teddngay ka ñu naan
@@ -1163,11 +1163,11 @@ Iisa la jagleel Rasuulallaahi Yàllaahu
 Ngurag Suleymaan ga ak sañ-sañ ba fab na ko jox
 Muhammadun doomi Abdul Laahi Yàllaahu
 
-Muusaaa da doon jéema deey ak Yàlla woo ko ñëwul
+Muusaaa da doon jéema déey ak Yàlla woo ko ñëwul
 Jibriilu woo doomi Abdul Laahi Yàllaahu
 
 Maamam yu baax ya yëreey zahiir ya ñoo ko jagoo
-Muhamadoo sol yëreey baatin ya Yàllaahu
+Muhammadoo sol yëreey baatin ya Yàllaahu
 
 Wa hatiran na dariihal Mustafaa karaman
 Dëhran bi harfin shaziiyin minka Yàllaahu
@@ -1193,7 +1193,7 @@ Jannaatu adnin dugal xeetam wi Yàllaahu
 Muy ben pan buñu barkeeloon ci weeru Rajab
 Yawmal huruubati sangab bis yi Yàllaahu
 
-Ngir al juma’ay seyyidul ayyaami kulihimu
+Ngir al jumaay seyyidul ayyaami kulihimu
 Yonen ba mooy Xayrul Xalqi Laahi Yàllaahu
 
 Bisub keroog lañu fob mbóotam ma mbir ma sosoo
@@ -1202,7 +1202,7 @@ Ca ndey ja tukee ci Abdullaahi Yàllaahu
 Neleen sunuy nopp lii barzanjiyoo ko tëral
 Ma way ko ngir xamle sun Yonen ba Yàllaahu
 
-Guddig keroog la xërëm sir jooy di yuuxu te naa
+Guddig keroog la xërëm ser jooy di yuuxu te naa
 Yaa wayla ahli rajiimin fàww  Yàllaahu
 
 Ëmbeef na Xayral Baraaya Mustafa yilifan
@@ -1214,7 +1214,7 @@ Ibliisa ngay jooy di far rangoñ ya Yàllaahu
 Malaaka yépp di sàbbal tuula laylatihii
 Subhaana xaaliq u xaaza xalqi Yàllaahu
 
-Subhaana xaaliqul xaaza nuuril Mustafaa Zamanan
+Subhaana xaaliqul nuuril Mustafaa Zamanan
 Min nuurihi fawxa nuuril kulli Yàllaahu
 
 Jigéenu Àjjana huurul hiini ñépp di way
@@ -1274,7 +1274,7 @@ Keroog la silwa Xaliilulaahi Ibra taxaw
 Te moo di Maam sunu Ibraahima Yàllaahu
 
 Bisub keroog la ko naan zurnaa ki Aaminatun
-Ya ëmb shamsul warra bilaahi Yàllaahu
+Ya ëmb Shamsul Warra bilaahi Yàllaahu
 
 Zul qihdatin ca la am nuurul jalaali ba am
 Nuurul jamaali ne weer wuy fenk Yàllaahu
@@ -1294,13 +1294,13 @@ Kamaal ba jolli ba wër waa Màkka Yàllaahu
 Wii weer la Daawuuda ñëw armal siyaare ndeyam
 Yawman wa basharahaa bil wat’hi Yàllaahu
 
-Yaa ëmb Xaadiya aw taarin wa qaaliha as
-Naamin wa maahiya aw zaarin a Yàllaahu
+Yaa ëmb Xaadiya aw Taarin wa Qaaliha as
+Naamin wa Maahiya aw Zaarin a Yàllaahu
 
 Ciw Tamxarit la Suleymaan ñëw Yu bashiruhaa
 Maha siyaarati bil Muxtaari Yàllaahu
 
-Yaa ëmb xaynin xuyuunin kenn amut li nga am
+Yaa ëmb Xaynin Xuyuunin kenn amut li nga am
 Mooy Seyyidal jinni wal amlaaki Yàllaahu
 
 Mang naa ko bilaahi sangub sang yaa ngi nga yor
@@ -1312,13 +1312,13 @@ Beggal ko sàbbal ko mbóotam doom ja Yàllaahu
 Yaa ëmb mbër may rañaan fawqal Buraaqi ilaa
 Sabhi samaawaati mook Jibriila Yàllaahu
 
-Mooy saahibul waxyi bil Xur’aani min suuwarin
-Mooy saahibul salawaatil xamsi Yàllaahu
+Mooy Saahibul Waxyi bil Xur’aani min suuwarin
+Mooy Saahibul Salawaatil xamsi Yàllaahu
 
 Hiissa ibn Maryaama Ruuhu Laahi moo mujja ñëw
 Ci weeru Gàmmu la ñëw lil bishri Yàllaahu
 
-Yaa ëmb saahibul ayaatin ku jis ne wedam
+Yaa ëmb Saahibul Ayaatin ku jis ne wedam
 Wal hajji was sawmi wa zakaati Yàllaahu
 
 Mooy Saahibul diini wal islaami moo ko jagoo
@@ -1339,7 +1339,7 @@ Laylatul mawlidi Xayril Xalqi xadu yabin
 Hawat xawaa riqa wal aayaati Yàllaahu
 
 Guddig fukk ak ñaar la Yonen ñëw ci Àdduna ji
-Ci weeru Gàmmu bisub Ishnayn Yàllaahu
+Ci weeru Gàmmu bisub Ishnayni Yàllaahu
 
 Keroog ba Soxna sa tooge bis ba toll barab
 Saay nopp noppi ka def mawlid ba Yàllaahu
@@ -1395,7 +1395,7 @@ Hinaayatin bil huluwi xadri Yàllaahu
 Yonen ba feeñ sujoot jóg tisli sant Boroom
 Haras Haras fay ko mook mbooloo mi Yàllaahu
 
-Mboleem malaaka ya naa « yarhamukalaahu yaa
+Mboleem malaaka ya naa « yar'hamukallaahu yaa
 Xayral Anaami wa yaa Muxtaaru Yàllaahu »
 
 Malaaka yaa ko ne cas foofee ni meng ni mes
@@ -2544,11 +2544,11 @@ Bam tudd gën gi mbindeef gën ñëpp Yàllaahu
 Xad kaana akmalahum xalxan wa ajmalahum
 Xulqan wa asdahahum xawlan fa Yàllaahu 
 
-Jikkoom ya ñoo mat meloom ya sell cër ya rafet 
+Jikkoom ya ñoo mat meloom yaa sell cër ya rafet 
 Cëy Mustafal Mujtabal Muxtaari Yàllaahu
 
 Buur Yàlla nee sàkkuloon mishloom ca gaa ya wéyoon
-Te dootul sàkkati mishloom woorna Yàllaahu
+Te dootul sàkkati mishloom wòorna Yàllaahu
 
 Gàttul gudul xeesuloon ñuulul yaram wa ratax
 Cëram ya mat sëkk buy dox sut la Yàllaahu
@@ -2596,7 +2596,7 @@ Leebul barul dotomul, nosul dërul tëxuloon
 Baatam loxul sewuloon seññul fa Yàllaahu
 
 Ndigam lu jekk la cëy ndigal tamaam la mu yor
-Luppam yu jekk ya ak biiram* ya Yàllaahu
+Luppam yu jekk ya ak biiram ya Yàllaahu
 
 Loxoom yu jekk ya ak waaroom yu sew ya ca sax
 Weeham yu xonq ya buñ koy lewwi Yàllaahu

@@ -20,6 +20,18 @@ window.authorsData = [
                 ]
             },
             {
+                "id": "Boroomam",
+                "title": "Boroomam",
+                "excerpt": "Tàgg Sëriñ bi",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/5DEWrZLIJEY?si=WI85vZONDq8sAidR"
+                },
+                "themes": [
+                    "Sëriñ bi"
+                ]
+            },
+            {
                 "id": "bàkk_wi_sëriñ_fàllu",
                 "title": "Bàkk wi- Sëriñ Fàllu",
                 "excerpt": "Dégluleen tay ma bàkkati mbër",
@@ -58,6 +70,18 @@ window.authorsData = [
                 "excerpt": "Une puissante exhortation spirituelle et introspective où l'auteur s'adresse à lui-même pour raviver sa ferveur, chanter les louanges de Cheikh Ahmadou Bamba et rappeler les exigences de la voie de la rectitude.",
                 "themes": [
                     "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
+                ]
+            },
+            {
+                "id": "jooyi_wolof",
+                "title": "Jooyi wolof",
+                "excerpt": "Màrsiya Sëriñ bi",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
+                },
+                "themes": [
+                    "Sëriñ bi"
                 ]
             },
             {
@@ -108,6 +132,18 @@ window.authorsData = [
                 ]
             },
             {
+                "id": "matlabul_haajaati",
+                "title": "Matlabul Haajaati",
+                "excerpt": "Wolofal ci Sëriñ bi ak njabootam",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
+                },
+                "themes": [
+                    "Sëriñ bi"
+                ]
+            },
+            {
                 "id": "mk_baarzan",
                 "title": "Baarzan",
                 "excerpt": "Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab.",
@@ -154,6 +190,18 @@ window.authorsData = [
                 "manuscript": "https:/drive.google.com/file/d/1RYJB9AtGSPZaGI_WIm58DAY2ToiWUSie/view?usp=drive_link"
             },
             {
+                "id": "sangub_jigeen",
+                "title": "Sangub jigéen ñi",
+                "excerpt": "Wolofal Soxna Jaara Buso la boo xamni Sëriñ Muusaa Ka ak Soxna Ami Seex bint Seexul Xadiim ñoo ko bokk bind",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ]
+            },
+            {
                 "id": "soxna_may",
                 "title": "Ma def bëyit yii Soxna May",
                 "excerpt": "Un poème de dévotion et d'hommage dédié à Sokhna Maymouna Mbacké, célébrant sa lignée sainte et implorant des bénédictions sur elle.",
@@ -175,6 +223,27 @@ window.authorsData = [
                 },
                 "themes": [
                     "Taarix"
+                ]
+            },
+            {
+                "id": "xarnu_bi",
+                "title": "Xarnu bi",
+                "excerpt": "Xarnu bi.",
+                "audio": null,
+                "themes": [
+                    "Sëriñ bi"
+                ]
+            },
+            {
+                "id": "Yaasin",
+                "title": "Yaasin",
+                "excerpt": "Tàgg Yonnen bi ASWS",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/2qi8qYAF5hY?si=2Zrl_XdMAV2DfvLK"
+                },
+                "themes": [
+                    "Yonnen bi (PSL)"
                 ]
             }
         ]
