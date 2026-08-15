@@ -136,6 +136,43 @@ h1, h2, h3, .logo {
     margin: 0 auto;
 }
 
+/* About View */
+.about-content {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.about-section {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-section h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;
+}
+
+.about-contact-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .authors-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -352,6 +389,68 @@ footer {
     opacity: 0.7;
     border-top: 1px solid var(--border-color);
     margin-top: 4rem;
+}
+
+/* Partner banner (Murid Mind) */
+.partner-banner {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 900px;
+    margin: 3rem auto 0;
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 16px var(--border-color);
+    color: var(--text-color);
+    text-decoration: none;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.partner-banner:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-color);
+}
+
+.partner-banner-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    object-fit: contain;
+    background: var(--poem-bg, var(--card-bg));
+    padding: 4px;
+}
+
+.partner-banner-text {
+    flex: 1;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.partner-banner-text strong {
+    font-family: 'Cinzel', serif;
+    font-size: 1.05rem;
+    color: var(--accent-color);
+}
+
+.partner-banner-cta {
+    flex-shrink: 0;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+@media (max-width: 640px) {
+    .partner-banner {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /* Mobile Responsive */

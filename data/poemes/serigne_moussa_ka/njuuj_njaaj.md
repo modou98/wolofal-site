@@ -196,8 +196,8 @@ Palaas yan war a maggal la say goney toog
 Maxaa mam jilaaney sa tàmblig feeñ,
 Kara may tiijaaney sa ban wi ngay xeen
 
-Karaamaati Junaydeeki mbóoti Tayfóor
-Ci sag ndaw nga ko làmboo te taxti laa foor
+Karaamaati Junaydeeki mbóoti Tayfuur
+Ci sag ndaw nga ko làmboo te taxti laa fuur
 
 Gilaadoy ngëramal xëwsu yaa ko ràngoo
 Mbalaan am njariñal xutbu yaa ko sàngoo

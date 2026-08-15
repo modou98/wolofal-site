@@ -1,4 +1,4 @@
-Title: Baarzan
+ Title: Baarzan
 Excerpt: Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab.
 Audio: https://www.youtube.com/playlist?list=PLrYQY_QVCG1xBJm7x5C-iql6VfuiknB91
 Theme: Yonnen bi (PSL)
@@ -824,7 +824,7 @@ Te mësla am ndox njëkkas bis booba Yàllaahu
 Noonam ya naa ko Xuraysin gépp gépp a ko gas
 Moomoo ko yaw rek teenub ñépp a Yàllaahu
 
-Noofal di xas di xulook moom naa ko ñépp a si yam
+Nawfal di xas di xulook moom naa ko ñépp a si yam
 Ak tay la mooy biiru Hismaa’ila Yàllaahu
 
 Ñuy soow ba giirag xuraysin xëy kalaame ko bis
@@ -848,9 +848,9 @@ Dëhran bi harfin shaziiyin minka Yàllaahu
 Wa saliyan nabi tasliimin haleyhi bihi
 Wa rawihi ruuha bi rayhaani Yàllaahu
 
-## Keroog la noofal di xas Habdul Mutallib a far
+## Keroog la Nawfal di xas Habdul Mutallib a far
 
-Keroog la noofal di xas Habdul Mutallib a far
+Keroog la Nawfal di xas Habdul Mutallib a far
 Ci néewi doom ngir kañaanam booba Yàllaahu
 
 Mang naa ko doo man a moom zam-zam te doo nu yilif

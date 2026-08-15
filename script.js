@@ -74,6 +74,7 @@ const app = {
         if (view === 'themes') return '#/themes';
         if (view === 'theme') return `#/theme/${encodeURIComponent(param)}`;
         if (view === 'manuscripts') return '#/manuscrits';
+        if (view === 'about') return '#/apropos';
         return '#/';
     },
 
@@ -91,6 +92,9 @@ const app = {
         }
         if (parts[0] === 'theme' && parts[1]) {
             return { view: 'theme', param: decodeURIComponent(parts[1]) };
+        }
+        if (parts[0] === 'apropos') {
+            return { view: 'about', param: null };
         }
         if (parts[0] === 'manuscrits') {
             return { view: 'manuscripts', param: null };
@@ -243,7 +247,7 @@ const app = {
         }
 
         if (view === 'home') {
-            document.title = "Wolofal Heritage - Accueil";
+            document.title = "Wolofal yi - Accueil";
             app.renderHome(container);
         } else if (view === 'author') {
             app.state.currentAuthorId = param;
@@ -253,15 +257,18 @@ const app = {
             app.state.currentPoemId = param;
             app.renderReader(container, param);
         } else if (view === 'themes') {
-            document.title = "Thèmes | Wolofal Heritage";
+            document.title = "Thèmes | Wolofal yi";
             app.renderThemes(container);
         } else if (view === 'theme') {
             app.state.currentThemeId = param;
             app.renderTheme(container, param);
         } else if (view === 'manuscripts') {
-            document.title = "Manuscrits | Wolofal Heritage";
+            document.title = "Manuscrits | Wolofal yi";
             app.state.manuscriptTypeFilter = app.state.manuscriptTypeFilter || 'all';
             app.renderManuscripts(container);
+        } else if (view === 'about') {
+            document.title = "À propos | Wolofal yi";
+            app.renderAbout(container);
         }
     },
 
@@ -416,7 +423,7 @@ const app = {
             return;
         }
 
-        document.title = `${theme.name} | Wolofal Heritage`;
+        document.title = `${theme.name} | Wolofal yi`;
 
         let poems = [];
         authorsData.forEach(author => {
@@ -526,6 +533,31 @@ const app = {
         `;
     },
 
+    renderAbout: (container) => {
+        container.innerHTML = `
+            <div class="gallery-header">
+                <h1>À propos</h1>
+                <p>Wolofal yi — Préservation et diffusion du patrimoine littéraire Wolofal.</p>
+            </div>
+            <div class="about-content">
+                <section class="about-section">
+                    <h2>Présentation</h2>
+                    <p>Wolofal yi est une archive numérique dédiée à la poésie religieuse en Wolofal (l'écriture ajami du wolof), transmise par les grandes figures du mouridisme : Sëriñ Muusaa Ka, Sëriñ Mbay Jaxate, Sëriñ Moor Kayre, Soxna Maymuuna Mbàkke Al Kubra, Seex Sàmba Jaara Mbay, et d'autres voix du patrimoine littéraire wolof.</p>
+                    <p>Le site rassemble les textes de ces poèmes, leurs manuscrits originaux, ainsi que des enregistrements audio, pour permettre à chacun de lire, écouter et explorer cette littérature par auteur ou par thème.</p>
+                </section>
+                <section class="about-section">
+                    <h2>Notre mission</h2>
+                    <p>Ces textes, souvent transmis de génération en génération sous forme manuscrite, risquent de se perdre avec le temps. Notre mission est de les préserver, de les rendre accessibles gratuitement en ligne, et de faciliter leur transmission aux générations futures — dans le respect de leur langue, de leur graphie originale et de leur sens spirituel.</p>
+                </section>
+                <section class="about-section">
+                    <h2>Contact</h2>
+                    <p>Pour toute question, correction, ou pour contribuer avec un manuscrit ou un enregistrement, écrivez-nous :</p>
+                    <a href="mailto:serignmbayjaxate@gmail.com" class="ctrl-btn about-contact-btn">✉️ serignmbayjaxate@gmail.com</a>
+                </section>
+            </div>
+        `;
+    },
+
     setManuscriptFilter: (type) => {
         app.state.manuscriptTypeFilter = type;
         app.renderManuscripts(document.getElementById('app'));
@@ -540,7 +572,7 @@ const app = {
         const author = authorsData.find(a => a.id === authorId);
         if (!author) return;
 
-        document.title = `${author.name} | Wolofal Heritage`;
+        document.title = `${author.name} | Wolofal yi`;
 
         const query = app.state.searchQuery;
         const regex = query ? app.searchRegex(query) : null;
@@ -637,7 +669,7 @@ const app = {
         // Le texte est chargé en async : si pas encore là, on affiche une attente
         // et loadContents() re-rendra la vue une fois le JSON arrivé.
         if (poem.content === undefined) {
-            document.title = `${poem.title} - par ${author.name} | Wolofal Heritage`;
+            document.title = `${poem.title} - par ${author.name} | Wolofal yi`;
             container.innerHTML = `
                 <div class="reader-view" style="max-width: 1200px; text-align: center; padding: 4rem 1rem;">
                     <p style="opacity: 0.7;">Chargement du texte…</p>
@@ -648,7 +680,7 @@ const app = {
 
         const { parsedContent, tocHtml } = app.parsePoemContent(poem.content, app.state.searchQuery, poem.stanzaSize || 2);
 
-        document.title = `${poem.title} - par ${author.name} | Wolofal Heritage`;
+        document.title = `${poem.title} - par ${author.name} | Wolofal yi`;
 
         const manuscriptIsPdf = poem.manuscript && app.isPdfUrl(poem.manuscript);
         const manuscriptEmbedUrl = poem.manuscript ? app.driveEmbedUrl(poem.manuscript) : '';
