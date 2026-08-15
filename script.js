@@ -6,14 +6,15 @@ const app = {
         fontSize: window.innerWidth <= 768 ? 1.05 : 1.4,
         isZen: false,
         currentView: 'home',
-        currentAuthorId: null,
+        currentAuthorSlug: null,
         currentPoemId: null,
         currentThemeId: null,
         authorThemeFilter: null,
         manuscriptTypeFilter: 'all',
         activeHighlightIndex: -1,
         totalHighlights: 0,
-        contentLoaded: false
+        contentLoaded: false,
+        lastRenderedPath: null
     },
 
     init: () => {
@@ -30,15 +31,17 @@ const app = {
             }
         });
 
-        // Route via l'URL (hash) pour permettre les liens directs et le bouton retour
-        // On ignore les ancres internes hors-routing (ex: #chap-1 du sommaire d'un poème)
-        window.addEventListener('hashchange', () => {
-            if (!window.location.hash.startsWith('#/')) return;
-            const { view, param } = app.parseHash();
+        // Route via l'URL (History API) pour permettre les liens directs et le bouton retour.
+        // Ne re-rend que si le chemin a reellement change (un clic sur une ancre #chap-N
+        // du sommaire d'un poeme cree aussi une entree d'historique, mais ne change pas le pathname).
+        window.addEventListener('popstate', () => {
+            if (window.location.pathname === app.state.lastRenderedPath) return;
+            const { view, param } = app.parsePath();
             app.render(view, param);
         });
 
-        const { view, param } = app.parseHash();
+        app.redirectLegacyHash();
+        const { view, param } = app.parsePath();
         app.render(view, param);
 
         app.loadContents();
@@ -48,7 +51,7 @@ const app = {
     // Le premier rendu (galerie, bios, titres) n'attend pas ce chargement.
     loadContents: async () => {
         try {
-            const res = await fetch('data/poemes_content.json?v=12');
+            const res = await fetch('/data/poemes_content.json?v=12');
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const contents = await res.json();
             authorsData.forEach(author => {
@@ -68,38 +71,76 @@ const app = {
         }
     },
 
-    routeToHash: (view, param) => {
-        if (view === 'author') return `#/auteur/${param}`;
-        if (view === 'reader') return `#/poeme/${encodeURIComponent(param)}`;
-        if (view === 'themes') return '#/themes';
-        if (view === 'theme') return `#/theme/${encodeURIComponent(param)}`;
-        if (view === 'manuscripts') return '#/manuscrits';
-        if (view === 'about') return '#/apropos';
-        return '#/';
+    // Retrouve {author, poem} a partir de l'id interne d'un poeme (id de fichier,
+    // utilise partout ailleurs dans l'appli) - sert a construire l'URL publique
+    // /auteur-slug/poeme-slug sans faire porter cette recherche a chaque appelant.
+    findAuthorAndPoemById: (poemId) => {
+        for (const a of authorsData) {
+            const poem = a.poems.find(p => p.id === poemId);
+            if (poem) return { author: a, poem };
+        }
+        return { author: null, poem: null };
     },
 
-    parseHash: () => {
-        const hash = window.location.hash.replace(/^#\/?/, '');
-        const parts = hash.split('/').filter(Boolean);
+    routeToPath: (view, param) => {
+        if (view === 'author') return `/${encodeURIComponent(param)}`;
+        if (view === 'reader') {
+            const { author, poem } = app.findAuthorAndPoemById(param);
+            if (!author || !poem) return '/';
+            return `/${encodeURIComponent(author.slug)}/${encodeURIComponent(poem.slug || poem.id)}`;
+        }
+        if (view === 'themes') return '/themes';
+        if (view === 'theme') return `/themes/${encodeURIComponent(param)}`;
+        if (view === 'manuscripts') return '/manuscrits';
+        if (view === 'about') return '/apropos';
+        return '/';
+    },
+
+    // Le param retourne pour la vue 'reader' reste l'id interne du poeme (pas le
+    // slug d'URL) : renderReader/currentPoemId/le chargement du contenu continuent
+    // d'utiliser cet id partout ailleurs, inchange par cette migration d'URL.
+    parsePath: () => {
+        const parts = window.location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
+        if (parts.length === 0) return { view: 'home', param: null };
+        const [first, second] = parts;
+        if (first === 'themes') {
+            return second ? { view: 'theme', param: second } : { view: 'themes', param: null };
+        }
+        if (first === 'manuscrits') return { view: 'manuscripts', param: null };
+        if (first === 'apropos') return { view: 'about', param: null };
+        const author = authorsData.find(a => a.slug === first);
+        if (!author) return { view: 'notfound', param: null };
+        if (second) {
+            const poem = author.poems.find(p => p.slug === second || p.id === second);
+            if (!poem) return { view: 'notfound', param: null };
+            return { view: 'reader', param: poem.id };
+        }
+        return { view: 'author', param: first };
+    },
+
+    // Compatibilite avec les anciens liens en hash (#/auteur/1, #/poeme/id, ...)
+    // partages/mis en favoris avant la migration vers des URLs propres.
+    redirectLegacyHash: () => {
+        const hash = window.location.hash;
+        if (!hash.startsWith('#/')) return;
+        const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+        let newPath = null;
         if (parts[0] === 'auteur' && parts[1]) {
-            return { view: 'author', param: parseInt(parts[1], 10) };
+            const author = authorsData.find(a => a.id === parseInt(parts[1], 10));
+            if (author) newPath = `/${encodeURIComponent(author.slug)}`;
+        } else if (parts[0] === 'poeme' && parts[1]) {
+            const { author, poem } = app.findAuthorAndPoemById(parts[1]);
+            if (author && poem) newPath = `/${encodeURIComponent(author.slug)}/${encodeURIComponent(poem.slug || poem.id)}`;
+        } else if (parts[0] === 'themes') {
+            newPath = '/themes';
+        } else if (parts[0] === 'theme' && parts[1]) {
+            newPath = `/themes/${encodeURIComponent(parts[1])}`;
+        } else if (parts[0] === 'manuscrits') {
+            newPath = '/manuscrits';
+        } else if (parts[0] === 'apropos') {
+            newPath = '/apropos';
         }
-        if (parts[0] === 'poeme' && parts[1]) {
-            return { view: 'reader', param: decodeURIComponent(parts[1]) };
-        }
-        if (parts[0] === 'themes') {
-            return { view: 'themes', param: null };
-        }
-        if (parts[0] === 'theme' && parts[1]) {
-            return { view: 'theme', param: decodeURIComponent(parts[1]) };
-        }
-        if (parts[0] === 'apropos') {
-            return { view: 'about', param: null };
-        }
-        if (parts[0] === 'manuscrits') {
-            return { view: 'manuscripts', param: null };
-        }
-        return { view: 'home', param: null };
+        window.history.replaceState(null, '', newPath || (window.location.pathname + window.location.search));
     },
 
     toggleTheme: (forceDark = false) => {
@@ -143,7 +184,7 @@ const app = {
                 }
             }
         } else if (app.state.currentView === 'author') {
-            app.renderAuthor(document.getElementById('app'), app.state.currentAuthorId);
+            app.renderAuthor(document.getElementById('app'), app.state.currentAuthorSlug);
         } else {
             app.renderHome(document.getElementById('app'));
         }
@@ -175,7 +216,7 @@ const app = {
             }
             app.updateMatchCounter();
         } else if (app.state.currentView === 'author') {
-            app.renderAuthor(document.getElementById('app'), app.state.currentAuthorId);
+            app.renderAuthor(document.getElementById('app'), app.state.currentAuthorSlug);
         } else {
             app.renderHome(document.getElementById('app'));
         }
@@ -224,16 +265,49 @@ const app = {
     },
 
     navigate: (view, param = null) => {
-        const newHash = app.routeToHash(view, param);
-        if (window.location.hash === newHash) {
+        const newPath = app.routeToPath(view, param);
+        if (window.location.pathname === newPath) {
             app.render(view, param);
         } else {
-            window.location.hash = newHash;
+            window.history.pushState({ view, param }, '', newPath);
+            app.render(view, param);
+        }
+    },
+
+    // Met a jour <link rel="canonical"> et <meta property="og:url"> (+ description
+    // si fournie) pour que chaque page ait ses propres balises. Googlebot execute le
+    // JS et relit le DOM final, ce qui aide l'indexation individuelle de chaque page
+    // meme sans rendu cote serveur.
+    updateMeta: (description) => {
+        const canonicalUrl = `https://wolofalyi.com${window.location.pathname}`;
+
+        let canonicalEl = document.querySelector('link[rel="canonical"]');
+        if (!canonicalEl) {
+            canonicalEl = document.createElement('link');
+            canonicalEl.setAttribute('rel', 'canonical');
+            document.head.appendChild(canonicalEl);
+        }
+        canonicalEl.setAttribute('href', canonicalUrl);
+
+        let ogUrlEl = document.querySelector('meta[property="og:url"]');
+        if (!ogUrlEl) {
+            ogUrlEl = document.createElement('meta');
+            ogUrlEl.setAttribute('property', 'og:url');
+            document.head.appendChild(ogUrlEl);
+        }
+        ogUrlEl.setAttribute('content', canonicalUrl);
+
+        if (description) {
+            const descEl = document.querySelector('meta[name="description"]');
+            if (descEl) descEl.setAttribute('content', description);
+            const ogDescEl = document.querySelector('meta[property="og:description"]');
+            if (ogDescEl) ogDescEl.setAttribute('content', description);
         }
     },
 
     render: (view, param = null) => {
         app.state.currentView = view;
+        app.state.lastRenderedPath = window.location.pathname;
         const container = document.getElementById('app');
         window.scrollTo(0, 0);
 
@@ -248,9 +322,10 @@ const app = {
 
         if (view === 'home') {
             document.title = "Wolofal yi - Accueil";
+            app.updateMeta();
             app.renderHome(container);
         } else if (view === 'author') {
-            app.state.currentAuthorId = param;
+            app.state.currentAuthorSlug = param;
             app.state.authorThemeFilter = null;
             app.renderAuthor(container, param);
         } else if (view === 'reader') {
@@ -258,17 +333,24 @@ const app = {
             app.renderReader(container, param);
         } else if (view === 'themes') {
             document.title = "Thèmes | Wolofal yi";
+            app.updateMeta();
             app.renderThemes(container);
         } else if (view === 'theme') {
             app.state.currentThemeId = param;
             app.renderTheme(container, param);
         } else if (view === 'manuscripts') {
             document.title = "Manuscrits | Wolofal yi";
+            app.updateMeta();
             app.state.manuscriptTypeFilter = app.state.manuscriptTypeFilter || 'all';
             app.renderManuscripts(container);
         } else if (view === 'about') {
             document.title = "À propos | Wolofal yi";
+            app.updateMeta();
             app.renderAbout(container);
+        } else if (view === 'notfound') {
+            document.title = "Page introuvable | Wolofal yi";
+            app.updateMeta();
+            app.renderNotFound(container);
         }
     },
 
@@ -321,7 +403,7 @@ const app = {
             const poemsHtml = matchingPoems.map(poem => {
                 const snippet = app.getSearchSnippet(poem.content, query);
                 return `
-                <div class="search-poem-card" onclick="app.navigate('reader', '${poem.id}')">
+                <a class="search-poem-card" href="${app.routeToPath('reader', poem.id)}" onclick="app.navigate('reader', '${poem.id}'); return false;">
                     <div style="display: flex; flex-direction: column; gap: 0.25rem; text-align: left; width: 100%;">
                         <span class="poem-title" style="font-size: 1.3rem;">${poem.title}</span>
                         <span class="poem-author" style="font-size: 0.9rem; color: var(--accent-color); font-weight: 500;">par ${poem.authorName}</span>
@@ -329,7 +411,7 @@ const app = {
                         ${snippet ? `<div class="poem-snippet">${snippet}</div>` : ''}
                     </div>
                     <span class="poem-meta" style="white-space: nowrap; margin-left: 1rem;">Lire &rarr;</span>
-                </div>
+                </a>
                 `;
             }).join('');
 
@@ -356,15 +438,15 @@ const app = {
             `;
         } else {
             const authorsHtml = authorsData.map(author => `
-                <div class="author-card" onclick="app.navigate('author', ${author.id})">
-                    <div class="card-image" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${author.image}'); background-size: cover; background-position: top;` : ''}">
+                <a class="author-card" href="${app.routeToPath('author', author.slug)}" onclick="app.navigate('author', '${author.slug}'); return false;">
+                    <div class="card-image" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${app.assetUrl(author.image)}'); background-size: cover; background-position: top;` : ''}">
                         ${!author.image ? `<span>${app.getInitials(author.name)}</span>` : ''}
                     </div>
                     <div class="card-content">
                         <h3>${author.name}</h3>
                         <p>${author.shortBio}</p>
                     </div>
-                </div>
+                </a>
             `).join('');
 
             container.innerHTML = `
@@ -398,10 +480,10 @@ const app = {
         const themesHtml = (window.themesData || []).map(theme => {
             const n = counts[theme.name] || 0;
             return `
-            <div class="theme-card ${n === 0 ? 'theme-card-empty' : ''}" onclick="app.navigate('theme', '${theme.id}')">
+            <a class="theme-card ${n === 0 ? 'theme-card-empty' : ''}" href="${app.routeToPath('theme', theme.id)}" onclick="app.navigate('theme', '${theme.id}'); return false;">
                 <h3>${theme.name}</h3>
                 <span class="theme-count">${n} poème${n > 1 ? 's' : ''}</span>
-            </div>
+            </a>
             `;
         }).join('');
 
@@ -424,6 +506,7 @@ const app = {
         }
 
         document.title = `${theme.name} | Wolofal yi`;
+        app.updateMeta(`Poèmes wolofal classés sous le thème ${theme.name}.`);
 
         let poems = [];
         authorsData.forEach(author => {
@@ -436,14 +519,14 @@ const app = {
         poems.sort((a, b) => a.authorName.localeCompare(b.authorName) || a.title.localeCompare(b.title));
 
         const poemsHtml = poems.map(poem => `
-            <div class="search-poem-card" onclick="app.navigate('reader', '${poem.id}')">
+            <a class="search-poem-card" href="${app.routeToPath('reader', poem.id)}" onclick="app.navigate('reader', '${poem.id}'); return false;">
                 <div style="display: flex; flex-direction: column; gap: 0.25rem; text-align: left; width: 100%;">
                     <span class="poem-title" style="font-size: 1.3rem;">${poem.title}</span>
                     <span class="poem-author" style="font-size: 0.9rem; color: var(--accent-color); font-weight: 500;">par ${poem.authorName}</span>
                     ${poem.excerpt ? `<span class="poem-excerpt">${poem.excerpt}</span>` : ''}
                 </div>
                 <span class="poem-meta" style="white-space: nowrap; margin-left: 1rem;">Lire &rarr;</span>
-            </div>
+            </a>
         `).join('');
 
         container.innerHTML = `
@@ -469,15 +552,25 @@ const app = {
 
     // Convertit un lien de partage Google Drive (".../file/d/ID/view...") en URL
     // embarquable pour un <iframe> ("/preview"). Laisse les autres URLs telles quelles.
+    // Un chemin local (ex: "assets/photo.png") doit rester resolu depuis la
+    // racine du site meme quand l'URL affichee n'est plus '/' (routage par
+    // chemin propre) : on force un '/' devant s'il n'y en a pas deja un, et on
+    // laisse intactes les URLs externes (http...) ou data:.
+    assetUrl: (path) => {
+        if (!path) return path;
+        if (/^([a-z]+:)?\/\//i.test(path) || path.startsWith('/') || path.startsWith('data:')) return path;
+        return '/' + path;
+    },
+
     driveEmbedUrl: (url) => {
         const m = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
-        return m ? `https://drive.google.com/file/d/${m[1]}/preview` : url;
+        return m ? `https://drive.google.com/file/d/${m[1]}/preview` : app.assetUrl(url);
     },
 
     // URL de téléchargement direct pour un lien Drive ; sinon l'URL d'origine.
     driveDownloadUrl: (url) => {
         const m = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
-        return m ? `https://drive.google.com/uc?export=download&id=${m[1]}` : url;
+        return m ? `https://drive.google.com/uc?export=download&id=${m[1]}` : app.assetUrl(url);
     },
 
     isPdfUrl: (url) => {
@@ -558,6 +651,18 @@ const app = {
         `;
     },
 
+    renderNotFound: (container) => {
+        container.innerHTML = `
+            <div class="gallery-header">
+                <h1>Page introuvable</h1>
+                <p>Ce lien ne correspond à aucune page du site.</p>
+            </div>
+            <div style="text-align:center; margin-top: 2rem;">
+                <a href="/" class="ctrl-btn" onclick="app.navigate('home'); return false;" style="text-decoration:none; font-weight:600; padding: 0.8rem 1.5rem;">&larr; Retour à l'accueil</a>
+            </div>
+        `;
+    },
+
     setManuscriptFilter: (type) => {
         app.state.manuscriptTypeFilter = type;
         app.renderManuscripts(document.getElementById('app'));
@@ -565,14 +670,15 @@ const app = {
 
     setAuthorThemeFilter: (themeId) => {
         app.state.authorThemeFilter = themeId;
-        app.renderAuthor(document.getElementById('app'), app.state.currentAuthorId);
+        app.renderAuthor(document.getElementById('app'), app.state.currentAuthorSlug);
     },
 
-    renderAuthor: (container, authorId) => {
-        const author = authorsData.find(a => a.id === authorId);
+    renderAuthor: (container, authorSlug) => {
+        const author = authorsData.find(a => a.slug === authorSlug);
         if (!author) return;
 
         document.title = `${author.name} | Wolofal yi`;
+        app.updateMeta(author.shortBio);
 
         const query = app.state.searchQuery;
         const regex = query ? app.searchRegex(query) : null;
@@ -617,14 +723,14 @@ const app = {
         const poemsHtml = poems.map(poem => {
             const snippet = query ? app.getSearchSnippet(poem.content, query) : '';
             return `
-            <div class="poem-item" onclick="app.navigate('reader', '${poem.id}')" style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.25rem; padding: 1.5rem;">
+            <a class="poem-item" href="${app.routeToPath('reader', poem.id)}" onclick="app.navigate('reader', '${poem.id}'); return false;" style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.25rem; padding: 1.5rem;">
                 <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
                     <span class="poem-title" style="font-size: 1.3rem;">${poem.title}</span>
                     <span class="poem-meta" style="white-space: nowrap; margin-left: 1rem;">Lire &rarr;</span>
                 </div>
                 ${poem.excerpt ? `<span class="poem-excerpt">${poem.excerpt}</span>` : ''}
                 ${snippet ? `<div class="poem-snippet" style="width: 100%;">${snippet}</div>` : ''}
-            </div>
+            </a>
             `;
         }).join('');
 
@@ -634,7 +740,7 @@ const app = {
                     &larr; Retour à la galerie
                 </button>
                 <div class="author-header">
-                    <div class="author-portrait" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${author.image}'); background-size: cover; background-position: top;` : ''}"></div>
+                    <div class="author-portrait" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${app.assetUrl(author.image)}'); background-size: cover; background-position: top;` : ''}"></div>
                     <div class="author-info">
                         <h1>${author.name}</h1>
                         <div class="author-bio">${author.fullBio.replace(/\n/g, '<br>')}</div>
@@ -670,6 +776,7 @@ const app = {
         // et loadContents() re-rendra la vue une fois le JSON arrivé.
         if (poem.content === undefined) {
             document.title = `${poem.title} - par ${author.name} | Wolofal yi`;
+            app.updateMeta(poem.excerpt);
             container.innerHTML = `
                 <div class="reader-view" style="max-width: 1200px; text-align: center; padding: 4rem 1rem;">
                     <p style="opacity: 0.7;">Chargement du texte…</p>
@@ -681,6 +788,7 @@ const app = {
         const { parsedContent, tocHtml } = app.parsePoemContent(poem.content, app.state.searchQuery, poem.stanzaSize || 2);
 
         document.title = `${poem.title} - par ${author.name} | Wolofal yi`;
+        app.updateMeta(poem.excerpt);
 
         const manuscriptIsPdf = poem.manuscript && app.isPdfUrl(poem.manuscript);
         const manuscriptEmbedUrl = poem.manuscript ? app.driveEmbedUrl(poem.manuscript) : '';
@@ -692,7 +800,7 @@ const app = {
         container.innerHTML = `
             <div class="reader-view" style="max-width: 1200px;">
                 <div class="reader-top-bar">
-                    <button class="back-button" style="margin-bottom:0;" onclick="app.navigate('author', ${author.id})">
+                    <button class="back-button" style="margin-bottom:0;" onclick="app.navigate('author', '${author.slug}')">
                         &larr; Retour à ${author.name}
                     </button>
                     
@@ -747,8 +855,8 @@ const app = {
                                     </div>
                                 ` : `
                                     <div style="text-align: center; display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
-                                        <img class="manuscript-preview" src="${poem.manuscript}" alt="Manuscrit Original de ${poem.title}" style="width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border-color); box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: block;">
-                                        <a href="${poem.manuscript}" target="_blank" download class="ctrl-btn" style="text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center;">
+                                        <img class="manuscript-preview" src="${app.assetUrl(poem.manuscript)}" alt="Manuscrit Original de ${poem.title}" style="width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border-color); box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: block;">
+                                        <a href="${app.assetUrl(poem.manuscript)}" target="_blank" download class="ctrl-btn" style="text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center;">
                                             📥 Télécharger l'image du manuscrit
                                         </a>
                                     </div>
@@ -763,7 +871,7 @@ const app = {
                         </div>
                         
                         <div style="margin-top: 3rem; display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
-                            <button class="ctrl-btn" onclick="app.navigate('author', ${author.id})" style="font-weight: 600; padding: 0.8rem 1.5rem;">
+                            <button class="ctrl-btn" onclick="app.navigate('author', '${author.slug}')" style="font-weight: 600; padding: 0.8rem 1.5rem;">
                                 &larr; Retour à ${author.name}
                             </button>
                             <button class="ctrl-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" style="font-weight: 600; padding: 0.8rem 1.5rem;">

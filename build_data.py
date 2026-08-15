@@ -1,6 +1,17 @@
 import os
 import json
 import re
+import urllib.parse
+
+# Slug lisible pour l'URL d'un poeme, derive de son titre affiche (pas du nom
+# de fichier interne). On garde les caracteres wolof accentues (a, e, n, etc.)
+# car ils sont porteurs de sens ; on ne retire que la ponctuation.
+def slugify(text):
+    text = text.strip().lower()
+    text = re.sub(r"[’'\"«»,.;:!?()\[\]]", '', text)
+    text = re.sub(r'[\s_/]+', '-', text)
+    text = re.sub(r'-+', '-', text).strip('-')
+    return text or 'poeme'
 
 def build():
     print("Construction de content.js...")
@@ -122,6 +133,19 @@ def build():
                             poem_data['themeReview'] = val
                 
                 author['poems'].append(poem_data)
+
+        # Slug d'URL par poeme, base sur le titre affiche. Unique au sein de
+        # l'auteur seulement (l'URL est deja imbriquee sous l'auteur) : en cas
+        # de collision (titres identiques), on ajoute -2, -3, ...
+        seen_slugs = {}
+        for poem_data in author['poems']:
+            base_slug = slugify(poem_data.get('title', poem_data['id']))
+            slug = base_slug
+            count = seen_slugs.get(base_slug, 0) + 1
+            seen_slugs[base_slug] = count
+            if count > 1:
+                slug = f"{base_slug}-{count}"
+            poem_data['slug'] = slug
     
     # 3. Générer content.js (métadonnées) et data/poemes_content.json (textes)
     js_content = "window.authorsData = " + json.dumps(authors, ensure_ascii=False, indent=4) + ";\n"
@@ -134,7 +158,47 @@ def build():
     with open(os.path.join('data', 'poemes_content.json'), 'w', encoding='utf-8') as f:
         json.dump(poem_contents, f, ensure_ascii=False)
 
-    print("Succès ! content.js et data/poemes_content.json mis à jour.")
+    generate_sitemap(authors)
+
+    print("Succès ! content.js, data/poemes_content.json et sitemap.xml mis à jour.")
+
+# 4. Génère sitemap.xml (page d'accueil + sections + une entrée par auteur/poème)
+# pour que Google puisse découvrir et indexer chaque page individuellement.
+def generate_sitemap(authors):
+    site_url = 'https://wolofalyi.com'
+
+    def loc(path):
+        return f"{site_url}{path}"
+
+    entries = [
+        (loc('/'), 'weekly', '1.0'),
+        (loc('/themes'), 'monthly', '0.6'),
+        (loc('/manuscrits'), 'monthly', '0.6'),
+        (loc('/apropos'), 'yearly', '0.3'),
+    ]
+    for author in authors:
+        slug = author.get('slug')
+        if not slug:
+            print(f"Attention : pas de slug pour {author.get('name')}, exclu du sitemap.")
+            continue
+        author_path = f"/{urllib.parse.quote(slug, safe='')}"
+        entries.append((loc(author_path), 'monthly', '0.7'))
+        for poem in author.get('poems', []):
+            poem_path = f"{author_path}/{urllib.parse.quote(poem.get('slug', poem['id']), safe='')}"
+            entries.append((loc(poem_path), 'yearly', '0.5'))
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url, freq, priority in entries:
+        lines += ['    <url>',
+                   f'        <loc>{url}</loc>',
+                   f'        <changefreq>{freq}</changefreq>',
+                   f'        <priority>{priority}</priority>',
+                   '    </url>']
+    lines.append('</urlset>')
+
+    with open('sitemap.xml', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
 
 if __name__ == '__main__':
     build()

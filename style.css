@@ -181,6 +181,7 @@ h1, h2, h3, .logo {
 }
 
 .author-card {
+    display: block;
     background: var(--card-bg);
     border-radius: 16px;
     overflow: hidden;
@@ -188,6 +189,8 @@ h1, h2, h3, .logo {
     transition: transform var(--transition-speed), box-shadow var(--transition-speed);
     cursor: pointer;
     border: 1px solid var(--border-color);
+    text-decoration: none;
+    color: inherit;
 }
 
 .author-card:hover {
@@ -296,6 +299,8 @@ h1, h2, h3, .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 .poem-item:hover {
@@ -768,6 +773,8 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     align-items: center;
     cursor: pointer;
     transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    text-decoration: none;
+    color: inherit;
 }
 .search-poem-card:hover {
     background: rgba(0, 0, 0, 0.02);
@@ -853,6 +860,8 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    text-decoration: none;
+    color: inherit;
 }
 
 .theme-card:hover {

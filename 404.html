@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wolofal yi</title>
+  <script>
+    // GitHub Pages n'a pas de reecriture serveur : cette page est servie (avec
+    // un vrai statut 404) pour toute URL propre inconnue du serveur statique
+    // (ex: /serigne-moussa-ka apres un F5). On memorise le chemin demande
+    // puis on redirige vers / ou index.html restaure ce chemin avant le
+    // premier rendu du routeur.
+    sessionStorage.setItem('spa-redirect-path', location.pathname + location.search + location.hash);
+    location.replace('/');
+  </script>
+</head>
+<body>Redirection…</body>
+</html>
