@@ -40,6 +40,16 @@ const app = {
             app.render(view, param);
         });
 
+        // Si un vieux lien en hash (#/auteur/1, #/poeme/id, ...) est ouvert/colle
+        // APRES le chargement initial (l'app tourne deja), redirige aussi dans ce cas :
+        // redirectLegacyHash() seul (appele plus bas) ne couvre que le chargement initial.
+        window.addEventListener('hashchange', () => {
+            if (!window.location.hash.startsWith('#/')) return;
+            app.redirectLegacyHash();
+            const { view, param } = app.parsePath();
+            app.render(view, param);
+        });
+
         app.redirectLegacyHash();
         const { view, param } = app.parsePath();
         app.render(view, param);
