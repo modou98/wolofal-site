@@ -63,19 +63,37 @@ Le dashboard permet, sans toucher au code :
 
   a) AJOUTER UN POEME
      - Choisir l'auteur, les themes, le nombre de vers par strophe,
-       le titre, un lien audio (YouTube ou mp3) et le texte du poeme.
+       le titre, un ou plusieurs liens audio (YouTube ou mp3) et le
+       texte du poeme.
      - Cliquer "Enregistrer et Publier".
      - Le mot de passe admin sera demande la premiere fois (il est
        ensuite memorise dans le navigateur).
 
   b) MODIFIER UN POEME EXISTANT
      - Table "Gerer les Poemes Existants" : chercher le poeme,
-       cocher/decocher les themes, changer le lien audio, choisir un
-       manuscrit dans le menu deroulant, puis cliquer "Enregistrer"
+       cocher/decocher les themes, changer le(s) lien(s) audio, choisir
+       un manuscrit dans le menu deroulant, puis cliquer "Enregistrer"
        sur la ligne correspondante.
      - La case a cocher "Afficher seulement les poemes a verifier"
        filtre les poemes dont le theme a ete attribue automatiquement
        avec une confiance faible (a relire en priorite).
+
+  b-bis) AJOUTER PLUSIEURS PARTIES AUDIO (ex: un poeme filme en
+         plusieurs videos YouTube)
+     - Dans "Ajouter un Poeme" ou sur la ligne d'un poeme existant,
+       chaque partie audio a deux champs : un Nom (ex: "Partie 1",
+       "Partie 2") et un Lien (YouTube ou mp3).
+     - Cliquer "+ Ajouter une partie" pour ajouter une ligne
+       supplementaire. Le bouton "✕" retire une ligne.
+     - S'il n'y a qu'une seule partie, laisser son Nom vide : le site
+       l'affichera comme un lecteur audio simple, sans onglets.
+     - Des qu'il y a 2 lignes (ou une seule avec un Nom renseigne), le
+       poeme affichera des onglets ("Partie 1", "Partie 2", ...) pour
+       naviguer entre les videos/pistes.
+     - Cliquer "Enregistrer" (ou "Enregistrer et Publier") comme
+       d'habitude : le dashboard s'occupe d'ecrire le bon format dans
+       le fichier .md (voir section 6 pour le format brut si besoin de
+       l'ecrire a la main).
 
   c) GERER LES MANUSCRITS (catalogue Ajami / Transcrit)
      - Formulaire en bas de page : titre du manuscrit, auteur, type
@@ -191,7 +209,15 @@ Champs de l'en-tete :
                 (ex: "Sëriñ bi | Tawhiid").
   StanzaSize    Optionnel (defaut 2). Nombre de vers par strophe pour
                 le regroupement visuel automatique.
-  Audio         Optionnel. Lien YouTube ou fichier mp3.
+  Audio         Optionnel. Lien YouTube ou fichier mp3. Pour PLUSIEURS
+                parties (ex: un poeme en plusieurs videos), remplacer
+                par une liste JSON sur une seule ligne :
+
+                Audio: [{"label": "Partie 1", "url": "https://youtu.be/XXXX"}, {"label": "Partie 2", "url": "https://youtu.be/YYYY"}]
+
+                (le dashboard admin genere ce format automatiquement,
+                voir section 3.b-bis - pas besoin de l'ecrire a la main
+                sauf edition directe du fichier)
   Manuscript    Optionnel. Lien vers le manuscrit associe (voir
                 section 3.d pour l'hebergement).
 

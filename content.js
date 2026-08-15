@@ -41,6 +41,16 @@ window.authorsData = [
                 "manuscript": "https:/drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link"
             },
             {
+                "id": "faahilun",
+                "title": "Bàkk Sëñ Mòodu Mustafaa",
+                "excerpt": "Faahilun Mufaahalatun",
+                "audio": null,
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "stanzaSize": 4
+            },
+            {
                 "id": "huqal_bukaau_maarsiyya_sëñ_mòodu_mustafaa",
                 "title": "Huqal bukaa'u ( Maarsiyya Sëñ Mòodu Mustafaa)",
                 "excerpt": "Huqal bukaa’u  Xaaba rajaa u",
@@ -50,7 +60,8 @@ window.authorsData = [
                 },
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ]
+                ],
+                "stanzaSize": 4
             },
             {
                 "id": "jazaau_shakoor_geej",
@@ -82,7 +93,8 @@ window.authorsData = [
                 },
                 "themes": [
                     "Sëriñ bi"
-                ]
+                ],
+                "stanzaSize": 4
             },
             {
                 "id": "magal_yi",
@@ -232,7 +244,8 @@ window.authorsData = [
                 "audio": null,
                 "themes": [
                     "Sëriñ bi"
-                ]
+                ],
+                "stanzaSize": 4
             },
             {
                 "id": "Yaasin",
@@ -260,10 +273,28 @@ window.authorsData = [
                 "id": "Alhamdulilaahi",
                 "title": "Alhamdulilaahi",
                 "excerpt": "Une litanie rythmée de louanges universelles (Tahmid), rendant grâce à Dieu pour les bienfaits de l'Islam, de la foi et du calife Khadimou Rassoul.",
-                "audio": {
-                    "type": "mp3",
-                    "url": "[ {\"label\": \"Partie 1 (Vidéo)\", \"url\": \"https://youtu.be/LSTEKo_bEsc\"}, {\"label\": \"Partie 2 (Vidéo)\", \"url\": \"https://youtu.be/tgKt6X1HtlM\"},{\"label\": \"Partie 3 (Vidéo)\", \"url\": \"https://youtu.be/TXQjLDjw_0I\"}, {\"label\": \"Partie 4 (Vidéo)\", \"url\": \"https://youtu.be/uUNrfUrSXEY\"}, ]"
-                },
+                "audio": [
+                    {
+                        "label": "Partie 1 (Vidéo)",
+                        "url": "https://youtu.be/LSTEKo_bEsc",
+                        "type": "youtube"
+                    },
+                    {
+                        "label": "Partie 2 (Vidéo)",
+                        "url": "https://youtu.be/tgKt6X1HtlM",
+                        "type": "youtube"
+                    },
+                    {
+                        "label": "Partie 3 (Vidéo)",
+                        "url": "https://youtu.be/TXQjLDjw_0I",
+                        "type": "youtube"
+                    },
+                    {
+                        "label": "Partie 4 (Vidéo)",
+                        "url": "https://youtu.be/uUNrfUrSXEY",
+                        "type": "youtube"
+                    }
+                ],
                 "themes": [
                     "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ]
@@ -1359,7 +1390,8 @@ window.authorsData = [
                 "excerpt": "Lu dul ni ñokket Rekk ni waqet",
                 "themes": [
                     "Dee ak bisu pénc (La mort et l'au-delà)"
-                ]
+                ],
+                "stanzaSize": 4
             },
             {
                 "id": "lu_yàgg_yàgg_lu_baaxay_am_lu_sedd_xolay",

@@ -2,6 +2,7 @@ Title: Bàkk Sëñ Mòodu Mustafaa
 Excerpt: Faahilun Mufaahalatun
 Audio: 
 Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
+StanzaSize: 4
 ---
 Faahilun mufaahalatun 
 Man ndaxaam ma laa bëgg way

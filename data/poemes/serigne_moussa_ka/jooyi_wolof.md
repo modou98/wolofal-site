@@ -2,6 +2,7 @@ Title: Jooyi wolof
 Excerpt: Màrsiya Sëriñ bi
 Audio: https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn
 Theme: Sëriñ bi
+StanzaSize: 4
 ---
 Déglul ma jooy jooyi wolof
 Mbër ma defar réewi wolof

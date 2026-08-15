@@ -135,8 +135,10 @@
             </div>
 
             <div class="form-group">
-                <label for="audio">Lien Audio (Optionnel)</label>
-                <input type="text" id="audio" class="form-control" placeholder="Lien YouTube ou URL mp3">
+                <label>Lien(s) Audio (Optionnel)</label>
+                <div id="audioPartsContainer"></div>
+                <button type="button" class="ctrl-btn" onclick="addAudioPartRow('audioPartsContainer')" style="margin-top:0.25rem;">+ Ajouter une partie</button>
+                <p style="font-size:0.8rem; opacity:0.7; margin-top:0.4rem;">Laissez le nom vide s'il n'y a qu'une seule partie. Ajoutez plusieurs lignes avec un nom (ex: "Partie 1", "Partie 2") pour un poème en plusieurs vidéos.</p>
             </div>
 
             <div class="form-group">
@@ -275,6 +277,52 @@
             return response;
         }
 
+        // --- Gestion des liens audio en plusieurs parties (ex: plusieurs vidéos YouTube) ---
+        function renderAudioPartRowHtml(label, url) {
+            const safeLabel = (label || '').replace(/"/g, '&quot;');
+            const safeUrl = (url || '').replace(/"/g, '&quot;');
+            return `
+                <div class="audio-part-row" style="display:flex; gap:0.4rem; margin-bottom:0.4rem; align-items:center;">
+                    <input type="text" class="form-control audio-part-label" placeholder="Nom (ex: Partie 1)" style="flex:0 0 110px; padding:0.4rem; font-size:0.85rem;" value="${safeLabel}">
+                    <input type="text" class="form-control audio-part-url" placeholder="Lien YouTube ou MP3" style="flex:1; padding:0.4rem; font-size:0.85rem;" value="${safeUrl}">
+                    <button type="button" onclick="this.closest('.audio-part-row').remove()" style="flex:0 0 auto; background:none; border:none; color:#e74c3c; cursor:pointer; font-size:1rem; padding:0 0.3rem;" title="Supprimer cette partie">✕</button>
+                </div>
+            `;
+        }
+
+        function addAudioPartRow(containerId, label = '', url = '') {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            container.insertAdjacentHTML('beforeend', renderAudioPartRowHtml(label, url));
+        }
+
+        // Normalise poem.audio (string | {url,type} | [{url,type,label}]) en liste éditable
+        function parseAudioForEditing(audio) {
+            if (!audio) return [];
+            if (Array.isArray(audio)) return audio.map(a => ({ label: a.label || '', url: a.url || '' }));
+            if (typeof audio === 'object' && audio.url) return [{ label: audio.label || '', url: audio.url }];
+            if (typeof audio === 'string' && audio.trim()) return [{ label: '', url: audio.trim() }];
+            return [];
+        }
+
+        // Relit les lignes d'un conteneur et reconstruit soit une simple URL (1 partie sans nom),
+        // soit un JSON de parties nommées (plusieurs parties) à écrire tel quel dans Audio:
+        function collectAudioParts(containerId) {
+            const container = document.getElementById(containerId);
+            if (!container) return '';
+            const rows = container.querySelectorAll('.audio-part-row');
+            const parts = [];
+            rows.forEach(row => {
+                const label = row.querySelector('.audio-part-label').value.trim();
+                const url = row.querySelector('.audio-part-url').value.trim();
+                if (url) parts.push({ label, url });
+            });
+            if (parts.length === 0) return '';
+            if (parts.length === 1 && !parts[0].label) return parts[0].url;
+            const withLabels = parts.map((p, i) => ({ label: p.label || `Partie ${i + 1}`, url: p.url }));
+            return JSON.stringify(withLabels);
+        }
+
         // Charger les auteurs et les thèmes et afficher la table
         window.addEventListener('DOMContentLoaded', () => {
             const selectAuthor = document.getElementById('authorId');
@@ -301,6 +349,7 @@
                 });
             }
 
+            addAudioPartRow('audioPartsContainer');
             renderPoemsTable();
             renderManuscriptsTable();
         });
@@ -320,7 +369,7 @@
                 title: document.getElementById('title').value,
                 themes: Array.from(document.querySelectorAll('input[name="themes"]:checked')).map(el => el.value),
                 stanzaSize: document.getElementById('stanzaSize').value,
-                audio: document.getElementById('audio').value,
+                audio: collectAudioParts('audioPartsContainer'),
                 manuscript: document.getElementById('manuscript').value,
                 content: document.getElementById('content').value
             };
@@ -332,6 +381,8 @@
                     status.textContent = `Succès ! Le fichier ${result.file} a été créé et le site est mis à jour.`;
                     status.className = 'status success';
                     document.getElementById('poemForm').reset();
+                    document.getElementById('audioPartsContainer').innerHTML = '';
+                    addAudioPartRow('audioPartsContainer');
                 } else {
                     throw new Error(result.message || "Erreur inconnue");
                 }
@@ -383,18 +434,12 @@
                         });
                     }
                     
-                    // Lien audio
-                    let audioUrl = '';
-                    if (poem.audio) {
-                        if (typeof poem.audio === 'string') {
-                            audioUrl = poem.audio;
-                        } else if (poem.audio.url) {
-                            audioUrl = poem.audio.url;
-                        } else if (Array.isArray(poem.audio) && poem.audio.length > 0) {
-                            audioUrl = poem.audio[0].url || '';
-                        }
-                    }
-                    
+                    // Lien(s) audio
+                    const audioContainerId = `audio-parts-${poem.id}`;
+                    const audioRowsHtml = parseAudioForEditing(poem.audio)
+                        .map(p => renderAudioPartRowHtml(p.label, p.url))
+                        .join('');
+
                     const reviewBadge = poem.themeReview
                         ? `<span title="${poem.themeReview.replace(/"/g, '&quot;')}" style="cursor: help; margin-left: 0.4rem;">⚠️</span>`
                         : '';
@@ -422,8 +467,9 @@
                                 ${themeCheckboxes}
                             </div>
                         </td>
-                        <td style="padding: 0.5rem 1rem;">
-                            <input type="text" class="form-control poem-audio-input" style="padding: 0.5rem; font-size: 0.9rem; border-radius: 6px;" value="${audioUrl}" placeholder="Lien YouTube ou MP3">
+                        <td style="padding: 0.5rem 1rem; min-width: 220px;">
+                            <div id="${audioContainerId}">${audioRowsHtml}</div>
+                            <button type="button" class="ctrl-btn" style="padding:0.25rem 0.5rem; font-size:0.75rem; margin-top:0.3rem;" onclick="addAudioPartRow('${audioContainerId}')">+ Partie</button>
                         </td>
                         <td style="padding: 0.5rem 1rem;">
                             <select class="form-control poem-manuscript-input" style="padding: 0.5rem; font-size: 0.85rem; border-radius: 6px;">
@@ -464,7 +510,7 @@
         async function savePoemRow(btn, authorFolder, poemId) {
             const tr = btn.closest('tr');
             const checkedRowThemes = Array.from(tr.querySelectorAll('.row-theme-checkbox:checked')).map(el => el.value);
-            const audioInput = tr.querySelector('.poem-audio-input');
+            const audioContainer = tr.querySelector('[id^="audio-parts-"]');
             const manuscriptInput = tr.querySelector('.poem-manuscript-input');
 
             const originalText = btn.textContent;
@@ -476,7 +522,7 @@
                 authorFolder: authorFolder,
                 poemId: poemId,
                 themes: checkedRowThemes,
-                audio: audioInput.value,
+                audio: audioContainer ? collectAudioParts(audioContainer.id) : '',
                 manuscript: manuscriptInput.value
             };
             

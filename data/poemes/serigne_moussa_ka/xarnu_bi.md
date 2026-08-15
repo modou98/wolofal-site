@@ -2,6 +2,7 @@ Title: Xarnu bi
 Excerpt: Xarnu bi.
 Audio: 
 Theme: Sëriñ bi
+StanzaSize: 4
 ---
 Sëriñ bi noo ngi deeti ñaan
 Faxiir dafay nangoo dagaan
