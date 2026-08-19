@@ -318,11 +318,22 @@ const app = {
         }
         ogUrlEl.setAttribute('content', canonicalUrl);
 
+        // document.title est deja pose par chaque branche de render() juste avant
+        // l'appel a updateMeta() : on le propage a og:title/twitter:title pour que
+        // les deux restent coherents (ex: partage sur les reseaux, meme si les
+        // scrapers qui n'executent pas le JS ne verront que le titre generique).
+        const ogTitleEl = document.querySelector('meta[property="og:title"]');
+        if (ogTitleEl) ogTitleEl.setAttribute('content', document.title);
+        const twitterTitleEl = document.querySelector('meta[name="twitter:title"]');
+        if (twitterTitleEl) twitterTitleEl.setAttribute('content', document.title);
+
         if (description) {
             const descEl = document.querySelector('meta[name="description"]');
             if (descEl) descEl.setAttribute('content', description);
             const ogDescEl = document.querySelector('meta[property="og:description"]');
             if (ogDescEl) ogDescEl.setAttribute('content', description);
+            const twitterDescEl = document.querySelector('meta[name="twitter:description"]');
+            if (twitterDescEl) twitterDescEl.setAttribute('content', description);
         }
     },
 

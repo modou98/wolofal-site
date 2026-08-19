@@ -1,13 +1,13 @@
 // Service worker "app shell" : rend le site installable et relançable
 // instantanément (PWA), mais ne met PAS en cache le texte des poèmes
-// (data/poemes_content.json) ni les données (content.js) de façon agressive :
-// il faut du réseau pour lire un poème. Seule la coquille (HTML/CSS/JS/icônes)
-// fonctionne hors-ligne.
+// (data/poemes_content.json) de façon agressive : il faut du réseau pour lire
+// un poème. Seule la coquille (HTML/CSS/JS/icônes) fonctionne hors-ligne.
 //
-// IMPORTANT : si vous changez les ?v=N dans index.html (style.css, script.js,
-// content.js, logo), mettez aussi à jour la liste SHELL_URLS ci-dessous et
-// incrémentez CACHE_NAME, sinon le service worker servira une version périmée.
-const CACHE_NAME = 'wolofal-shell-v1';
+// Strategie reseau-d'abord partout (sauf /data/, jamais mis en cache) : les
+// visiteurs en ligne ont toujours la derniere version, le cache ne sert que
+// de repli hors-ligne. Pas besoin de bumper CACHE_NAME a chaque modif de
+// script.js/style.css pour eviter une version perimee.
+const CACHE_NAME = 'wolofal-shell-v2';
 const SHELL_URLS = [
     '/',
     '/index.html',
@@ -59,17 +59,17 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
-    // Coquille (JS/CSS/icones) : cache d'abord, reseau en repli/mise a jour.
+    // Coquille (JS/CSS/icones) : reseau d'abord (pour ne jamais servir une
+    // version perimee du site aux visiteurs en ligne), cache en repli si
+    // hors-ligne. Le cache est quand meme mis a jour a chaque reponse reseau
+    // reussie, donc la version hors-ligne progresse au fil des visites.
     event.respondWith(
-        caches.match(request).then((cached) => {
-            if (cached) return cached;
-            return fetch(request).then((response) => {
-                if (response.ok) {
-                    const clone = response.clone();
-                    caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
-                }
-                return response;
-            });
-        })
+        fetch(request).then((response) => {
+            if (response.ok) {
+                const clone = response.clone();
+                caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+            }
+            return response;
+        }).catch(() => caches.match(request))
     );
 });
