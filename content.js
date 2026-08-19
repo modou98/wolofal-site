@@ -2611,7 +2611,6 @@ window.authorsData = [
                 "themes": [
                     "Sëriñ bi"
                 ],
-                "stanzaSize": 4,
                 "slug": "sheex-i-gànnaar-ak-i-kajoor"
             },
             {

@@ -26,4 +26,5 @@ Yaw Yàlla may nu ci bàrke Bàmba mii nga jubal
 Jub ak wér ug yaram ak gudd uw fan ak rafetal
 Ta may nu mujj gu rafet, ta may ko bépp Murid
 Ak bépp julit, ta may nu’g sax ci topp ndigal
+
 Amiiin

@@ -26,7 +26,7 @@ Ku Yàlla wallu nga fàtteb coona, Yal nanu may…
 Nun ñépp wallu gu rëy, guy tax ñu dab ñanu raw
 Te Yal na Yàlla defar géppug defar suñu mbir
 Ba dóotu yàqu te may nug doylu fàww ak u yiw
-___
+
 Dalal di fab sa kurus tay sikaroo’ka tasab
 Ludul li ngay jëf, du ànd ak yaw bu dee gane see
 Dee matla dox di ragal, moy daal a mat di ragal

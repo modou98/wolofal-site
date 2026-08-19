@@ -1,9 +1,9 @@
 Title: Sheex i gànnaar ak i kajoor 
 Excerpt: Sheex i gànnaar ak i kajoor 
 Theme: Sëriñ bi
-StanzaSize: 4
 ---
 Sheex i gànnaar ak i kajoor 
+
 Yépp a ngi naa yaa di góor 
 Kenn sikkatul ni yaa di góor 
 Ba nga defee lu kenn deful
@@ -21,7 +21,8 @@ Ku yabu noppi mbaa mu way
 Yaw am nga tànneef i géwël
 Kula wayul deesu ko way 
 Kula mayul deesu ko may 
-Ku la royul deesu ko roy ku daguwul deesu ko fal
+Ku la royul deesu ko roy
+Ku daguwul deesu ko fal
 Ku dagu yit ku faluwul 
 Du tax mu fal la genn pal 
 Ngir ken du jox nit loo amul Yaa falu fal nu gépp pal

@@ -52,4 +52,5 @@ Alhamdulillaahi, tee noo noppalooti ta jug
 Ag cant sas la wu rëy nañ jekki (xaar) tuuti ta dal
 Firdawsi duy nax ta koo jis mo ko tee nelaw it
 Yàl nañ ko am ta suñuy fan gudd a gudd ta ful
+
 Amiin

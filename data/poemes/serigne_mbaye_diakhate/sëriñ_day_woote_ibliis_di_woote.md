@@ -3,6 +3,7 @@ Excerpt: Sëriñ day woote Ibliis di woote …
 Theme: Séytaane (Les ruses de Satan)
 ---
 Sëriñ day woote Ibliis di woote …
+
 Sëriñ bi day woote Ibliis di woote ni ay !
 Ku nekk a ngay wut kumuy yóbbaale ! moo nakamu
 Ku nekk am na këram kum jàpp yóbbu këram,

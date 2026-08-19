@@ -2,7 +2,6 @@ Title: Ndegam gaa ya bay daal a xal seeta añ
 Excerpt: añ, - Ndegam gaa ya bay daal a xal seeta añ,
 Theme: Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)
 ---
-añ,
 Ndegam gaa ya bay daal a xal seeta añ,
 Ku xam gaayadul bay bay funuy lekke kon.
 Bu fekkee ni yaw Bàmba may yii nga yor,
