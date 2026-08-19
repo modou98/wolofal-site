@@ -30,4 +30,3 @@ Ngala yaw bul wax sunu ngiir a fi gën
 Te bu atte fa Seex nan ga mel ni laram
 Na nga melni kudee bu fa xam te bu wax
 Baay Seex baax na baay amna nëram
-```

@@ -84,4 +84,3 @@ Ku ngonal ndeem dafay bëgg am
 Màkkaamam Seex bu làq ngëram
 Murit boo xamni day bëgg dem
 Bu muy gonnal ni sàmbaani
-```

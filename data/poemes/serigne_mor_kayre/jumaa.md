@@ -166,4 +166,3 @@ Xam n ani Yonnen waxam ja teew na keroog
 Muy sooga tuub xam ni jëf ja woon woyaful
 Julli ga Buur tànn yaàlna dal ci Nabbii
 Dal ci ku dig Saaba Amdi yit na ko fal
-```

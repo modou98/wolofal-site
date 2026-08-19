@@ -1,4 +1,3 @@
-```markdown
 Title: Marsiya Seex Ma-Sàmba Mbàkke
 Excerpt: Une élégie funèbre (Maarsiya) poignante dédiée à Serigne Massamba Mbacké, frère et dévoué calligraphe de Cheikh Ahmadou Bamba, célébrant son rappel à Dieu et ses œuvres grandioses pour le mouridisme.
 Audio: https://youtu.be/PnFTm0iLPoc
@@ -310,4 +309,3 @@ Jommal na Naar jommal Wolof yaaram ba
 Yàlla na ko Seex Bàmba defal sahaada  
 Foofe mu jëm dolli ko xar wa haada
 
-```

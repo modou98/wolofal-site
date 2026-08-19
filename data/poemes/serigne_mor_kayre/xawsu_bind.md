@@ -12,4 +12,3 @@ Mu dellooti cig yoor yoor beneen lal ma woo ma ñëw
 Mu jox maw këyit wow bégle laa fekk ciy mbindam
 Mbindam maa ma wax saa jub te it moo ma soññloo
 Ku yëg lii bu may goddeeti mooy feeñalug dëngam
-```

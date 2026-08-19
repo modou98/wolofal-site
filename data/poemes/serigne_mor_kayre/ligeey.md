@@ -18,4 +18,3 @@ Ku lay desal leegi dëkeela kër-këri
 Dangay soonu ëlag muy doora kër-këri
 Ku wolli waar leeg ëllag mooy mokki raan
 Ku wolliwul ëllag du am dàgg aki raan
-```

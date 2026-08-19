@@ -220,4 +220,3 @@ Lil Maliiki baari’iinaa
 Shukrunaa lanuy Santee tay
 Fa salaatu summa salaa-
 mun na dal ci Ahmada tay
-```

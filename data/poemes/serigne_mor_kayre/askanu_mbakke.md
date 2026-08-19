@@ -28,4 +28,3 @@ Te Yàlla giñ ni képpy* ci yaari tur yii
 Muhamadu mbaate Ahmadu tàbbitil naari
 Rafet na nu njort ngir turandoo wa Ahmad
 Muhamadu mbaate Ahmadu tàbbitil naari
-```

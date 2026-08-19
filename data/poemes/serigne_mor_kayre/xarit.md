@@ -14,4 +14,3 @@ Ngir aw rambaaj dana sos aw fen mu mel ne lu am
 Fum toll, waaye boroom xel ab rambaaj jëlu ko
 Yaw Kayre bul geesu kuy ñaawal sa jikko maneel
 Bu ñaar manee kenn wii léppiy wolof solo ko
-```

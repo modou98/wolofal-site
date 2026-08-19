@@ -44,4 +44,3 @@ Muritam du alku du soof ay kemam
 Te day jub te taaru te day saf xorom
 A! Moo Kayre gii yëgle doynay murit
 Yu gëm tey dëgal seex di màggal mbiram
-```

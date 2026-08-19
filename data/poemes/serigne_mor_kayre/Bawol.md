@@ -28,4 +28,3 @@ Kubeeru lamb daan na génn penc ma
 Dellu ca waliyaan ànd ak kañ ma
 Gii Mbàkke nag Kayree ngi leen di wax ni ñoom
 Am waliyaan du ub mbëram yi sax ci ñoom
-```

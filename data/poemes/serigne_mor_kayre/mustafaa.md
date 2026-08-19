@@ -20,4 +20,3 @@ Moom sax da daa nàmp baayam ñaari sës ya fa moom
 Saahir sa baatin ba ay weenam la daa dalale
 Tabaarakallaahu feeg nii Mustafaay di donooy
 Baayam bi dib xawsu nuy am lii mu nuy terale
-```

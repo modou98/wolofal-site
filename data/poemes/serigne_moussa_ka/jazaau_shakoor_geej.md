@@ -1,4 +1,3 @@
-```markdown
 Title: Jazaa'u shakoor géej gi
 Excerpt: Un chef-d'œuvre hagiographique retraçant l'exil maritime de Cheikh Ahmadou Bamba au Gabon, ses épreuves, ses victoires spirituelles et l'établissement des fondements du mouridisme.
 Audio: https://youtu.be/ga6EeDOn-Ds?si=QCjK6gH_rxJUBZjH
@@ -1533,4 +1532,3 @@ Wa kulli muntamin lahu fil hizbi
 Wa raddiyal laahu anil Xadiimi
 Mahaa talaamizati bil Maxdoomi
 
-```
