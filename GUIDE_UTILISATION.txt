@@ -2,8 +2,11 @@
  WOLOFAL HERITAGE - GUIDE D'UTILISATION DU PROJET
 ========================================================================
 
-Site : https://modou98.github.io/wolofal-site/
+Site : https://wolofalyi.com
 Depot GitHub : https://github.com/modou98/wolofal-site
+Hebergement : Netlify (connecte au depot GitHub, republie automatiquement
+a chaque push sur la branche main)
+Nom de domaine : achete chez IONOS, DNS pointe vers Netlify
 
 Ce fichier explique comment faire tourner le site en local, publier
 des poemes/manuscrits via le dashboard admin, et mettre les
@@ -127,15 +130,15 @@ Le dashboard permet, sans toucher au code :
 
 Modifier le site via le dashboard (ou directement les fichiers) ne
 change que les fichiers EN LOCAL sur cet ordinateur. Pour que ce soit
-visible sur https://modou98.github.io/wolofal-site/, il faut envoyer
-les changements sur GitHub :
+visible sur https://wolofalyi.com, il faut envoyer les changements sur
+GitHub :
 
     git add -A
     git commit -m "Description courte du changement"
     git push
 
-Le site en ligne se met a jour automatiquement 1 a 2 minutes apres le
-push (GitHub Pages republie tout seul).
+Netlify est connecte au depot GitHub et republie automatiquement le
+site (generalement moins d'une minute apres le push, voir section 5).
 
 Pour verifier l'etat des fichiers avant de commit :
 
@@ -147,31 +150,87 @@ Pour voir l'historique des changements :
 
 
 ------------------------------------------------------------------------
-5. STRUCTURE DU PROJET
+5. HEBERGEMENT ET NOM DE DOMAINE
+------------------------------------------------------------------------
+
+Le site est heberge sur Netlify (pas GitHub Pages), avec le nom de
+domaine wolofalyi.com achete chez IONOS.
+
+  a) NETLIFY (hebergement)
+     - Compte connecte a GitHub, depot "modou98/wolofal-site" importe.
+     - Pas de build : "Build command" vide, "Publish directory" = "."
+       (le site est deja statique, rien a compiler).
+     - Republication automatique a chaque "git push" sur main.
+     - Le fichier _redirects (racine du projet) fait fonctionner les
+       URLs propres (ex: wolofalyi.com/serigne-moussa-ka/baarzan) : il
+       dit a Netlify de toujours servir index.html avec un vrai statut
+       200, meme si le chemin n'existe pas comme fichier reel. C'est le
+       routeur cote client (script.js) qui affiche ensuite la bonne
+       page. NE PAS SUPPRIMER ce fichier, sinon ces URLs redeviennent
+       introuvables pour Google et pour un F5/rechargement direct.
+     - Certificat SSL (https) genere et renouvele automatiquement par
+       Netlify des que le DNS est correctement configure.
+
+  b) DNS CHEZ IONOS
+     Chercher la zone DNS du domaine (Domaines > wolofalyi.com > DNS).
+     Enregistrements necessaires pour pointer vers Netlify :
+
+         Type: A       Nom d'hote: @      Valeur: 75.2.60.5
+         Type: CNAME    Nom d'hote: www    Valeur: apex-loadbalancer.netlify.com
+
+     Les autres enregistrements (MX, TXT/SPF, CNAME DKIM/DMARC) sont
+     lies aux emails du domaine, ne pas y toucher.
+
+     ATTENTION : une reinitialisation ("initialiser"/"reset") de la
+     zone DNS chez IONOS efface TOUS les enregistrements (site ET
+     emails). Si ca arrive, il faut recreer les deux lignes ci-dessus
+     (et les enregistrements email si utilises).
+
+  c) FICHIERS DEVENUS INUTILES (heritage GitHub Pages)
+     CNAME et 404.html datent de l'epoque ou le site etait sur GitHub
+     Pages. Ils ne servent plus a rien avec Netlify mais restent dans
+     le depot sans gener (aucun risque a les laisser).
+
+
+------------------------------------------------------------------------
+6. STRUCTURE DU PROJET
 ------------------------------------------------------------------------
 
 wolofal_site/
 |-- index.html            Page principale du site (structure HTML)
 |-- admin.html             Dashboard d'administration
 |-- style.css               Feuille de style (couleurs, mise en page)
-|-- script.js                Logique du site (navigation, recherche,
-|                             affichage des poemes/themes/manuscrits)
+|-- script.js                Logique du site (routeur, navigation,
+|                             recherche, affichage des poemes/themes/
+|                             manuscrits, service worker)
 |-- content.js               Fichier GENERE automatiquement, ne pas
 |                             modifier a la main (regenere par
 |                             build_data.py a chaque publication)
 |-- build_data.py            Script qui lit data/ et regenere
 |                             content.js + data/poemes_content.json
+|                             + sitemap.xml
 |-- server.py                 Serveur local + API du dashboard admin
 |-- admin_password.txt        Mot de passe admin (non envoye sur Git)
+|-- _redirects                Config Netlify : fait fonctionner les
+|                             URLs propres (voir section 5.a)
+|-- sitemap.xml               GENERE automatiquement par build_data.py,
+|                             ne pas modifier a la main
+|-- robots.txt                Regles pour les robots d'indexation
+|-- manifest.json             Config PWA (site installable sur telephone)
+|-- service-worker.js         PWA : mise en cache de la coquille du site
+|-- assets/icons/              Icones de l'app installee (PWA)
+|-- CNAME, 404.html           Heritage GitHub Pages, plus utilises
+|                             (voir section 5.c)
 |
 |-- data/
-|   |-- auteurs.json          Liste des auteurs (nom, bio, photo...)
+|   |-- auteurs.json          Liste des auteurs (nom, bio, photo, slug
+|   |                          d'URL...)
 |   |-- themes.json           Liste des themes disponibles
 |   |-- manuscripts.json      Catalogue des manuscrits (Ajami/Transcrit)
 |   |-- poemes_content.json   GENERE : texte de tous les poemes
 |   |-- poemes/
 |       |-- <dossier_auteur>/
-|           |-- <poeme>.md    Un fichier par poeme (voir section 6)
+|           |-- <poeme>.md    Un fichier par poeme (voir section 7)
 |
 |-- assets/
     |-- *.png, *.jpg          Photos des auteurs, logo du site
@@ -181,7 +240,7 @@ wolofal_site/
 
 
 ------------------------------------------------------------------------
-6. FORMAT D'UN FICHIER POEME (data/poemes/<auteur>/<poeme>.md)
+7. FORMAT D'UN FICHIER POEME (data/poemes/<auteur>/<poeme>.md)
 ------------------------------------------------------------------------
 
 Chaque poeme est un fichier texte simple avec un en-tete (metadonnees)
@@ -222,8 +281,24 @@ Champs de l'en-tete :
                 section 3.d pour l'hebergement).
 
 Le texte du poeme (apres "---") : une ligne vide separe les strophes.
-Si aucune ligne vide n'est presente, le site regroupe automatiquement
-les vers par paquets de StanzaSize.
+Chaque bloc entre deux lignes vides n'est redecoupe par StanzaSize QUE
+si son nombre de vers tombe juste (multiple exact de StanzaSize) ;
+sinon il reste tel quel (ca evite de casser une strophe irreguliere,
+ex: 3 vers, deja delimitee par des lignes vides). Si le poeme n'a AUCUNE
+ligne vide du tout, tout le texte est regroupe par paquets de
+StanzaSize (defaut 2).
+
+PIEGE FREQUENT : une balise de code Markdown parasite (``` toute seule
+sur une ligne, parfois ```markdown en tete de fichier) laissee par
+erreur lors d'un copier-coller casse a la fois l'affichage (le texte
+apparait colle en un seul bloc) ET le decoupage en strophes (elle
+decale la parite du nombre de lignes). A supprimer si on la voit dans
+un fichier .md.
+
+Chaque poeme recoit aussi un "slug" d'URL genere automatiquement par
+build_data.py a partir du Title (ex: "Ma def bëyit yii Soxna May"
+devient "ma-def-bëyit-yii-soxna-may" dans l'URL) - inutile de le
+gerer a la main, il est recalcule a chaque publication.
 
 Apres avoir modifie un fichier .md a la main, il faut reconstruire les
 donnees pour que le site les prenne en compte :
@@ -234,7 +309,50 @@ donnees pour que le site les prenne en compte :
 
 
 ------------------------------------------------------------------------
-7. COMMANDES UTILES - RECAPITULATIF
+8. URLS PROPRES, REFERENCEMENT (SEO) ET PWA
+------------------------------------------------------------------------
+
+  a) URLS DU SITE
+     Le site utilise de vraies URLs (pas de # dans le lien), pour que
+     Google puisse indexer chaque page individuellement :
+       - Accueil            : wolofalyi.com/
+       - Page auteur         : wolofalyi.com/<slug-auteur>
+       - Page poeme           : wolofalyi.com/<slug-auteur>/<slug-poeme>
+       - Themes / un theme     : wolofalyi.com/themes(/<id-theme>)
+       - Manuscrits, A propos : wolofalyi.com/manuscrits, /apropos
+     Les anciens liens en #/... (ex: partages avant cette migration)
+     redirigent automatiquement vers la bonne URL propre.
+
+  b) SITEMAP (data que Google utilise pour decouvrir les pages)
+     sitemap.xml est GENERE automatiquement par build_data.py (une
+     entree par auteur + par poeme). Apres tout ajout/suppression de
+     poeme, le nouveau sitemap est pret des le prochain
+     "python build_data.py" + publication. Rien a faire a la main.
+
+     Si le nombre de pages sur le site change beaucoup, retourner sur
+     Google Search Console (search.google.com/search-console) et
+     resoumettre le sitemap (Sitemaps > coller "sitemap.xml").
+
+  c) DONNEES STRUCTUREES (schema.org / JSON-LD)
+     Chaque page (auteur, poeme, theme, accueil) integre automatiquement
+     une fiche d'identite invisible pour Google (auteur = Person, poeme
+     = CreativeWork, etc.), generee par script.js. Rien a maintenir a
+     la main.
+
+  d) PWA (site installable sur telephone/ordinateur)
+     manifest.json + service-worker.js rendent le site installable
+     ("Ajouter a l'ecran d'accueil"). Seule la coquille (HTML/CSS/JS)
+     fonctionne hors-ligne ; le texte des poemes necessite toujours une
+     connexion (choix delibere, pour ne pas risquer un contenu perime
+     hors-ligne).
+     Si on change le logo (assets/logo_wolofal.png), il faut regenerer
+     les icones PWA (assets/icons/icon-192.png, icon-512.png,
+     apple-touch-icon.png) a la meme taille/format a partir du nouveau
+     logo pour qu'elles restent a jour.
+
+
+------------------------------------------------------------------------
+9. COMMANDES UTILES - RECAPITULATIF
 ------------------------------------------------------------------------
 
     python server.py              Lance le site en local (port 8085)
@@ -248,7 +366,7 @@ donnees pour que le site les prenne en compte :
 
 
 ------------------------------------------------------------------------
-8. EN CAS DE PROBLEME
+10. EN CAS DE PROBLEME
 ------------------------------------------------------------------------
 
 - "Le serveur ne demarre pas / port deja utilise"
@@ -264,6 +382,24 @@ donnees pour que le site les prenne en compte :
 
 - "Mes changements n'apparaissent pas sur le site en ligne"
     -> Verifier qu'on a bien fait git add -A / git commit / git push.
-       Attendre 1-2 minutes que GitHub Pages republie.
+       Attendre 1-2 minutes que Netlify republie (verifiable dans le
+       tableau de bord Netlify, onglet "Deploys").
+
+- "Le site affiche 401 Unauthorized / une page de mot de passe Netlify"
+    -> Un reglage "Visitor access" / protection par mot de passe est
+       actif sur le site dans Netlify (Site settings > Access control).
+       Le desactiver ("make public").
+
+- "wolofalyi.com ne s'ouvre pas / erreur de certificat SSL"
+    -> Normal juste apres un changement DNS : le certificat SSL prend
+       parfois un peu de temps a se (re)generer cote Netlify. Verifier
+       dans Netlify > Domain management > HTTPS, et au besoin cliquer
+       sur "Verify DNS configuration" pour relancer.
+
+- "Une page de poeme/auteur affiche 404 quand on tape l'URL directement"
+    -> Verifier que le fichier _redirects existe toujours a la racine
+       du projet et qu'il n'a pas ete supprimer par erreur (voir
+       section 5.a) - sans lui, les URLs propres ne fonctionnent que
+       via les liens internes du site, pas en acces direct/F5.
 
 ========================================================================
