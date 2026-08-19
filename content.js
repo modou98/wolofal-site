@@ -243,6 +243,7 @@ window.authorsData = [
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ],
+                "stanzaSize": 4,
                 "slug": "ma-def-bëyit-yii-soxna-may"
             },
             {

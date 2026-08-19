@@ -2,6 +2,7 @@ Title: Ma def bëyit yii Soxna May
 Excerpt: Un poème de dévotion et d'hommage dédié à Sokhna Maymouna Mbacké, célébrant sa lignée sainte et implorant des bénédictions sur elle.
 Audio: https://youtu.be/wvJmATXZOu4
 Theme: Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)
+StanzaSize: 4
 ---
 
 Ma def bëyit yii Soxna May
