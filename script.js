@@ -337,6 +337,24 @@ const app = {
         }
     },
 
+    // Injecte/retire un bloc JSON-LD (schema.org) decrivant la page courante,
+    // pour aider Google a comprendre le contenu (auteur, oeuvre litteraire,
+    // langue) au-dela du simple texte visible. Passer null retire le bloc.
+    setStructuredData: (data) => {
+        let el = document.getElementById('structured-data');
+        if (!data) {
+            if (el) el.remove();
+            return;
+        }
+        if (!el) {
+            el = document.createElement('script');
+            el.type = 'application/ld+json';
+            el.id = 'structured-data';
+            document.head.appendChild(el);
+        }
+        el.textContent = JSON.stringify(data);
+    },
+
     render: (view, param = null) => {
         app.state.currentView = view;
         app.state.lastRenderedPath = window.location.pathname;
@@ -355,6 +373,14 @@ const app = {
         if (view === 'home') {
             document.title = "Wolofal yi - Accueil";
             app.updateMeta();
+            app.setStructuredData({
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                name: 'Wolofal yi',
+                url: 'https://wolofalyi.com/',
+                description: 'Préservation et diffusion du patrimoine littéraire Wolofal : poèmes, manuscrits et audios des grands auteurs mourides.',
+                inLanguage: 'wo'
+            });
             app.renderHome(container);
         } else if (view === 'author') {
             app.state.currentAuthorSlug = param;
@@ -366,6 +392,7 @@ const app = {
         } else if (view === 'themes') {
             document.title = "Thèmes | Wolofal yi";
             app.updateMeta();
+            app.setStructuredData(null);
             app.renderThemes(container);
         } else if (view === 'theme') {
             app.state.currentThemeId = param;
@@ -373,15 +400,18 @@ const app = {
         } else if (view === 'manuscripts') {
             document.title = "Manuscrits | Wolofal yi";
             app.updateMeta();
+            app.setStructuredData(null);
             app.state.manuscriptTypeFilter = app.state.manuscriptTypeFilter || 'all';
             app.renderManuscripts(container);
         } else if (view === 'about') {
             document.title = "À propos | Wolofal yi";
             app.updateMeta();
+            app.setStructuredData(null);
             app.renderAbout(container);
         } else if (view === 'notfound') {
             document.title = "Page introuvable | Wolofal yi";
             app.updateMeta();
+            app.setStructuredData(null);
             app.renderNotFound(container);
         }
     },
@@ -539,6 +569,17 @@ const app = {
 
         document.title = `${theme.name} | Wolofal yi`;
         app.updateMeta(`Poèmes wolofal classés sous le thème ${theme.name}.`);
+        app.setStructuredData({
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: theme.name,
+            url: `https://wolofalyi.com${app.routeToPath('theme', theme.id)}`,
+            isPartOf: {
+                '@type': 'WebSite',
+                name: 'Wolofal yi',
+                url: 'https://wolofalyi.com/'
+            }
+        });
 
         let poems = [];
         authorsData.forEach(author => {
@@ -711,6 +752,14 @@ const app = {
 
         document.title = `${author.name} | Wolofal yi`;
         app.updateMeta(author.shortBio);
+        app.setStructuredData({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: author.name,
+            description: author.shortBio,
+            image: author.image ? `https://wolofalyi.com${app.assetUrl(author.image)}` : undefined,
+            url: `https://wolofalyi.com${app.routeToPath('author', author.slug)}`
+        });
 
         const query = app.state.searchQuery;
         const regex = query ? app.searchRegex(query) : null;
@@ -804,11 +853,32 @@ const app = {
 
         if (!poem) return;
 
+        const poemStructuredData = {
+            '@context': 'https://schema.org',
+            '@type': 'CreativeWork',
+            name: poem.title,
+            genre: 'Poem',
+            inLanguage: 'wo',
+            description: poem.excerpt,
+            url: `https://wolofalyi.com${app.routeToPath('reader', poem.id)}`,
+            author: {
+                '@type': 'Person',
+                name: author.name,
+                url: `https://wolofalyi.com${app.routeToPath('author', author.slug)}`
+            },
+            isPartOf: {
+                '@type': 'WebSite',
+                name: 'Wolofal yi',
+                url: 'https://wolofalyi.com/'
+            }
+        };
+
         // Le texte est chargé en async : si pas encore là, on affiche une attente
         // et loadContents() re-rendra la vue une fois le JSON arrivé.
         if (poem.content === undefined) {
             document.title = `${poem.title} - par ${author.name} | Wolofal yi`;
             app.updateMeta(poem.excerpt);
+            app.setStructuredData(poemStructuredData);
             container.innerHTML = `
                 <div class="reader-view" style="max-width: 1200px; text-align: center; padding: 4rem 1rem;">
                     <p style="opacity: 0.7;">Chargement du texte…</p>
@@ -821,6 +891,7 @@ const app = {
 
         document.title = `${poem.title} - par ${author.name} | Wolofal yi`;
         app.updateMeta(poem.excerpt);
+        app.setStructuredData(poemStructuredData);
 
         const manuscriptIsPdf = poem.manuscript && app.isPdfUrl(poem.manuscript);
         const manuscriptEmbedUrl = poem.manuscript ? app.driveEmbedUrl(poem.manuscript) : '';
