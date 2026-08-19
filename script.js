@@ -55,6 +55,17 @@ const app = {
         app.render(view, param);
 
         app.loadContents();
+
+        // Enregistre le service worker (PWA) : rend le site installable et
+        // relancable instantanement. N'echoue pas silencieusement le reste de
+        // l'app si le navigateur ne le supporte pas ou si ca rate.
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').catch((err) => {
+                    console.error('Echec de l\'enregistrement du service worker :', err);
+                });
+            });
+        }
     },
 
     // Charge le texte des poèmes en arrière-plan et le fusionne dans authorsData.
