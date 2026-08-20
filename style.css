@@ -118,7 +118,7 @@ h1, h2, h3, .logo {
 
 /* Gallery View */
 .gallery-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 3rem;
     animation: fadeIn 1s ease-out;
 }
@@ -133,7 +133,6 @@ h1, h2, h3, .logo {
     font-size: 1.2rem;
     color: #64748b;
     max-width: 600px;
-    margin: 0 auto;
 }
 
 /* About View */
@@ -327,7 +326,7 @@ h1, h2, h3, .logo {
 }
 
 .reader-header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 4rem;
 }
 
@@ -349,7 +348,7 @@ h1, h2, h3, .logo {
     font-size: 1.4rem;
     line-height: 1.45;
     color: var(--text-color);
-    text-align: center; /* Traditional poetic alignment */
+    text-align: left;
     padding: 4rem;
     background: var(--poem-bg);
     box-shadow: 0 4px 20px var(--border-color);
