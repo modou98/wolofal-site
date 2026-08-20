@@ -905,6 +905,7 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     font-family: inherit;
     cursor: pointer;
     transition: all 0.2s;
+    text-align: left;
 }
 
 .theme-pill:hover {
