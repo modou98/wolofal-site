@@ -1,287 +1,170 @@
 window.authorsData = [
     {
-        "id": 1,
-        "name": "Sëriñ Muusaa Ka",
-        "image": "assets/moussa_ka.png",
-        "shortBio": "Grand poète et historien du mouridisme, connu pour son style unique en Wolofal .",
-        "fullBio": "Serigne Moussa Ka, fils de Serigne Ousmane Ka et de Sokhna Absatou Seck, est né à Ndilki, près de Mbacké Baol, vers 1890. Il entretenait des liens de parenté étroits avec son guide et maître, Cheikh Ahmadou Bamba (Khadimou Rassoul), tous deux étant descendants de Mame Maharam Mbacké, aïeul de la lignée des Mbacké.\n\nHomme d’une vaste érudition et d’une remarquable ouverture d’esprit, Serigne Moussa Ka a marqué son époque par l’abondance et la profondeur de ses écrits, majoritairement dédiés à Serigne Touba. Malgré sa proximité familiale avec le fondateur du mouridisme, il se présentait toujours dans ses œuvres comme le serviteur du Serviteur du Prophète (Khadimoul Khadim), en signe de modestie et de dévotion.\n\nIl s’est également illustré par sa parfaite maîtrise de l’hagiographie islamique, de l’histoire du mouridisme et du Sénégal, ce qui transparaît dans ses nombreux poèmes. Il détenait une connaissance approfondie de la généalogie des grandes familles du pays, ce qui attirait à lui les chercheurs de son temps, tout comme aujourd’hui les universitaires restent fascinés par la richesse de son œuvre.\n\nSerigne Moussa reçut l’essentiel de sa formation auprès de son père, Serigne Ousmane Ka – connu sous le nom de Modou Ngagne Awa – éminent enseignant de figures telles que El Hadji Malick Sy, El Hadji Abdou Cissé de Diamal, El Hadji Dramé de Ndramé, et Serigne Momar Yacine Dème.\n\nA la disparition de son père qui fut plus tard disciple du Cheikh, l’homme rejoignit son guide en résidence surveillée à Thiéyène et fit son allégeance. Depuis lors, il était toujours sous le sillage de son guide, qui lui inculqua une éducation spirituelle parfaite. Pour ceux qui le connaissait, Serigne Moussa Ka était un homme généreux, qui donnait tout, même sa nourriture du jour. Il était aussi un chercheur ouvert, remarquable par son abandon du bas monde. Serigne Moussa était pieux, très véridique et unificateur.\n\nSa contribution à la littérature mouride est immense. Serigne Moussa Ka a joué un rôle majeur dans la diffusion de la biographie du Prophète Muhammad (PSL) et de son serviteur Cheikh Ahmadou Bamba, grâce à une plume d’une grande fluidité, véritable don de Dieu.",
-        "folder": "serigne_moussa_ka",
-        "slug": "serigne-moussa-ka",
+        "id": 5,
+        "name": "Seex Sàmba Jaara Mbay",
+        "image": "assets/samba_jaara.jpg",
+        "shortBio": "Poète wolofal originaire de Koki, célèbre pour son chef-d'œuvre Jazbul Majzòob et sa proximité avec Serigne Mor Kayré.",
+        "fullBio": "Né en 1868 à Koki, fils d'Ahmadou et de Sokhna Ndack Kane, Seex Sàmba Jaara Mbay (Cheikh Samba Diarra Mbaye, de son vrai nom Mouhamadou Abdoul Karim) mémorise le Coran dès son jeune âge avant de parfaire ses études religieuses à Saint-Louis. Il rejoint Cheikh Ahmadou Bamba aux côtés de son frère aîné Cheikh Sadiaye, à Ndiarème, et vit sans jamais rechercher les honneurs : disciple discret, il se mêle à la population et fréquente le marché comme n'importe quel talibé.\n\nProche parent et compagnon de Serigne Mor Kayré, il partage avec lui les années d'exil du Cheikh en Mauritanie (1903-1907) et devient l'un des poètes wolofal les plus admirés de son temps, mêlant volontiers vers wolof et invocations arabes dans ses compositions. Son œuvre la plus célèbre, Jazbul Majzòob (« l'attirance de l'attiré »), chante l'attachement mystique du disciple à son guide.\n\nPère de trois enfants, il s'éteint en 1917 à Saint-Louis, où repose sa dépouille au cimetière de Thiém. La tradition rapporte qu'il pressentit sa fin prochaine et laissa ses derniers vers en guise d'adieu, empreints d'une sérénité totale face à la mort.",
+        "folder": "cheikh_samba_diarra_mbaye",
+        "slug": "cheikh-samba-diarra-mbaye",
         "poems": [
             {
-                "id": "1_seex_fàllu",
-                "title": "Seex Fàllu",
-                "excerpt": "Wolofal Sëriñ Fàllu Mbàkke -Buur Yàlla tekkina medaayi Daamo  Takkal ko doom ja moo di seen imaamo",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/kRyRqcFx4iY"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "seex-fàllu"
-            },
-            {
-                "id": "Boroomam",
-                "title": "Boroomam",
-                "excerpt": "Tàgg Sëriñ bi",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/5DEWrZLIJEY?si=WI85vZONDq8sAidR"
-                },
+                "id": "jazboul_majzoob",
+                "title": "Jazboul Majzoob",
+                "excerpt": "Al xamdu lil-laahi, kimay - Xamal bu wér, ta dima may",
+                "stanzaSize": 4,
                 "themes": [
                     "Sëriñ bi"
                 ],
-                "slug": "boroomam"
+                "manuscript": "https:/drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link",
+                "slug": "jazboul-majzoob"
             },
             {
-                "id": "bàkk_wi_sëriñ_fàllu",
-                "title": "Bàkk wi- Sëriñ Fàllu",
-                "excerpt": "Dégluleen tay ma bàkkati mbër",
+                "id": "yaaram_bi_naam_faal",
+                "title": "YAARAM BI NAAM FAAL",
+                "excerpt": "Seex Ibra moom raw na ag maasam te deefu ko jot",
                 "themes": [
                     "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ],
-                "manuscript": "https:/drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link",
-                "slug": "bàkk-wi-sëriñ-fàllu"
+                "slug": "yaaram-bi-naam-faal"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sëriñ Moor Kayre",
+        "image": "assets/mor_kayre_v3.png",
+        "shortBio": "Pionnier majeur de la poésie Wolofal et disciple fidèle de Cheikh Ahmadou Bamba.",
+        "fullBio": "Serigne Mor Kayré est l'une des figures fondatrices et des piliers de la littérature Wolofal (poésie religieuse wolof écrite en caractères ajami). Disciple dévoué de Cheikh Ahmadou Bamba, il a consacré son génie littéraire à la glorification du fondateur du mouridisme et à la diffusion de ses enseignements spirituels.\n\nContemporain et compagnon fidèle du Cheikh, il a notamment partagé des moments marquants à ses côtés lors de son exil en Mauritanie (1903-1907). Son œuvre poétique a profondément influencé les générations suivantes. Serigne Moussa Ka lui-même vouait une grande admiration à Serigne Mor Kayré, affirmant s'être abreuvé à sa source poétique.\n\nSes écrits restent aujourd'hui célébrés pour leur rigueur théologique, leur profondeur mystique et leur style métrique d'une grande beauté.",
+        "folder": "serigne_mor_kayre",
+        "slug": "serigne-mor-kayre",
+        "poems": [
+            {
+                "id": "3_bu_tawhiid_defoon_aw_naaru_gòor",
+                "title": "Bu tawhiid defoon aw naaru gòor",
+                "excerpt": "Bu tawhiid defoon aw naaru gòor gëm di wuddam ba Ragal Yàlla dib ñàddam, nangoo muñ di géttam ba",
+                "themes": [
+                    "Tawhiid"
+                ],
+                "slug": "bu-tawhiid-defoon-aw-naaru-gòor"
             },
             {
-                "id": "faahilun",
-                "title": "Bàkk Sëñ Mòodu Mustafaa",
-                "excerpt": "Faahilun Mufaahalatun",
+                "id": "askanu_mbakke",
+                "title": "Gêram na nu Yàlla",
+                "excerpt": "Poème de gratitude envers Dieu et la lignée de Mbacké, évoquant le parcours spirituel du poète, de l'égarement vers la lumière de Touba.",
                 "audio": null,
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                    "Ngëram ak Sant (Gratitude et reconnaissance)"
                 ],
-                "stanzaSize": 4,
-                "slug": "bàkk-sëñ-mòodu-mustafaa"
+                "slug": "gêram-na-nu-yàlla"
             },
             {
-                "id": "huqal_bukaau_maarsiyya_sëñ_mòodu_mustafaa",
-                "title": "Huqal bukaa'u ( Maarsiyya Sëñ Mòodu Mustafaa)",
-                "excerpt": "Huqal bukaa’u  Xaaba rajaa u",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/R7yES-3bW-o?si=owAmE6SL_PU54T_L"
-                },
+                "id": "Bawol",
+                "title": "Baol",
+                "excerpt": "Un poème valorisant la région du Baol, devenue une capitale spirituelle grâce à la présence sainte de Touba et de Cheikh Ahmadou Bamba.",
+                "audio": null,
                 "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                    "Taarix"
                 ],
-                "stanzaSize": 4,
-                "slug": "huqal-bukaau-maarsiyya-sëñ-mòodu-mustafaa"
+                "slug": "baol"
             },
             {
-                "id": "jazaau_shakoor_geej",
-                "title": "Jazaa'u shakoor géej gi",
-                "excerpt": "Un chef-d'œuvre hagiographique retraçant l'exil maritime de Cheikh Ahmadou Bamba au Gabon, ses épreuves, ses victoires spirituelles et l'établissement des fondements du mouridisme.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/ga6EeDOn-Ds?si=QCjK6gH_rxJUBZjH"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "jazaau-shakoor-géej-gi"
-            },
-            {
-                "id": "jogal_muusa",
-                "title": "Jógal waa ji Muusaa",
-                "excerpt": "Une puissante exhortation spirituelle et introspective où l'auteur s'adresse à lui-même pour raviver sa ferveur, chanter les louanges de Cheikh Ahmadou Bamba et rappeler les exigences de la voie de la rectitude.",
-                "themes": [
-                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "slug": "jógal-waa-ji-muusaa"
-            },
-            {
-                "id": "jooyi_wolof",
-                "title": "Jooyi wolof",
-                "excerpt": "Màrsiya Sëriñ bi",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
-                },
-                "themes": [
-                    "Sëriñ bi"
-                ],
-                "stanzaSize": 4,
-                "slug": "jooyi-wolof"
-            },
-            {
-                "id": "magal_yi",
-                "title": "Wolofal Maggal yi",
-                "excerpt": "Un recueil hagiographique d'envergure majeure structuré en chapitres, dédié à la sacralisation des temps forts de l'Islam et de l'histoire du mouridisme.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtube.com/playlist?list=PLrYQY_QVCG1xuPbQOmKxUVmBx_tjJPzfB&si=m4aevulp5yTIuSvr"
-                },
-                "themes": [
-                    "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
-                ],
-                "manuscript": "https:/drive.google.com/file/d/1GSMrxIczkpWeEIH9BEuafRW4-6yeWrWC/view?usp=drive_link",
-                "slug": "wolofal-maggal-yi"
-            },
-            {
-                "id": "marsiya_masamba",
-                "title": "Marsiya Seex Ma-Sàmba Mbàkke",
-                "excerpt": "Une élégie funèbre (Maarsiya) poignante dédiée à Serigne Massamba Mbacké, frère et dévoué calligraphe de Cheikh Ahmadou Bamba, célébrant son rappel à Dieu et ses œuvres grandioses pour le mouridisme.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/PnFTm0iLPoc"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "marsiya-seex-ma-sàmba-mbàkke"
-            },
-            {
-                "id": "marsiya_seex_ndaam",
-                "title": "Maarsiya Seex Ndaam",
-                "excerpt": "Une élégie funèbre et un hommage vibrant rendu à Serigne Abdu Rahmane Lô (Seex Ndaam), éminent maître coranique de la communauté mouride.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/2vk7RJNAzq0"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "maarsiya-seex-ndaam"
-            },
-            {
-                "id": "marsiyya_seex_ibra_faal",
-                "title": "Marsiyya Seex Ibra Faal",
-                "excerpt": "àddina ndax day bëgg a jeex - am gaa yu baax yeey bëgg a jeex",
-                "stanzaSize": 4,
-                "manuscript": "https:/drive.google.com/file/d/1CUiqAWwugxMg4eaJv7wsm-l6rnx6JROf/view?usp=drive_link",
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "marsiyya-seex-ibra-faal"
-            },
-            {
-                "id": "matlabul_haajaati",
-                "title": "Matlabul Haajaati",
-                "excerpt": "Wolofal ci Sëriñ bi ak njabootam",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
-                },
-                "themes": [
-                    "Sëriñ bi"
-                ],
-                "slug": "matlabul-haajaati"
-            },
-            {
-                "id": "mk_baarzan",
-                "title": "Baarzan",
-                "excerpt": "Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1xBJm7x5C-iql6VfuiknB91"
-                },
-                "themes": [
-                    "Yonnen bi (PSL)"
-                ],
-                "slug": "baarzan"
-            },
-            {
-                "id": "mk_marsiya_ceerno",
-                "title": "Maarsiya Maam Ceerno",
-                "excerpt": "Une élégie funèbre poignante et historique dédiée à Thierno Birahim Mbacké (Maam Ceerno), bras droit de Cheikh Ahmadou Bamba, célébrant ses vertus et son héritage spirituel.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1wvifYZhBBCL3KgZZiKs51n"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "maarsiya-maam-ceerno"
-            },
-            {
-                "id": "mk_ndenkane_fallu",
-                "title": "Ndenkaane Sëriñ Fàllu",
-                "excerpt": "Mboolem muriy yi nekk fii ak ya fa Xaay...",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/tGJa23FzFYI"
-                },
-                "themes": [
-                    "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)",
-                    "Yar (Éducation)"
-                ],
-                "slug": "ndenkaane-sëriñ-fàllu"
-            },
-            {
-                "id": "njuuj_njaaj",
-                "title": "Njuuj Njaaj",
-                "excerpt": "Wolofal Sëriñ Tuuba",
-                "themes": [
-                    "Sëriñ bi"
-                ],
-                "manuscript": "https:/drive.google.com/file/d/1RYJB9AtGSPZaGI_WIm58DAY2ToiWUSie/view?usp=drive_link",
-                "slug": "njuuj-njaaj"
-            },
-            {
-                "id": "sangub_jigeen",
-                "title": "Sangub jigéen ñi",
-                "excerpt": "Wolofal Soxna Jaara Buso la boo xamni Sëriñ Muusaa Ka ak Soxna Ami Seex bint Seexul Xadiim ñoo ko bokk bind",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "sangub-jigéen-ñi"
-            },
-            {
-                "id": "soxna_may",
-                "title": "Ma def bëyit yii Soxna May",
-                "excerpt": "Un poème de dévotion et d'hommage dédié à Sokhna Maymouna Mbacké, célébrant sa lignée sainte et implorant des bénédictions sur elle.",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/wvJmATXZOu4"
-                },
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "stanzaSize": 4,
-                "slug": "ma-def-bëyit-yii-soxna-may"
-            },
-            {
-                "id": "wolofal_jumaa_ji",
+                "id": "jumaa",
                 "title": "Wolofal Jumaa Ji",
-                "excerpt": "Un poème qui retrace la construction de la grande mosquée de Touba",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1xMiq7dbfj37tbZLi2nmRf8"
-                },
+                "excerpt": "Un poème solennel dédié à la construction et à l'importance spirituelle de la grande mosquée, appelant la communauté à s'unir derrière le guide Mustafa.",
                 "themes": [
                     "Taarix"
                 ],
                 "slug": "wolofal-jumaa-ji"
             },
             {
-                "id": "xarnu_bi",
-                "title": "Xarnu bi",
-                "excerpt": "Xarnu bi.",
+                "id": "ku_dawal_seex",
+                "title": "Ku dawal sunu seex",
+                "excerpt": "Un chant d'honneur destiné aux disciples fidèles qui s'investissent sincèrement pour la grandeur de leur guide et le respect des préceptes divins.",
                 "audio": null,
                 "themes": [
-                    "Sëriñ bi"
+                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ],
-                "stanzaSize": 4,
-                "slug": "xarnu-bi"
+                "slug": "ku-dawal-sunu-seex"
             },
             {
-                "id": "Yaasin",
-                "title": "Yaasin",
-                "excerpt": "Tàgg Yonnen bi ASWS",
-                "audio": {
-                    "type": "youtube",
-                    "url": "https://youtu.be/2qi8qYAF5hY?si=2Zrl_XdMAV2DfvLK"
-                },
+                "id": "ligeey",
+                "title": "Ligéey",
+                "excerpt": "Une hymne au travail (Ligéey) comme valeur fondamentale du Mouridisme, source de dignité, de réussite et d'accomplissement des recommandations.",
+                "audio": null,
                 "themes": [
-                    "Yonnen bi (PSL)"
+                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
                 ],
-                "slug": "yaasin"
+                "slug": "ligéey"
+            },
+            {
+                "id": "maggal_gu_njekk_gi",
+                "title": "Wolofalu Màggal gu Njëkk gi",
+                "excerpt": "Bismil ilaah nu doora tambale wax, Na nga nu aar musël nu may nu ak sax",
+                "themes": [
+                    "Sëriñ bi",
+                    "Taarix"
+                ],
+                "slug": "wolofalu-màggal-gu-njëkk-gi"
+            },
+            {
+                "id": "murit_taqoo",
+                "title": "Murit deel taqoo",
+                "excerpt": "Une explication sémantique et spirituelle des concepts de Muriit, Mariit et Muraat, définissant les qualités d'un véritable chercheur de Dieu.",
+                "audio": null,
+                "themes": [
+                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
+                ],
+                "slug": "murit-deel-taqoo"
+            },
+            {
+                "id": "mustafaa",
+                "title": "Seex Mustafaa",
+                "excerpt": "Hommage vibrant à la générosité de Cheikh Moustapha, soulignant sa fidélité aux valeurs d'hospitalité (Berndé) héritées de son père.",
+                "audio": null,
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "seex-mustafaa"
+            },
+            {
+                "id": "njamme",
+                "title": "Njàmme Gòor nga jaajëfe waay",
+                "excerpt": "Un long poème panégyrique célébrant les hauts faits de Serigne Moustapha Mbacké, la grandeur de son lignage et l'accomplissement des projets de son père.",
+                "audio": null,
+                "themes": [
+                    "Ngëram ak Sant (Gratitude et reconnaissance)"
+                ],
+                "slug": "njàmme-gòor-nga-jaajëfe-waay"
+            },
+            {
+                "id": "santaane",
+                "title": "Bismilaahi Kayre santaane",
+                "excerpt": "Un recueil de recommandations spirituelles et de sagesse exhortant les Mourides à la droiture, au souvenir d'Allah (Sikkar) et à la vigilance face aux tentations.",
+                "audio": null,
+                "themes": [
+                    "Séytaane (Les ruses de Satan)"
+                ],
+                "slug": "bismilaahi-kayre-santaane"
+            },
+            {
+                "id": "xarit",
+                "title": "Xarit",
+                "excerpt": "Une méditation poétique sur la nature des relations humaines, de l'amitié sincère et de la nécessité de se préserver des calomnies et des médisances.",
+                "audio": null,
+                "themes": [
+                    "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)"
+                ],
+                "slug": "xarit"
+            },
+            {
+                "id": "xawsu_bind",
+                "title": "Ku Xawsuy bindug baaxam",
+                "excerpt": "Un témoignage poétique de l'auteur affirmant sa relation avec le guide spirituel (Xawsu) et la bénédiction reçue à travers ses écrits.",
+                "themes": [
+                    "Ngëram ak Sant (Gratitude et reconnaissance)"
+                ],
+                "slug": "ku-xawsuy-bindug-baaxam"
             }
         ]
     },
@@ -3862,140 +3745,288 @@ window.authorsData = [
         ]
     },
     {
-        "id": 3,
-        "name": "Sëriñ Moor Kayre",
-        "image": "assets/mor_kayre_v3.png",
-        "shortBio": "Pionnier majeur de la poésie Wolofal et disciple fidèle de Cheikh Ahmadou Bamba.",
-        "fullBio": "Serigne Mor Kayré est l'une des figures fondatrices et des piliers de la littérature Wolofal (poésie religieuse wolof écrite en caractères ajami). Disciple dévoué de Cheikh Ahmadou Bamba, il a consacré son génie littéraire à la glorification du fondateur du mouridisme et à la diffusion de ses enseignements spirituels.\n\nContemporain et compagnon fidèle du Cheikh, il a notamment partagé des moments marquants à ses côtés lors de son exil en Mauritanie (1903-1907). Son œuvre poétique a profondément influencé les générations suivantes. Serigne Moussa Ka lui-même vouait une grande admiration à Serigne Mor Kayré, affirmant s'être abreuvé à sa source poétique.\n\nSes écrits restent aujourd'hui célébrés pour leur rigueur théologique, leur profondeur mystique et leur style métrique d'une grande beauté.",
-        "folder": "serigne_mor_kayre",
-        "slug": "serigne-mor-kayre",
+        "id": 1,
+        "name": "Sëriñ Muusaa Ka",
+        "image": "assets/moussa_ka.png",
+        "shortBio": "Grand poète et historien du mouridisme, connu pour son style unique en Wolofal .",
+        "fullBio": "Serigne Moussa Ka, fils de Serigne Ousmane Ka et de Sokhna Absatou Seck, est né à Ndilki, près de Mbacké Baol, vers 1890. Il entretenait des liens de parenté étroits avec son guide et maître, Cheikh Ahmadou Bamba (Khadimou Rassoul), tous deux étant descendants de Mame Maharam Mbacké, aïeul de la lignée des Mbacké.\n\nHomme d’une vaste érudition et d’une remarquable ouverture d’esprit, Serigne Moussa Ka a marqué son époque par l’abondance et la profondeur de ses écrits, majoritairement dédiés à Serigne Touba. Malgré sa proximité familiale avec le fondateur du mouridisme, il se présentait toujours dans ses œuvres comme le serviteur du Serviteur du Prophète (Khadimoul Khadim), en signe de modestie et de dévotion.\n\nIl s’est également illustré par sa parfaite maîtrise de l’hagiographie islamique, de l’histoire du mouridisme et du Sénégal, ce qui transparaît dans ses nombreux poèmes. Il détenait une connaissance approfondie de la généalogie des grandes familles du pays, ce qui attirait à lui les chercheurs de son temps, tout comme aujourd’hui les universitaires restent fascinés par la richesse de son œuvre.\n\nSerigne Moussa reçut l’essentiel de sa formation auprès de son père, Serigne Ousmane Ka – connu sous le nom de Modou Ngagne Awa – éminent enseignant de figures telles que El Hadji Malick Sy, El Hadji Abdou Cissé de Diamal, El Hadji Dramé de Ndramé, et Serigne Momar Yacine Dème.\n\nA la disparition de son père qui fut plus tard disciple du Cheikh, l’homme rejoignit son guide en résidence surveillée à Thiéyène et fit son allégeance. Depuis lors, il était toujours sous le sillage de son guide, qui lui inculqua une éducation spirituelle parfaite. Pour ceux qui le connaissait, Serigne Moussa Ka était un homme généreux, qui donnait tout, même sa nourriture du jour. Il était aussi un chercheur ouvert, remarquable par son abandon du bas monde. Serigne Moussa était pieux, très véridique et unificateur.\n\nSa contribution à la littérature mouride est immense. Serigne Moussa Ka a joué un rôle majeur dans la diffusion de la biographie du Prophète Muhammad (PSL) et de son serviteur Cheikh Ahmadou Bamba, grâce à une plume d’une grande fluidité, véritable don de Dieu.",
+        "folder": "serigne_moussa_ka",
+        "slug": "serigne-moussa-ka",
         "poems": [
             {
-                "id": "3_bu_tawhiid_defoon_aw_naaru_gòor",
-                "title": "Bu tawhiid defoon aw naaru gòor",
-                "excerpt": "Bu tawhiid defoon aw naaru gòor gëm di wuddam ba Ragal Yàlla dib ñàddam, nangoo muñ di géttam ba",
+                "id": "1_seex_fàllu",
+                "title": "Seex Fàllu",
+                "excerpt": "Wolofal Sëriñ Fàllu Mbàkke -Buur Yàlla tekkina medaayi Daamo  Takkal ko doom ja moo di seen imaamo",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/kRyRqcFx4iY"
+                },
                 "themes": [
-                    "Tawhiid"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ],
-                "slug": "bu-tawhiid-defoon-aw-naaru-gòor"
+                "slug": "seex-fàllu"
             },
             {
-                "id": "askanu_mbakke",
-                "title": "Gêram na nu Yàlla",
-                "excerpt": "Poème de gratitude envers Dieu et la lignée de Mbacké, évoquant le parcours spirituel du poète, de l'égarement vers la lumière de Touba.",
+                "id": "Boroomam",
+                "title": "Boroomam",
+                "excerpt": "Tàgg Sëriñ bi",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/5DEWrZLIJEY?si=WI85vZONDq8sAidR"
+                },
+                "themes": [
+                    "Sëriñ bi"
+                ],
+                "slug": "boroomam"
+            },
+            {
+                "id": "bàkk_wi_sëriñ_fàllu",
+                "title": "Bàkk wi- Sëriñ Fàllu",
+                "excerpt": "Dégluleen tay ma bàkkati mbër",
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "manuscript": "https:/drive.google.com/file/d/1pE_q5hSS9VnZw0LdnJSZSTnFYal4YSpH/view?usp=drive_link",
+                "slug": "bàkk-wi-sëriñ-fàllu"
+            },
+            {
+                "id": "faahilun",
+                "title": "Bàkk Sëñ Mòodu Mustafaa",
+                "excerpt": "Faahilun Mufaahalatun",
                 "audio": null,
                 "themes": [
-                    "Ngëram ak Sant (Gratitude et reconnaissance)"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ],
-                "slug": "gêram-na-nu-yàlla"
+                "stanzaSize": 4,
+                "slug": "bàkk-sëñ-mòodu-mustafaa"
             },
             {
-                "id": "Bawol",
-                "title": "Baol",
-                "excerpt": "Un poème valorisant la région du Baol, devenue une capitale spirituelle grâce à la présence sainte de Touba et de Cheikh Ahmadou Bamba.",
-                "audio": null,
+                "id": "huqal_bukaau_maarsiyya_sëñ_mòodu_mustafaa",
+                "title": "Huqal bukaa'u ( Maarsiyya Sëñ Mòodu Mustafaa)",
+                "excerpt": "Huqal bukaa’u  Xaaba rajaa u",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/R7yES-3bW-o?si=owAmE6SL_PU54T_L"
+                },
                 "themes": [
-                    "Taarix"
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
                 ],
-                "slug": "baol"
+                "stanzaSize": 4,
+                "slug": "huqal-bukaau-maarsiyya-sëñ-mòodu-mustafaa"
             },
             {
-                "id": "jumaa",
+                "id": "jazaau_shakoor_geej",
+                "title": "Jazaa'u shakoor géej gi",
+                "excerpt": "Un chef-d'œuvre hagiographique retraçant l'exil maritime de Cheikh Ahmadou Bamba au Gabon, ses épreuves, ses victoires spirituelles et l'établissement des fondements du mouridisme.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/ga6EeDOn-Ds?si=QCjK6gH_rxJUBZjH"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "jazaau-shakoor-géej-gi"
+            },
+            {
+                "id": "jogal_muusa",
+                "title": "Jógal waa ji Muusaa",
+                "excerpt": "Une puissante exhortation spirituelle et introspective où l'auteur s'adresse à lui-même pour raviver sa ferveur, chanter les louanges de Cheikh Ahmadou Bamba et rappeler les exigences de la voie de la rectitude.",
+                "themes": [
+                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
+                ],
+                "slug": "jógal-waa-ji-muusaa"
+            },
+            {
+                "id": "jooyi_wolof",
+                "title": "Jooyi wolof",
+                "excerpt": "Màrsiya Sëriñ bi",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
+                },
+                "themes": [
+                    "Sëriñ bi"
+                ],
+                "stanzaSize": 4,
+                "slug": "jooyi-wolof"
+            },
+            {
+                "id": "magal_yi",
+                "title": "Wolofal Maggal yi",
+                "excerpt": "Un recueil hagiographique d'envergure majeure structuré en chapitres, dédié à la sacralisation des temps forts de l'Islam et de l'histoire du mouridisme.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtube.com/playlist?list=PLrYQY_QVCG1xuPbQOmKxUVmBx_tjJPzfB&si=m4aevulp5yTIuSvr"
+                },
+                "themes": [
+                    "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
+                ],
+                "manuscript": "https:/drive.google.com/file/d/1GSMrxIczkpWeEIH9BEuafRW4-6yeWrWC/view?usp=drive_link",
+                "slug": "wolofal-maggal-yi"
+            },
+            {
+                "id": "marsiya_masamba",
+                "title": "Marsiya Seex Ma-Sàmba Mbàkke",
+                "excerpt": "Une élégie funèbre (Maarsiya) poignante dédiée à Serigne Massamba Mbacké, frère et dévoué calligraphe de Cheikh Ahmadou Bamba, célébrant son rappel à Dieu et ses œuvres grandioses pour le mouridisme.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/PnFTm0iLPoc"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "marsiya-seex-ma-sàmba-mbàkke"
+            },
+            {
+                "id": "marsiya_seex_ndaam",
+                "title": "Maarsiya Seex Ndaam",
+                "excerpt": "Une élégie funèbre et un hommage vibrant rendu à Serigne Abdu Rahmane Lô (Seex Ndaam), éminent maître coranique de la communauté mouride.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/2vk7RJNAzq0"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "maarsiya-seex-ndaam"
+            },
+            {
+                "id": "marsiyya_seex_ibra_faal",
+                "title": "Marsiyya Seex Ibra Faal",
+                "excerpt": "àddina ndax day bëgg a jeex - am gaa yu baax yeey bëgg a jeex",
+                "stanzaSize": 4,
+                "manuscript": "https:/drive.google.com/file/d/1CUiqAWwugxMg4eaJv7wsm-l6rnx6JROf/view?usp=drive_link",
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "marsiyya-seex-ibra-faal"
+            },
+            {
+                "id": "matlabul_haajaati",
+                "title": "Matlabul Haajaati",
+                "excerpt": "Wolofal ci Sëriñ bi ak njabootam",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
+                },
+                "themes": [
+                    "Sëriñ bi"
+                ],
+                "slug": "matlabul-haajaati"
+            },
+            {
+                "id": "mk_baarzan",
+                "title": "Baarzan",
+                "excerpt": "Ab leeral : Amna bunt yu nu indiwul ngir li ñu nekk ci làkkum araab.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1xBJm7x5C-iql6VfuiknB91"
+                },
+                "themes": [
+                    "Yonnen bi (PSL)"
+                ],
+                "slug": "baarzan"
+            },
+            {
+                "id": "mk_marsiya_ceerno",
+                "title": "Maarsiya Maam Ceerno",
+                "excerpt": "Une élégie funèbre poignante et historique dédiée à Thierno Birahim Mbacké (Maam Ceerno), bras droit de Cheikh Ahmadou Bamba, célébrant ses vertus et son héritage spirituel.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1wvifYZhBBCL3KgZZiKs51n"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "maarsiya-maam-ceerno"
+            },
+            {
+                "id": "mk_ndenkane_fallu",
+                "title": "Ndenkaane Sëriñ Fàllu",
+                "excerpt": "Mboolem muriy yi nekk fii ak ya fa Xaay...",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/tGJa23FzFYI"
+                },
+                "themes": [
+                    "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)",
+                    "Yar (Éducation)"
+                ],
+                "slug": "ndenkaane-sëriñ-fàllu"
+            },
+            {
+                "id": "njuuj_njaaj",
+                "title": "Njuuj Njaaj",
+                "excerpt": "Wolofal Sëriñ Tuuba",
+                "themes": [
+                    "Sëriñ bi"
+                ],
+                "manuscript": "https:/drive.google.com/file/d/1RYJB9AtGSPZaGI_WIm58DAY2ToiWUSie/view?usp=drive_link",
+                "slug": "njuuj-njaaj"
+            },
+            {
+                "id": "sangub_jigeen",
+                "title": "Sangub jigéen ñi",
+                "excerpt": "Wolofal Soxna Jaara Buso la boo xamni Sëriñ Muusaa Ka ak Soxna Ami Seex bint Seexul Xadiim ñoo ko bokk bind",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/iiA1iVpxHPY?si=5ad3_HgE1X3K5WGn"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "slug": "sangub-jigéen-ñi"
+            },
+            {
+                "id": "soxna_may",
+                "title": "Ma def bëyit yii Soxna May",
+                "excerpt": "Un poème de dévotion et d'hommage dédié à Sokhna Maymouna Mbacké, célébrant sa lignée sainte et implorant des bénédictions sur elle.",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/wvJmATXZOu4"
+                },
+                "themes": [
+                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
+                ],
+                "stanzaSize": 4,
+                "slug": "ma-def-bëyit-yii-soxna-may"
+            },
+            {
+                "id": "wolofal_jumaa_ji",
                 "title": "Wolofal Jumaa Ji",
-                "excerpt": "Un poème solennel dédié à la construction et à l'importance spirituelle de la grande mosquée, appelant la communauté à s'unir derrière le guide Mustafa.",
+                "excerpt": "Un poème qui retrace la construction de la grande mosquée de Touba",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/playlist?list=PLrYQY_QVCG1xMiq7dbfj37tbZLi2nmRf8"
+                },
                 "themes": [
                     "Taarix"
                 ],
                 "slug": "wolofal-jumaa-ji"
             },
             {
-                "id": "ku_dawal_seex",
-                "title": "Ku dawal sunu seex",
-                "excerpt": "Un chant d'honneur destiné aux disciples fidèles qui s'investissent sincèrement pour la grandeur de leur guide et le respect des préceptes divins.",
+                "id": "xarnu_bi",
+                "title": "Xarnu bi",
+                "excerpt": "Xarnu bi.",
                 "audio": null,
                 "themes": [
-                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
+                    "Sëriñ bi"
                 ],
-                "slug": "ku-dawal-sunu-seex"
+                "stanzaSize": 4,
+                "slug": "xarnu-bi"
             },
             {
-                "id": "ligeey",
-                "title": "Ligéey",
-                "excerpt": "Une hymne au travail (Ligéey) comme valeur fondamentale du Mouridisme, source de dignité, de réussite et d'accomplissement des recommandations.",
-                "audio": null,
+                "id": "Yaasin",
+                "title": "Yaasin",
+                "excerpt": "Tàgg Yonnen bi ASWS",
+                "audio": {
+                    "type": "youtube",
+                    "url": "https://youtu.be/2qi8qYAF5hY?si=2Zrl_XdMAV2DfvLK"
+                },
                 "themes": [
-                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
+                    "Yonnen bi (PSL)"
                 ],
-                "slug": "ligéey"
-            },
-            {
-                "id": "maggal_gu_njekk_gi",
-                "title": "Wolofalu Màggal gu Njëkk gi",
-                "excerpt": "Bismil ilaah nu doora tambale wax, Na nga nu aar musël nu may nu ak sax",
-                "themes": [
-                    "Sëriñ bi",
-                    "Taarix"
-                ],
-                "slug": "wolofalu-màggal-gu-njëkk-gi"
-            },
-            {
-                "id": "murit_taqoo",
-                "title": "Murit deel taqoo",
-                "excerpt": "Une explication sémantique et spirituelle des concepts de Muriit, Mariit et Muraat, définissant les qualités d'un véritable chercheur de Dieu.",
-                "audio": null,
-                "themes": [
-                    "Diggante Sëriñ ak Taalibéem (Relation entre le taalibe et son Sëriñ)"
-                ],
-                "slug": "murit-deel-taqoo"
-            },
-            {
-                "id": "mustafaa",
-                "title": "Seex Mustafaa",
-                "excerpt": "Hommage vibrant à la générosité de Cheikh Moustapha, soulignant sa fidélité aux valeurs d'hospitalité (Berndé) héritées de son père.",
-                "audio": null,
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "seex-mustafaa"
-            },
-            {
-                "id": "njamme",
-                "title": "Njàmme Gòor nga jaajëfe waay",
-                "excerpt": "Un long poème panégyrique célébrant les hauts faits de Serigne Moustapha Mbacké, la grandeur de son lignage et l'accomplissement des projets de son père.",
-                "audio": null,
-                "themes": [
-                    "Ngëram ak Sant (Gratitude et reconnaissance)"
-                ],
-                "slug": "njàmme-gòor-nga-jaajëfe-waay"
-            },
-            {
-                "id": "santaane",
-                "title": "Bismilaahi Kayre santaane",
-                "excerpt": "Un recueil de recommandations spirituelles et de sagesse exhortant les Mourides à la droiture, au souvenir d'Allah (Sikkar) et à la vigilance face aux tentations.",
-                "audio": null,
-                "themes": [
-                    "Séytaane (Les ruses de Satan)"
-                ],
-                "slug": "bismilaahi-kayre-santaane"
-            },
-            {
-                "id": "xarit",
-                "title": "Xarit",
-                "excerpt": "Une méditation poétique sur la nature des relations humaines, de l'amitié sincère et de la nécessité de se préserver des calomnies et des médisances.",
-                "audio": null,
-                "themes": [
-                    "Jëflante ak nit ñi (Comportement envers les autres : amis, famille, voisins)"
-                ],
-                "slug": "xarit"
-            },
-            {
-                "id": "xawsu_bind",
-                "title": "Ku Xawsuy bindug baaxam",
-                "excerpt": "Un témoignage poétique de l'auteur affirmant sa relation avec le guide spirituel (Xawsu) et la bénédiction reçue à travers ses écrits.",
-                "themes": [
-                    "Ngëram ak Sant (Gratitude et reconnaissance)"
-                ],
-                "slug": "ku-xawsuy-bindug-baaxam"
+                "slug": "yaasin"
             }
         ]
     },
@@ -4135,37 +4166,6 @@ window.authorsData = [
                     "Jaamu Yàlla (Adoration, zikr, julli, koor, sarax, gàmmu...)"
                 ],
                 "slug": "weeru-koor-ak-sëriñ-tuuba"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Seex Sàmba Jaara Mbay",
-        "image": "assets/samba_jaara.jpg",
-        "shortBio": "Poète wolofal originaire de Koki, célèbre pour son chef-d'œuvre Jazbul Majzòob et sa proximité avec Serigne Mor Kayré.",
-        "fullBio": "Né en 1868 à Koki, fils d'Ahmadou et de Sokhna Ndack Kane, Seex Sàmba Jaara Mbay (Cheikh Samba Diarra Mbaye, de son vrai nom Mouhamadou Abdoul Karim) mémorise le Coran dès son jeune âge avant de parfaire ses études religieuses à Saint-Louis. Il rejoint Cheikh Ahmadou Bamba aux côtés de son frère aîné Cheikh Sadiaye, à Ndiarème, et vit sans jamais rechercher les honneurs : disciple discret, il se mêle à la population et fréquente le marché comme n'importe quel talibé.\n\nProche parent et compagnon de Serigne Mor Kayré, il partage avec lui les années d'exil du Cheikh en Mauritanie (1903-1907) et devient l'un des poètes wolofal les plus admirés de son temps, mêlant volontiers vers wolof et invocations arabes dans ses compositions. Son œuvre la plus célèbre, Jazbul Majzòob (« l'attirance de l'attiré »), chante l'attachement mystique du disciple à son guide.\n\nPère de trois enfants, il s'éteint en 1917 à Saint-Louis, où repose sa dépouille au cimetière de Thiém. La tradition rapporte qu'il pressentit sa fin prochaine et laissa ses derniers vers en guise d'adieu, empreints d'une sérénité totale face à la mort.",
-        "folder": "cheikh_samba_diarra_mbaye",
-        "slug": "cheikh-samba-diarra-mbaye",
-        "poems": [
-            {
-                "id": "jazboul_majzoob",
-                "title": "Jazboul Majzoob",
-                "excerpt": "Al xamdu lil-laahi, kimay - Xamal bu wér, ta dima may",
-                "stanzaSize": 4,
-                "themes": [
-                    "Sëriñ bi"
-                ],
-                "manuscript": "https:/drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link",
-                "slug": "jazboul-majzoob"
-            },
-            {
-                "id": "yaaram_bi_naam_faal",
-                "title": "YAARAM BI NAAM FAAL",
-                "excerpt": "Seex Ibra moom raw na ag maasam te deefu ko jot",
-                "themes": [
-                    "Wolofal Mag ñi (S. Mustafaa, S. Abdu lahad…)"
-                ],
-                "slug": "yaaram-bi-naam-faal"
             }
         ]
     }
