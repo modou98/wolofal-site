@@ -16,7 +16,6 @@ window.authorsData = [
                 "themes": [
                     "Sëriñ bi"
                 ],
-                "manuscript": "https:/drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link",
                 "slug": "jazboul-majzoob"
             },
             {
@@ -4268,7 +4267,7 @@ window.manuscriptsData = [
     {
         "id": "jazbul_majzoob_ajami",
         "title": "Jazbul Majzoob",
-        "authorId": 1,
+        "authorId": 5,
         "type": "ajami",
         "url": "https://drive.google.com/file/d/1fz27-x4bBPJi9Ve7bc8Vnyb0H5OEm52z/view?usp=drive_link"
     },
