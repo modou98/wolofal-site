@@ -135,6 +135,28 @@ h1, h2, h3, .logo {
     max-width: 600px;
 }
 
+.home-intro {
+    text-align: left;
+    max-width: 780px;
+    margin-bottom: 3rem;
+}
+
+.home-intro p {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.home-intro a {
+    color: var(--accent-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-intro a:hover {
+    text-decoration: underline;
+}
+
 /* About View */
 .about-content {
     max-width: 780px;

@@ -517,6 +517,11 @@ const app = {
                     <p>Découvrez les voix qui ont façonné la littérature Wolofal.</p>
                 </div>
 
+                <div class="home-intro">
+                    <p>Wolofal yi est une archive numérique dédiée à la poésie religieuse en Wolofal (l'écriture ajami du wolof), transmise par les grandes figures du mouridisme. Le site rassemble textes, manuscrits originaux et enregistrements audio pour préserver et transmettre ce patrimoine.</p>
+                    <a href="/apropos" onclick="app.navigate('about'); return false;">En savoir plus &rarr;</a>
+                </div>
+
                 <div class="authors-grid">
                     ${authorsHtml || '<p style="text-align:center; grid-column: 1/-1;">Aucun résultat trouvé.</p>'}
                 </div>
