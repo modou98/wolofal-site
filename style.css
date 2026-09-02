@@ -290,15 +290,8 @@ h1, h2, h3, .logo {
 .author-info h1 {
     font-size: 4rem;
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
-    line-height: 1.1;
-}
-
-.author-altname {
-    font-size: 1rem;
-    color: #94a3b8;
-    font-style: italic;
     margin-bottom: 1.5rem;
+    line-height: 1.1;
 }
 
 .author-bio {

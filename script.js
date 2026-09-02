@@ -830,7 +830,6 @@ const app = {
                     <div class="author-portrait" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${app.assetUrl(author.image)}'); background-size: cover; background-position: top;` : ''}"></div>
                     <div class="author-info">
                         <h1>${author.name}</h1>
-                        ${author.altName ? `<p class="author-altname">également orthographié ${author.altName}</p>` : ''}
                         <div class="author-bio">${author.fullBio.replace(/\n/g, '<br>')}</div>
                     </div>
                 </div>
