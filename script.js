@@ -440,7 +440,7 @@ const app = {
             const regex = app.searchRegex(query);
             let matchingPoems = [];
             authorsData.forEach(author => {
-                const authorMatches = regex.test(author.name);
+                const authorMatches = regex.test(author.name) || (author.altName && regex.test(author.altName));
                 author.poems.forEach(poem => {
                     // tier = pertinence : titre d'abord, puis auteur, extrait, contenu
                     let tier = null;
@@ -756,11 +756,12 @@ const app = {
         if (!author) return;
 
         document.title = `${author.name} | Wolofal yi`;
-        app.updateMeta(author.shortBio);
+        app.updateMeta(author.altName ? `${author.altName} — ${author.shortBio}` : author.shortBio);
         app.setStructuredData({
             '@context': 'https://schema.org',
             '@type': 'Person',
             name: author.name,
+            alternateName: author.altName || undefined,
             description: author.shortBio,
             image: author.image ? `https://wolofalyi.com${app.assetUrl(author.image)}` : undefined,
             url: `https://wolofalyi.com${app.routeToPath('author', author.slug)}`
@@ -829,6 +830,7 @@ const app = {
                     <div class="author-portrait" ${author.image ? `role="img" aria-label="Portrait de ${author.name}"` : 'aria-hidden="true"'} style="${author.image ? `background-image: url('${app.assetUrl(author.image)}'); background-size: cover; background-position: top;` : ''}"></div>
                     <div class="author-info">
                         <h1>${author.name}</h1>
+                        ${author.altName ? `<p class="author-altname">également orthographié ${author.altName}</p>` : ''}
                         <div class="author-bio">${author.fullBio.replace(/\n/g, '<br>')}</div>
                     </div>
                 </div>
