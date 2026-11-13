@@ -767,11 +767,8 @@ const app = {
     // de traceurs avant que l'on lise une vidéo.
     renderVideos: async (container) => {
         const esc = app.videosEsc;
-        const header = `
-            <div class="gallery-header">
-                <h1>Vidéos</h1>
-                <p>Récitations et lectures de poèmes, directement depuis notre chaîne YouTube.</p>
-            </div>`;
+        // Titre conservé pour les lecteurs d'écran et le référencement, mais masqué à l'écran
+        const header = '<h1 class="sr-only">Vidéos</h1>';
         container.innerHTML = header + '<p class="videos-loading">Chargement des vidéos...</p>';
         let data;
         try {
