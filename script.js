@@ -209,6 +209,10 @@ const app = {
             }
         } else if (app.state.currentView === 'author') {
             app.renderAuthor(document.getElementById('app'), app.state.currentAuthorSlug);
+        } else if (app.state.currentView === 'videos') {
+            app.renderVideos(document.getElementById('app'));
+        } else if (app.state.currentView === 'playlist') {
+            app.renderPlaylist(document.getElementById('app'), app.state.currentPlaylistId);
         } else {
             app.renderHome(document.getElementById('app'));
         }
@@ -241,6 +245,10 @@ const app = {
             app.updateMatchCounter();
         } else if (app.state.currentView === 'author') {
             app.renderAuthor(document.getElementById('app'), app.state.currentAuthorSlug);
+        } else if (app.state.currentView === 'videos') {
+            app.renderVideos(document.getElementById('app'));
+        } else if (app.state.currentView === 'playlist') {
+            app.renderPlaylist(document.getElementById('app'), app.state.currentPlaylistId);
         } else {
             app.renderHome(document.getElementById('app'));
         }
@@ -412,6 +420,7 @@ const app = {
             app.setStructuredData(null);
             app.renderVideos(container);
         } else if (view === 'playlist') {
+            app.state.currentPlaylistId = param;
             app.renderPlaylist(container, param);
         } else if (view === 'about') {
             document.title = "À propos | Wolofal yi";
@@ -788,7 +797,7 @@ const app = {
         const esc = app.videosEsc;
         // Titre conservé pour les lecteurs d'écran et le référencement, mais masqué à l'écran
         const header = '<h1 class="sr-only">Vidéos</h1>';
-        container.innerHTML = header + '<p class="videos-loading">Chargement des vidéos...</p>';
+        if (!app.state.videosData) container.innerHTML = header + '<p class="videos-loading">Chargement des vidéos...</p>';
         let data;
         try {
             data = await app.loadVideosData();
@@ -798,6 +807,28 @@ const app = {
             return;
         }
         if (app.state.currentView !== 'videos') return;
+
+        // Recherche : titres de toutes les vidéos connues (dernières + playlists)
+        const query = app.state.searchQuery;
+        if (query) {
+            const regex = app.searchRegex(query);
+            const seen = new Map();
+            [...data.videos, ...(data.playlists || []).flatMap(pl => pl.videos)].forEach(v => { if (!seen.has(v.id)) seen.set(v.id, v); });
+            const found = [...seen.values()].filter(v => regex.test(v.title));
+            container.innerHTML = header + `
+                <div class="gallery-header">
+                    <h2 style="font-size:2rem;">Résultats de recherche</h2>
+                    <p>${found.length} vidéo${found.length > 1 ? 's' : ''} trouvée${found.length > 1 ? 's' : ''} pour "${esc(query)}"</p>
+                </div>
+                ${found.length ? `<div class="videos-grid">${found.map(v => app.videoCard(v)).join('')}</div>` : `
+                <div class="empty-state">
+                    <h3>Aucune vidéo trouvée</h3>
+                    <p>Essayez un autre mot-clé, ou cherchez directement sur la chaîne YouTube.</p>
+                    <button class="ctrl-btn" onclick="app.clearSearch()" style="margin-top: 1rem; font-weight: 600;">Réinitialiser la recherche</button>
+                </div>`}
+            `;
+            return;
+        }
 
         const fmtDate = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
         const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
@@ -849,7 +880,7 @@ const app = {
     // de YouTube n'expose que les 15 plus récentes ; lien YouTube pour le reste).
     renderPlaylist: async (container, playlistId) => {
         const esc = app.videosEsc;
-        container.innerHTML = '<p class="videos-loading">Chargement de la playlist...</p>';
+        if (!app.state.videosData) container.innerHTML = '<p class="videos-loading">Chargement de la playlist...</p>';
         let data = null;
         try {
             data = await app.loadVideosData();
@@ -868,6 +899,8 @@ const app = {
         app.updateMeta(`Playlist « ${pl.title} » : ${pl.count} vidéo${pl.count > 1 ? 's' : ''} sur la chaîne YouTube Wolofal yi.`);
         app.setStructuredData(null);
         const ytUrl = `https://www.youtube.com/playlist?list=${encodeURIComponent(pl.id)}`;
+        const plQuery = app.state.searchQuery;
+        const shown = plQuery ? pl.videos.filter(v => app.searchRegex(plQuery).test(v.title)) : pl.videos;
         container.innerHTML = `
             <button class="back-button" onclick="app.navigate('videos')">&larr; Retour aux vidéos</button>
             <div class="gallery-header">
@@ -877,7 +910,7 @@ const app = {
             <div class="video-featured-player playlist-player">
                 <button class="video-thumb video-thumb-big" data-playlist="${esc(pl.id)}" onclick="app.playVideo(this)" aria-label="Tout lire : ${esc(pl.title)}" style="background-image:url('https://i.ytimg.com/vi/${esc(pl.thumb || '')}/hqdefault.jpg')"><span class="video-play">&#9654;</span><span class="playlist-count">Tout lire</span></button>
             </div>
-            <div class="videos-grid" style="margin-top:2rem;">${pl.videos.map(v => app.videoCard(v)).join('')}</div>
+            ${shown.length ? `<div class="videos-grid" style="margin-top:2rem;">${shown.map(v => app.videoCard(v)).join('')}</div>` : '<p style="margin-top:2rem;">Aucune vidéo de cette playlist ne correspond à votre recherche.</p>'}
             <div style="text-align:center; margin-top:2rem;">
                 <a class="ctrl-btn" href="${ytUrl}" target="_blank" rel="noopener" style="text-decoration:none; font-weight:600; padding:0.8rem 1.5rem;">${pl.count > pl.videos.length ? `Voir les ${pl.count} vidéos sur YouTube` : 'Ouvrir sur YouTube'} &rarr;</a>
             </div>
