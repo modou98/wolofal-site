@@ -751,13 +751,32 @@ const app = {
 
     videosEsc: (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'),
 
+    // Ligne défilante (carrousel) : titre + flèches + cartes sur une seule ligne
+    videoRow: (titleHtml, cardsHtml, linkHtml = '') => `
+        <section class="vrow">
+            <div class="vrow-head">
+                <h2 class="vrow-title">${titleHtml}</h2>
+                <div class="vrow-ctrl">
+                    ${linkHtml}
+                    <button class="vrow-arrow" onclick="app.scrollRow(this, -1)" aria-label="Précédent">&#8249;</button>
+                    <button class="vrow-arrow" onclick="app.scrollRow(this, 1)" aria-label="Suivant">&#8250;</button>
+                </div>
+            </div>
+            <div class="vrow-track">${cardsHtml}</div>
+        </section>`,
+
+    scrollRow: (btn, dir) => {
+        const track = btn.closest('.vrow').querySelector('.vrow-track');
+        track.scrollBy({ left: dir * track.clientWidth * 0.85, behavior: 'smooth' });
+    },
+
     videoCard: (v, big = false) => {
         const esc = app.videosEsc;
         const fmtDate = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
         const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
         return `
             <div class="video-card">
-                <button class="video-thumb${big ? ' video-thumb-big' : ''}" data-video="${esc(v.id)}" onclick="app.playVideo(this)" aria-label="Lire : ${esc(v.title)}" style="background-image:url('https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg')"><span class="video-play">&#9654;</span></button>
+                <button class="video-thumb${big ? ' video-thumb-big' : ''}" data-video="${esc(v.id)}" onclick="app.playVideo(this)" aria-label="Lire : ${esc(v.title)}"><img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="" loading="lazy"><span class="video-play">&#9654;</span></button>
                 ${big ? '' : `<span class="video-title">${esc(v.title)}</span><span class="video-meta">${fmtDate(v.published)}${fmtViews(v.views)}</span>`}
             </div>`;
     },
@@ -784,16 +803,17 @@ const app = {
         const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
         const [featured, ...others] = data.videos;
         const ch = data.channel || {};
-        const plCard = (pl) => `
-            <a class="playlist-card" href="${app.routeToPath('playlist', pl.id)}" onclick="app.navigate('playlist', '${esc(pl.id)}'); return false;">
-                <span class="playlist-thumb" style="background-image:url('https://i.ytimg.com/vi/${esc(pl.thumb || '')}/hqdefault.jpg')"><span class="playlist-count">&#9776; ${pl.count} vidéo${pl.count > 1 ? 's' : ''}</span></span>
-                <span class="video-title">${esc(pl.title)}</span>
-            </a>`;
         const allPlaylists = data.playlists || [];
         const podcasts = allPlaylists.filter(pl => pl.category === 'podcast');
         const poemPlaylists = allPlaylists.filter(pl => pl.category !== 'podcast');
-        const podcastsHtml = podcasts.map(plCard).join('');
-        const playlistsHtml = poemPlaylists.map(plCard).join('');
+        // Une ligne défilante par playlist : ses vidéos sur une seule ligne
+        const plRow = (pl) => app.videoRow(
+            `<a href="${app.routeToPath('playlist', pl.id)}" onclick="app.navigate('playlist', '${esc(pl.id)}'); return false;">${esc(pl.title)}</a> <span class="videos-subtitle-count">${pl.count} vidéo${pl.count > 1 ? 's' : ''}</span>`,
+            pl.videos.map(v => app.videoCard(v)).join(''),
+            `<a class="vrow-all" href="${app.routeToPath('playlist', pl.id)}" onclick="app.navigate('playlist', '${esc(pl.id)}'); return false;">Tout voir &rarr;</a>`
+        );
+        const podcastsHtml = podcasts.map(plRow).join('');
+        const playlistsHtml = poemPlaylists.map(plRow).join('');
 
         container.innerHTML = header + `
             <div class="channel-card">
@@ -819,15 +839,9 @@ const app = {
                     <p class="video-meta">${fmtDate(featured.published)}${fmtViews(featured.views)}</p>
                 </div>
             </div>
-            <h2 class="videos-subtitle">Dernières vidéos</h2>
-            <div class="videos-grid">${others.map(v => app.videoCard(v)).join('')}</div>
-            <div style="text-align:center; margin-top:2rem;">
-                <a class="ctrl-btn" href="${esc(data.channelUrl)}/videos" target="_blank" rel="noopener" style="text-decoration:none; font-weight:600; padding:0.8rem 1.5rem;">Toutes les vidéos sur YouTube &rarr;</a>
-            </div>
-            ${podcastsHtml ? `<h2 class="videos-subtitle">Podcasts <span class="videos-subtitle-count">${podcasts.length}</span></h2>
-            <div class="playlists-grid">${podcastsHtml}</div>` : ''}
-            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists de poèmes <span class="videos-subtitle-count">${poemPlaylists.length}</span></h2>
-            <div class="playlists-grid">${playlistsHtml}</div>` : ''}
+            ${app.videoRow('Dernières vidéos', others.map(v => app.videoCard(v)).join(''), `<a class="vrow-all" href="${esc(data.channelUrl)}/videos" target="_blank" rel="noopener">Tout voir sur YouTube &rarr;</a>`)}
+            ${podcastsHtml ? `<h2 class="videos-subtitle">Podcasts</h2>${podcastsHtml}` : ''}
+            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists de poèmes</h2>${playlistsHtml}` : ''}
         `;
     },
 
