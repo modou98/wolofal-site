@@ -822,15 +822,15 @@ const app = {
                     <p class="video-meta">${fmtDate(featured.published)}${fmtViews(featured.views)}</p>
                 </div>
             </div>
-            ${podcastsHtml ? `<h2 class="videos-subtitle">Podcasts <span class="videos-subtitle-count">${podcasts.length}</span></h2>
-            <div class="playlists-grid">${podcastsHtml}</div>` : ''}
-            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists de poèmes <span class="videos-subtitle-count">${poemPlaylists.length}</span></h2>
-            <div class="playlists-grid">${playlistsHtml}</div>` : ''}
             <h2 class="videos-subtitle">Dernières vidéos</h2>
             <div class="videos-grid">${others.map(v => app.videoCard(v)).join('')}</div>
             <div style="text-align:center; margin-top:2rem;">
                 <a class="ctrl-btn" href="${esc(data.channelUrl)}/videos" target="_blank" rel="noopener" style="text-decoration:none; font-weight:600; padding:0.8rem 1.5rem;">Toutes les vidéos sur YouTube &rarr;</a>
             </div>
+            ${podcastsHtml ? `<h2 class="videos-subtitle">Podcasts <span class="videos-subtitle-count">${podcasts.length}</span></h2>
+            <div class="playlists-grid">${podcastsHtml}</div>` : ''}
+            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists de poèmes <span class="videos-subtitle-count">${poemPlaylists.length}</span></h2>
+            <div class="playlists-grid">${playlistsHtml}</div>` : ''}
         `;
     },
 
