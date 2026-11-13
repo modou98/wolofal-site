@@ -742,7 +742,7 @@ const app = {
     // Données de la chaîne YouTube (data/videos.json, regénéré par build_data.py)
     loadVideosData: async () => {
         if (!app.state.videosData) {
-            const res = await fetch('/data/videos.json?v=3');
+            const res = await fetch('/data/videos.json?v=4');
             if (!res.ok) throw new Error(res.status);
             app.state.videosData = await res.json();
         }
@@ -786,6 +786,7 @@ const app = {
         const fmtDate = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
         const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
         const [featured, ...others] = data.videos;
+        const ch = data.channel || {};
         const plCard = (pl) => `
             <a class="playlist-card" href="${app.routeToPath('playlist', pl.id)}" onclick="app.navigate('playlist', '${esc(pl.id)}'); return false;">
                 <span class="playlist-thumb" style="background-image:url('https://i.ytimg.com/vi/${esc(pl.thumb || '')}/hqdefault.jpg')"><span class="playlist-count">&#9776; ${pl.count} vidéo${pl.count > 1 ? 's' : ''}</span></span>
@@ -798,12 +799,20 @@ const app = {
         const playlistsHtml = poemPlaylists.map(plCard).join('');
 
         container.innerHTML = header + `
-            <div class="channel-banner">
-                <div>
-                    <div class="channel-name">${esc(data.channelName)}</div>
-                    <div class="channel-sub">Chaîne YouTube</div>
+            <div class="channel-card">
+                ${ch.banner ? `<div class="channel-cover" style="background-image:url('${esc(ch.banner)}')" role="img" aria-label="Bannière de la chaîne YouTube"></div>` : ''}
+                <div class="channel-bar">
+                    ${ch.avatar ? `<img class="channel-avatar" src="${esc(ch.avatar)}" alt="" width="72" height="72">` : ''}
+                    <div class="channel-id">
+                        <div class="channel-name">${esc(data.channelName)}</div>
+                        <div class="channel-handle">@serignembayediakhate1075</div>
+                    </div>
+                    <div class="channel-stats">
+                        ${ch.subscribers ? `<div><strong>${esc(ch.subscribers)}</strong><span>abonnés</span></div>` : ''}
+                        ${ch.videoCount ? `<div><strong>${esc(ch.videoCount)}</strong><span>vidéos</span></div>` : ''}
+                    </div>
+                    <a class="channel-subscribe" href="${esc(data.channelUrl)}?sub_confirmation=1" target="_blank" rel="noopener">S'abonner</a>
                 </div>
-                <a class="channel-subscribe" href="${esc(data.channelUrl)}?sub_confirmation=1" target="_blank" rel="noopener">S'abonner</a>
             </div>
             <div class="video-featured">
                 <div class="video-featured-player">${app.videoCard(featured, true)}</div>

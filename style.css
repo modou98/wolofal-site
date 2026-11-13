@@ -1075,3 +1075,21 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     font-size: 0.8rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 6px;
 }
 .playlist-player { max-width: 900px; }
+
+/* Carte de chaîne YouTube (bannière + stats + abonnement) */
+.channel-card { border-radius: 16px; overflow: hidden; margin-bottom: 2rem; background: var(--primary-color); text-align: left; }
+.channel-cover { width: 100%; aspect-ratio: 6.2 / 1; background-size: cover; background-position: center; background-color: #1e293b; }
+.channel-bar { display: flex; align-items: center; gap: 1.25rem; padding: 1.25rem 1.75rem; color: #fff; flex-wrap: wrap; }
+.channel-avatar { width: 72px; height: 72px; border-radius: 50%; border: 3px solid var(--accent-color); object-fit: cover; flex-shrink: 0; }
+.channel-id { flex: 1; min-width: 180px; }
+.channel-name { font-family: 'Cinzel', serif; font-size: 1.5rem; font-weight: 700; line-height: 1.2; }
+.channel-handle { color: var(--accent-color); font-size: 0.9rem; margin-top: 0.25rem; }
+.channel-stats { display: flex; gap: 1.75rem; }
+.channel-stats div { display: flex; flex-direction: column; align-items: center; }
+.channel-stats strong { font-size: 1.3rem; color: var(--accent-color); line-height: 1.1; }
+.channel-stats span { font-size: 0.8rem; color: #cbd5e1; }
+@media (max-width: 768px) {
+    .channel-cover { aspect-ratio: 3 / 1; }
+    .channel-bar { padding: 1rem; gap: 1rem; }
+    .channel-subscribe { width: 100%; text-align: center; }
+}

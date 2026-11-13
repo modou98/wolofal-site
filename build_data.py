@@ -244,6 +244,30 @@ def _fetch_playlists():
         })
     return playlists
 
+def _fetch_channel_info():
+    """Bannière, avatar, abonnés et nombre de vidéos, lus dans l'en-tête de la page de la chaîne."""
+    html = _http_get(YOUTUBE_CHANNEL_URL).decode('utf-8')
+    data = json.loads(re.search(r'var ytInitialData = (\{.*?\});</script>', html, re.S).group(1))
+    blob = json.dumps(data.get('header', {}), ensure_ascii=False)
+    blob_clean = blob.replace('\u202f', ' ').replace('\u00a0', ' ').replace(' ', ' ').replace(' ', ' ')
+    info = {}
+    m = re.search(r'"([\d][\d.,]*(?: ?[kKM])?) abonn', blob_clean)
+    if m:
+        info['subscribers'] = m.group(1)
+    m = re.search(r'"([\d][\d.,]*(?: ?[kKM])?) vid', blob_clean)
+    if m:
+        info['videoCount'] = m.group(1)
+    banners = re.findall(r'https://yt3\.googleusercontent\.com/[^"]+=w(\d+)-fcrop64[^"]*', blob)
+    banner_urls = re.findall(r'https://yt3\.googleusercontent\.com/[^"]+=w\d+-fcrop64[^"]*', blob)
+    if banner_urls:
+        wanted = [u for u in banner_urls if '=w1707-' in u]
+        info['banner'] = (wanted or banner_urls)[0]
+    meta = data.get('metadata', {}).get('channelMetadataRenderer', {})
+    avatar = (meta.get('avatar', {}).get('thumbnails') or [{}])[-1].get('url')
+    if avatar:
+        info['avatar'] = re.sub(r'=s\d+', '=s176', avatar)
+    return info
+
 def fetch_videos():
     try:
         channel_name, videos = _parse_feed(f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}")
@@ -259,8 +283,17 @@ def fetch_videos():
             # on garde les playlists déjà connues plutôt que de les perdre
             with open(out, encoding='utf-8') as f:
                 playlists = json.load(f).get('playlists', [])
+        try:
+            channel = _fetch_channel_info()
+        except Exception as e:
+            print(f"Attention : infos de la chaîne non récupérées ({e}).")
+            channel = {}
+        if not channel and os.path.exists(out):
+            with open(out, encoding='utf-8') as f:
+                channel = json.load(f).get('channel', {})
         data = {
             'channelId': YOUTUBE_CHANNEL_ID,
+            'channel': channel,
             'channelName': channel_name,
             'channelUrl': YOUTUBE_CHANNEL_URL,
             'videos': videos,
