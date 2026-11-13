@@ -194,6 +194,17 @@ def _parse_feed(url):
         })
     return root.find('a:title', YT_NS).text, videos
 
+# Playlists qui sont des podcasts / émissions (et non des récitations de poèmes) :
+# détectées par un mot du titre (sans accents, minuscules). Ajouter un mot ici
+# pour classer une autre playlist en « Podcast » sur le site.
+PODCAST_KEYWORDS = ['jangat']
+
+def _is_podcast(title):
+    import unicodedata
+    t = unicodedata.normalize('NFD', title.lower())
+    t = ''.join(c for c in t if unicodedata.category(c) != 'Mn')
+    return any(k in t for k in PODCAST_KEYWORDS)
+
 def _fetch_playlists():
     html = _http_get(f"{YOUTUBE_CHANNEL_URL}/playlists").decode('utf-8')
     m = re.search(r'var ytInitialData = (\{.*?\});</script>', html, re.S)
@@ -226,6 +237,7 @@ def _fetch_playlists():
         playlists.append({
             'id': pid,
             'title': title,
+            'category': 'podcast' if _is_podcast(title) else 'poemes',
             'count': int(count_m.group(1)) if count_m else len(vids),
             'thumb': thumb_m.group(1) if thumb_m else (vids[0]['id'] if vids else None),
             'videos': vids,

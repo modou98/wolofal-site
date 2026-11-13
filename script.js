@@ -742,7 +742,7 @@ const app = {
     // Données de la chaîne YouTube (data/videos.json, regénéré par build_data.py)
     loadVideosData: async () => {
         if (!app.state.videosData) {
-            const res = await fetch('/data/videos.json?v=2');
+            const res = await fetch('/data/videos.json?v=3');
             if (!res.ok) throw new Error(res.status);
             app.state.videosData = await res.json();
         }
@@ -786,11 +786,16 @@ const app = {
         const fmtDate = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
         const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
         const [featured, ...others] = data.videos;
-        const playlistsHtml = (data.playlists || []).map(pl => `
+        const plCard = (pl) => `
             <a class="playlist-card" href="${app.routeToPath('playlist', pl.id)}" onclick="app.navigate('playlist', '${esc(pl.id)}'); return false;">
                 <span class="playlist-thumb" style="background-image:url('https://i.ytimg.com/vi/${esc(pl.thumb || '')}/hqdefault.jpg')"><span class="playlist-count">&#9776; ${pl.count} vidéo${pl.count > 1 ? 's' : ''}</span></span>
                 <span class="video-title">${esc(pl.title)}</span>
-            </a>`).join('');
+            </a>`;
+        const allPlaylists = data.playlists || [];
+        const podcasts = allPlaylists.filter(pl => pl.category === 'podcast');
+        const poemPlaylists = allPlaylists.filter(pl => pl.category !== 'podcast');
+        const podcastsHtml = podcasts.map(plCard).join('');
+        const playlistsHtml = poemPlaylists.map(plCard).join('');
 
         container.innerHTML = header + `
             <div class="channel-banner">
@@ -808,7 +813,9 @@ const app = {
                     <p class="video-meta">${fmtDate(featured.published)}${fmtViews(featured.views)}</p>
                 </div>
             </div>
-            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists <span class="videos-subtitle-count">${data.playlists.length}</span></h2>
+            ${podcastsHtml ? `<h2 class="videos-subtitle">Podcasts <span class="videos-subtitle-count">${podcasts.length}</span></h2>
+            <div class="playlists-grid">${podcastsHtml}</div>` : ''}
+            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists de poèmes <span class="videos-subtitle-count">${poemPlaylists.length}</span></h2>
             <div class="playlists-grid">${playlistsHtml}</div>` : ''}
             <h2 class="videos-subtitle">Dernières vidéos</h2>
             <div class="videos-grid">${others.map(v => app.videoCard(v)).join('')}</div>
