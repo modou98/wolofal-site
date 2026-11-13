@@ -159,8 +159,49 @@ def build():
         json.dump(poem_contents, f, ensure_ascii=False)
 
     generate_sitemap(authors)
+    fetch_videos()
 
     print("Succès ! content.js, data/poemes_content.json et sitemap.xml mis à jour.")
+
+# 5. Récupère les dernières vidéos de la chaîne YouTube via son flux RSS public
+# (pas de clé API). Si le réseau échoue, on garde l'ancien data/videos.json.
+YOUTUBE_CHANNEL_ID = 'UC8LKTbZYLnw3UHQMphdy0Zw'
+
+def fetch_videos():
+    import urllib.request
+    import xml.etree.ElementTree as ET
+    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}"
+    ns = {
+        'a': 'http://www.w3.org/2005/Atom',
+        'yt': 'http://www.youtube.com/xml/schemas/2015',
+        'media': 'http://search.yahoo.com/mrss/',
+    }
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            root = ET.fromstring(resp.read())
+        videos = []
+        for entry in root.findall('a:entry', ns):
+            stats = entry.find('media:group/media:community/media:statistics', ns)
+            videos.append({
+                'id': entry.find('yt:videoId', ns).text,
+                'title': entry.find('a:title', ns).text,
+                'published': entry.find('a:published', ns).text[:10],
+                'views': int(stats.get('views')) if stats is not None else None,
+            })
+        if not videos:
+            raise ValueError('flux vide')
+        data = {
+            'channelId': YOUTUBE_CHANNEL_ID,
+            'channelName': root.find('a:title', ns).text,
+            'channelUrl': 'https://www.youtube.com/@serignembayediakhate1075',
+            'videos': videos,
+        }
+        with open(os.path.join('data', 'videos.json'), 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"{len(videos)} vidéos YouTube récupérées.")
+    except Exception as e:
+        print(f"Attention : vidéos YouTube non mises à jour ({e}). Ancien data/videos.json conservé.")
 
 # 4. Génère sitemap.xml (page d'accueil + sections + une entrée par auteur/poème)
 # pour que Google puisse découvrir et indexer chaque page individuellement.
@@ -174,6 +215,7 @@ def generate_sitemap(authors):
         (loc('/'), 'weekly', '1.0'),
         (loc('/themes'), 'monthly', '0.6'),
         (loc('/manuscrits'), 'monthly', '0.6'),
+        (loc('/videos'), 'weekly', '0.6'),
         (loc('/apropos'), 'yearly', '0.3'),
     ]
     for author in authors:
