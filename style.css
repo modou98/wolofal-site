@@ -1059,3 +1059,19 @@ body, .navbar, .author-card, .poem-content, .archive-metadata-pane, .ctrl-btn, .
     .video-featured { grid-template-columns: 1fr; }
     .channel-banner { flex-direction: column; align-items: flex-start; }
 }
+
+/* Playlists */
+.videos-subtitle-count { font-size: 0.9rem; color: #94a3b8; font-weight: 500; margin-left: 0.4rem; }
+.playlists-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+.playlist-card { display: flex; flex-direction: column; gap: 0.5rem; text-decoration: none; color: inherit; text-align: left; }
+.playlist-thumb {
+    position: relative; display: block; width: 100%; aspect-ratio: 16/9; border-radius: 12px;
+    background-size: cover; background-position: center; background-color: #1e293b;
+    box-shadow: 6px 6px 0 var(--accent-color); transition: transform 0.2s;
+}
+.playlist-card:hover .playlist-thumb { transform: translate(-2px, -2px); }
+.playlist-count {
+    position: absolute; right: 8px; bottom: 8px; background: rgba(0,0,0,0.8); color: #fff;
+    font-size: 0.8rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 6px;
+}
+.playlist-player { max-width: 900px; }

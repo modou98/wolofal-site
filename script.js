@@ -114,6 +114,7 @@ const app = {
         if (view === 'theme') return `/themes/${encodeURIComponent(param)}`;
         if (view === 'manuscripts') return '/manuscrits';
         if (view === 'videos') return '/videos';
+        if (view === 'playlist') return `/videos/${encodeURIComponent(param)}`;
         if (view === 'about') return '/apropos';
         return '/';
     },
@@ -129,7 +130,7 @@ const app = {
             return second ? { view: 'theme', param: second } : { view: 'themes', param: null };
         }
         if (first === 'manuscrits') return { view: 'manuscripts', param: null };
-        if (first === 'videos') return { view: 'videos', param: null };
+        if (first === 'videos') return second ? { view: 'playlist', param: second } : { view: 'videos', param: null };
         if (first === 'apropos') return { view: 'about', param: null };
         const author = authorsData.find(a => a.slug === first);
         if (!author) return { view: 'notfound', param: null };
@@ -410,6 +411,8 @@ const app = {
             app.updateMeta("Les dernières vidéos de la chaîne YouTube Wolofal yi : récitations et lectures de poèmes wolofal des grands auteurs mourides.");
             app.setStructuredData(null);
             app.renderVideos(container);
+        } else if (view === 'playlist') {
+            app.renderPlaylist(container, param);
         } else if (view === 'about') {
             document.title = "À propos | Wolofal yi";
             app.updateMeta();
@@ -736,46 +739,60 @@ const app = {
         `;
     },
 
-    // Page Vidéos : dernières vidéos de la chaîne YouTube (data/videos.json,
-    // regénéré par build_data.py). Lecteur intégré chargé au clic seulement
-    // (youtube-nocookie) pour ne pas déposer de traceurs avant que l'on lise.
-    renderVideos: async (container) => {
-        container.innerHTML = `
-            <div class="gallery-header">
-                <h1>Vidéos</h1>
-                <p>Récitations et lectures de poèmes, directement depuis notre chaîne YouTube.</p>
-            </div>
-            <p class="videos-loading">Chargement des vidéos...</p>
-        `;
-        let data;
-        try {
-            const res = await fetch('/data/videos.json?v=1');
+    // Données de la chaîne YouTube (data/videos.json, regénéré par build_data.py)
+    loadVideosData: async () => {
+        if (!app.state.videosData) {
+            const res = await fetch('/data/videos.json?v=2');
             if (!res.ok) throw new Error(res.status);
-            data = await res.json();
-        } catch (e) {
-            if (app.state.currentView !== 'videos') return;
-            container.querySelector('.videos-loading').outerHTML = `
-                <div class="empty-state"><h3>Vidéos indisponibles</h3>
-                <p>Retrouvez-les directement sur notre chaîne YouTube.</p></div>`;
-            return;
+            app.state.videosData = await res.json();
         }
-        if (app.state.currentView !== 'videos') return;
+        return app.state.videosData;
+    },
 
-        const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    videosEsc: (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'),
+
+    videoCard: (v, big = false) => {
+        const esc = app.videosEsc;
         const fmtDate = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
         const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
-        const [featured, ...others] = data.videos;
-        const card = (v, big = false) => `
+        return `
             <div class="video-card">
                 <button class="video-thumb${big ? ' video-thumb-big' : ''}" data-video="${esc(v.id)}" onclick="app.playVideo(this)" aria-label="Lire : ${esc(v.title)}" style="background-image:url('https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg')"><span class="video-play">&#9654;</span></button>
                 ${big ? '' : `<span class="video-title">${esc(v.title)}</span><span class="video-meta">${fmtDate(v.published)}${fmtViews(v.views)}</span>`}
             </div>`;
+    },
 
-        container.innerHTML = `
+    // Page Vidéos : vidéo à la une, playlists et dernières vidéos de la chaîne.
+    // Le lecteur (youtube-nocookie) n'est chargé qu'au clic pour ne pas déposer
+    // de traceurs avant que l'on lise une vidéo.
+    renderVideos: async (container) => {
+        const esc = app.videosEsc;
+        const header = `
             <div class="gallery-header">
                 <h1>Vidéos</h1>
                 <p>Récitations et lectures de poèmes, directement depuis notre chaîne YouTube.</p>
-            </div>
+            </div>`;
+        container.innerHTML = header + '<p class="videos-loading">Chargement des vidéos...</p>';
+        let data;
+        try {
+            data = await app.loadVideosData();
+        } catch (e) {
+            if (app.state.currentView !== 'videos') return;
+            container.innerHTML = header + `<div class="empty-state"><h3>Vidéos indisponibles</h3><p>Retrouvez-les directement sur notre chaîne YouTube.</p></div>`;
+            return;
+        }
+        if (app.state.currentView !== 'videos') return;
+
+        const fmtDate = (iso) => new Date(iso + 'T00:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+        const fmtViews = (n) => n == null ? '' : ` · ${n.toLocaleString('fr-FR')} vue${n > 1 ? 's' : ''}`;
+        const [featured, ...others] = data.videos;
+        const playlistsHtml = (data.playlists || []).map(pl => `
+            <a class="playlist-card" href="${app.routeToPath('playlist', pl.id)}" onclick="app.navigate('playlist', '${esc(pl.id)}'); return false;">
+                <span class="playlist-thumb" style="background-image:url('https://i.ytimg.com/vi/${esc(pl.thumb || '')}/hqdefault.jpg')"><span class="playlist-count">&#9776; ${pl.count} vidéo${pl.count > 1 ? 's' : ''}</span></span>
+                <span class="video-title">${esc(pl.title)}</span>
+            </a>`).join('');
+
+        container.innerHTML = header + `
             <div class="channel-banner">
                 <div>
                     <div class="channel-name">${esc(data.channelName)}</div>
@@ -784,26 +801,70 @@ const app = {
                 <a class="channel-subscribe" href="${esc(data.channelUrl)}?sub_confirmation=1" target="_blank" rel="noopener">S'abonner</a>
             </div>
             <div class="video-featured">
-                <div class="video-featured-player">${card(featured, true)}</div>
+                <div class="video-featured-player">${app.videoCard(featured, true)}</div>
                 <div class="video-featured-info">
                     <span class="video-badge">À LA UNE</span>
                     <h2>${esc(featured.title)}</h2>
                     <p class="video-meta">${fmtDate(featured.published)}${fmtViews(featured.views)}</p>
                 </div>
             </div>
+            ${playlistsHtml ? `<h2 class="videos-subtitle">Playlists <span class="videos-subtitle-count">${data.playlists.length}</span></h2>
+            <div class="playlists-grid">${playlistsHtml}</div>` : ''}
             <h2 class="videos-subtitle">Dernières vidéos</h2>
-            <div class="videos-grid">${others.map(v => card(v)).join('')}</div>
+            <div class="videos-grid">${others.map(v => app.videoCard(v)).join('')}</div>
             <div style="text-align:center; margin-top:2rem;">
                 <a class="ctrl-btn" href="${esc(data.channelUrl)}/videos" target="_blank" rel="noopener" style="text-decoration:none; font-weight:600; padding:0.8rem 1.5rem;">Toutes les vidéos sur YouTube &rarr;</a>
             </div>
         `;
     },
 
-    // Remplace la vignette par le lecteur YouTube au clic
+    // Page d'une playlist : lecteur "tout lire" + grille des vidéos (le flux RSS
+    // de YouTube n'expose que les 15 plus récentes ; lien YouTube pour le reste).
+    renderPlaylist: async (container, playlistId) => {
+        const esc = app.videosEsc;
+        container.innerHTML = '<p class="videos-loading">Chargement de la playlist...</p>';
+        let data = null;
+        try {
+            data = await app.loadVideosData();
+        } catch (e) {
+            data = null;
+        }
+        if (app.state.currentView !== 'playlist') return;
+        const pl = data && (data.playlists || []).find(p => p.id === playlistId);
+        if (!pl) {
+            document.title = "Page introuvable | Wolofal yi";
+            app.updateMeta();
+            app.renderNotFound(container);
+            return;
+        }
+        document.title = `${pl.title} - Vidéos | Wolofal yi`;
+        app.updateMeta(`Playlist « ${pl.title} » : ${pl.count} vidéo${pl.count > 1 ? 's' : ''} sur la chaîne YouTube Wolofal yi.`);
+        app.setStructuredData(null);
+        const ytUrl = `https://www.youtube.com/playlist?list=${encodeURIComponent(pl.id)}`;
+        container.innerHTML = `
+            <button class="back-button" onclick="app.navigate('videos')">&larr; Retour aux vidéos</button>
+            <div class="gallery-header">
+                <h1>${esc(pl.title)}</h1>
+                <p>${pl.count} vidéo${pl.count > 1 ? 's' : ''} · playlist de la chaîne YouTube</p>
+            </div>
+            <div class="video-featured-player playlist-player">
+                <button class="video-thumb video-thumb-big" data-playlist="${esc(pl.id)}" onclick="app.playVideo(this)" aria-label="Tout lire : ${esc(pl.title)}" style="background-image:url('https://i.ytimg.com/vi/${esc(pl.thumb || '')}/hqdefault.jpg')"><span class="video-play">&#9654;</span><span class="playlist-count">Tout lire</span></button>
+            </div>
+            <div class="videos-grid" style="margin-top:2rem;">${pl.videos.map(v => app.videoCard(v)).join('')}</div>
+            <div style="text-align:center; margin-top:2rem;">
+                <a class="ctrl-btn" href="${ytUrl}" target="_blank" rel="noopener" style="text-decoration:none; font-weight:600; padding:0.8rem 1.5rem;">${pl.count > pl.videos.length ? `Voir les ${pl.count} vidéos sur YouTube` : 'Ouvrir sur YouTube'} &rarr;</a>
+            </div>
+        `;
+    },
+
+    // Remplace la vignette par le lecteur YouTube (vidéo seule ou playlist) au clic
     playVideo: (btn) => {
         const wrap = document.createElement('div');
         wrap.className = 'video-embed' + (btn.classList.contains('video-thumb-big') ? ' video-embed-big' : '');
-        wrap.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(btn.dataset.video)}?autoplay=1&rel=0" title="Lecteur YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+        const src = btn.dataset.playlist
+            ? `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(btn.dataset.playlist)}&autoplay=1&rel=0`
+            : `https://www.youtube-nocookie.com/embed/${encodeURIComponent(btn.dataset.video)}?autoplay=1&rel=0`;
+        wrap.innerHTML = `<iframe src="${src}" title="Lecteur YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
         btn.replaceWith(wrap);
     },
 

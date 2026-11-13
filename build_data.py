@@ -163,43 +163,100 @@ def build():
 
     print("Succès ! content.js, data/poemes_content.json et sitemap.xml mis à jour.")
 
-# 5. Récupère les dernières vidéos de la chaîne YouTube via son flux RSS public
-# (pas de clé API). Si le réseau échoue, on garde l'ancien data/videos.json.
+# 5. Récupère les vidéos et playlists de la chaîne YouTube : flux RSS public pour
+# les vidéos (pas de clé API) + lecture de la page /playlists de la chaîne pour la
+# liste des playlists. Si le réseau échoue, on garde l'ancien data/videos.json.
 YOUTUBE_CHANNEL_ID = 'UC8LKTbZYLnw3UHQMphdy0Zw'
+YOUTUBE_CHANNEL_URL = 'https://www.youtube.com/@serignembayediakhate1075'
+YT_NS = {
+    'a': 'http://www.w3.org/2005/Atom',
+    'yt': 'http://www.youtube.com/xml/schemas/2015',
+    'media': 'http://search.yahoo.com/mrss/',
+}
+
+def _http_get(url):
+    import urllib.request
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'fr'})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return resp.read()
+
+def _parse_feed(url):
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(_http_get(url))
+    videos = []
+    for entry in root.findall('a:entry', YT_NS):
+        stats = entry.find('media:group/media:community/media:statistics', YT_NS)
+        videos.append({
+            'id': entry.find('yt:videoId', YT_NS).text,
+            'title': entry.find('a:title', YT_NS).text,
+            'published': entry.find('a:published', YT_NS).text[:10],
+            'views': int(stats.get('views')) if stats is not None else None,
+        })
+    return root.find('a:title', YT_NS).text, videos
+
+def _fetch_playlists():
+    html = _http_get(f"{YOUTUBE_CHANNEL_URL}/playlists").decode('utf-8')
+    m = re.search(r'var ytInitialData = (\{.*?\});</script>', html, re.S)
+    data = json.loads(m.group(1))
+    found = []
+    def walk(o):
+        if isinstance(o, dict):
+            if 'lockupViewModel' in o:
+                found.append(o['lockupViewModel'])
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(data)
+    playlists = []
+    for lv in found:
+        pid = lv.get('contentId')
+        if not pid or not pid.startswith('PL'):
+            continue
+        title = lv['metadata']['lockupMetadataViewModel']['title']['content']
+        blob = json.dumps(lv, ensure_ascii=False)
+        count_m = re.search(r'"text": "(\d+)\s*vid', blob)
+        thumb_m = re.search(r'i\.ytimg\.com/vi/([\w-]{11})/', blob)
+        try:
+            _, vids = _parse_feed(f"https://www.youtube.com/feeds/videos.xml?playlist_id={pid}")
+        except Exception as e:
+            print(f"  playlist {title}: flux indisponible ({e})")
+            vids = []
+        playlists.append({
+            'id': pid,
+            'title': title,
+            'count': int(count_m.group(1)) if count_m else len(vids),
+            'thumb': thumb_m.group(1) if thumb_m else (vids[0]['id'] if vids else None),
+            'videos': vids,
+        })
+    return playlists
 
 def fetch_videos():
-    import urllib.request
-    import xml.etree.ElementTree as ET
-    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}"
-    ns = {
-        'a': 'http://www.w3.org/2005/Atom',
-        'yt': 'http://www.youtube.com/xml/schemas/2015',
-        'media': 'http://search.yahoo.com/mrss/',
-    }
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            root = ET.fromstring(resp.read())
-        videos = []
-        for entry in root.findall('a:entry', ns):
-            stats = entry.find('media:group/media:community/media:statistics', ns)
-            videos.append({
-                'id': entry.find('yt:videoId', ns).text,
-                'title': entry.find('a:title', ns).text,
-                'published': entry.find('a:published', ns).text[:10],
-                'views': int(stats.get('views')) if stats is not None else None,
-            })
+        channel_name, videos = _parse_feed(f"https://www.youtube.com/feeds/videos.xml?channel_id={YOUTUBE_CHANNEL_ID}")
         if not videos:
             raise ValueError('flux vide')
+        try:
+            playlists = _fetch_playlists()
+        except Exception as e:
+            print(f"Attention : playlists non récupérées ({e}).")
+            playlists = []
+        out = os.path.join('data', 'videos.json')
+        if not playlists and os.path.exists(out):
+            # on garde les playlists déjà connues plutôt que de les perdre
+            with open(out, encoding='utf-8') as f:
+                playlists = json.load(f).get('playlists', [])
         data = {
             'channelId': YOUTUBE_CHANNEL_ID,
-            'channelName': root.find('a:title', ns).text,
-            'channelUrl': 'https://www.youtube.com/@serignembayediakhate1075',
+            'channelName': channel_name,
+            'channelUrl': YOUTUBE_CHANNEL_URL,
             'videos': videos,
+            'playlists': playlists,
         }
-        with open(os.path.join('data', 'videos.json'), 'w', encoding='utf-8') as f:
+        with open(out, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"{len(videos)} vidéos YouTube récupérées.")
+        print(f"{len(videos)} vidéos et {len(playlists)} playlists YouTube récupérées.")
     except Exception as e:
         print(f"Attention : vidéos YouTube non mises à jour ({e}). Ancien data/videos.json conservé.")
 
